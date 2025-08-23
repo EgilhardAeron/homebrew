@@ -1,0 +1,1813 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM",
+        "MPMM",
+        "IDRotF"
+      ]
+    },
+    "sources": [
+      {
+        "json": "DKahnKuldahar",
+        "abbreviation": "DK;ID:K",
+        "full": "Icewind Dale: Kuldahar",
+        "color": "7ab3bc",
+        "url": "https://www.dmsguild.com/product/439455/Kuldahar--expanded-maps-and-content-for-Rime-of-the-Frostmaiden",
+        "authors": [
+          "Daniel Kahn"
+        ],
+        "convertedBy": [
+          "EgilhardAeron"
+        ],
+        "version": "1.0.0"
+      }
+    ],
+    "edition": "classic",
+    "status": "ready",
+    "dateAdded": 1742132757,
+    "dateLastModified": 1742132757
+  },
+  "adventure": [
+    {
+      "name": "Icewind Dale: Kuldahar",
+      "id": "DKahnKuldahar",
+      "source": "DKahnKuldahar",
+      "group": "homebrew",
+      "cover": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnKuldahar/cover.webp"
+      },
+      "published": "2023-05-30",
+      "storyline": "Icewind Dale",
+      "level": {
+        "custom": "APL 6-7"
+      },
+      "contents": [
+        {
+          "name": "Cover & Credits"
+        },
+        {
+          "name": "Introduction",
+          "headers": [
+            "What's this all about?",
+            "Adventure Summary",
+            "Adventure Hooks"
+          ]
+        },
+        {
+          "name": "Running the Adventure",
+          "headers": [
+            "Wilderness Encounters",
+            "Arrival at Kuldahar",
+            "Exploring Kuldahar",
+            {
+              "header": "K1. Conlan's Smithy",
+              "depth": 1
+            },
+            {
+              "header": "K2. Council Chambers",
+              "depth": 1
+            },
+            {
+              "header": "K3. Statue of Silvanus",
+              "depth": 1
+            },
+            {
+              "header": "K4. Evening Shade Inn",
+              "depth": 1
+            },
+            {
+              "header": "K5. Gerth's Equipment Shoppe",
+              "depth": 1
+            },
+            {
+              "header": "K6. Great Oak",
+              "depth": 1
+            },
+            {
+              "header": "K7. Oswald's Laboratory",
+              "depth": 1
+            },
+            {
+              "header": "K8. The Root Cellar",
+              "depth": 1
+            },
+            {
+              "header": "K9. House of the Bleeding Rose",
+              "depth": 1
+            },
+            {
+              "header": "K10. Tower of Orrick the Gray",
+              "depth": 1
+            },
+            "Kuldahar Council Meeting",
+            "Investigating the Heartstone Gem",
+            "Frostfall Cavern",
+            {
+              "header": "F1. Entrance",
+              "depth": 1
+            },
+            {
+              "header": "F2. Ice Slide",
+              "depth": 1
+            },
+            {
+              "header": "F3. Frozen Cavern",
+              "depth": 1
+            },
+            {
+              "header": "F4. Chamber of Winter's Embrace",
+              "depth": 1
+            },
+            {
+              "header": "Escape!",
+              "depth": 1
+            },
+            "Conclusion",
+            "Troubleshooting"
+          ]
+        },
+        {
+          "name": "Magic Items"
+        },
+        {
+          "name": "Bestiary"
+        },
+        {
+          "name": "Player Maps"
+        }
+      ]
+    }
+  ],
+  "adventureData": [
+    {
+      "id": "DKahnKuldahar",
+      "source": "DKahnKuldahar",
+      "data": [
+        {
+          "type": "section",
+          "name": "Cover & Credits",
+          "page": 1,
+          "id": "001",
+          "entries": [
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnKuldahar/cover-full.webp"
+              },
+              "title": "Kuldahar Cover",
+              "credit": "Shawn Looyen"
+            },
+            {
+              "type": "section",
+              "name": "Credits",
+              "page": 2,
+              "id": "002",
+              "entries": [
+                {
+                  "type": "list",
+                  "style": "list-no-bullets",
+                  "columns": 2,
+                  "items": [
+                    {
+                      "type": "list",
+                      "style": "list-no-bullets",
+                      "items": [
+                        "{@b Writing & Layout:} {@link Daniel Kahn|http://dankahn.carrd.co/}",
+                        "{@b Editor:} {@link Dana Floberg|https://danafloberg.carrd.co/}",
+                        "{@b Creative Consultant and Sponsor:} Diemond",
+                        "{@b Cover and Interior Art:} {@link Shawn Looyen|https://www.artstation.com/shawnlooyen}",
+                        "{@b Character Art:} {@link Artcentricbri|https://www.artstation.com/artcentricbri}",
+                        "{@b Cartography:} Dungeonae Art (Agustina Elizondo)"
+                      ]
+                    },
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnKuldahar/art/Acorn Necklace.webp"
+                      },
+                      "title": "Acorn Necklace",
+                      "credit": "Shawn Looyen"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "entries": [
+                "DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, Ravenloft, Eberron, the dragon ampersand, Ravnica and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries.",
+                "This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild.",
+                "All other original material in this work is copyright 2023 by Daniel Kahn and published under the Community Content Agreement for Dungeon Masters Guild."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Introduction",
+          "page": 3,
+          "id": "003",
+          "entries": [
+            "Deep in the Spine of the World lies a refuge of warmth. Kuldahar and the Great Oak stand in perpetual summer in the face of the Everlasting Rime. A malevolent force works to undermine this bastion of hope, maneuvering in the shadows to corrupt the ancient tree. Can the party uncover the source of this evil and put an end to it, or will everyone freeze to death in the icy grip of the Frostmaiden's wrath?",
+            {
+              "type": "entries",
+              "name": "What's this all about?",
+              "page": 3,
+              "id": "004",
+              "entries": [
+                "After {@adventure chapter 4 Destruction's Light|IDRotF|14} of {@i Icewind Dale: Rime of the Frostmaiden}, many of the Ten-Towns settlements are likely obliterated, causing a refugee crisis. Even if Bryn Shander stands, there is little hope for the people of Ten-Towns to survive as resources dwindle.",
+                "The 2000 video game {@i Icewind Dale} features Kuldahar, a small hamlet located in the Spine of the World, south of Ten-Towns in the Icewind Dale region of Faer\u00fbn. Kuldahar is most notable for the massive oak tree that stands in the middle of it and radiates a circle of warmth, keeping the inhabitants in eternal summertime. Until now, the Ten-Towners were too proud to leave their respective towns for this haven. But in the wake of Destruction's Light, this location makes for an ideal place for refugees to venture to.",
+                "This supplement provides a new explorable location, Kuldahar, as well as an exciting adventure that culminates in a mini-dungeon against the forces of Auril. This adventure is meant to be playable at levels 6-7, immediately following chapter 4 and before the party begins chapter 5."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Adventure Summary",
+              "page": 3,
+              "id": "005",
+              "entries": [
+                "The party is informed about Kuldahar, a hamlet on the northern slopes of the Spine of the World Mountains. Next, the party escorts a group of refugees from TenTowns across the tundra. Upon reaching Kuldahar, the party must plead for sanctuary before the druid council, but soon they are asked to investigate an issue regarding the Great Oak. Within the Great Oak, the party discovers clues about someone sabotaging the heartstone gem , which provides protective warmth for the city. After bringing this information to the archdruid, the party returns to discover that the heartstone gem has been stolen by Eirlys, a secret druid cultist of Auril on the Kuldahar council, who plans to use the heartstone gem to summon a terrible frost salamander. The party must track Eirlys back to her lair and overcome several challenges, culminating with an epic battle with Eirlys and her frost salamander. Once defeated, the heartstone gem can be returned to Kuldahar."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Adventure Hooks",
+              "page": 3,
+              "id": "006",
+              "entries": [
+                "You can use the following adventure hooks to engage the party. The first hook is intended to tie into the story immediately after chapter 4 and the second hook can be used at any point in the story as part of chapter 2.",
+                {
+                  "type": "entries",
+                  "name": "The Migration",
+                  "page": 3,
+                  "id": "007",
+                  "entries": [
+                    "After the dragon attacked Ten-Towns, many inhabitants are left homeless and in dire need of refuge as Bryn Shander cannot handle the swell in population. Tinjong the Verbeeg (see '{@adventure Dark Duchess|IDRotF|12|dark duchess}' in chapter 2), Oyaminartok, or Duvessa Shane approaches the party and suggests they take some of the displaced people to the village of Kuldahar for refuge. Nestled in the Spine of the World Mountains, Kuldahar could be a haven for those seeking shelter from the brutal winter winds. Perhaps the people of Ten-Towns can rebuild, but now is a time to regroup and survive amid the Everlasting Rime."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Statue of Silvanus",
+                  "page": 3,
+                  "id": "008",
+                  "entries": [
+                    "In chapter 1, 'Ten-Towns' the quest from Good Mead '{@adventure The Mead Must Flow|IDRotF|8|the mead must flow}' features a mysterious statue of Silvanus in a frozen pool (area {@adventure V7 of the Verbeeg Lair|IDRotF|8|v7. cave bear's lair}). At a time of your choosing, a character that drank from the water or touched the statue has a dream of the Great Oak of Kuldahar. In the dream, the tree begins to wither and fade, causing the hamlet of Kuldahar and its people to be crushed by the terrible cold. These dreams persist and grow darker over time. If the character asks around, any knowledgeable or worldly NPC tells them of the Great Oak of Kuldahar. You can start the dreams once the party reaches level 5 and only have them find an NPC that knows about Kuldahar once they reach level 6 to foreshadow the quest."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnKuldahar/art/Kuldahar.webp"
+              },
+              "title": "Kuldahar"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Running the Adventure",
+          "page": 4,
+          "id": "009",
+          "entries": [
+            "Kuldahar lies 30 miles southeast of Bryn Shander in the Spine of the World mountains, roughly halfway between Sunblight and Skytower Shelter on the map of Icewind Dale.",
+            {
+              "type": "insetReadaloud",
+              "id": "00a",
+              "entries": [
+                "You set out from the wreckage of Ten-Towns, beginning the long trek with the throng of refugees. Families huddle together and clutch their meager possessions as they trudge through the snow. Children cry, their faces red from the cold, while the elderly struggle to keep up the pace. Despite the hardship etched on their faces, there is a sense of hope and determination among the refugees, believing that they will find salvation in Kuldahar."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Wilderness Encounters",
+              "page": 4,
+              "id": "00b",
+              "entries": [
+                "You can use the Wilderness Encounters rules from chapter 2, but keep in mind that more than 7 days of random encounters may get tedious for you and your players. Instead, consider allowing your players to describe one hardship the refugees encounter each day of travel and how the party tries to solve it. Allow the party member to roll an ability check (DC 14) using a skill of their choice relevant to solving the problem. On a success, you or the player describe how they heroically solve the problem. On a failure, you describe the tragedy that befalls the people and the decline of morale.",
+                "For example, a player could describe how a pack of wolves threatens the refugees, and their character attempts to rally the people to brandish torches to scare off the pack. The PC may elect to make a DC 14 Charisma (Intimidation) check. On a success, the wolves are sent fleeing into the tundra never to return. On a failure, the wolves pick off two townsfolk, and grief sets over the group.",
+                "You and your players can use the list below to help inspire challenges they may face along the road:",
+                {
+                  "type": "list",
+                  "items": [
+                    "A blizzard hits and everyone must find shelter.",
+                    "A pack of wolves stalks the party looking for an easy meal.",
+                    "As the group crosses a frozen lake, someone falls through the ice.",
+                    "The party finds a cave to rest in but learns it's inhabited by yetis.",
+                    "A group of goblins or kobolds ambush the group.",
+                    "Someone's child goes missing.",
+                    "Food is running low, but there are signs of reindeer tracks.",
+                    "An abandoned campsite is found with frozen bodies that rise as coldlight walkers.",
+                    "A band of orc bandits shakes down the party to allow for safe passage.",
+                    "A sleeping frost giant blocks their path in a canyon and everyone must quietly tread by it."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Cackling Chasm",
+                          "page": 4,
+                          "id": "00c",
+                          "entries": [
+                            "The most direct route takes the party right through the Cackling Chasm on the final day of travel, which may cause some complications along the way if the party has not already cleared it out. During the final night, while everyone is resting, you can have a group of gnolls kidnap some of the refugees, prompting the party to venture into the Cackling Chasm to rescue them!"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Arrival at Kuldahar",
+              "page": 4,
+              "id": "00d",
+              "entries": [
+                "Kuldahar is a small, isolated hamlet nestled in the northernmost region of the Spine of the World Mountains. It is a place of rugged beauty, where the residents depend on one another for survival in the face of both natural and supernatural enemies. A massive magical tree called the Great Oak protects the town from the Rime with an enchantment of eternal summer. Kuldahar is led by the archdruid, Iselore, who presides over a council of six other druids. The seven druids together defend the hamlet, which has lived peacefully for over 200 years. Legends say that the Great Oak was planted by Silvanus himself during the early days of the world.",
+                {
+                  "type": "insetReadaloud",
+                  "id": "00e",
+                  "entries": [
+                    "As you crest a rise in the path, the hamlet of Kuldahar comes into view. You see a small cluster of timber and stone buildings nestled into the giant roots of an impossibly large tree. The ancient oak's branches stretch high into the sky. The tree seems to pulse with a faint green light, causing the snow within its aura to melt away. Despite the chill of the air and the harshness of the journey, the sight of Kuldahar and its Great Oak fills the refugees with a sense of warmth and safety."
+                  ]
+                },
+                "As the party approaches Kuldahar, they see a large number of refugees already gathered outside the gates of the town. The refugees are cold, hungry, and exhausted, having fled the destruction wrought by the dragon. Some of them are injured, and they look to the party for help and guidance.",
+                {
+                  "type": "insetReadaloud",
+                  "id": "00f",
+                  "entries": [
+                    "As you approach the gate, two guards in fur-lined armor look you over. 'Welcome to Kuldahar,' they say, their tone wary but not unfriendly. 'I'm afraid we cannot allow such a large group to enter at this time, at least not until the council makes a decision. Perhaps a representative of yours can attend the meeting.'"
+                  ]
+                },
+                "Any Ten-Town leadership among the refugees proposes that the party go ahead and make the case for their people.",
+                {
+                  "type": "inset",
+                  "name": "Tweaking Travel Times",
+                  "page": 4,
+                  "id": "010",
+                  "entries": [
+                    "Using the Wilderness Survival rules from the introductory chapter of Icewind Dale: Rime of the Frostmaiden , it is assumed that all Ten-Towners are equipped with snow shoes for the journey, setting a travel pace of 1/2 miles per hour. Assuming an 8-hour travel day and 30 miles to travel, it will take 7.5 days to reach Kuldahar. As always, you can adjust the travel speeds in your game to best suit your players."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Exploring Kuldahar",
+              "page": 5,
+              "id": "011",
+              "entries": [
+                {
+                  "type": "gallery",
+                  "images": [
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnKuldahar/maps/dm/Kuldahar-40x30-100ppi.webp"
+                      },
+                      "title": "Map: Kuldahar",
+                      "imageType": "map",
+                      "mapRegions": [
+                        {
+                          "area": "K1. Conlan's Smithy",
+                          "points": [
+                            [
+                              420,
+                              15
+                            ],
+                            [
+                              420,
+                              90
+                            ],
+                            [
+                              495,
+                              90
+                            ],
+                            [
+                              495,
+                              15
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "K2. Council Chambers",
+                          "points": [
+                            [
+                              930,
+                              615
+                            ],
+                            [
+                              930,
+                              675
+                            ],
+                            [
+                              1005,
+                              675
+                            ],
+                            [
+                              1005,
+                              615
+                            ],
+                            [
+                              945,
+                              615
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "K3. Statue of Silvanus",
+                          "points": [
+                            [
+                              690,
+                              495
+                            ],
+                            [
+                              690,
+                              555
+                            ],
+                            [
+                              765,
+                              555
+                            ],
+                            [
+                              765,
+                              495
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "K4. Evening Shade Inn",
+                          "points": [
+                            [
+                              300,
+                              150
+                            ],
+                            [
+                              300,
+                              210
+                            ],
+                            [
+                              360,
+                              210
+                            ],
+                            [
+                              360,
+                              150
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "K5. Gerth's Equipment Shoppe",
+                          "points": [
+                            [
+                              255,
+                              555
+                            ],
+                            [
+                              255,
+                              615
+                            ],
+                            [
+                              315,
+                              615
+                            ],
+                            [
+                              315,
+                              555
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "K6. Great Oak",
+                          "points": [
+                            [
+                              435,
+                              555
+                            ],
+                            [
+                              435,
+                              615
+                            ],
+                            [
+                              510,
+                              615
+                            ],
+                            [
+                              510,
+                              555
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "K7. Oswald's Laboratory",
+                          "points": [
+                            [
+                              945,
+                              45
+                            ],
+                            [
+                              945,
+                              90
+                            ],
+                            [
+                              1005,
+                              90
+                            ],
+                            [
+                              1005,
+                              45
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "K8. The Root Cellar",
+                          "points": [
+                            [
+                              660,
+                              195
+                            ],
+                            [
+                              660,
+                              240
+                            ],
+                            [
+                              720,
+                              240
+                            ],
+                            [
+                              720,
+                              195
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "K9. House of the Bleeding Rose",
+                          "points": [
+                            [
+                              900,
+                              225
+                            ],
+                            [
+                              900,
+                              285
+                            ],
+                            [
+                              960,
+                              285
+                            ],
+                            [
+                              960,
+                              225
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "K10. Tower of Orrick the Gray",
+                          "points": [
+                            [
+                              30,
+                              285
+                            ],
+                            [
+                              30,
+                              345
+                            ],
+                            [
+                              105,
+                              345
+                            ],
+                            [
+                              105,
+                              285
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnKuldahar/maps/dm/Frostfall Cavern-grid27x27-100ppi.webp"
+                      },
+                      "title": "Map: Frostfall Cavern",
+                      "imageType": "map",
+                      "mapRegions": [
+                        {
+                          "area": "F1. Entrance",
+                          "points": [
+                            [
+                              177,
+                              86
+                            ],
+                            [
+                              264,
+                              85
+                            ],
+                            [
+                              265,
+                              173
+                            ],
+                            [
+                              177,
+                              174
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "F2. Ice Slide",
+                          "points": [
+                            [
+                              881,
+                              81
+                            ],
+                            [
+                              885,
+                              195
+                            ],
+                            [
+                              975,
+                              195
+                            ],
+                            [
+                              973,
+                              83
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "F3. Frozen Cavern",
+                          "points": [
+                            [
+                              265,
+                              397
+                            ],
+                            [
+                              265,
+                              523
+                            ],
+                            [
+                              395,
+                              524
+                            ],
+                            [
+                              395,
+                              396
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "F4. Chamber of Winter's Embrace",
+                          "points": [
+                            [
+                              705,
+                              793
+                            ],
+                            [
+                              705,
+                              878
+                            ],
+                            [
+                              791,
+                              879
+                            ],
+                            [
+                              792,
+                              793
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "The following locations can be found in Kuldahar.",
+                {
+                  "type": "entries",
+                  "name": "K1. Conlan's Smithy",
+                  "page": 5,
+                  "id": "012",
+                  "entries": [
+                    "Conlan's Smithy is a spacious workshop with a wide array of weapons and armor on display. The blacksmith, Margret Conlan (N half-tiefling {@creature commoner|MM}), is a skilled craftsman who takes great pride in her work and is always happy to help customers find the right piece of equipment for their needs. She sells all weapons and armor in the Basic Rules valued at less than 500 gp."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "K2. Council Chambers",
+                  "page": 5,
+                  "id": "013",
+                  "entries": [
+                    "The Kuldahar council building is an imposing stone structure with a peaked roof and large, sturdy doors. Inside, the main chamber is circular and spacious, with high ceilings and polished wooden floors. At the center is a large, round table surrounded by seven chairs for the council members. The walls are adorned with tapestries depicting scenes from the history of Kuldahar, and large windows provide ample light during the day. A raised platform at the back of the chamber serves as a podium for anyone addressing the council. Council meetings are run by Iselore, the archdruid and leader of Kuldahar."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "K3. Statue of Silvanus",
+                  "page": 5,
+                  "id": "014",
+                  "entries": [
+                    "The statue in the center of town depicts the god Silvanus. Druids customarily offer a small prayer to the deity as they pass the statue. A creature that spends 1 minute offering a sincere prayer to the god becomes affected by a guidance spell for 10 minutes."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "K4. Evening Shade Inn",
+                  "page": 5,
+                  "id": "015",
+                  "entries": [
+                    "The Evening Shade Inn is a cozy establishment with a warm fire and comfortable beds. The halfling owner, Meldric (NG {@creature commoner|MM}), is a friendly and accommodating host who takes pride in making sure his guests are well taken care of."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "K5. Gerth's Equipment Shoppe",
+                  "page": 5,
+                  "id": "016",
+                  "entries": [
+                    "Gerth's Equipment Shoppe is a cluttered store filled with all manner of odds and ends. The owner, Gerth (CG shield dwarf {@creature commoner|MM}), is a bit eccentric but knowledgeable about his wares, and he often surprises customers with unique and unusual items. He sells all adventuring gear in the Basic Rules valued at less than 50 gp."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "K6. Great Oak",
+                  "page": 6,
+                  "id": "017",
+                  "entries": [
+                    "The Great Oak is a towering, ancient tree that stands in the center of Kuldahar. The leaves of the Great Oak are a deep green color, and they rustle gently in the breeze. The tree seems to radiate a powerful, calming energy, and many of the townsfolk revere it as a sacred site.",
+                    "A small shrine to Silvanus is built into the roots of the tree. The area is peaceful and quiet, and those who visit often feel a sense of calm and serenity. From the shrine, a guarded pathway leads deeper into the heart of the Great Oak where the {@item heartstone gem|DKahnKuldahar} is held. Keeper Thalantyr (NG {@creature druid|MM}) is an elderly half-elf who has been tending to the Great Oak for as long as anyone can remember. He is a wise and patient caretaker, but there is a hint of sadness in his eyes. Those who ask, learn that he lost his wife and daughter to the gnolls of Cackling Chasm years ago. He blames himself for not having protected them outside the walls of Kuldahar and has been seeking redemption ever since by nurturing the Great Oak."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "K7. Oswald's Laboratory",
+                  "page": 6,
+                  "id": "018",
+                  "entries": [
+                    "Oswald's Laboratory is located inside a crashed airship in the northeast corner of Kuldahar, accessible via winding paths on either side of the Root Cellar tavern. The small, cramped space is filled with shelves of potions, powders, and alchemical ingredients, emitting a heavy scent of herbs and arcane energies. Bioluminescent vials cast an otherworldly glow across the room. The gnomish owner, Oswald Fiddlebender (CN {@creature mage|MM}), is a bit scatterbrained but highly skilled in the art of potion-making. Assisting him is his niece, Maralie Fiddlebender (CN {@creature apprentice wizard|VGM}), a scatterbrained and clumsy gnome who loves to hear stories of adventure. If the story involves flight, she'll offer to lower the price of goods by half.",
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@item Potion of climbing|DMG} (180 gp)",
+                        "{@item Potion of gaseous form|DMG} (300 gp)",
+                        "{@item Potion of healing|DMG} (50 gp)",
+                        "{@item Potion of invisibility|DMG} (200 gp)",
+                        "{@item Potion of animal friendship|DMG} (200 gp)"
+                      ]
+                    },
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnKuldahar/art/Oswald's Laboratory.webp"
+                      },
+                      "title": "Oswald's Laboratory"
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "K8. The Root Cellar",
+                  "page": 6,
+                  "id": "019",
+                  "entries": [
+                    "The Root Cellar tavern is a cozy underground establishment nestled beneath the lush grass and winding roots of the Great Oak. Bioluminescent lights from fireflies in hanging cages cast a warm glow throughout the tavern, equipped with wooden shelves stocked with various meads and tea. The barkeep, Yulgar (NG gold dragonborn {@creature commoner|MM}), is a gruff but good-natured man who enjoys swapping stories with his patrons over a pint of mead."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "K9. House of the Bleeding Rose",
+                  "page": 6,
+                  "id": "01a",
+                  "entries": [
+                    "The House of the Bleeding Rose is a temple of Ilmater. The temple is a modest building but well-maintained with a large fire in the center of the room. The priests are kind and welcoming, offering aid to anyone in need, regardless of their faith. Sister Angelina is a devout human cleric (LG {@creature priest|MM}) who has served in the temple for many years. She is known for her gentle demeanor and healing touch, which she offers to anyone who needs it."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "K10. Tower of Orrick the Gray",
+                  "page": 6,
+                  "id": "01b",
+                  "entries": [
+                    "Orrick's Tower is a tall, imposing structure with a spiral staircase leading up to the top. The wizard, Orrick the Gray (N half-orc {@creature mage|MM}), is a mysterious figure who keeps to himself, but he is always willing to sell his wares to those who can afford them.",
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@item Bag of holding|DMG} (4,000 gp)",
+                        "{@item Necklace of fireballs|DMG} with 6 beads (5,000 gp)",
+                        "{@item Cloak of elvenkind|DMG} (5,000 gp)",
+                        "{@item Wand of wonder|DMG} (10,000 gp)",
+                        "{@item Belt of dwarvenkind|DMG} (6,000 gp)",
+                        "{@item Amulet of proof against detection and location|DMG} (20,000 gp)"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Kuldahar Council Meeting",
+              "page": 7,
+              "id": "01c",
+              "entries": [
+                "Upon entering Kuldahar, the party is ushered toward the podium in the Council Chambers. The meeting is already underway.",
+                {
+                  "type": "insetReadaloud",
+                  "id": "01d",
+                  "entries": [
+                    "The council hall is a large room with a long table at its center. The room is filled with people from all walks of life in Kuldahar: dwarves, halflings, humans, and even a few elves. At the head of the table sits the archdruid, Iselore.",
+                    "Iselore is a striking high elf, tall with a slender yet athletic build. Her skin is a rich, earthy tone, and her hair flows like a waterfall of vibrant green, adorned with leaves and flowers. Her cloak shifts color and texture to blend with the surroundings and she carries a sturdy oak staff.",
+                    "She addresses you, across the room, 'As you can see, we have a dire situation on our hands. The number of refugees arriving at our gates grows every day, and I fear that we may not have the resources to accept them all. We must consider carefully how we can help without putting our community at risk.' Across the table from her, an aasimar woman with a long dark braid scoffs. 'There is nothing to consider at all. We must let them in.'"
+                  ]
+                },
+                "{@creature Iselore|DKahnKuldahar} is hesitant to take in all the refugees due to limited resources. She invites the party to make their case before the council. Eirlys , the aasimar woman, argues that Kuldahar has a responsibility to help those in need. {@creature Eirlys|DKahnKuldahar} is a member of the cult of Auril, a secret she keeps from her fellow druids on the council. The party may speak on behalf of the refugees and any speaker may make a DC 14 Charisma (Persuasion) check. On a successful check, the council votes 6 to 1 in favor of Eirlys, much to Iselore's frustration, and the refugees are welcomed in Kuldahar. On a failed check, the council votes 4 to 3 in favor of Eirlys and while the refugees are allowed to enter, they are generally unwelcomed. These moods are reflected in how the townspeople interact with the party. An unwelcome party may experience a",
+                {
+                  "type": "entries",
+                  "name": "Plea for Help",
+                  "page": 7,
+                  "id": "01e",
+                  "entries": [
+                    "Keeper Thalantyr, the druid who tends to the shrine of Silvanus, approaches the party after the meeting and asks for their assistance. He has noticed that the Great Oak's energy is fading and suspects foul play. He wants the party to help him investigate discreetly, as he fears that a panic could cause more harm than good.",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "01f",
+                      "entries": [
+                        "After the council meeting, a green-robed man with an earthy scent and long, unkempt hair and beard approaches you. Despite his disheveled appearance, he carries himself with a certain grace and confidence.",
+                        "\"Excuse me,' he says. 'I am Keeper Thalantyr. Recently, I've noticed some disturbing signs that the Great Oak's energy has been waning. There's been frost on the borders of our lands, the temperature of the city is slowly declining, and many of the birds are leaving. I believe it's a sign of something much more sinister at play. I would like to ask for your assistance in investigating this discreetly to find some concrete evidence we can bring before Iselore. We can't risk a panic in the town, but we must find out what is causing this before it's too late.'"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Investigating the Heartstone Gem",
+              "page": 7,
+              "id": "020",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "id": "021",
+                  "entries": [
+                    "Keeper Thalantyr leads you past the shrine, into the center of the Great Oak. There are no apparent signs that the interior of this behemoth of a tree is sick. In the center of the chamber, a pulsating green acorn-shaped gem sits upon a small pedestal of bark. This heartstone gem emanates warm, comforting energy.",
+                    "Suddenly a brief wave of frigid cold wafts over the chamber, before the temperature becomes comfortable once more. 'See? See? Did you feel that or am I losing my mind? The heartstone gem is the source of the Oak's power and vitality,' explains Thalantyr. 'We must figure out what's going on here.'"
+                  ]
+                },
+                "Eirlys has been tampering with the magic of the {@item heartstone gem|DKahnKuldahar}, corrupting it with the Frostmaiden's energies. She has been using her wild shape to turn into a weasel to access the {@item heartstone gem|DKahnKuldahar} undetected. Characters who investigate the scene might find any of the following clues:",
+                {
+                  "type": "list",
+                  "items": [
+                    "A successful DC 14 Intelligence (Arcana) check or viewing the h{@item heartstone gem|DKahnKuldahar} with a detect magic spell reveals an abjuration rune in the shape of a snowflake blocking some of the {@item heartstone gem|DKahnKuldahar}'s magical energy. The rune can be dispelled with a 4th-level {@spell dispel magic|PHB} spell (or 3rd-level with a DC 14).",
+                    "A successful DC 14 Intelligence (Nature) check reveals that while at first glance the tree appears healthy, close inspection reveals a type of transparent fungus that is cold to the touch, resembling rime.",
+                    "A successful DC 14 Intelligence (Investigation) check reveals a faint muddy boot-print that does not match Thalantyr's.",
+                    "A successful DC 14 Wisdom (Survival) check reveals a small tunnel made by some sort of burrowing creature. However, there are no animal droppings or signs of a wild animal moving about this space."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Communing with the Tree",
+                          "page": 8,
+                          "id": "022",
+                          "entries": [
+                            "If a creature uses a {@spell speak with plants|PHB} spell or has some other way to commune with plants, the tree communicates its anguish in cryptic ways. It talks about its heart being in pain and the cold that it feels."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Departing",
+                          "page": 8,
+                          "id": "023",
+                          "entries": [
+                            "Thalantyr suggests the party return to the council chambers and tell Iselore what they've discovered while he keeps watch over the stone. If the party is suspicious of Thalantyr, he reminds them that he has had access to the stone for a hundred years, and if he wanted to harm the tree, he could have done it ages ago."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "All the while, animal spies of Eirlys inform her of the party's movements. With the party investigating her efforts, she waits for the right moment to stage a distraction. See 'Eirlys Strikes' below.",
+                "If the party goes to find Iselore, they find her at the council chambers, working with other council members to plan makeshift housing for the refugees. If the party tells Iselore what they've found, she insists on seeing the {@item heartstone gem|DKahnKuldahar} for herself, complaining, 'All Kuldahar needs in a time of crisis is a second crisis.'",
+                {
+                  "type": "entries",
+                  "name": "Eirlys Strikes",
+                  "page": 8,
+                  "id": "024",
+                  "entries": [
+                    "At a time of your choosing, Eirlys summons two {@creature snowy owlbear|IDRotF|snow owlbears} to attack the party, creating a diversion so that she can steal the {@item heartstone gem|DKahnKuldahar}. Eirlys summons these creatures with her enhanced powers from the Frostmaiden. When they appear, you can read:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "025",
+                      "entries": [
+                        "Suddenly a low growl rumbles behind you. Turning around, you see two massive snowy owlbears, their beady eyes fixed on you."
+                      ]
+                    },
+                    "When the owlbears are defeated, they simply disappear, revealing their summoned nature.",
+                    "If the party leaves a PC behind to guard the {@item heartstone gem|DKahnKuldahar|heartstone}, Eirlys, under cover of a {@spell pass without trace|PHB} spell, sneaks into the chamber as a {@creature spider|MM}. A DC 24 Wisdom (Perception) check is required to notice her. She cleverly uses an awakened {@creature badger|MM} to draw Thalantyr and the PC's attention, while she casts {@spell fog cloud|PHB} and grabs the {@item heartstone gem|DKahnKuldahar}, before turning into a badger herself and burrowing away. If she cannot escape, she uses an enhanced version of her {@spell conjure animals|PHB} spell to summon two snowy owlbears to fight alongside her. Her main goal is to escape with the gem, not kill unconscious PCs.",
+                    "If you would prefer to use a battlemap for this encounter, you can use the {@link Yggdrasil Trunk|https://www.czepeku.com/yggdrasil-trunk} by {@link Czepeku|https://www.patreon.com/czepeku/posts}.",
+                    "When the party and Iselore return to the {@item heartstone gem|DKahnKuldahar}, it is gone and Thalantyr lies on the ground unconscious, the snowflake symbol of Auril frost-burned into his forehead. Iselore immediately casts a {@spell locate object|PHB} spell and sends the party in the correct direction of the {@item heartstone gem|DKahnKuldahar} (northeast) while she tends to Thalantyr and protects the tree from further harm.",
+                    "Once the gem is stolen, the next time the party is outdoors, you can read the following scene:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "026",
+                      "entries": [
+                        "The air feels colder than you remember as little flecks of snow dance down from the sky above. The people of Kuldahar look around in awe before a panic sets in as the realization spreads through the crowd: the eternal summer has disappeared. Screams swell throughout Kuldahar as the entire village is plunged into bone-chilling darkness."
+                      ]
+                    },
+                    "As the party ventures northeast out of the city, there are various tracks on the ground. A successful DC 12 Wisdom (Survival) check reveals a suspicious set of owlbear tracks among them, leading further northeast. If the check fails, the party follows a set of tracks in a complete circle, wasting an hour of time before they can attempt the check again. The owlbear tracks lead to Eirlys's cave, the Frostfall Cavern."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Frostfall Cavern",
+              "page": 9,
+              "id": "027",
+              "entries": [
+                "Eirlys has secretly joined the cult of Auril and set up a shrine in the Frostmaiden's honor within a cave system one mile northeast of Kuldahar.",
+                {
+                  "type": "entries",
+                  "name": "F1. Entrance",
+                  "page": 9,
+                  "id": "028",
+                  "entries": [
+                    "If the party succeeded on the Wisdom (Survival) check to track Eirlys, they catch a glimpse of her setting up the trap. You can read the following:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "029",
+                      "entries": [
+                        "The mouth of the cave is covered in thorny roots. The air is heavy with a suffocating coldness that seeps into your very bones and your breath fogs up in front of you. A shadow moves within the cave and then ducks out of sight. A moment later, the roots begin to emit a faint blue glow as another, similar glow radiates from the interior of the cave."
+                      ]
+                    },
+                    "Otherwise, you can read:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "02a",
+                      "entries": [
+                        "The mouth of the cave is covered in thorny roots glistening with a faint blue glow. The air is heavy with a suffocating coldness that seeps into your very bones and your breath fogs up in front of you. A blue glow radiates from the interior of the cave."
+                      ]
+                    },
+                    "When a warm-blooded creature crosses the threshold of the cave, the roots come to life. There are two masses of roots that use the {@creature vine blight|MM} statistics but are immune to cold damage. These roots are part of the Great Oak's root system and are being twisted by the Frostmaiden's magic.",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Animating Crystal",
+                          "page": 9,
+                          "id": "02b",
+                          "entries": [
+                            "The blue light inside the cave is an enchanted crystal that gives life to the roots. While the animating crystal remains active, destroyed roots regrow at the start of each round. The crystal is a Small object with 13 AC, 10 hit points, and immunity to cold, poison, and psychic damage. A DC 12 Intelligence (Arcana) check reveals for certain that the crystal is the source of the vines' animation. If the crystal is destroyed, the roots fall dormant."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Hidden Doorway",
+                          "page": 9,
+                          "id": "02c",
+                          "entries": [
+                            "A section of the wall is an illusion concealing a hidden passageway that leads down to area F3, circumventing the ice slide. The illusion can be found with a search of the walls and a successful DC 18 Intelligence (Investigation) check."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "F2. Ice Slide",
+                  "page": 9,
+                  "id": "02d",
+                  "entries": [
+                    "As you approach the end of the room, you notice a smooth sheet of ice stretching across the floor. It looks like it continues through an opening in the wall, leading down into the darkness below.",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "02e",
+                      "entries": [
+                        "Just past the entrance is a narrow sloping chute made of ice. Creatures on the ice slide forward at a rate of 60 feet per round. While sliding, a creature is prone. A creature can use an action to make a successful DC 12 Strength (Athletics) check to stab a sharp object into the ice to slow or stop its fall. At the start of each sliding creature's turn, the creature must make a DC 12 Dexterity saving throw to avoid stalagmites and giant roots along the chute. On a failed save, the creature takes 3 ({@dice 1d6}) bludgeoning damage. A creature who previously slowed its descent makes the saving throw with advantage."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Troublesome Mephits",
+                          "page": 9,
+                          "id": "02f",
+                          "entries": [
+                            "Two {@creature ice mephit|MM|ice mephits} live in this chute and harass anyone sliding down by attacking, mocking, or stealing their belongings as they go. The mephits aren't looking for a fair fight and disperse when a creature reaches the bottom or maintains some semblance of control over their fall, such as by flying."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Look Out Below",
+                          "page": 9,
+                          "id": "030",
+                          "entries": [
+                            "Creatures that reach the bottom must succeed on a DC 15 Dexterity saving throw or take 10 ({@dice 3d6}) bludgeoning damage. A creature who previously slowed its descent makes the saving throw with advantage."
+                          ]
+                        }
+                      ]
+                    },
+                    "Climbing back up the chute requires the use of pitons and a DC 18 Strength (Athletics) check."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "F3. Frozen Cavern",
+                  "page": 9,
+                  "id": "031",
+                  "entries": [
+                    {
+                      "type": "insetReadaloud",
+                      "id": "032",
+                      "entries": [
+                        "As you enter the cavern, the sound of your footsteps echoes through the silence. The ceiling is covered in sharp, jagged icicles, some the size of a person. More of the gigantic roots stretch through the walls of the cavern and can be seen encased in the transparent ice."
+                      ]
+                    },
+                    "An {@creature icicle roper|DKahnKuldahar} uses its False Appearance to imitate a giant icicle stalactite attached to the ceiling. When a character gets within range, it attacks with its Tendrils. The roper is 30 feet in the air so when creatures escape its grapple, they fall to the icy floor below, taking 10 ({@dice 3d6}) falling damage.",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Icy Connection",
+                          "page": 9,
+                          "id": "033",
+                          "entries": [
+                            "The point at which the roper is attached to the ceiling may be attacked. The area of the ceiling is a Large object with AC 13, 50 hit points, immunity to cold, poison, and psychic damage, and vulnerability to fire and thunder damage. If the ceiling connection is destroyed, the roper falls to the floor below, shatters, and is reduced to 0 hit points."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Concealed Doorway",
+                          "page": 9,
+                          "id": "034",
+                          "entries": [
+                            "A creature that succeeds on a DC 15 Wisdom (Perception) check notices a doorway behind a large icicle that hides a set of stairs leading up to area F1."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Treasure",
+                          "page": 9,
+                          "id": "035",
+                          "entries": [
+                            "In the roper's gullet are 227 gp and a {@item rope of climbing|DMG} left behind by a dead spelunker."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "F4. Chamber of Winter's Embrace",
+                  "page": 10,
+                  "id": "036",
+                  "entries": [
+                    {
+                      "type": "insetReadaloud",
+                      "id": "037",
+                      "entries": [
+                        "This large cavern glimmers with a cold, pale light. The walls, floor, and ceiling are made entirely of ice, and viciouslooking icicles hang precariously above. Eirlys stands before a strange altar made of chardalyn and adorned with carvings of icicles and snowflakes. She chants a dark incantation, and you feel the air grow colder and hear strange whispers on the frigid wind.",
+                        "Suddenly, a portal begins to open before her, a swirling vortex of frost and ice. The temperature plummets even further, and you see what is about to emerge. Eirlys grins maliciously as she holds up the Heartstone Gem, using its warmth to lure a massive frost salamander out from the portal and into the cavern."
+                      ]
+                    },
+                    "Eirlys is using the heartstone gem and her gifts from the Frostmaiden to open a portal to the Frostfell and draw forth a {@creature frost salamander|MTF}. Eirlys reveals her plot:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "038",
+                      "entries": [
+                        "Eirlys's eyes glow with religious fervor. \"Spread the cold, that you may feel her presence. Slay others as you will, for my chill breath spares neither king nor beggar.' Thank you for bringing all these souls to bear witness to the might of the Frostmaiden. With the freeze of the Great Oak, none shall dare utter the name of another god.\""
+                      ]
+                    },
+                    "At the end of her monologue, the frost salamander attacks. Instead of fighting alongside the creature, Eirlys uses her powers to attempt to lure yet another one through the portal. You can use the following lines of dialogue at specific moments during the battle with Eirlys, highlighting her zealotry the tenants of the Frostmaiden.",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Cruelty",
+                          "page": 10,
+                          "id": "039",
+                          "entries": [
+                            "When the salamander damages someone in the party read:"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "insetReadaloud",
+                      "id": "03a",
+                      "entries": [
+                        "\"Compassion makes you vulnerable. Let cruelty be the knife that keeps your enemies at bay.\""
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Isolation",
+                          "page": 10,
+                          "id": "03b",
+                          "entries": [
+                            "When the party kills the salamander, you can read:"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "insetReadaloud",
+                      "id": "03c",
+                      "entries": [
+                        "\"In solitude you can understand and harness your full potential. Depending on others makes you weak.\""
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Preservation",
+                          "page": 10,
+                          "id": "03d",
+                          "entries": [
+                            "If Eirlys heals herself or the salamander, you can read:"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "insetReadaloud",
+                      "id": "03e",
+                      "entries": [
+                        "\"Every flake of snow is unique, and that which is unique must be preserved.\""
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Endurance",
+                          "page": 10,
+                          "id": "03f",
+                          "entries": [
+                            "When Eirlys uses her Frightening Shroud for the first time, you can read:"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "insetReadaloud",
+                      "id": "040",
+                      "entries": [
+                        "\"Exist as long as you can, by whatever means you can. Only by enduring can you outlast your enemies.\""
+                      ]
+                    },
+                    "Eirlys only joins the battle if she is attacked directly, or when the salamander seems near death. If the party initially failed the Wisdom (Survival) check to track Eirlys, she has had time to attune to the heartstone gem and makes use of the heal spell to protect herself during combat.",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Treasure",
+                          "page": 10,
+                          "id": "041",
+                          "entries": [
+                            "Eirlys holds the {@item heartstone gem|DKahnKuldahar}."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Escape!",
+                  "page": 10,
+                  "id": "042",
+                  "entries": [
+                    "When the party defeats the frost salamander and Eirlys, the Great Oak uses its mighty root system to crush the cave, attempting to bury the sinister shrine. You can read the following:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "043",
+                      "entries": [
+                        "The ice cavern groans as the massive roots in the walls begin to stir with life. Massive tubers extend and crush the walls as parts of the ceiling crash to the floor. The shrine is being buried by the might of the Great Oak's roots and there is not much time before you are buried with it!"
+                      ]
+                    },
+                    "The party has 1 minute to escape before being buried in the cavern. During the escape, the ice slide is upwardly traversable without the usual Strength (Athletics) check as roots form handholds for characters to scramble up. At the start of each round, roll a {@dice d12} and consult the Escape Complications table to determine what happens. Reroll any duplicate rolls.",
+                    {
+                      "type": "table",
+                      "colLabels": [
+                        "d12",
+                        "Complication"
+                      ],
+                      "colStyles": [
+                        "col-1 text-center",
+                        "text-left"
+                      ],
+                      "rows": [
+                        [
+                          "1",
+                          "Large blocks of ice fall from the ceiling. Each creature must succeed on a DC 12 Dexterity saving throw or take 7 ({@dice 2d6}) bludgeoning damage and become restrained under the block of ice. A trapped creature or a creature within 5 feet of it can use an action to make a DC 12 Strength (Athletics) check to free the trapped creature."
+                        ],
+                        [
+                          "2",
+                          "The ground cracks open causing a pit 15 feet across and 10 feet deep that stretches the width of the room the lead character is in. The pit appears 10 feet in front of the lead character."
+                        ],
+                        [
+                          "3",
+                          "Icicles break from the ceiling in a spray of shards. Each creature must succeed on a DC 12 Dexterity saving throw or take 3 ({@dice 1d6}) piercing damage."
+                        ],
+                        [
+                          "4",
+                          "Roots shoot out from below, breaking apart the ground in a 20 by 20-foot square centered on a the lead character. The area is difficult terrain."
+                        ],
+                        [
+                          "5",
+                          "A gust of icy wind blows through the cavern. Each creature must succeed on a DC 12 Strength saving throw or be knocked prone."
+                        ],
+                        [
+                          "6",
+                          "Roots and ice fall from the ceiling forming a solid wall 5 feet deep in front of the lead character that spans the width and height of the room. The wall is an object that can be damaged and thus breached. It has AC 12 and 30 hit points per 10-foot section, and it is vulnerable to fire damage. Reducing a 10-foot section of wall to 0 hit points destroys it."
+                        ],
+                        [
+                          "7",
+                          "An icy wail permeates through the cavern as if the Frostmaiden's voice is screeching through the breaking shrine. Each creature must succeed on a DC 12 Wisdom saving throw or use its movement on its next turn to run in a randomly determined direction."
+                        ],
+                        [
+                          "8",
+                          "A blast of bone-chilling cold erupts from the ice. Each creature must succeed on a DC 12 Constitution saving throw or take 3 ({@dice 1d6}) cold damage and have its movement speed reduced by 10 feet until the end of its next turn."
+                        ],
+                        [
+                          "9",
+                          "An escaping {@creature ice mephit|MM} steals something from a random creature, and then attempts to fly away."
+                        ],
+                        [
+                          "10",
+                          "A friendly {@creature chwinga|IDRotF} pops out of a frozen puddle and casts {@spell resistance|PHB} on the last character."
+                        ],
+                        [
+                          "11-12",
+                          "No Complication"
+                        ]
+                      ],
+                      "name": "Escape Complications Table",
+                      "caption": "Escape Complications Table"
+                    },
+                    "Any creature inside the cavern when it finally collapses takes {@dice 6d10} bludgeoning damage and becomes buried. While buried, the creature is blinded and restrained and has total cover. The creature gains one level of exhaustion for every 5 minutes it spends buried. With an action and a successful DC 15 Strength (Athletics) check, a creature can dig 5 feet back into the collapsed cave to rescue a buried creature. Each additional 5 feet of digging requires another successful Strength (Athletics) check."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Conclusion",
+              "page": 11,
+              "id": "044",
+              "entries": [
+                "After they escape the cavern with the recovered {@item heartstone gem|DKahnKuldahar}, the party can return to Kuldahar. Iselore thanks the party and declares that Kuldahar will remain a sanctuary for any fleeing the Everlasting Rime. Unfortunately, the disruption of the {@item heartstone gem|DKahnKuldahar} is not so easily undone. Iselore attempts to use it to restore the local pleasant climate, but only to partial success. The temperature only rises to about 30 \u00b0F and the sun never completely rises, hanging low in the sky during daylight hours until the Everlasting Rime is ended. Regardless, the party is hailed as heroes for saving the town's source of warmth and prosperity. Iselore rewards them with the {@item Great Oak's blessing|DKahnKuldahar}."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Troubleshooting",
+              "page": 11,
+              "id": "045",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Snowed In",
+                  "page": 11,
+                  "id": "046",
+                  "entries": [
+                    "At your discretion, Iselore can show up at just the right moment to cast a {@spell create or destroy water} spell and save the day if most of the party gets trapped by the cave in at Frostfall Cavern."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Magic Items",
+          "page": 11,
+          "id": "047",
+          "entries": [
+            "{@note Items marked with * are new}",
+            {
+              "type": "list",
+              "columns": 2,
+              "items": [
+                "{@item Great Oak's Blessing|DKahnKuldahar} *",
+                "{@item Heartstone Gem|DKahnKuldahar} *",
+                "{@item Rope of Climbing|DMG}"
+              ]
+            },
+            {
+              "type": "list",
+              "style": "list-no-bullets",
+              "columns": 2,
+              "items": [
+                {
+                  "type": "statblock",
+                  "tag": "item",
+                  "source": "DKahnKuldahar",
+                  "name": "Great Oak's Blessing"
+                },
+                {
+                  "type": "statblock",
+                  "tag": "item",
+                  "source": "DKahnKuldahar",
+                  "name": "Heartstone Gem"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Bestiary",
+          "page": 12,
+          "id": "048",
+          "entries": [
+            {
+              "type": "list",
+              "columns": 2,
+              "items": [
+                "{@creature Iselore|DKahnKuldahar} *",
+                "{@creature Snowy Owlbear|IDRotF}",
+                "{@creature Icicle Roper|DKahnKuldahar} *",
+                "{@creature Eirlys|DKahnKuldahar} *",
+                "{@creature Frost Salamander|MTF}",
+                "{@creature Vine Blight|MM}"
+              ]
+            },
+            {
+              "type": "list",
+              "style": "list-no-bullets",
+              "columns": 2,
+              "items": [
+                {
+                  "type": "statblock",
+                  "tag": "creature",
+                  "source": "DKahnKuldahar",
+                  "name": "Icicle Roper"
+                },
+                {
+                  "type": "statblock",
+                  "tag": "creature",
+                  "source": "DKahnKuldahar",
+                  "name": "Iselore"
+                },
+                {
+                  "type": "statblock",
+                  "tag": "creature",
+                  "source": "DKahnKuldahar",
+                  "name": "Eirlys"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Player Maps",
+          "id": "049",
+          "entries": [
+            {
+              "type": "gallery",
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnKuldahar/maps/Kuldahar-40x30-100ppi.webp"
+                  },
+                  "title": "Kuldahar",
+                  "imageType": "mapPlayer"
+                }
+              ]
+            },
+            {
+              "type": "gallery",
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnKuldahar/maps/Frostfall Cavern-grid27x27-100ppi.webp"
+                  },
+                  "title": "Frostfall Cavern",
+                  "imageType": "mapPlayer"
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnKuldahar/maps/Frostfall Cavern-gridless-27x27-100pp.webp"
+                  },
+                  "title": "Frostfall Cavern (no grid)",
+                  "imageType": "mapPlayer"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "item": [
+    {
+      "name": "Great Oak's Blessing",
+      "source": "DKahnKuldahar",
+      "page": 11,
+      "rarity": "very rare",
+      "wondrous": true,
+      "entries": [
+        "Great Oak's Blessing is a small acorn-shaped pendant, resembling the heartstone gem, made of ancient oak wood, adorned with intricately carved leaves and vines.",
+        "While holding the pendant, you can use an action to cast the {@spell tree stride|PHB} spell from it. Once you use the pendant's property it cannot be used again until the next dawn."
+      ]
+    },
+    {
+      "name": "Heartstone Gem",
+      "source": "DKahnKuldahar",
+      "page": 11,
+      "rarity": "legendary",
+      "wondrous": true,
+      "reqAttune": true,
+      "entries": [
+        "This large green stone radiates a pleasant warmth. While attuned to the gem, you have {@sense truesight} to a range of 60 feet.",
+        "{@b Divination.} While holding the gem, you can use an action to cast the {@spell arcane eye|PHB} spell from it at will.",
+        "{@b Healing.} While holding the gem, you can use an action to cast the {@spell heal|PHB} spell from it at 6th level. Once you use the healing property, it can't be used again until the next dawn.",
+        "{@b Climate.} While holding the gem, you can spend 10 minutes to cast the {@spell control weather|PHB} spell from it with a radius of 1 mile centered on the gem. The precipitation must be clear, light clouds, or rain. The temperature must be warm or cool. The wind must be calm or moderate. While the climate property is in effect, the other properties cannot be used. When cast this way, the spell lasts until you spend 10 minutes performing a ritual to dismiss it. Once you dismiss the climate effect, the gem can't be used again until the next dawn."
+      ]
+    }
+  ],
+  "monster": [
+    {
+      "name": "Icicle Roper",
+      "source": "DKahnKuldahar",
+      "page": 12,
+      "_copy": {
+        "name": "Roper",
+        "source": "MM",
+        "_mod": {
+          "trait": [
+            {
+              "mode": "replaceArr",
+              "replace": "False Appearance",
+              "items": [
+                {
+                  "name": "False Appearance",
+                  "entries": [
+                    "While the roper remains motionless, it is indistinguishable from a normal large icicle."
+                  ]
+                }
+              ]
+            }
+          ],
+          "action": [
+            {
+              "mode": "replaceArr",
+              "replace": "Bite",
+              "items": [
+                {
+                  "name": "Bite",
+                  "entries": [
+                    "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage and 9 ({@damage 2d8}) cold damage."
+                  ]
+                }
+              ]
+            },
+            {
+              "mode": "replaceArr",
+              "replace": "Tendril",
+              "items": [
+                {
+                  "name": "Tendril",
+                  "entries": [
+                    "{@atk mw} {@hit 7} to hit, reach 50 ft., one creature. {@h}The target is {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target takes 3 ({@damage 1d6}) cold damage at the end of their turn and is {@condition restrained} and has disadvantage on Strength checks and Strength saving throws, and the roper can't use the same tendril on another target."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "vulnerable": [
+        "fire"
+      ],
+      "immune": [
+        "cold"
+      ],
+      "damageTags": [
+        "C",
+        "P"
+      ],
+      "token": {
+        "name": "Roper",
+        "source": "MM"
+      }
+    },
+    {
+      "name": "Iselore",
+      "source": "DKahnKuldahar",
+      "page": 12,
+      "_copy": {
+        "name": "Archdruid",
+        "source": "MPMM"
+      },
+      "isNpc": true,
+      "isNamedCreature": true,
+      "hasToken": true,
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnKuldahar/tokens/Iselore.webp"
+      },
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnKuldahar/art/Iselore.webp"
+            },
+            "title": "Iselore, Archdruid of Kulkdahar",
+            "credit": "Artcentricbri"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eirlys",
+      "source": "DKahnKuldahar",
+      "page": 13,
+      "isNpc": true,
+      "isNamedCreature": true,
+      "hasToken": true,
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnKuldahar/tokens/Eirlys.webp"
+      },
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "aasimar"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "{@item hide armor|XPHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 67,
+        "formula": "9d8 + 27"
+      },
+      "speed": {
+        "walk": 30,
+        "alternate": {
+          "walk": [
+            {
+              "number": 40,
+              "condition": "(wolf form only)"
+            }
+          ]
+        },
+        "burrow": {
+          "number": 5,
+          "condition": "(fox form only)"
+        },
+        "climb": {
+          "number": 30,
+          "condition": "(goat form only)"
+        },
+        "fly": {
+          "number": 60,
+          "condition": "(owl form only)"
+        }
+      },
+      "str": 13,
+      "dex": 13,
+      "con": 16,
+      "int": 10,
+      "wis": 16,
+      "cha": 9,
+      "save": {
+        "int": "+3",
+        "wis": "+6"
+      },
+      "skill": {
+        "nature": "+3",
+        "perception": "+6",
+        "survival": "+6"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 16,
+      "resist": [
+        "cold",
+        "necrotic",
+        "radiant"
+      ],
+      "languages": [
+        "Celestial",
+        "Common",
+        "Druidic"
+      ],
+      "cr": "5",
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "CE",
+        "DU"
+      ],
+      "spellcasting": [
+        {
+          "name": "Spellcasting (Humanoid Form Only)",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Eirlys casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 14}):"
+          ],
+          "will": [
+            "{@spell animal friendship|XPHB}",
+            "{@spell druidcraft|XPHB}",
+            "{@spell fog cloud|XPHB}",
+            "{@spell speak with animals|XPHB}"
+          ],
+          "daily": {
+            "1": [
+              "{@spell awaken|XPHB}",
+              "{@spell conjure animals|XPHB}",
+              "{@spell hallucinatory terrain|XPHB}",
+              "{@spell ice storm|XPHB}",
+              "{@spell sleet storm|XPHB}",
+              "{@spell wind wall|XPHB}"
+            ],
+            "3": [
+              "{@spell moonbeam|XPHB}",
+              "{@spell pass without trace|XPHB}"
+            ]
+          },
+          "ability": "wis"
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Eirlys makes two melee attacks and uses her Frightening Shroud."
+          ]
+        },
+        {
+          "name": "Ice Javelin (Humanoid Form Only)",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage plus 5 ({@damage 2d4}) cold damage."
+          ]
+        },
+        {
+          "name": "Maul (Beast Form Only)",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+          ]
+        },
+        {
+          "name": "Change Shape",
+          "entries": [
+            "Eirlys magically polymorphs into a beast formfox, mountain goat, owl, or wolf-or back into her humanoid form. Any equipment she is wearing or carrying is absorbed or borne by the beast form (her choice). She reverts to her humanoid form when she dies. Eirlys's statistics are the same in each form, except where noted in this stat block."
+          ]
+        },
+        {
+          "name": "Frightening Shroud",
+          "entries": [
+            "A creature within 10 feet of Eirlys that she can see must succeed on a {@dc 14} Charisma saving throw or take 4 ({@damage 1d8}) necrotic damage and become {@condition frightened} until the end of her next turn."
+          ]
+        }
+      ],
+      "damageTags": [
+        "C",
+        "N",
+        "P"
+      ],
+      "damageTagsSpell": [
+        "B",
+        "C",
+        "R",
+        "S"
+      ],
+      "spellcastingTags": [
+        "F"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "conditionInflict": [
+        "frightened"
+      ],
+      "conditionInflictSpell": [
+        "charmed",
+        "prone"
+      ],
+      "savingThrowForced": [
+        "charisma"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity",
+        "strength",
+        "wisdom"
+      ],
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnKuldahar/art/Eirlys (Neutral).webp"
+            },
+            "title": "Eirlys",
+            "credit": "Artcentricbri"
+          },
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnKuldahar/art/Eirlys (Combat).webp"
+            },
+            "title": "Eirlys, Frost Druid of Auril",
+            "credit": "Artcentricbri"
+          }
+        ]
+      }
+    }
+  ]
+}

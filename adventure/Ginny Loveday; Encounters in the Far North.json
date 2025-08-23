@@ -1,0 +1,1974 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "GLovedayEncountersInTheFarNorth",
+        "abbreviation": "GL;ID:EintFN",
+        "full": "Icewind Dale: Encounters in the Far North",
+        "color": "7ab3bc",
+        "url": "https://www.dmsguild.com/product/332666/Danger-in-the-Dwarven-Valley--maps-and-extra-content-for-Rime-of-the-Frostmaiden",
+        "authors": [
+          "Daniel Kahn",
+          "Michael Rosenthal"
+        ],
+        "convertedBy": [
+          "EgilhardAeron"
+        ],
+        "version": "1.0.0"
+      }
+    ],
+    "edition": "classic",
+    "status": "ready",
+    "dateAdded": 1742132757,
+    "dateLastModified": 1742132757
+  },
+  "adventure": [
+    {
+      "name": "Icewind Dale: Encounters in the Far North",
+      "id": "GLovedayEncountersInTheFarNorth",
+      "source": "GLovedayEncountersInTheFarNorth",
+      "group": "homebrew",
+      "cover": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/GLovedayEncountersInTheFarNorth/cover.webp"
+      },
+      "published": "2020-09-15",
+      "storyline": "Icewind Dale",
+      "level": {
+        "custom": "-"
+      },
+      "contents": [
+        {
+          "name": "Cover & Credits"
+        },
+        {
+          "name": "Introduction",
+          "headers": [
+            "Running Encounters",
+            "Abbreviations",
+            "Random Encounters",
+            "Encounter Difficulty"
+          ]
+        },
+        {
+          "name": "Ten-Towns",
+          "ordinal": {
+            "type": "chapter",
+            "identifier": 1
+          },
+          "headers": [
+            "An Accurate Recording",
+            "Big Fish",
+            "Don't You Cry",
+            "Gelid Blossom",
+            "Ice Sculptures",
+            "The Supply Run"
+          ]
+        },
+        {
+          "name": "The Spine of the World",
+          "ordinal": {
+            "type": "chapter",
+            "identifier": 2
+          },
+          "headers": [
+            "Billy Goat Gruff",
+            "Cold Runnings",
+            "Leave the Light On",
+            "Snow Fairy Market",
+            "Snow Way Out"
+          ]
+        },
+        {
+          "name": "The Sea of Moving Ice",
+          "ordinal": {
+            "type": "chapter",
+            "identifier": 3
+          },
+          "headers": [
+            "A Bit Froggy Out",
+            "Cache of Mirrors",
+            "Hungry Mouths",
+            "Ice Versa",
+            "Giant Playground",
+            "That's Not a Dog",
+            "The Boy in the Ice"
+          ]
+        },
+        {
+          "name": "Frozen Lands",
+          "ordinal": {
+            "type": "chapter",
+            "identifier": 4
+          },
+          "headers": [
+            "Diamond in the Ruff",
+            "Death's Mirage",
+            "Northern Lights",
+            "Reghed Hunting Party",
+            "The Great Stag",
+            "Toys for Tykes"
+          ]
+        },
+        {
+          "name": "Magic Items",
+          "ordinal": {
+            "type": "appendix",
+            "identifier": "A"
+          }
+        },
+        {
+          "name": "Creature Statistics",
+          "ordinal": {
+            "type": "appendix",
+            "identifier": "B"
+          }
+        }
+      ]
+    }
+  ],
+  "adventureData": [
+    {
+      "id": "GLovedayEncountersInTheFarNorth",
+      "source": "GLovedayEncountersInTheFarNorth",
+      "data": [
+        {
+          "type": "section",
+          "name": "Cover & Credits",
+          "page": 2,
+          "id": "001",
+          "entries": [
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/GLovedayEncountersInTheFarNorth/cover-full.webp"
+              },
+              "title": "Encounters in the Far North Cover"
+            },
+            {
+              "type": "section",
+              "name": "Credits",
+              "page": 2,
+              "id": "002",
+              "entries": [
+                {
+                  "type": "list",
+                  "style": "list-no-bullets",
+                  "items": [
+                    "{@b Lead Designer:} Ginny Loveday",
+                    "{@b Design:} Rich Lescouflair, Ashley Michaela 'Navigator' Lawson, Celeste Conowitch, M.T. Black",
+                    "{@b Development and Editing:} Ginny Loveday",
+                    "{@b Additional Editing:} Shawn Banerjee",
+                    "{@b Art Director and Graphic Designer:} Rich Lescouflair",
+                    "{@b Cover and Interior Art:} Mark Behm, Judd Chevrier, Olga Drebas, Sam Keiser, Julian Kok, Titus Lunter, Andrew Mar, Robson Michel, David Sladek, provided by Wizards of the Coast and used with permission",
+                    "{@b Special Thanks:} Chris Lindsay, Wizards of the Coast, and the DMs Guild Adepts"
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    "DUNGEONS &amp; DRAGONS, D&amp;D, Wizards of the Coast, Forgotten Realms, Ravenloft, the dragon ampersand, and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries.",
+                    "This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild.",
+                    "All other original material in this work is \u00a92020 and published under the Community Content Agreement for Dungeon Masters Guild."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Foreword",
+              "page": 2,
+              "id": "003",
+              "entries": [
+                {
+                  "type": "quote",
+                  "entries": [
+                    "I've been excited for the release of Icewind Dale: Rime of the Frostmaiden since I first heard about it. I was doubly excited once I found out that so many amazingly talented women were working on it. It has been an absolute honor to be able to work with most of those women during my tenure as a Guild Adept and to be able to bring you this supplement to add even more fun and excitement to your games. I hope that you enjoy playing these encounters as much as we enjoyed putting them together for you."
+                  ],
+                  "by": "Ginny Loveday"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Introduction",
+          "page": 3,
+          "id": "004",
+          "entries": [
+            "{@i Encounters in the Far North} presents 24 short encounters to complement the Icewind Dale: Rime of the Frostmaiden campaign book. This supplement has the following chapters:",
+            {
+              "type": "list",
+              "items": [
+                "{@b {@i {@adventure Chapter 1: Ten-Towns Encounters.|GLovedayEncountersInTheFarNorth|2} } } Short encounters for the famed settlements of Icewind Dale.",
+                "{@b {@i {@adventure Chapter 2: Spine of the World Encounters.|GLovedayEncountersInTheFarNorth|3} } } Short encounters for the treacherous mountains that bound the Far North.",
+                "{@b {@i {@adventure Chapter 3: Sea of Moving Ice Encounters.|GLovedayEncountersInTheFarNorth|4 } }} Short encounters for the frigid waters off the coast of Icewind Dale.",
+                "{@b {@i {@adventure Chapter 4: Frozen Lands Encounters.|GLovedayEncountersInTheFarNorth|5} } } Short encounters for frigid tundra and glaciers of the Far North.",
+                "{@b {@i {@adventure Appendix A: Player Handout.|GLovedayEncountersInTheFarNorth|6} } } This item is given to the players during the appropriate encounter.",
+                "{@b {@i {@adventure Appendix B: Creature Statistics.|GLovedayEncountersInTheFarNorth|7} } } A modified stat block provided for convenience."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Running Encounters",
+              "page": 3,
+              "id": "005",
+              "entries": [
+                "{@i Encounters in The Far North} requires use of the Dungeons & Dragons 5th Edition core rulebooks ({@book Player's Handbook|PHB}, {@book Dungeon Master's Guide|DMG}, and {@book Monster Manual|MM}). You'll also need a copy of {@adventure Icewind Dale: Rime of the Frostmaiden|IDRotF}, though with a little adjustment, you could use most of these encounters in any heroic fantasy adventure.",
+                "The {@book Monster Manual|MM} and {@adventure Icewind Dale: Rime of the Frostmaiden|IDRotF} contain stat blocks for most of the creatures found in the encounters. If a creature doesn't appear in the {@book Monster Manual|MM}, you will find it's stat block in {@adventure Appendix B|GLovedayEncountersInTheFarNorth|7} for your easy reference.",
+                "Spells and equipment mentioned in the encounters are described in the {@book Player's Handbook|PHB}. Magic items are described in the {@book Dungeon Master's Guide|DMG} unless otherwise noted."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Abbreviations",
+              "page": 3,
+              "id": "006",
+              "entries": [
+                "The following abbreviations appear in this book:",
+                {
+                  "type": "list",
+                  "items": [
+                    "DC = Difficulty Class",
+                    "XP = experience points",
+                    "gp = gold piece(s)",
+                    "NPC = nonplayer character",
+                    "DM = Dungeon Master"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Random Encounters",
+              "page": 3,
+              "id": "007",
+              "entries": [
+                "Random encounters can help bring a location to life, creating the impression that the adventure takes place within a complex and dynamic ecosystem. Random encounters also help with game pacing, making players feel genuine effort is involved when they move through potentially dangerous areas. They also provide fun opportunities for you to improvise and often blossom into ongoing campaign elements.",
+                "When the characters travel through the Far North, you can roll a d20 for every 8 hours they spend traveling or resting to see if a random encounter occurs. On a roll of 12 or higher, choose the appropriate encounter table and roll or choose an encounter from it. You can change the number of encounters the characters experience as you see fit."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Encounter Difficulty",
+              "page": 3,
+              "id": "008",
+              "entries": [
+                "Each encounter represents a certain kind of potential challenge, and not all of them should result in combat.",
+                "When you let the dice have their way, the generated encounter might be far too difficult or dangerous for the characters in their present circumstances. They might need to flee, avoid contact, or negotiate their way out of the challenge.",
+                "You're always free to adjust the roll or simply choose an encounter, but remember; not every encounter needs to result in combat. A powerful creature might chase the party in a new direction, demand they perform a task, or turn out to be an unexpected ally. Another excellent trick is to have a rescuer appear at the last moment, someone who could become a group patron. There are many options besides fighting."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Chapter 1: Ten-Towns",
+          "page": 4,
+          "id": "009",
+          "entries": [
+            {
+              "type": "quote",
+              "entries": [
+                "You underestimate the halfling, moreso even than you underestimate the people of Ten-Towns."
+              ],
+              "by": "Drizzt Do'Urden"
+            },
+            "The settlements to the north of the Spine of the World are a refuge for those seeking sanctuary or solitude, they are a chance to make a fortune for others, and, for some, they are simply home.  In this section, you will find a variety of encounters that you can use while your characters explore these settlements and the surrounding areas.",
+            "When adventuring in any of the Ten-Towns, or surrounding areas, you can choose any of the encounters below to add to your campaign, or roll from the table for a random encounter.",
+            {
+              "type": "table",
+              "colLabels": [
+                "d6",
+                "Encounter Name"
+              ],
+              "colStyles": [
+                "col-1 text-center",
+                "text-left"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "{@adventure An Accurate Recording|GLovedayEncountersInTheFarNorth|2|An Accurate Recording}"
+                ],
+                [
+                  "2",
+                  "{@adventure Big Fish|GLovedayEncountersInTheFarNorth|2|Big Fish}"
+                ],
+                [
+                  "3",
+                  "{@adventure Don't You Cry|GLovedayEncountersInTheFarNorth|2|Don't You Cry}"
+                ],
+                [
+                  "4",
+                  "{@adventure Gelid Blossom|GLovedayEncountersInTheFarNorth|2|Gelid Blossom}"
+                ],
+                [
+                  "5",
+                  "{@adventure Ice Sculptures|GLovedayEncountersInTheFarNorth|2|Ice Sculptures}"
+                ],
+                [
+                  "6",
+                  "{@adventure The Supply Run|GLovedayEncountersInTheFarNorth|2|The Supply Run}"
+                ]
+              ],
+              "name": "Ten-Towns Random Encounters",
+              "caption": "Ten-Towns Random Encounters"
+            },
+            {
+              "type": "entries",
+              "name": "An Accurate Recording",
+              "page": 4,
+              "id": "00a",
+              "entries": [
+                "Thorne Wellspring, a cunning halfling scribe, lived most of their life in Chult. Fleeing the area when the death curse became known in order to seek safe haven with distant relations that were rumored to have settled in Lonelywood.",
+                "After a long and arduous journey, Thorne discovered, much to their dismay, that their relations did not survive their first year in Icewind Dale. Thorne now seeks to travel to all of the Ten-Towns settlements to faithfully record the history of any inhabitants. Thorne seeks guards to accompany them and protect from any of the numerous dangers along the roads.",
+                "Thorne is willing to offer the party 50 gold pieces for each town that is safely visited and will part with a thermal cube if they believe that the characters need additional motivation.",
+                "Use the table below to generate a random encounter (see appendix B) for each of the ten legs of the round-trip journey.",
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "d10",
+                    "Encounter"
+                  ],
+                  "colStyles": [
+                    "text-center",
+                    "text-left"
+                  ],
+                  "rows": [
+                    [
+                      "1",
+                      "{@i Travel is uneventful}"
+                    ],
+                    [
+                      "2",
+                      "A {@creature yeti tyke|IDRotF} and it's protective mother {@creature yeti|MM}"
+                    ],
+                    [
+                      "3",
+                      "A {@creature snowy owlbear|IDRotF} scavenging for food"
+                    ],
+                    [
+                      "4",
+                      "A herd of 12 {@creature mountain goat|IDRotF|mountain goats}"
+                    ],
+                    [
+                      "5",
+                      "2 {@creature snow golem|IDRotF|snow golems} and a {@creature chwinga|IDRotF}"
+                    ],
+                    [
+                      "6",
+                      "3 {@creature crag cat|SKT|crag cats} perched on cliffs over the road"
+                    ],
+                    [
+                      "7",
+                      "An {@creature ice troll|IDRotF} feasting on a dead {@creature hare|IDRotF}"
+                    ],
+                    [
+                      "8",
+                      "A {@creature spitting mimic|IDRotF} disguised as a trunk beside a wrecked wagon"
+                    ],
+                    [
+                      "9",
+                      "A {@creature frost druid|IDRotF} disguised as a {@creature fox|IDRotF}"
+                    ],
+                    [
+                      "10",
+                      "A  {@homebrew |coldwalker} {@creature coldlight walker|IDRotF} emerging from a blizzard"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Big Fish",
+              "page": 4,
+              "id": "00b",
+              "entries": [
+                "While in one of the towns, the party hears the sounds of uncharacteristic merriment coming from a colorful tent.",
+                {
+                  "type": "insetReadaloud",
+                  "id": "00c",
+                  "entries": [
+                    "The sound of excited chattering fills the air as people wait to enter a tall striped tent. Every few minutes, a person emerges from the tent either with a wide grin or a grim expression."
+                  ]
+                },
+                "The characters are witnessing a strange tradition that happens in Ten Towns. Once a year, a gnomish merchant named Dandiel Rumswoggle travels to each of the ten towns, wheeling around a large tank that houses a {@creature knucklehead trout|IDRotF} (see appendix B) named Moby. Moby is a local legend in Icewind Dale and rumored to be well over 200 years old. For as long as anyone can remember, Dandiel has taken the trout on this yearly tour, allowing townsfolk to whisper their wishes to the fish.",
+                "For the price of a single silver piece, Dandiel allows a person to approach Moby's wheeled tank, tell the fish a wish, and wait to see how the fish replies. If Moby swims in a clockwise direction, the wish is said to come true. If Moby swims counterclockwise, the wish will not be granted.",
+                "If a character pays the silver piece and makes a wish in front of Moby, have them roll a percentile die ({@dice d100}) to determine which direction the fish swims. On a roll of 50 or higher, Moby swims clockwise, and the character is under the effects of the bless spell for 24 hours. Once a character receives this boon, they cannot receive it again until a year has passed."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Don't You Cry",
+              "page": 5,
+              "id": "00d",
+              "entries": [
+                "While traveling through, or near, one of the towns, the party spies a group of children building a snowman.",
+                {
+                  "type": "insetReadaloud",
+                  "id": "00e",
+                  "entries": [
+                    "A trio of children giggle as they crown a snowman with a threadbare top hat. The giggles become screams of terror as their creation animates and lifts a shrieking tiefling girl."
+                  ]
+                },
+                "The child in the snowman's clutches is a tiefling named Merry, who is unknowingly touched by wild magic. Her desire to bring the snowman to life has transformed her friends' creation into a {@creature snow golem|IDRotF} (see appendix B).",
+                "The golem does not intend to harm Merry but attempts to carry her away from town into the tundra to flee the children's unpleasant screams. If left to this fate, Merry perishes in the harsh landscape of Icewind Dale.",
+                "Defeating the golem is one way to save the tiefling. Alternatively, if the party can convince Merry, the children, and any bystanders to calm down, the golem no longer feels threatened and does not attempt to flee. If dealt with in this manner, the tiefling child discovers that the snowman responds to her commands and stays protectively at her side while it still lives."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Gelid Blossom",
+              "page": 5,
+              "id": "00f",
+              "entries": [
+                "In the Ten-Towns, the party meet Lindra, a winter-loving botanist and recently lapsed worshiper of Auril. When her laboratory was vandalized a few days ago, Lindra's personal symbol of faith-a decade-old rare plant which she nurtured from the seed, an Auril's Tear-was ground under a cruel heel.",
+                "In defiance, she's sworn to regrow her Auril's Tear, but needs bodyguards on her pilgrimage to obtain another sample. She's open about the shrine's trials (an ordeal for her, combat for the party), her connection to Auril, and her opposition to the Everlasting Rime.",
+                {
+                  "type": "entries",
+                  "name": "Land of the Ice and Snow",
+                  "page": 5,
+                  "id": "010",
+                  "entries": [
+                    "The shrine is five days away. During the trek, Lindra enthuses about botany, points out idyllic scenes, and stoically endures harsh conditions. When the party arrives, read:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "011",
+                      "entries": [
+                        "Outside the shrine, dozens of chwingas congregate. Most hide behind snowbanks and broken pillars at the party's approach, peering out curiously."
+                      ]
+                    },
+                    "A chwinga with a blue-white floral mask waves at Lindra. Letting out a teary sigh of recognition, she stops to pay her respects to the tiny elemental, which performs a brief ecstatic dance before hurrying inside.",
+                    "Across the threshold, the temperature drops noticeably and a 15-foot-wide ramp descends impossibly far into darkness. After what feels like miles, the passage opens into a brightly lit, 30-foot-radius chamber; its floor covered in an ankle-deep pool of frigid water. At the center of the austere chamber is a snow-covered, 10-foot-radius island, graced by a single flower."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Wrap You In Cold",
+                  "page": 6,
+                  "id": "012",
+                  "entries": [
+                    "As Lindra rushes onto the island, Rimeflower , an ageless, athletic goliath maiden, materializes beside her and flash freezes the pool, trapping the characters. Read:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "013",
+                      "entries": [
+                        "\"The chwinga is satisfied. Are you ready for your second ordeal?' Lindra nods her assent and, with a snap of her fingers, Rimeflower encases Lindra completely in ice.",
+                        "Turning to you, Rimeflower shifts into a low, defensive stance and frees you with a tap of her foot. 'Don't worry, she's perfectly safe. Now, will you face your own trial alongside her?\""
+                      ]
+                    },
+                    "Use the following to guide combat with {@creature Rimeflower|GLovedayEncountersInTheFarNorth} (see appendix B):",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Motivation",
+                          "page": 6,
+                          "id": "014",
+                          "entries": [
+                            "To promote camaraderie and involvement during the trials by fighting the supplicant's guards. It's not strictly necessary, but Rimeflower likes to omit that detail, as she also relishes the chance to spar."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Solitary Confinement",
+                          "page": 6,
+                          "id": "015",
+                          "entries": [
+                            "Lindra, and the ice encasing her, is immune to all damage and conditions. See {@b \"Timed Win\"}, below."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Tactics",
+                          "page": 6,
+                          "id": "016",
+                          "entries": [
+                            "Rimeflower remains in constant motion and employs skirmish tactics to disrupt and reposition the party. If someone endangers the Auril's Tear, Rimeflower shields it and dedicates her next turn to pulverizing them. Characters reduced to 0 hit points are knocked unconscious."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "No Tilt",
+                          "page": 6,
+                          "id": "017",
+                          "entries": [
+                            "Rimeflower avoids stun locking or rendering characters useless (e.g. knocking a melee-focused character prone then dancing beyond reach)."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Timed Win",
+                          "page": 6,
+                          "id": "018",
+                          "entries": [
+                            "After 10 rounds, Lindra passes her ordeal and the ice encasing her shatters. Rimeflower ceases hostilities with a flourish and proves gracious in victory (or defeat), helping the party to their feet and thanking them for assisting Lindra."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "A Spark of Power",
+                  "page": 6,
+                  "id": "019",
+                  "entries": [
+                    "Sporting a new sigil on her hand, Lindra kneels before the Auril's T ear and the chwinga encountered outside steps from the flower and offers Lindra a single, tiny seed, which she accepts reverently.",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Treasure",
+                          "page": 6,
+                          "id": "01a",
+                          "entries": [
+                            "Lindra gives each character one frosty, herbal variant from these choices:"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@item Potion of gaseous form|DMG}",
+                        "{@item Potion of greater healing|DMG}",
+                        "{@item Potion of ice breath|GLovedayEncountersInTheFarNorth} (a {@item potion of fire breath|DMG} that deals cold damage)",
+                        "{@item Potion of cold resistance|DMG}"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Ice Sculptures",
+              "page": 6,
+              "id": "01b",
+              "entries": [
+                "This encounter occurs in any of the ten towns with a services rating of two or three snowflakes. Gantwyn, a chaotic good elf {@creature enchanter|VGM} owns a small tent which is set up outside of one of the local inns or marketplaces. Several beautiful, 6-inch-tall ice figurines line the tables in front of his tent. The sculptor calls out to the party as they're passing through.",
+                "If the party appears disinterested, choose at least one party member that approaches the table. Those chosen spot a figurine that either resembles them, another party member, or something that may be connected to the character's past or background. If the character holds the familiar item, it feels cold to the touch, but extends warmth to the character's body, seemingly chasing away the cold temperatures. Gantwyn offers to make a personalized one for any character at the cost of 100gp. Allow characters be as specific as they like for their choice of design. Each figurine takes 1 hour to carve. He insists they withstand all temperatures and keeps their owners warm even in the most bitter of cold.",
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "The Chardalyn Carve",
+                          "page": 6,
+                          "id": "01c",
+                          "entries": [
+                            "A character with a passive Perception of 12 or higher notices the blade being used to carve the figurines is made of a black crystal that could possibly be chardalyn. A successful DC 14 Intelligence (Arcana) check confirms it."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Cursed Cold Carvings",
+                  "page": 6,
+                  "id": "01d",
+                  "entries": [
+                    "Characters carrying the figurines on their person gain the same benefits as if they were wearing boots of the winterlands. The item's magic only works on the character for whom the figurine was made.",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Curse",
+                          "page": 6,
+                          "id": "01e",
+                          "entries": [
+                            "The figurines each hold a curse. The character becomes unwilling to part with the item until the curse is broken with a remove curse or similar magic. You can choose one of the following or roll a {@dice d4} to determine it randomly."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "Each time a character takes a long rest, they are visited with horrific nightmares connected to personal experiences or past events (these take the forms of random visions for characters that don't sleep). At the end of each long rest, the character must succeed on a DC 15 Wisdom saving throw or gain a level of {@condition exhaustion|PHB} that can't be removed by resting.",
+                        "The character gains a vulnerability to fire damage. In addition, whenever they are in any location with a temperature higher than 40 degrees Fahrenheit, they have disadvantage to ability checks and saving throws.",
+                        "The character's persona becomes as cold and bitter as the figurine they carry. They have disadvantage on all Wisdom and Charisma checks.",
+                        "The character radiates a cursed aura. Any creature that ends its turn within 5 feet of the character must succeed on a DC 15 Constitution saving throw or take {@dice 1d6} cold damage. For each creature that takes cold damage, the character takes 2d6 fire damage. This damage is unaffected by resistance or immunities."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Variant: Destroying the Blade",
+                  "page": 7,
+                  "id": "01f",
+                  "entries": [
+                    "You could instead decide the figurine's curse cannot be removed by any magic short of a {@spell wish|PHB} spell. The only other way to remove the curse is by destroying Gantwyn's chardalyn blade. If Gantwyn is confronted, he refuses to part with the blade and defends himself if threatened. A character who succeeds on a DC 13 Wisdom (Insight) check notices Gantwyn may be under the influence of a curse himself. If this is pointed out to him, a successful DC 16 Charisma (Persuasion) check can convince him to part with the blade for 1 minute before he insists on having it back.",
+                    "The blade is a chardalyn carving knife. A {@spell detect evil and good|PHB} spell reveals it to be a desecrated object. It can't be used by any character for anything other than a utility knife. It has an AC 12 and 10 hp. Once destroyed, the curse of the figurines is lifted, as well as the blade's hold on Gantwyn. If the characters free Gantwyn without violence, he returns any money the characters paid to him and rewards them with an extra 250 gp."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "The Supply Run",
+              "page": 7,
+              "id": "020",
+              "entries": [
+                "With their ships frozen in the harbor and the storms making travel on the road to Caer-Dineval perilous, the people of the town have decided to send a raiding party into the Dwarven Valley towards Kelvin's Cairn to pilfer what supplies they can. The duergar outpost situated at the base of the mountain seems like a ripe target for food and weapons. Many of the townsfolk feel that the duergar have done them enough harm to feel no remorse about making a plan to steal their supplies, even if it means the duergar die during the Everlasting Rime. Seeing that the party is perhaps the most well-prepared for such an expedition, the town speaker Trovus entreats for them to head to the duergar outpost. He promises that they can keep onequarter of what they find and that Caer-Konig will provide them with an amount of scrimshaw equal in value to 3000 gold pieces.",
+                "See the sections on Blizzards and Mountain Travel in {@adventure chapter 1|IDRotF|0|wilderness survival} of {@i Icewind Dale: Rime of the Frostmaiden} to understand how to play up the dangers involved in this supply run. On the journey to the outpost, the following creatures may be encountered: a herd of {@dice 1d6} {@creature reindeer|IDRotF}, a small band of {@dice 1d6} {@creature Reghed warrior|IDRotF|Reghed tribal warriors} or {@dice 1d4} {@creature snow golem|IDRotF} (see appendix B) .",
+                "Upon nearing the outpost, any character with a passive perception above 13 notes several frozen duergar corpses lining the trail. Upon examining the bodies, a successful DC 11 Wisdom (Medicine) check determines that the duergar were mauled to death by something with a large number of teeth. A successful DC 15 Intelligence (Arcana) check reveals that at least two {@creature tomb tapper|IDRotF|tomb tappers} (see appendix B) had attacked the duergar.",
+                "Arriving to the duergar outpost, the party finds the gates sealed tightly, but the duergar on guard comes out to speak with the party. He explains that there are 40 duergar inside the outpost, afraid to leave after the recent attack and their supplies are running low. If the party agrees to hunt down the tomb tappers and bring back their heads, the duergar will readily part with enough supplies to last the town a full tenday.",
+                "If the party refuses to help and insists on pilfering supplies, the duergar will take them captive. A fight with such an overwhelming force should be portrayed as futile."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Chapter 2: The Spine of the World",
+          "page": 8,
+          "id": "021",
+          "entries": [
+            "The mountains of madness have many little plateaus of sanity. -Terry Prachett",
+            "The Spine of the World stretches across the northwest region of Faer\u00fbn from the Cold Run near the Sea of Moving Ice, to the Ice Spires north of the Silver Marches. To many Faer\u00fbnians, the Spine of the World is simply an endless, nearly-impassable range of high, jagged, perpetually icecovered mountains. While the western-most edge of the Spine is penetrated by a circuitous, always dangerous trade route to Icewind Dale, the rest of the range is not even approached by those without a stout heart.",
+            "When passing through the Spine of the World, you can choose any of the encounters below to add to your campaign, or roll from the table for a random encounter.",
+            {
+              "type": "table",
+              "colLabels": [
+                "d6",
+                "Encounter Name"
+              ],
+              "colStyles": [
+                "col-1 text-center",
+                "text-left"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "{@adventure Billy Goat Gruff|GLovedayEncountersInTheFarNorth|2|Billy Goat Gruff}"
+                ],
+                [
+                  "2",
+                  "{@adventure Cold Runnings|GLovedayEncountersInTheFarNorth|2|Cold Runnings}"
+                ],
+                [
+                  "3",
+                  "{@adventure Leave the Light On|GLovedayEncountersInTheFarNorth|2|Leave the Light On}"
+                ],
+                [
+                  "4",
+                  "{@adventure Snow Fairy Market|GLovedayEncountersInTheFarNorth|2|Snow Fairy Market}"
+                ],
+                [
+                  "5",
+                  "{@adventure Snow Way Out|GLovedayEncountersInTheFarNorth|2|Snow Way Out}"
+                ],
+                [
+                  "6",
+                  "Reroll on table"
+                ]
+              ],
+              "name": "The Spine of the World Random Encounters",
+              "caption": "The Spine of the World Random Encounters"
+            },
+            {
+              "type": "entries",
+              "name": "Billy Goat Gruff",
+              "page": 8,
+              "id": "022",
+              "entries": [
+                "While traveling through the Spine of the World, the party's path is blocked by a deep chasm, crossable only by a single bridge of ice.",
+                {
+                  "type": "insetReadaloud",
+                  "id": "023",
+                  "entries": [
+                    "A crack in the rock creates a titanic chasm blocking your path. A thin bridge of ice looks to be the only crossing point, but a massive troll with blue fur blocks it. The troll sits cross-legged on the bridge and appears to be glumly bandaging one eye."
+                  ]
+                },
+                "The creature blocking the bridge is an {@creature ice troll|IDRotF} named Bloo. Bloo is under an enchantment to guard this bridge and cannot travel more than half a mile from it without experiencing great physical anguish.",
+                "If the party is immediately hostile, Bloo fights to kill, but if the Bloo spots the characters before hostilities begin, he tries to speak to them. Decades of being tethered to the bridge have given Bloo a lot of time to think, and consequently, he has developed a much greater intelligence than most of his troll kin. If allowed to speak, Bloo addresses the party in careful broken common. The troll explains that he is happy to let the party pass if they bring him the body of the 'nasty goat who poked his eye out.' Bloo will not accept any other toll for crossing his bridge, and if the party attempts too much negotiation, the troll grows frustrated then outright hostile.",
+                "If the party agrees to Bloo's terms, the troll describes his enemy as a big shaggy goat named Billy Gruff, who has curling horns that glow. Bloo first met Billy weeks ago when the troll had to stop the goat from crossing his bridge. Billy started to insult Bloo, and Bloo chased him as far as he could away from the bridge. But Billy kept coming back to terrorize him, always running away to just out of the troll's magical range. This last encounter, the two fought, and the goat managed to poke out Bloo's eye before running away once again.",
+                "Finding Billy requires one hour of searching and three successful DC 10 (Survival) checks. If any of these checks fail, the party is caught in a blizzard (see rules for {@hazard Blizzard|IDRotF|'Blizzards'} in {@i Rime of the Frostmaiden}). Once three successful checks are made, or after the blizzard has passed, the party finds Billy's cave. Billy is an awakened {@creature mountain goat|IDRotF} (see appendix B) with a nasty disposition. Billy Gruff hurls insults at anyone who tries to enter his small cave and fights to the death if provoked.",
+                "If the party returns to the bridge with Billy's body, Bloo is delighted and makes good on his promise to allow the party safe passage over his bridge anytime they want."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Cold Runnings",
+              "page": 8,
+              "id": "024",
+              "entries": [
+                "Along one of the Spine of the World's four major peaks, a secret competition is being held. Characters traveling through can spot marked flags leading up to the event. Following the flags leads the party to a sled racing contest between two goliath clans (you can choose between existing clans or create your own). Sleds carved from hollowed out tree trunks are used to slide down a treacherous mountain track that runs in and out of underground ice tunnels. If the characters approach in a non-threatening manner, they can be invited to watch the event, as the goliaths love to show off their skills.",
+                "If the characters ask to participate, they're met with open skepticism and scorn (even goliath characters receive this criticism unless they are members of these clans). However, Nakana, a neutral good {@creature goliath warrior|IDRotF} (see appendix B), defends the party's wish to compete. If the party is friendly and cordial with Nakana, she offers to train them for tomorrow's upcoming race. A team can consist of up to five members, though she does offer to train two teams, if necessary.",
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "The Training",
+                          "page": 9,
+                          "id": "025",
+                          "entries": [
+                            "Nakana trains the party the way she used to train. It is 8 hours of hard, non-stop exercise and practice. Characters at the end of the training must make a DC 13 Constitution saving throw. On a failed save, a character gains a level of exhaustion. Characters that fail their save by 5 or more gain two levels of exhaustion. The characters are allowed a long rest before the competition begins."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Running the Competition",
+                  "page": 9,
+                  "id": "026",
+                  "entries": [
+                    "The characters are competing against three other teams. The mountain track has multiple paths that eventually meet on a final stretch a half-mile down from the peak. There are five major markers each team must use to turn down a new branch of the track. Successful navigation of these markers keeps the sled from losing momentum as well as avoiding a fateful crash.",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Event Checks",
+                          "page": 9,
+                          "id": "027",
+                          "entries": [
+                            "At the start of the race, each team begins with 0 points. At each marker, a team needs to make a DC 13 group ability check. Each character can choose between Strength (Athletics) or Wisdom (Perception) to make this check. If the group check succeeds, the team gains 1 point."
+                          ]
+                        }
+                      ]
+                    },
+                    "After passing each marker, the team then rolls on the Track Complications table (see below). Each complication must be resolved per the description on the table entry. If every member of the team fails their check during a complication, their sled crashes.",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Crashing",
+                          "page": 9,
+                          "id": "028",
+                          "entries": [
+                            "In the event of a crash, each character on the team takes 3d6 bludgeoning damage plus 2d6 for each marker the team has already passed."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Completing the Rac",
+                          "page": 9,
+                          "id": "029",
+                          "entries": [
+                            "If the character's team (or any of their teams) earns 4 or more points, they win the race. Even if they lose, if they earn at least 2 points, they garner the respect of all the other competitors (possibly even earning them a 'slow clap' from the winning team)."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "d10",
+                    "Complication"
+                  ],
+                  "colStyles": [
+                    "col-1 text-center",
+                    "text-left"
+                  ],
+                  "rows": [
+                    [
+                      "1-2",
+                      "{@b {@i Jagged Terrain.}} Team must make a DC 13 group  Wisdom (Survival) check to avoid being slowed down by rough terrain. On a failed save, the team loses 1 point."
+                    ],
+                    [
+                      "3-4",
+                      "{@b {@i Ice Ramp.}} The team's sled launches off an icy incline. The team must make a DC 13 group check using Strength (Athletics) or Dexterity (Acrobatics). On a failed check, the team loses a point. If at least half the team succeeds by 5 or more, the team gains a point."
+                    ],
+                    [
+                      "5-6",
+                      "{@b {@i Mini-avalanche.}} A collapse of snow and ice falls onto the track. The team must succeed on a group DC 13 Dexterity saving throw or each team member takes {@dice 1d10} bludgeoning damage and the team loses a point."
+                    ],
+                    [
+                      "7-8",
+                      "{@b {@i Collision!}} The team's sled is heading directly for another team at a fork in the track. The team must make a group a DC 13 Wisdom saving throw to time their pass. On a failed check the team clips the other team's sled and loses a point. If at least half the team succeeds by 5 or more, the team gains a point."
+                    ],
+                    [
+                      "9-10",
+                      "No complication"
+                    ]
+                  ],
+                  "name": "Track Complications",
+                  "caption": "Track Complications"
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Leave the Light On",
+              "page": 9,
+              "id": "02a",
+              "entries": [
+                "While traversing the perilous mountains, the party spots the warm glow of a light coming from a nearby peak. If the party investigates, they find a large stone building, with two braziers flanking the entrance. These braziers somehow stay lit, despite the roaring winds and snow. Roll 1d4 below to determine the nature of this building.",
+                {
+                  "type": "list",
+                  "items": [
+                    "1. The building appears to be a monastery occupied by twenty monks of various races. In actuality, the monastery is a training academy, and the monks are all {@creature assassin|MM|assassins}, who are here to hone their skills in the frigid environment. The assassins take care not to reveal the academy's true nature and are neutral towards the characters. If pressed, the party is given a meal or a place to stay for one night. At your discretion, the academy leader, a halfling man named Razz Jewel, might approach a rogue in the party with an offer to stay and train at the academy.",
+                    "2. The building is home to a commune of forty {@creature Icewind kobold|IDRotF|Icewind kobolds} (see appendix B). A mated pair of kobolds named Bric and Hop discovered the abandoned building years ago. They turned it into a refuge for any Icewind kobolds tired of being bullied by the notoriously foul-tempered white dragons that populate the region. The kobolds living here value peace and are happy to offer food, shelter, or directions to any characters that show their lifestyle respect. The kobolds only attack if forced to defend themselves.",
+                    "3. The building is an animal sanctuary run by an elven {@creature frost druid|IDRotF} (see appendix B) named Mavis Mooney. The creatures who live in the high peaks can come to Mavis if they are injured, in danger, or need food. When the party arrives, eight {@creature mountain goat|IDRotF|mountain goats} (see appendix B) are wandering around the building. As long as the party promises not to harm the spine's beasts, Mavis is happy to offer food, shelter, or directions.",
+                    "4. The building is a lair for a family of three adult {@creature yeti|MM|yetis}. The building was once a shrine to the god Silvanus, but as Auril's influence over Icewind Dale grew, she inspired her creatures to murder the acolytes who dwelt there. The yetis lay in wait to murder then eat creatures drawn into the temple by the magical braziers."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Snow Fairy Market",
+              "page": 10,
+              "id": "02b",
+              "entries": [
+                "In the distance, small balls of brightly colored light dance upon a gentle slope of sparkling, crystalline snow. Upon approach, the characters find a dozen tiny winged humanoids, each glowing a different color. These are snow fairies, which are related to sprites and have the same statistics as them. They have names such as Dexwin, Glissaldo, Cryldee, Maliwin, and Zando.",
+                "There are four little benches made of ice, each one covered in trinkets (consult the {@item trinket|PHB|trinkets} table in chapter 5 of the {@i Player's Handbook}). The fairies are friendly and invite the characters to browse the goods. They are not interested in coin, but happily exchange the trinkets for other trinkets, or for certain unusual items, such as:",
+                {
+                  "type": "list",
+                  "items": [
+                    "A spare button",
+                    "Six gray hairs",
+                    "Half a piece of string",
+                    "Three tears cried in grief",
+                    "Pocket lint",
+                    "A snow-related pun"
+                  ]
+                },
+                "Anyone searching the bric-a-brac and making a successful DC 12 Wisdom (Perception) check finds a common magic item. Roll on the following list to determine which it is:",
+                {
+                  "type": "list",
+                  "items": [
+                    "{@item candle of the deep|XGE}",
+                    "{@item dark shard amulet|XGE}",
+                    "{@item lock of trickery|XGE}",
+                    "{@item orb of time|XGE}",
+                    "{@item pot of awakening|XGE}",
+                    "{@item talking doll|XGE}"
+                  ]
+                },
+                "There is only one instance of each item at the market, and each character can make only one search roll. The price for the common magic items is the same as for the trinkets."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Snow Way Out",
+              "page": 10,
+              "id": "02c",
+              "entries": [
+                "Crossing through the high passes in the Spine of the World is a treacherous journey in the best of weather, and with the never-ending darkness caused by the Everlasting Rime, storms are now catching travelers unaware and leaving many stranded, or dead. Using the rules for 'Avalanches' found in {@adventure chapter 1|IDRotF|0|wilderness survival} of {@i Icewind Dale: Rime of the Frostmaiden}, play out the avalanche that the party finds themselves in.",
+                {
+                  "type": "insetReadaloud",
+                  "id": "02d",
+                  "entries": [
+                    "As you trudge up the mountainside, the wind whips snow and ice all around, stinging your eyes. A booming crash of thunder echoes and you hear the terrifying sounds of an avalanche rumbling down from above."
+                  ]
+                },
+                "Once the avalanche ends, any characters who managed to pull themselves from the snow find a curious snowy white {@creature fox|IDRotF} peering at them. The fox walks off a short distance before looking back, as if waiting on the characters to follow it.",
+                "Any characters still caught in the snow after attempting to pull themselves out are buried far enough down that it is impossible to find them without help. If the remaining characters follow the fox, it leads them to a nearby cave where they find camping supplies and a {@item ring of cold resistance|DMG}. Any character equipping the ring is able to immediately take advantage of its protection and return to rescue the remaining party members.  The fox continues to follow the party so long as they provide food to it."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Chapter 3: The Sea of Moving Ice",
+          "page": 11,
+          "id": "02e",
+          "entries": [
+            {
+              "type": "quote",
+              "entries": [
+                "We'd pass icebergs floating in the middle of the ocean. They were gigantic, with strange formations carved into them. They were so haunting and majestic you could feel your heart break, but really they're just chunks of ice and they mean nothing."
+              ],
+              "by": "Maria Semple, Where'd You Go, Bernadette?"
+            },
+            "The Sea of Moving Ice is a collection of icebergs and frost-covered isles that floated in the waters of northwest Faer\u00fbn. Almost completely uncharted, the ice masses are set wide enough apart for a ship to pass, but the ice of the sea changes constantly so that all but the most experienced seafarers can be caught off guard.",
+            "When traveling through the Sea of Moving Ice, you can choose any of the encounters below to add to your campaign, or roll from the table for a random encounter.",
+            {
+              "type": "table",
+              "colLabels": [
+                "d8",
+                "Encounter Name"
+              ],
+              "colStyles": [
+                "col-1 text-center",
+                "text-left"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "{@adventure A Bit Froggy Out|GLovedayEncountersInTheFarNorth|3|A Bit Froggy Out}"
+                ],
+                [
+                  "2",
+                  "{@adventure Cache of Mirrors|GLovedayEncountersInTheFarNorth|3|Cache of Mirrors}"
+                ],
+                [
+                  "3",
+                  "{@adventure Hungry Mouths|GLovedayEncountersInTheFarNorth|3|Hungry Mouths}"
+                ],
+                [
+                  "4",
+                  "{@adventure Ice Versa|GLovedayEncountersInTheFarNorth|3|Ice Versa}"
+                ],
+                [
+                  "5",
+                  "{@adventure Giant Playground|GLovedayEncountersInTheFarNorth|3|Giant Playground}"
+                ],
+                [
+                  "6",
+                  "{@adventure That's Not a Dog|GLovedayEncountersInTheFarNorth|3|That's Not a Dog}"
+                ],
+                [
+                  "7",
+                  "{@adventure The Boy in the Ice|GLovedayEncountersInTheFarNorth|3|The Boy in the Ice}"
+                ],
+                [
+                  "8",
+                  "Reroll on table"
+                ]
+              ],
+              "name": "The Sea of Moving Ice Random Encounters",
+              "caption": "The Sea of Moving Ice Random Encounters"
+            },
+            {
+              "type": "entries",
+              "name": "A Bit Froggy Out",
+              "page": 11,
+              "id": "02f",
+              "entries": [
+                "As the characters are traveling through the sea, whether they are on a boat or journeying across the floating ice, this encounter can be added at any point to drive home a reminder that they should always be on guard and expect the unexpected.",
+                {
+                  "type": "insetReadaloud",
+                  "id": "030",
+                  "entries": [
+                    "The fog hangs heavy across the ice filled waters surrounding you. Ahead of you, you see the shadow of something large hurtle through the air before landing on the ground."
+                  ]
+                },
+                "Depending on the level of the party, the following creatures (see appendix B) appear around them, hurling themselves from the surrounding waters.",
+                "Use the environment to your advantage if the party is having too much or not enough of a challenge. Have the toads appear through the fog granting them surprise, or space out the arrival of them to allow the party a chance to deal with some before others arrive.",
+                {
+                  "type": "list",
+                  "style": "list-no-bullets",
+                  "columns": 2,
+                  "items": [
+                    {
+                      "type": "table",
+                      "colLabels": [
+                        "APL 3",
+                        "Creatures"
+                      ],
+                      "colStyles": [
+                        "col-5 text-left",
+                        "text-left"
+                      ],
+                      "rows": [
+                        [
+                          "Very Weak or Weak",
+                          "2 {@creature ice toad|RoT|ice toads}"
+                        ],
+                        [
+                          "Average",
+                          "1 {@creature ice toad|RoT} and 1 {@creature giant ice toad|TftYP}"
+                        ],
+                        [
+                          "Strong or Very Strong",
+                          "3 {@creature giant ice toad|TftYP|giant ice toads}"
+                        ]
+                      ]
+                    },
+                    {
+                      "type": "table",
+                      "colLabels": [
+                        "APL 7",
+                        "Creatures"
+                      ],
+                      "colStyles": [
+                        "col-5 text-left",
+                        "text-left"
+                      ],
+                      "rows": [
+                        [
+                          "Very Weak or Weak",
+                          "5 {@creature giant ice toad|TftYP|giant ice toads}"
+                        ],
+                        [
+                          "Average",
+                          "7 {@creature giant ice toad|TftYP|giant ice toads}"
+                        ],
+                        [
+                          "Strong or Very Strong",
+                          "8 {@creature giant ice toad|TftYP|giant ice toads}"
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Cache of Mirrors",
+              "page": 11,
+              "id": "031",
+              "entries": [
+                "While traveling across the Sea of Moving Ice, the party's ship comes across a flat-topped iceberg with semitransparent walls, making it difficult to see in the freezing fog. If you're using the {@adventure Ghosts of Saltmarsh|GoS} supplement, you can opt to introduce a hazard such as the {@variantrule travel at sea|GoS|fog} or using the {@variantrule ocean environs|GoS|coral reef} rules for the iceberg. Jagged, slanted pillars of ice are spread across the iceberg's surface. One such pillar is hollowed out, leading into a 60-foot diameter underground chamber whose smooth walls create mirrored reflections.",
+                "If the characters spend at least 1 minute inside the chamber, the normal reflections change. Each character looking at the walls sees a reflective image of a person, object, or event connected to their background or their {@adventure character secret|IDRotF|20} (see {@i Rime of the Frostmaiden}). These can be either static or moving images chosen at DM's discretion.",
+                "Characters that spend more than 2 rounds examining the reflection must make a DC 14 Wisdom saving throw. Effects that grant saving throw bonuses against illusions apply to this roll. On a failed save, the character takes 7 ({@dice 2d6}) psychic damage and is paralyzed, staring blankly at the reflection. At the end of each of their turns, they repeat this saving throw, taking damage on each subsequent failed save and ending the effect on a successful one.",
+                "Another creature can expend an action to attempt to pull an affected character away or snap them out of their trance. Doing so grants the affected character advantage on their next saving throw against the effect. Characters with three consecutive failed saves are afflicted with a randomly determined form of {@table short-term madness|DMG} (see the {@i Dungeon Master's Guide}).",
+                {
+                  "type": "entries",
+                  "name": "Variant: Shared Memories",
+                  "page": 12,
+                  "id": "032",
+                  "entries": [
+                    "If more than three characters are in the chamber, another way to use this area is to have all of the characters see multiple reflections connected to all of the party's different backgrounds or character secrets. These images should be non-specific as to not reveal which character each image is connected to. If characters are protective of their secrets or backgrounds, you can also throw in some completely unconnected images that have to do with the campaign instead of each character. Using the chamber in this way is completely optional and specifically intended to encourage roleplaying opportunities between the player characters."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Hungry Mouths",
+              "page": 12,
+              "id": "033",
+              "entries": [
+                "A few members of the Seal Tribe have made their home out on one of the frozen isles, and usually they are able to catch enough fish and seals to keep their small village fed and supplied with oil for lamps and heat. Lately though, two {@creature killer whale|MM|killer whales} have been hanging around their best hunting and fishing grounds and stealing all of their food!",
+                {
+                  "type": "insetReadaloud",
+                  "id": "034",
+                  "entries": [
+                    "As you arrive to the frozen isle, you are greeted by several joyous children dressed in layers of warm fur. A figure strides forward to greet you, clasping each of your arms warmly in a show of respect. \"Thank you for coming. We were afraid we would be forced to abandon our homes for the mainland.\""
+                  ]
+                },
+                "Kimaru has been chosen to speak on behalf of the village and gestures the party into one of the larger structures to explain what has been going on. He is able to share the following information with the party:",
+                {
+                  "type": "list",
+                  "items": [
+                    "The killer whales showed up a month ago and the village hunters have been unable to drive them off.",
+                    "With the whales circling, they have been lucky to bring in enough food to feed the children, with only meager rations for the twelve adults in the village.",
+                    "Two tenday ago, Kimaru had sent 1000 gold pieces to hire a crew of whale hunters from Luskan, but they never arrived and the village is desperate now.",
+                    "The whales come closest to the isle at nightfall, when the village lights fires to cook dinner.",
+                    "The tribe has little money left, but can give the party a ring of swimming and a single {@item potion of cold resistance|DMG} to help them."
+                  ]
+                },
+                "Once the killer whales have been vanquished, Kimaru invites the characters to stay and partake of the Seal tribe's hospitality, feasting upon whale meat if they were captured, or upon seal meat if they were driven off. The party is also granted a bone knife, etched with the insignia of the Seal tribe, which Kimaru says might grant them some measure of safety if they encounter other tribes."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Ice Versa",
+              "page": 12,
+              "id": "035",
+              "entries": [
+                "At the bottom of an icy crevasse is something that brightly reflects the sunlight or moonlight. Climbing down the walls, which are 60-feet high, requires a successful DC 14 Strength (Athletics) check.",
+                "At the base of the crevasse is a {@item mirror of life trapping|DMG}, embedded behind an inch of clear ice. Any creature within 30 feet of the mirror that sees its reflection must succeed on a DC 15 Charisma saving throw or be imprisoned within one of the mirror's twelve extradimensional cells, along with anything it is wearing or carrying.",
+                "The mirror currently has four vacant cells. The other eight cells are occupied by these creatures:",
+                {
+                  "type": "list",
+                  "items": [
+                    "A {@creature goliath warrior|IDRotF} (see appendix B) dressed in heavy winter gear. Her name is Pethani Longleaper and she is a member of the Akannathi clan. She is grateful for being freed and is happy to help the characters for a time.",
+                    "A {@creature manticore|MM} that attacks the characters, screaming, 'How dare you trap me with your magic!'",
+                    "A {@creature mammoth|MM}. It is not aggressive at first but grows increasingly distressed as it tries to climb out of the crevasse.",
+                    "A {@creature young white dragon|MM} named Barvorax. He thanks the characters for freeing it then asks several probing questions to determine how powerful they are. If he thinks he is a match for them, he attacks.",
+                    "A {@creature frost giant|MM} named Joro. He demands the characters follow him to his nearby lair to be his servants.",
+                    "A {@creature polar bear|MM} that attacks when released.",
+                    "An {@creature ogre|MM} named Gug. She is very confused about what has just happened to her. After a few moments of regaining her senses, she takes a liking to one of the characters weapons, and demands they hand it over.",
+                    "A {@creature remorhaz|MM} which immediately flees the characters, burrowing into the ice wall. If it escapes, it begins tracking the characters, and attacks them one evening after they have set up camp."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Giant Playground",
+              "page": 13,
+              "id": "036",
+              "entries": [
+                "A wooden boat is seen docked alongside one of the larger icebergs that the party has passed on their journeys through sea. Any character making a successful DC 13 Intelligence (History) check recognizes that the boat is Giant in origin. Any character with a passive perception higher than 14 hears the faint echoes of laughter drifting from the iceberg, intermingled with what sounds like a crying child.",
+                {
+                  "type": "insetReadaloud",
+                  "id": "037",
+                  "entries": [
+                    "Alighting on the iceberg and following the path, you discover that it leads into the center of the berg, where a large cavern has been hollowed out. Two young frost giants are currently engaged in a game of keep away with a younger giant, who seems distressed that his toy is being tossed about."
+                  ]
+                },
+                "The giants are not immediately hostile, but the two young frost giants ({@creature young cloud giant|SKT}, see appendix B) are enjoying their game and need to be persuaded to return the wooden toy. The frost giant child ({@creature cloud giant child|GLovedayEncountersInTheFarNorth}, see appendix B) begs for the party to intercede, bursting into tears if they decline to help him.",
+                "The toy being tossed back and forth is a wooden doll, approximately two feet in length and three pounds in weight. If the characters have something similar that they can trade to the young giants, they consent to the trade, but demand gold coins too, otherwise they plan to beat the characters up and then continue bullying the child.",
+                "Other trades can be negotiated at the DMs discretion, but the young giants are unwilling to accept anything that does not lean in their favor. If the toy is retrieved and returned to the child, he thanks the characters, introduces himself as Bryned and promises to remember their kindness if their paths cross again."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "That's Not a Dog",
+              "page": 13,
+              "id": "038",
+              "entries": [
+                "While traveling above or below the Sea of Moving Ice, the party spots a gnomish vessel stuck on a rock formation.",
+                {
+                  "type": "insetReadaloud",
+                  "id": "039",
+                  "entries": [
+                    "An enclosed metal vessel shaped liked a manta ray appears wedged atop a column of rock. No lights are coming from the extraordinary ship, but the metal entrance hatch is visible."
+                  ]
+                },
+                "The ship is a derelict gnomish submarine. The vessel was piloted by a team of gnome scientists tasked with gathering data about the Sea of Moving Ice's flora and fauna. During their studies, the gnomes brought an alien specimen on board their ship and perished one by one as the specimen proved deadly.",
+                "A character can open the submarine hatch with a successful DC 12 Strength (Athletics) check, or 10 minutes of concentrated effort. Once open, they can enter a magically pressured entry room, designed to keep water from entering the submarine. There are several rooms the party can explore, which allows the party to discover the following features.",
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Broken",
+                          "page": 13,
+                          "id": "03a",
+                          "entries": [
+                            "The control mechanisms that would enable the submarine to move, fire weapons, or perform any other functions are all broken. A DC 15 Intelligence (Investigation) check reveals that humanoid creatures did the damage with intentional smashing and shearing. In fact, the gnome crew damaged their own ship to keep the creature from taking control of the vessel."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Abandoned",
+                          "page": 13,
+                          "id": "03b",
+                          "entries": [
+                            "Searching the rooms reveals signs of terrible violence. Furniture and objects lay strewn about as if there were a series of violent struggles. Sprays of blood have dried on the walls and floors, but there are no bodies anywhere to be found. The thing the crew brought on board has eaten all the bodies."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Research",
+                          "page": 13,
+                          "id": "03c",
+                          "entries": [
+                            "A search of the vessel reveals its purpose was to study life forms in the sea of moving ice. A DC 15 Wisdom (Nature) check allows a character to decipher research left behind, which explains the gnomish crew discovered an unidentified creature frozen in a block of ice and brought it on board to study."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "When the party attempts to leave the submarine, they find the passageway blocked by a sled dog. The dog seems tame and quite friendly. The dog is the dangerous creature in disguise, but it uses all the charm of a cute companion to persuade the party to take it with them to the water's surface. If the party attacks the dog or tries to leave the submarine without it, the alien creature inside reveals its true nature and attacks.",
+                "If the party takes the dog to the surface, the alien creature inside it will wait for an opportunity to change into its true form and attack a party member separated from the rest.",
+                "When the dog transforms, it appears as a horrific mass of flesh and tentacles (use the statistics of an {@creature otyugh|MM} for combat purposes). The creature fights to kill and consume all characters who see its true form."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "The Boy in the Ice",
+              "page": 14,
+              "id": "03d",
+              "entries": [
+                "As the party is sailing or traveling on the sea's surface, they spot something extraordinary in the distance.",
+                {
+                  "type": "insetReadaloud",
+                  "id": "03e",
+                  "entries": [
+                    "An iceberg the size of a small island drifts lazily in the distance. Resting atop it is a perfectly formed sphere of ice. A layer of frost clouds whatever is inside the large ball, but it is quite unlike any natural glacial formation."
+                  ]
+                },
+                "If the party decides to draw close enough to brush the frost off the sphere's surface, they see a young male air genasi frozen in its center. One hour spent hammering or melting the thick shell of ice is required to free the genasi.",
+                "If the party commits to freeing the trapped genasi, their labors are interrupted just before the one hour mark. A black iron ship suddenly appears on the horizon, moving with shocking speed as it seems to melt whatever ice its hull touches. Just before the ship crashes into the island, it stops, and a fierce dwarf with a beard made of flame calls to the party from the prow.",
+                "The iron ship is manned by a crew of seven {@creature azer|MM|azers}. The ship captain is named Keldrin, and he is the one attempting to speak with the party. He tells the characters that the air genasi trapped in the sphere is a dangerous criminal named Fang, who is wanted by his people for questioning. A successful DC 15 Wisdom (Insight) check reveals that Keldrin is lying. Keldrin asks the party to remove themselves from the island and sail away immediately so his crew can safely apprehend the genasi. If the party agrees to do so, the azer wait for the characters to leave and do not trouble them further.",
+                "If the characters demand a better explanation or refuse to let the crew have the genasi, the azer attack.",
+                "If the air genasi is freed from the ice, he is momentarily disoriented (rendering him incapable of combat if released during a fight) but grateful for his freedom. Once he gets his bearings, he cheerfully introduces himself as Fang then mentions he better be on his way before more azer show up. Before departing, he takes off his necklace of adaptation and gifts it to the party. Once Fang's gift is bestowed, he leaps into the air and flies into the sky until out of view."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Chapter 4: Frozen Lands",
+          "page": 15,
+          "id": "03f",
+          "entries": [
+            {
+              "type": "quote",
+              "entries": [
+                "My tails froze, and my nose is froze, and my ears are froze, and my toes are froze."
+              ],
+              "by": "Lucky, 101 Dalmatians"
+            },
+            "The Reghed Glacier forms the eastern boundary of Icewind Dale, bordered by the Spine of the World to the south. To the east of the glacier lies a frozen wasteland; beyond that is the enormous Endless Ice Sea glacier.",
+            "When journeying through the tundra and glaciers of the Far North, you can choose any of the encounters below to add to your campaign, or roll from the table for a random encounter.",
+            {
+              "type": "table",
+              "colLabels": [
+                "d6",
+                "Encounter Name"
+              ],
+              "colStyles": [
+                "col-1 text-center",
+                "text-left"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "{@adventure Diamond in the Ruff|GLovedayEncountersInTheFarNorth|5|Diamond in the Ruff}"
+                ],
+                [
+                  "2",
+                  "{@adventure Death's Mirage|GLovedayEncountersInTheFarNorth|5|Death's Mirage}"
+                ],
+                [
+                  "3",
+                  "{@adventure Northern Lights|GLovedayEncountersInTheFarNorth|5|Northern Lights}"
+                ],
+                [
+                  "4",
+                  "{@adventure Reghed Hunting Party|GLovedayEncountersInTheFarNorth|5|Reghed Hunting Party}"
+                ],
+                [
+                  "5",
+                  "{@adventure The Great Stag|GLovedayEncountersInTheFarNorth|5|The Great Stag}"
+                ],
+                [
+                  "6",
+                  "{@adventure Toys for Tykes|GLovedayEncountersInTheFarNorth|5|Toys for Tykes}"
+                ]
+              ],
+              "name": "Frozen Lands Random Encounters",
+              "caption": "Frozen Lands Random Encounters"
+            },
+            {
+              "type": "entries",
+              "name": "Diamond in the Ruff",
+              "page": 15,
+              "id": "040",
+              "entries": [
+                "In the northern wilds, an unusual rescue team enlists the party's aid. Kirjava, a gray lynx equipped with light barding, seeks help for her human, Taliska. Taliska's leg is badly broken, and supplies are running low.",
+                {
+                  "type": "entries",
+                  "name": "Rescue Rangers",
+                  "page": 15,
+                  "id": "041",
+                  "entries": [
+                    "A character who has a passive Wisdom (Perception) score of 19 or higher, or who make a successful DC 19 Wisdom (Perception) check notices Kirjava tracking the party. Otherwise, they're surprised to find a tired-but-attentive lynx waiting over the next rise. Equipped with barding, Kirjava is clearly no ordinary lynx and characters who make a successful DC 10 Wisdom (Perception) check spot the letter wedged under her barding.",
+                    "While Kirjava takes the party's measure, make a DC 12 group Wisdom or Charisma (Animal Handling) check. On a success, Kirjava allows them to retrieve the letter. On a failure, she tries to lead the party to T aliska instead. If the party follows Kirjava for at least an hour, she allows them to retrieve the letter.",
+                    "The 'letter' is a folded and bees waxed cartographer's draft. Taliska's location is marked, and written in the map's blank spaces in Bothii (an Uthgardt language), Common, and Sylvan, is the following message:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "042",
+                      "entries": [
+                        {
+                          "type": "quote",
+                          "entries": [
+                            "This is Kirjava. Follow her. Leg badly broken. Stable, but low on supplies. Send aid."
+                          ],
+                          "by": "Taliska Varseht"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Homeward Bound",
+                  "page": 15,
+                  "id": "043",
+                  "entries": [
+                    "Despite her exhaustion, Kirjava sets a strong, determined pace-reaching Taliska after one to three days' travel, depending on your needs. At night, Kirjava snuggles up to her favorite character for comfort and tries to squeeze into their bedroll with them. (Taliska has a double bedroll for this reason.)",
+                    "When the party reach Taliska's highly-organized camp, they might be surprised by how well she's doing. So far, the camp has a securely pitched tent, a snowshoe hare cooking over a modest stone firepit with ample firewood, and a drying rack for bandages, clothes, furs, and medicinal flora. Even though she's far from home (the Gray Lynx Uthgardt lands in the Cold Wood), Taliska is an experienced boreal ranger and (nonmagical) healer. It's scarcity of game, not lack of mobility, which most threatens her survival.",
+                    "Taliska and Kirjava were investigating reports of aggressive wildlife when a mutated owlbear mauled them and drove them off a cliff. Knowing Kirjava had a better chance of survival, Taliska gave her their last potion, set her own leg, and dug in. She didn't expect Kirjava to push herself so hard. The love between them is apparent.",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Treasure",
+                          "page": 15,
+                          "id": "044",
+                          "entries": [
+                            "Grateful for the party's aid (supplies or rescue), Taliska offers them her 'misfortune diamond'. It's a spearlike, diamond-bearing rock, roughly seven inches long, rather than a single cut diamond. Worth 300 gp, Taliska acquired it for use with the {@spell revivify|PHB} spell (at the behest of trusted primal allies)."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Death's Mirage",
+              "page": 15,
+              "id": "045",
+              "entries": [
+                "While traveling through the tundra, the party is caught in the midst of a sudden {@hazard blizzard|IDRotF} (see {@i Rime of the Frostmaiden} for rules on using blizzards). The blizzard lasts for 8 hours. After 10 minutes of travel through the blizzard, the characters spot a couple light sources 60 feet away. The shapes carrying the lights appear as humanoids wearing thick, heavy cloaks, visible at this distance only by the lights they carry. These humanoids are actually two {@creature coldlight walker|IDRotF|coldlight walkers} (see appendix B) which pursue and attack the party if the characters move within 40 feet of them.",
+                "The blizzard itself was created by a {@creature bheur hag|VGM} (see appendix B) using heart of an ice troll. The hag attempts to ambush the party after they either defeat or escape from the coldlight walkers."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Northern Lights",
+              "page": 16,
+              "id": "046",
+              "entries": [
+                "While crossing the tundra, the party spots a bright light shining from an area of snow in the distance. If the party investigates, roll 1d4 below to determine the source of the glow.",
+                {
+                  "type": "list",
+                  "items": [
+                    "1. The glow radiates from a {@creature coldlight walker|IDRotF} who paces around the bottom of a 20-foot-deep pit. This walker was one of the unfortunate sacrifices sent to die in a Ten-Towns lottery. If the party attacks the creature, they are interrupted by the arrival of a human veteran named Dala Cliffel. The coldlight walker is Dala's son, who she lured into the pit after his transformation. If the characters do not stop attacking the walker, Dala fights to the death to stop them.",
+                    "2. The glow comes from a campfire tended by a {@creature verbeeg longstrider|GLovedayEncountersInTheFarNorth} (see appendix B) named Sofsol. The longstrider travels through the dale, hoping to collect more information about the crop of evil druids who have been awakening animals. If the party is polite, Sofsol invites them to share their food and fire for the evening.",
+                    "3. The glow comes from a reindeer (use {@creature elk|MM} statistics) with glowing horns. The reindeer took a bad leap and has twisted its ankle, leaving it vulnerable to the next predator to happen upon it. If the party heals the reindeer, a {@creature chwinga|IDRotF} (see appendix B) bursts from under the snow and bestows a charm (see {@filter \"New Chwinga Charms\"|rewards|source=IDRotF} in {@i Rime of the Frostmaiden}) upon the helpful character. The Chwinga then climbs on the reindeer's back, and the two ride off into the tundra.",
+                    "4. The glow comes from a {@creature will-o'-wisp|MM} hovering nearby. If the party follows the-wisp, it leads them to a rocky gorge with a dark cave where ten gnolls lay in wait to attack."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Reghed Hunting Party",
+                  "page": 16,
+                  "id": "047",
+                  "entries": [
+                    "The party encounters a group of four Reghed barbarians ({@creature tribal warrior|MM|tribal warriors}) on the tundra north of Kelvin's Cairn. The party is led by Nunka, a hunter from the Bear Tribe.",
+                    "If the party approaches without hostility, Nunka is willing to talk and explains that the group is headed out to track down a {@creature mammoth|MM} that is said to have been captured by four {@creature Icewind kobold|IDRotF|Icewind kobolds} (see appendix B) and is being used to carry stolen goods back to their master's lair.",
+                    {
+                      "type": "entries",
+                      "name": "Tracking the Mammoth",
+                      "page": 16,
+                      "id": "048",
+                      "entries": [
+                        "A massive storm has been rolling in making tracking the great beast quite challenging when combined with the darkness since the kobolds aren't using torches to guide their way.",
+                        "Allow the party to attempt skill checks to help find the mammoth quickly. Below are some examples, but others should be allowed as appropriate. The DC for these checks is 13, and for each check that any characters failed by more than 5, a successful DC 12 Constitution save is necessary in order to avoid gaining a level of exhaustion.",
+                        {
+                          "type": "list",
+                          "items": [
+                            "Looking for tracks - {@b Survival check}",
+                            "Watching for fur caught on branches - {@b Investigation check}",
+                            "Listening for the bellows of the mammoth - {@b Perception check}",
+                            "Setting a trap - {@b Nature check}"
+                          ]
+                        },
+                        "Once the mammoth is tracked down or trapped, the kobolds will fight to maintain control of it and the beast will give fight in its panicked state unless it can be calmed."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Recovering the Supplies",
+                      "page": 17,
+                      "id": "049",
+                      "entries": [
+                        "If the mammoth is slain or recovered from the kobolds, it has the following items in the multitude of packs strung across its back.",
+                        {
+                          "type": "list",
+                          "items": [
+                            "40 days of {@item rations (1 day)|PHB|rations}",
+                            "6 pickaxes and 20 {@item crampons|IDRotF}",
+                            "3 sets of {@item clothing, cold weather|IDRotF|cold weather gear}",
+                            "2 mostly intact elk carcasses",
+                            "720 gold pieces worth of gems and coins, including a diamond worth 300 gp",
+                            "A {@item chime of opening|DMG} etched with snowflakes and jagged mountains"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Treasure",
+                      "page": 17,
+                      "id": "04a",
+                      "entries": [
+                        "The {@item chime of opening|DMG} has the {@table special features; what minor property does it have|DMG|beacon property}, meaning that the bearer can use a bonus action to cause the item to shed bright light in a 10-foot radius and dim light for an additional 10 feet, or to extinguish the light. Additional details can be found in the {@i Dungeon Master's Guide}."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Great Stag",
+                  "page": 17,
+                  "id": "04b",
+                  "entries": [
+                    "Several hunting parties have recently returned to the various settlements of Ten-Towns bearing stories about an immense stag that they sighted roaming about on the tundra. Some stories say that the stag is a large as a mammoth, others say it is no larger than a horse. The one thing that all of the groups agree on is that after sighting the stag, they all had the best fortune ever on their hunt.",
+                    "You can start this encounter in any of the settlements, having the townsfolk preparing for a great hunt as their supplies of food are running low. Regardless of where this encounter begins, the leaders of the town offer up prayers to the gods for protection of the hunting party and beseech good fortune for them.",
+                    "After trudging through blizzard-like conditions for hours, the party sees a faint glow ahead outlining a massive {@creature elk|MM} the size of a mammoth.",
+                    "The elk approaches through the snowstorm slowly and eventually the party is able to make out a tiny rider upon its back. As the elk nears, the {@creature chwinga|IDRotF} (see appendix B) perched on its back gestures towards the characters and then back at the elk motioning for them to pet the creature. Any character who complies, petting the elk and making no hostile actions, is granted the effects of the bless spell for 8 hours."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Toys for Tykes",
+                  "page": 17,
+                  "id": "04c",
+                  "entries": [
+                    "While traveling across the tundra, the party is approached by a cormorant (use {@creature eagle|MM} statistics) who lands on a nearby rock and addresses the party. The bird informs the party its name is Carrion, and it has been sent by its mistress to give the party a job.",
+                    "If the party seems interested, Carrion explains that his mistress's spire is not far away, and if they want the job, they have to come along to hear more. If pressed, Carrion cannot divulge all the facts, but he explains his mistress is a witch of great power and is willing to offer a magical treasure if they assist her. If the party refuses to follow the bird or attacks, Carrion flies away.",
+                    "If the party agrees to follow the bird, read, or paraphrase the following:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "04d",
+                      "entries": [
+                        "As Carrion soars forward, a spike of ice large enough to be a tower suddenly appears on the horizon. Standing outside the entryway is a stooped crone, whose pale blue face is shadowed by exhaustion. She snaps at you as you approach, 'Oh good, you're here. Just keep them alive and here for four hours, and a magical treasure will be yours.'"
+                      ]
+                    },
+                    "The crone is a {@creature bheur hag|VGM} named Hilda Bladderstone. Hilda has recently kidnapped eight {@creature yeti tyke|IDRotF|yeti tykes} from around Icewind Dale to raise as a force of vicious soldiers at her command. Unfortunately for Hilda, raising eight tykes is no easy feat, and the hag desperately needs a few hours of peace to leave the tower and run errands.",
+                    "Hilda explains to the party that she will return in four hours, and if all the yeti tykes are alive and accounted for when she returns, she will give the party her {@item broom of flying|DMG} as a reward. Once the characters finish asking any questions, Hilda flies away on her broom.",
+                    "Upon entering the tower, the party finds the house in complete disarray, filled with smashed furniture and eight energetic toddlers. The tykes act more akin to feral animals than humanoids, and every 30 minutes, the party remains brings a new challenge. Roll on the table below to determine what the tykes do each half-hour.",
+                    {
+                      "type": "table",
+                      "colLabels": [
+                        "d4",
+                        "Tyke Behavior"
+                      ],
+                      "colStyles": [
+                        "col-1 text-center",
+                        "text-left"
+                      ],
+                      "rows": [
+                        [
+                          "1",
+                          "One of the yeti's tries to escape out a window. Any character with a passive Perception of 14 or higher notices the escape attempt before the tyke reaches its destination."
+                        ],
+                        [
+                          "2",
+                          "The tykes burst into violent anger and form into two teams to try and kill one another."
+                        ],
+                        [
+                          "3",
+                          "The tykes decide to attack their babysitters, and they all gang up to attack one random party member."
+                        ],
+                        [
+                          "4",
+                          "The tykes are tired and take a short nap."
+                        ]
+                      ]
+                    },
+                    "Let the characters deal with these babysitting troubles creatively. Still, in general, the tykes can be distracted with a successful DC 12 Charisma (Performance) check, effectively soothed with a successful DC 12 Wisdom (Animal Handling), or tired out with a DC 12 Strength (Athletics) check.",
+                    "If the yeti tykes are all still alive in the tower when Hilda returns, the hag keeps her word and gifts the party her {@item broom of flying|DMG}. She then asks them to leave but welcomes them to come back again if they are in the mood for more babysitting.",
+                    "If Hilda returns and more than one of the tykes is dead or missing (she professes to understand a single casualty), she is furious and attacks the characters to drive them away."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Appendix A: Magic Items",
+          "page": 18,
+          "id": "04e",
+          "entries": [
+            "Throughout this supplement, there are opportunities to find several magic items. Details of those can be found below.",
+            "{@note Items marked with * are new}",
+            {
+              "type": "list",
+              "columns": 3,
+              "items": [
+                "{@item Broom of Flying|DMG}",
+                "{@item Candle of the Deep|XGE}",
+                "{@item Chime of Opening|DMG}",
+                "{@item Dark Shard Amulet|XGE}",
+                "{@item Lock of Trickery|XGE}",
+                "{@item Necklace of Adaptation|DMG}",
+                "{@item Orb of Time|XGE}",
+                "{@item Pot of Awakening|XGE}",
+                "{@item Potion of Cold Resistance|DMG}",
+                "{@item Potion of Ice Breath|GLovedayEncountersInTheFarNorth} *",
+                "{@item Potion of Gaseous Form|DMG}",
+                "{@item Potion of Greater Healing|DMG}",
+                "{@item Talking Doll|XGE}"
+              ]
+            },
+            {
+              "type": "list",
+              "style": "list-no-bullets",
+              "columns": 2,
+              "items": [
+                {
+                  "type": "statblock",
+                  "tag": "item",
+                  "source": "GLovedayEncountersInTheFarNorth",
+                  "name": "Potion of Ice Breath"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Appendix B: Creature Statistics",
+          "page": 20,
+          "id": "04f",
+          "entries": [
+            "The following creatures appear in this supplement.",
+            "{@note Items marked with * are new}",
+            {
+              "type": "list",
+              "columns": 3,
+              "items": [
+                "{@creature Bheur Hag|VGM}",
+                "{@creature Chwinga|IDRotF}",
+                "{@creature Cloud Giant Child|GLovedayEncountersInTheFarNorth} *",
+                "{@creature Coldlight Walker|IDRotF}",
+                "{@creature Crag Cat|SKT}",
+                "{@creature Frost Druid|IDRotF}",
+                "{@creature Giant Ice Toad|TftYP}",
+                "{@creature Goliath Warrior|IDRotF}",
+                "{@creature Ice Toad|RoT}",
+                "{@creature Icewind Kobold|IDRotF}",
+                "{@creature Ice Troll|IDRotF}",
+                "{@creature Knucklehead Trout|IDRotF}",
+                "{@creature Mountain Goat|IDRotF}",
+                "{@creature Rimeflower|GLovedayEncountersInTheFarNorth} *",
+                "{@creature Snow Golem|IDRotF}",
+                "{@creature Snowy Owlbear|IDRotF}",
+                "{@creature Spitting Mimic|IDRotF}",
+                "{@creature Tomb Tapper|IDRotF}",
+                "{@creature Verbeeg Longstrider|GLovedayEncountersInTheFarNorth} *",
+                "{@creature Young Cloud Giant|SKT}",
+                "{@creature Yeti Tyke|IDRotF}"
+              ]
+            },
+            {
+              "type": "list",
+              "style": "list-no-bullets",
+              "columns": 2,
+              "items": [
+                {
+                  "type": "statblock",
+                  "tag": "creature",
+                  "source": "GLovedayEncountersInTheFarNorth",
+                  "name": "Cloud Giant Child"
+                },
+                {
+                  "type": "statblock",
+                  "tag": "creature",
+                  "source": "GLovedayEncountersInTheFarNorth",
+                  "name": "Verbeeg Longstrider"
+                },
+                {
+                  "type": "statblock",
+                  "tag": "creature",
+                  "source": "GLovedayEncountersInTheFarNorth",
+                  "name": "Rimeflower"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "item": [
+    {
+      "name": "Potion of Ice Breath",
+      "source": "GLovedayEncountersInTheFarNorth",
+      "page": 19,
+      "type": "P",
+      "tier": "minor",
+      "rarity": "uncommon",
+      "entries": [
+        "After drinking this potion, you can use a bonus action to exhale frigid air at a target within 30 feet of you. The target must make a {@dc 13} Dexterity saving throw, taking {@damage 4d6} cold damage on a failed save, or half as much damage on a successful one. The effect ends after you exhale the three times or when 1 hour has passed. This potion's blue liquid flickers, and vapor fills the top of the container and wafts out whenever it is opened."
+      ],
+      "lootTables": [
+        "Magic Item Table B"
+      ],
+      "miscTags": [
+        "CNS"
+      ]
+    }
+  ],
+  "monster": [
+    {
+      "name": "Cloud Giant Child",
+      "source": "GLovedayEncountersInTheFarNorth",
+      "page": 20,
+      "size": [
+        "M"
+      ],
+      "type": "giant",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 4,
+        "formula": "1d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "passive": 10,
+      "languages": [
+        "Giant vocabulary is limited"
+      ],
+      "cr": "0",
+      "action": [
+        {
+          "name": "Wooden Toy",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+          ]
+        }
+      ],
+      "languageTags": [
+        "GI"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Rimeflower",
+      "isNamedCreature": true,
+      "source": "GLovedayEncountersInTheFarNorth",
+      "page": 24,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "goliath"
+        ]
+      },
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "Unarmored Defense"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 130,
+        "formula": "20d8 + 40"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 14,
+      "dex": 18,
+      "con": 14,
+      "int": 10,
+      "wis": 18,
+      "cha": 10,
+      "save": {
+        "str": "+5",
+        "dex": "+7",
+        "con": "+5"
+      },
+      "skill": {
+        "acrobatics": "+7",
+        "athletics": "+5",
+        "insight": "+7"
+      },
+      "passive": 14,
+      "immune": [
+        "cold"
+      ],
+      "languages": [
+        "Aquan",
+        "Auran",
+        "Common",
+        "Giant"
+      ],
+      "cr": "6",
+      "trait": [
+        {
+          "name": "Lightfooted",
+          "entries": [
+            "Rimeflower can take the Dash or Disengage action as a bonus action on each of her turns."
+          ]
+        },
+        {
+          "name": "Unarmored Defense",
+          "entries": [
+            "While Rimeflower is wearing no armor and wielding no shield, her AC includes her Wisdom modifier."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Rimeflower makes three unarmed strikes or three dart attacks."
+          ]
+        },
+        {
+          "name": "Unarmed Strike",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage plus 3 ({@damage 1d6}) cold damage. If the target is a creature, Rimeflower can choose one of the following additional effects:",
+            {
+              "type": "list",
+              "items": [
+                "The target must succeed on a {@dc 15} Strength saving throw or drop one item it is holding (Rimeflower's choice).",
+                "The target must succeed on a {@dc 15} Dexterity saving throw or be pushed 10 feet or knocked {@condition prone} (Rimeflower's choice).",
+                "The target must succeed on a {@dc 15} Constitution saving throw or be {@condition stunned} until the end of Rimeflower's next turn."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dart",
+          "entries": [
+            "{@atk rw} {@hit 7} to hit, range 20/60ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage plus 3 ({@damage 1d6}) cold damage."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Frozen Dance",
+          "entries": [
+            "Rimeflower makes one unarmed strike or dart attack."
+          ]
+        },
+        {
+          "name": "Glacial Drift (Costs 2 Actions)",
+          "entries": [
+            "Rimeflower moves up to half her speed and can move through other creatures' spaces as though they were difficult terrain. This movement doesn't provoke opportunity attacks."
+          ]
+        },
+        {
+          "name": "Shattering Roar (Costs 3 Actions)",
+          "entries": [
+            "Rimeflower strikes the floor with her palm, channeling the blow's force outward. All other creatures within a 10-foot radius of Rimeflower must make a successful {@dc 15} Dexterity saving throw or take 10 ({@damage 3d6}) cold damage and be thrown back 10 feet and knocked {@condition prone}."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "dart|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "AQ",
+        "AU",
+        "C",
+        "GI"
+      ],
+      "damageTags": [
+        "B",
+        "C",
+        "P"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RNG",
+        "RW",
+        "THW"
+      ],
+      "conditionInflict": [
+        "prone",
+        "stunned"
+      ],
+      "savingThrowForced": [
+        "constitution",
+        "dexterity",
+        "strength"
+      ]
+    },
+    {
+      "name": "Verbeeg Longstrider",
+      "source": "GLovedayEncountersInTheFarNorth",
+      "page": 26,
+      "size": [
+        "L"
+      ],
+      "type": "giant",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "{@item hide armor|PHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 119,
+        "formula": "14d10 + 42"
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 16,
+      "int": 13,
+      "wis": 14,
+      "cha": 10,
+      "save": {
+        "dex": "+5",
+        "con": "+6",
+        "wis": "+5"
+      },
+      "skill": {
+        "animal handling": "+5",
+        "athletics": "+7",
+        "stealth": "+5"
+      },
+      "passive": 12,
+      "languages": [
+        "Common",
+        "Giant"
+      ],
+      "cr": "5",
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The verbeeg's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components:"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell animal messenger|PHB}",
+              "{@spell fog cloud|PHB}",
+              "{@spell freedom of movement|PHB}",
+              "{@spell pass without trace|PHB}",
+              "{@spell silence|PHB}",
+              "{@spell water walk|PHB}"
+            ]
+          },
+          "ability": "wis"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Simple Weapon Wielder",
+          "entries": [
+            "A simple weapon deals one extra die of its damage when the verbeeg hits with it (included in the attack)."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The verbeeg makes two melee attacks."
+          ]
+        },
+        {
+          "name": "Spear",
+          "entries": [
+            "{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}14 ({@damage 3d6 + 4}) piercing damage or 17 ({@damage 3d8 + 4}) piercing damage if used to make a ranged attack or used with two hands to make a melee attack."
+          ]
+        },
+        {
+          "name": "Sling",
+          "entries": [
+            "{@atk rw} {@hit 5} to hit, range 30/120 ft., one target. {@h}9 ({@damage 3d4 + 2}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be {@condition stunned} until the end of its next turn."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "sling|phb",
+        "spear|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "GI"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "spellcastingTags": [
+        "I"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW",
+        "THW"
+      ],
+      "conditionInflict": [
+        "stunned"
+      ],
+      "conditionInflictSpell": [
+        "deafened"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ]
+    }
+  ]
+}

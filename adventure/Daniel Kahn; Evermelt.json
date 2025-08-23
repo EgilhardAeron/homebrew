@@ -1,0 +1,1442 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM",
+        "IDRotF"
+      ]
+    },
+    "sources": [
+      {
+        "json": "DKahnEvermelt",
+        "abbreviation": "DK;ID:E",
+        "full": "Icewind Dale: Evermelt",
+        "color": "7ab3bc",
+        "url": "https://www.dmsguild.com/product/354385/Evermelt--expanded-maps-and-content-for-Rime-of-the-Frostmaiden",
+        "authors": [
+          "Daniel Kahn"
+        ],
+        "convertedBy": [
+          "EgilhardAeron"
+        ],
+        "version": "1.0.0"
+      }
+    ],
+    "edition": "classic",
+    "status": "ready",
+    "dateAdded": 1742132757,
+    "dateLastModified": 1742132757
+  },
+  "adventure": [
+    {
+      "name": "Icewind Dale: Evermelt",
+      "id": "DKahnEvermelt",
+      "source": "DKahnEvermelt",
+      "group": "homebrew",
+      "cover": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/cover.webp"
+      },
+      "published": "2021-04-19",
+      "storyline": "Icewind Dale",
+      "level": {
+        "custom": "APL 5-7"
+      },
+      "contents": [
+        {
+          "name": "Cover & Credits"
+        },
+        {
+          "name": "Introduction",
+          "headers": [
+            "What's This All About?",
+            "Legacy of the Crystal Shard",
+            "Adventure Summary",
+            "Adventure Hooks",
+            "Running the Villains"
+          ]
+        },
+        {
+          "name": "Running the Adventure",
+          "headers": [
+            "The Tribe of the Elk",
+            "Evermelt",
+            {
+              "header": "E1. Reghed Camp",
+              "depth": 1
+            },
+            {
+              "header": "E2. Sacred Pool",
+              "depth": 1
+            },
+            {
+              "header": "E3. Chute and Tunnel",
+              "depth": 1
+            },
+            {
+              "header": "E4. Waterfall Cavern",
+              "depth": 1
+            },
+            {
+              "header": "E5N. Northern Tunnel",
+              "depth": 1
+            },
+            {
+              "header": "E5S.Southern Tunnel",
+              "depth": 1
+            },
+            {
+              "header": "E6. Icingdeath's Lair",
+              "depth": 1
+            },
+            "Conclusion",
+            "Troubleshooting"
+          ]
+        },
+        {
+          "name": "Magic Items"
+        },
+        {
+          "name": "Scaling & Adjustments"
+        },
+        {
+          "name": "Bestiary"
+        },
+        {
+          "name": "Player Maps"
+        }
+      ]
+    }
+  ],
+  "adventureData": [
+    {
+      "id": "DKahnEvermelt",
+      "source": "DKahnEvermelt",
+      "data": [
+        {
+          "type": "section",
+          "name": "Cover & Credits",
+          "page": 1,
+          "id": "001",
+          "entries": [
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/cover-full.webp"
+              },
+              "title": "Evermelt Cover",
+              "credit": "Nicole Mastrodomenico @nikodomeniko on Instagram"
+            },
+            {
+              "type": "entries",
+              "name": "Credits",
+              "page": 2,
+              "id": "002",
+              "entries": [
+                {
+                  "type": "list",
+                  "style": "list-no-bullets",
+                  "columns": 2,
+                  "items": [
+                    {
+                      "type": "list",
+                      "style": "list-no-bullets",
+                      "items": [
+                        "{@b Writing & Layout:} Daniel Kahn & Michael Rosenthal",
+                        "{@b Cover Art:} Nicole Mastrodomenico @nikodomeniko on Instagram",
+                        "{@b Interior Art:} by {@link Dr. Mapzo|https://www.patreon.com/drmapzo}",
+                        "{@b Dungeon Map:} by {@link onedaygm|https://www.fiverr.com/onedaygm}"
+                      ]
+                    },
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/art/Icingdeath (drmapzo).webp"
+                      },
+                      "title": "Icingdeath",
+                      "credit": "Dr. Mapzo"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "entries": [
+                "DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, Ravenloft, Eberron, the dragon ampersand, Ravnica and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries.",
+                "This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild.",
+                "All other original material in this work is copyright 2021 by Daniel Kahn and published under the Community Content Agreement for Dungeon Masters Guild."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Introduction",
+          "page": 3,
+          "id": "003",
+          "entries": [
+            "At the base of the reghed glacier lies a site sacred to the tribal people of Icewind Dale. Evermelt is an oasis of warmth surrounded by frozen tundra. Many years have passed since the Tribe of the Elk was last able to access this special place. Since the start of the Everlasting Rime, Evermelt has been haunted by the ghosts of the past. Can the heroes reclaim Evermelt or will they join the ranks of the frozen dead?",
+            {
+              "type": "entries",
+              "name": "What's This All About?",
+              "page": 3,
+              "id": "004",
+              "entries": [
+                "As the party is heading to the {@adventure Reghed Glacier and the Caves of Hunger|IDRotF|16} in {@i Icewind Dale: Rime of the Frostmaiden} (pg. 215), the party is approached by members of the Tribe of the Elk. The book offers the explanation that Mjenir, the shaman of the Elk Tribe, experienced a vision of the party, allowing them to meet up. This supplement offers an adventure that grants the party a closer relationship with the Elk Tribe so that when the time comes for the party to head to the Reghed Glacier, the Elk Tribe's appearance feels less random and more like a debt repaid or a friendship earned.",
+                "This supplement provides an exciting mini-dungeon where the party can form a bond with the Tribe of the Elk and explore an iconic location in Icewind Dale, Evermelt. This adventure is meant to be playable at levels 5-7. Scaling suggestions for level 5-6 parties are included at the end of this document."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Legacy of the Crystal Shard",
+              "page": 3,
+              "id": "005",
+              "entries": [
+                "Evermelt appears in the adventure {@i Legacy of the Crystal Shard}. This supplement assumes that your party has not played {@i Legacy of the Crystal} and assumes that the skeleton of the dragon Icingdeath remains inside Evermelt. If you are planning to run {@i Legacy of the Crystal Shard}, your party will likely be much lower level (2-3) than this adventure is intended for. You can use this supplement and associated map files to run the Evermelt encounter, substituting in the monsters outlined in {@i Legacy of the Crystal Shard} and scaling DCs and damage as described at the end of this supplement (see 'Adjustments for Legacy')."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Adventure Summary",
+              "page": 3,
+              "id": "006",
+              "entries": [
+                "The party seeks out the Elk Tribe for aid in their quest to end the Everlasting Rime. The shaman of the Elk Tribe explains that they want to reclaim a sacred site called Evermelt to use as a sanctuary during the unending winter. The Elk Tribe sends a warrior named Hengar to accompany the party on their mission to determine if Evermelt is safe and, if not, to eliminate threats that remain.",
+                "At Evermelt, the party encounters undead remnants of the Bear Tribe that previously held Evermelt. After destroying the undead, an unexpected current sweeps up Hengar, sending him into the cave system beneath Evermelt. The party must skillfully navigate a dangerous waterfall to rescue Hengar. At the bottom of the waterfall, the party can continue exploring the cave system and discovers the bones of the long-dead dragon Icingdeath. At that moment, frost druids of Auril begin an unholy spell to raise Icingdeath from the grave. The party must defeat the frost druids quickly before Icingdeath becomes too powerful. Once Icingdeath and the druids are defeated, the party can make their way out a secret exit and return to the surface."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Adventure Hooks",
+              "page": 3,
+              "id": "007",
+              "entries": [
+                "You can use any of the following adventure hooks to entice the party to explore Evermelt. Duvessa Shane (speaker of Bryn Shander), Atenas Swift (ranger who runs Frozenfar Expeditions in Caer Konig), or another NPC can provide directions to the Elk Tribe Camp.",
+                {
+                  "type": "entries",
+                  "name": "Dragon Bone Stew (Chapter 2)",
+                  "page": 3,
+                  "id": "008",
+                  "entries": [
+                    "Dannika Graysteel asks the characters to bring her some white dragon bones as a quest hook for Wyrmdoom Crag (pg 104). You can have her offer Evermelt as an alternative location to find dragon bones as she heard stories about a mighty Elk Tribe king who slew a dragon named Icingdeath a hundred years ago."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Location of the Codicil (End of Chapter 4)",
+                  "page": 3,
+                  "id": "009",
+                  "entries": [
+                    "Instead of having Vellynne Harpell tell the party where to find {@item the Codicil of White|IDRotF}, you can have her instead suggest that the party seek out members of the Reghed Tribe (specifically the Tribe of the Elk), who have intimate knowledge about the land. In this scenario, you can have Mjenir consult the spirits of the land to divine the location of {@item the Codicil of White|IDRotF} in exchange for the party's assistance in reclaiming Evermelt. Mjenir describes the book as being held in a frost giant fortress on a mist-shrouded island in the Sea of Moving Ice."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Calling in Backup (Beginning of Chapter 5)",
+                  "page": 3,
+                  "id": "00a",
+                  "entries": [
+                    "When the party is ready to travel to the Island of Solstice to recover {@item the Codicil of White|IDRotF}, an NPC that they are traveling with, such as Vellynne Harpell, can recommend that the party make arrangements for their trek across the tundra to the Reghed Glacier. The NPC can point out that after the party steals the Codicil, the Frostmaiden's servants will likely pursue them. The Tribe of the Elk has been known to be friendly towards Ten-Towners and may be able to help the party travel safely to the glacier."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Friends of Endurance (Chapter 5)",
+                  "page": 3,
+                  "id": "00b",
+                  "entries": [
+                    "During the Frostmaiden's {@adventure Test of Endurance|IDRotF|15|g17. test of endurance} (pg. 209), the Tribe of the Elk can describe the history of Evermelt and invite the party to meet up with them once they escape from Grimskalle. In this scenario, the conclusion of the Test of Endurance ends 5 miles west of Evermelt, where the Elk Tribe suggests the party meets with them at their new camp."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Frozen Solid (End of Chapter 5)",
+                  "page": 3,
+                  "id": "00c",
+                  "entries": [
+                    "At the end of Chapter 5, some of the party may receive {@adventure Auril's Blessing|IDRotF|15|g23. auril's blessing} (pg. 213). Unfortunate characters that fail the DC 21 Constitution saving throw become petrified as an ice statue. At your discretion, the waters of Evermelt can end this type of petrification. An NPC they are traveling with, such as Vellynne Harpell, may have heard rumors of Evermelt and may suggest that the party seek out the Tribe of the Elk to find its location."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Running the Villains",
+              "page": 3,
+              "id": "00d",
+              "entries": [
+                "The villains of this adventure are the frost druids, who stalk the party from the shadows until they reach Icingdeath's Lair. The frost druids wish to spread fear and awe of the Frostmaiden's power, and are therefore not inclined to ambush the party. Instead, the frost druids want the party to witness the reanimation of Icingdeath and experience the might of the Frostmaiden first hand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Running the Adventure",
+          "page": 4,
+          "id": "00e",
+          "entries": [
+            "The following sections describe the events that occur on this adventure. The adventure begins as the party reaches the Elk Tribe Camp. A typical {@adventure Reghed Tribe camp|IDRotF|12|reghed tribe camp} is described on pages 152-153 of {@i Icewind Dale: Rime of the Frostmaiden}. You can use the additional details in this section to flesh out the party's experience at the camp.",
+            {
+              "type": "entries",
+              "name": "The Tribe of the Elk",
+              "page": 4,
+              "id": "00f",
+              "entries": [
+                "When the party arrives at the Elk Tribe Camp, they are called in to a meeting at Jarund's tent. You can read:",
+                {
+                  "type": "insetReadaloud",
+                  "id": "010",
+                  "entries": [
+                    "You are escorted to the inner circle of tents made of layered bark and animal hides. A tent flap opens briefly at the largest tent and as you are beckoned inside. Inside the tent, three large men turn to you with hardened expressions."
+                  ]
+                },
+                "The three men are Jarund, Hengar, and Mjenir (described below in 'Notable Elk Tribe Members'). The three introduce themselves to the party and ask for the party to share their tale. If the party explains that they are working to end the Everlasting Rime or are in opposition to the Frostmaiden, the three men's disposition changes from skeptical to respectful. After introductions are made, Mjenir explains the plight.",
+                {
+                  "type": "insetReadaloud",
+                  "id": "011",
+                  "entries": [
+                    "\"There is a site that is most sacred to our people called Evermelt. It is the location of a natural hot spring, an oasis for the Reghed Tribes during the cold of winter. After the Everlasting Rime took hold, the Bear Tribe claimed Evermelt for themselves and slaughtered anyone who dared enter. Our people suffer greatly, but we cannot risk bringing the entire tribe to Evermelt if there is danger there. Help us reclaim Evermelt, and you will help ensure the survival of our people during these trying times.\""
+                  ]
+                },
+                "In exchange for the party's help, the Elk Tribe can provide the following:",
+                {
+                  "type": "list",
+                  "items": [
+                    "The Elk Tribe will send warriors to escort the party across the tundra after they claim {@item the Codicil of White|IDRotF} from Solstice as servants of the Frostmaiden are likely to pursue them.",
+                    "Mjenir can craft a magical item called a {@item hallowstone|DKahnEvermelt} from the bones of a dragon. The hallowstone can be used to cast the {@spell hallow} spell, preventing followers of Auril from chasing after the party into the glacier after they claim {@item the Codicil of White|IDRotF}. A scenario involving the use of this hallowstone is described in the {@link \"Caves of Hunger\"|https://www.dmsguild.com/product/331994/Caves-of-Hunger--an-Icewind-Dale-Rime-of-the-Frostmaiden-DMs-resource-maps-cheatsheets-advice} DM's resource guide by Eventyr Games. The dragon Icingdeath was killed by the former chieftain of the Elk tribe Wulfgar a century ago and its bones still remain in its lair at Evermelt."
+                  ]
+                },
+                "When the party agrees to help the Tribe of the Elk, Hengar volunteers to escort the party to Evermelt.",
+                {
+                  "type": "entries",
+                  "name": "Notable Elk Tribe Members",
+                  "page": 4,
+                  "id": "012",
+                  "entries": [
+                    "The Tribe of the Elk consists of the following important NPCs:",
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b {@i Jarund Elkhart.}} Human male, age 46, deeply tanned skin and auburn hair. King of the Elk Tribe who looks far older than his true age and thus referred to as Jarund the Elder.",
+                        "{@b {@i Hengar Aesnvaard.}} Human male, age mid-20s, blonde hair, muscular build, and blue eyes. Hengar is a powerful warrior, but has a romanticized view about building communal ties with the Ten-Towners. Hengar is optimistic with a wild spirit.",
+                        "{@b {@i Mjenir Tormhaalt.}} Human male, age 50, icy blue eyes and platinum blonde hair. Shaman of the Elk Tribe who has a rudimentary grasp of druidic magic, but a deep understanding of the nature of the tundra."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Trading with the Tribe",
+                  "page": 4,
+                  "id": "013",
+                  "entries": [
+                    "The Tribe of the Elk occasionally does business with Ten-Towns and is willing to accept gold payment, though they much prefer to trade goods. The following goods can be purchased from or traded for at twice their normal prices due to scarcity in the tundra: {@item rations (1 day)|PHB|rations}, {@item clothing, cold weather|IDRotF|cold weather clothing}, {@item crampons|IDRotF}, {@item snowshoes|IDRotF}, {@item dogsled|IDRotF|dogsleds}, {@item sled dog|IDRotF|sled dogs}, and {@dice 1d4} {@item potion of healing|PHB|potions of healing}."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "What the Tribe Knows",
+                  "page": 4,
+                  "id": "014",
+                  "entries": [
+                    "At your discretion, the Elk Tribe can provide directions to the following locations throughout Icewind Dale: Angajuk's Bell (pg. 114), Dark Duchess (pg. 127), Evermelt, Jarlmoot (pg. 137), Karkolohk (pg. 140), Lost Spire of Netheril (pg. 145), Revel's End (pg. 154), Skytower Shelter (pg. 161), and Wyrmdoom Crag (pg. 166). As suggested in the adventure hooks, you can have Mjenir divine the location of {@item the Codicil of White|IDRotF} , rather than having Vellynne Harpell tell the party its location."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Evermelt",
+              "page": 4,
+              "id": "015",
+              "entries": [
+                "Hengar is intimately familiar with the tundra. While the party travels with him, they move at twice their normal speed. Additionally, while traveling with Hengar, you can skip or re-roll encounters with hostile creatures if you are rolling for Random Wilderness Encounters.",
+                "If the party is coming from Solstice, you can have a group of frost druids pursue them all the way from the island. Alternatively, the druids receive a vision from Auril or happen to notice the party and pursue them as tundra beasts so as not to arouse suspicion and make use of {@spell pass without trace} to make themselves more difficult to spot. A creature that succeeds on a DC 21 Wisdom (Perception) check during travel may spot a druid in the form of a fox, owl, or hare, but the beast retreats and hides upon being spotted.",
+                "Evermelt consists of a large pool supplied with water by geothermal vents. The water flows downhill through a tunnel in the glacier. The tunnel opens into a large cave where a waterfall tumbles into another pool that drains to the aquifer beneath Evermelt. The large cave was once home to the white dragon Ingeloakastimizilian, known as Icingdeath by the Reghed Tribesfolk. A Reghed hero named Wulfgar slew the dragon in its lair 100 years ago, taking the horns as a trophy, but leaving the rest of the dragon behind.",
+                {
+                  "type": "inset",
+                  "name": "Location of Evermelt",
+                  "page": 4,
+                  "id": "016",
+                  "entries": [
+                    "In {@i Legacy of the Crystal Shard}, Evermelt is located 20 miles north of Kelvin's Cairn and 10 miles to the east at the foot of the Reghed Glacier. Using the map on page 113 of {@i Icewind Dale: Rime of the Frostmaiden}, these coordinates lead to a location that is still 20-30 miles west of the Reghed Glacier. Because of this inconsistency, you can decide to put Evermelt at any location along the Reghed Glacier north of the Spine of the World mountains."
+                  ]
+                },
+                {
+                  "type": "gallery",
+                  "images": [
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/maps/dm/Evermelt-grid-23x22-162ppi.webp"
+                      },
+                      "title": "Map: Evermelt",
+                      "imageType": "map",
+                      "mapRegions": [
+                        {
+                          "area": "E3. Chute and Tunnel",
+                          "points": [
+                            [
+                              255,
+                              300
+                            ],
+                            [
+                              255,
+                              465
+                            ],
+                            [
+                              420,
+                              465
+                            ],
+                            [
+                              420,
+                              300
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "E2. Sacred Pool",
+                          "points": [
+                            [
+                              675,
+                              465
+                            ],
+                            [
+                              675,
+                              585
+                            ],
+                            [
+                              795,
+                              585
+                            ],
+                            [
+                              795,
+                              465
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "E3. Chute and Tunnel",
+                          "points": [
+                            [
+                              765,
+                              765
+                            ],
+                            [
+                              765,
+                              870
+                            ],
+                            [
+                              915,
+                              870
+                            ],
+                            [
+                              915,
+                              765
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/maps/dm/EvermeltCave-grid-29x39-162ppi.webp"
+                      },
+                      "title": "Map: Evermelt Cave",
+                      "imageType": "map",
+                      "mapRegions": [
+                        {
+                          "area": "E3. Chute and Tunnel",
+                          "points": [
+                            [
+                              54,
+                              6
+                            ],
+                            [
+                              52,
+                              126
+                            ],
+                            [
+                              251,
+                              123
+                            ],
+                            [
+                              246,
+                              9
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "E4. Waterfall Cavern",
+                          "points": [
+                            [
+                              180,
+                              290
+                            ],
+                            [
+                              182,
+                              434
+                            ],
+                            [
+                              330,
+                              435
+                            ],
+                            [
+                              325,
+                              290
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "E5S. Southern Tunnel",
+                          "points": [
+                            [
+                              25,
+                              646
+                            ],
+                            [
+                              30,
+                              870
+                            ],
+                            [
+                              515,
+                              827
+                            ],
+                            [
+                              517,
+                              635
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "E5N. Northern Tunnel",
+                          "points": [
+                            [
+                              761,
+                              332
+                            ],
+                            [
+                              780,
+                              765
+                            ],
+                            [
+                              930,
+                              765
+                            ],
+                            [
+                              930,
+                              105
+                            ],
+                            [
+                              753,
+                              104
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "E6. Icingdeath's Lair",
+                          "points": [
+                            [
+                              375,
+                              900
+                            ],
+                            [
+                              375,
+                              1215
+                            ],
+                            [
+                              750,
+                              1215
+                            ],
+                            [
+                              765,
+                              900
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "E1. Reghed Camp",
+                  "page": 5,
+                  "id": "017",
+                  "entries": [
+                    "When the party approaches Evermelt, you can read:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "018",
+                      "entries": [
+                        "Glacial walls rise on either side of a steaming pool of water atop an earthen hill, dampening the harsh winds. Snow cover grows thinner with every step. Large tents made of animal furs stand around the pool. Humanoid figures move between the tents casting an eerie blue light."
+                      ]
+                    },
+                    "The Bear Tribe was the last tribe to hold Evermelt during the early days of the Everlasting Rime. Out of desperation for food, the tribe eventually resorted to cannibalism and self-destructed. The Frostmaiden was intrigued by the ones who survived the longest (both adults and children) and turned them into her undead servants when they finally expired. The tribe is now three {@creature coldlight walker|IDRotF|coldlight walkers} and four {@creature coldlight child|DKahnEvermelt|coldlight children}. Upon approaching the camp, a successful DC 15 Wisdom (Perception) check correctly identifies the number of occupants at the camp. On a failed check, the character underestimates the walkers by half.",
+                    "The party must succeed on a group DC 10 Dexterity (Stealth) approach the camp undetected. Characters proficient in the Survival skill have advantage on the check. If the check fails, two coldlight walkers and two coldlight children notice and attack the party. If the check fails by more than 5, one additional coldlight walker and two additional coldlight children are alerted.",
+                    "Once the battle begins, the remainder of the coldlights join the fray on the second round of combat.",
+                    "When combat breaks out, roll initiative for two {@creature chwinga|IDRotF|chwingas} and a {@creature steam mephit|MM} as well, described in 'Complication' below.",
+                    {
+                      "type": "inset",
+                      "name": "Managing Hengar",
+                      "page": 5,
+                      "id": "019",
+                      "entries": [
+                        "The battle with the coldlights is meant to be challenging. Fortunately, the party has Hengar as an ally. If you don't want to manage Hengar during the fight, you can allow the players to control him. Alternatively, you can have Hengar single out one of the coldlight walkers saying, \"This one is mine. TEMPUS!\" You can assume that Hengar and the coldlight walker fight one on one for the duration of the fight with Hengar emerging victorious with 60 hp remaining."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Complication",
+                          "page": 5,
+                          "id": "01a",
+                          "entries": [
+                            "Two {@creature chwinga|IDRotF|chwingas} live in the Sacred Pool, and hide when the characters approach. The chwingas can be spotted with a successful DC 17 Wisdom (Perception) check. When combat begins, a {@creature steam mephit|MM} emerges from the sacred pool and moves to attack the chwingas, who flee towards the party. If the characters defeat the steam mephit, any surviving chwingas will aid the party during combat, casting of either {@spell guidance} or {@spell resistance} cantrips. If the party saves both chwingas, they will impart a {@filter magical gift|rewards|source=IDRotF} (pg. 283) upon any character that attacked the steam mephit."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "E2. Sacred Pool",
+                  "page": 6,
+                  "id": "01b",
+                  "entries": [
+                    "When the characters examine the pool, you can read:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "01c",
+                      "entries": [
+                        "Steam rises gently from the calm turquoise water of this pool. Water exits the pool at an opening in the glacier wall."
+                      ]
+                    },
+                    "The pool is heated by geothermal vents and creatures that enter do not suffer the effects of {@hazard Frigid Water|DMG} (pg. 11). At your discretion, creatures do not benefit from cold weather gear that is wet and may need to dry their clothing before leaving Evermelt. While the sacred pool appears to be calm, creatures that move within 15 feet of the chute opening (area marked with a 'C' on the map) become pulled in by strong currents just beneath the water's surface. Hengar cautions the party about this fact, but assures them that remaining near shore is safe.",
+                    "While the party was distracted in combat, one of the {@creature frost druid|IDRotF|frost druids} slipped into the pool under the effects of a {@spell pass without trace spell|PHB} and used its wildshape to turn into a {@creature giant octopus|MM}. It tries to pull the first creature to enter the water (likely Hengar) into the chute and tunnel. Due to its underwater camouflage feature, the octopus is nearly impossible to see, requiring a successful DC 30 Wisdom (Perception) check to spot.",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Development",
+                          "page": 6,
+                          "id": "01d",
+                          "entries": [
+                            "After the party takes a moment (or a short rest) to recover from the battle with the coldlights, Hengar proposes a swim. You can read the following:"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "insetReadaloud",
+                      "id": "01e",
+                      "entries": [
+                        "\"Friends of the Elk Tribe, come join me and rest your weary muscles in the water. Let us celebrate our great victory before Tempus!\" shouts Hengar as he strips off his outer furs and cannon-ball jumps into the pool. After a few moments Hengar emerges from the water 40 feet further from shore struggling to swim. A moment later he is pulled underwater again near the wall of the glacier after emitting a gurgling cry for help."
+                      ]
+                    },
+                    "Hengar is sent hurtling down the Chute and Tunnel, {@condition grappled} and {@condition restrained} by the frost druid."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "E3. Chute and Tunnel",
+                  "page": 6,
+                  "id": "01f",
+                  "entries": [
+                    "A creature can resist the pull of the current at the opening of the chute with a DC 15 Strength (Athletics) check. Creatures with a swim speed have advantage on the check. A creature that fails the check is swept into the 60-foot long tunnel that leads to the Waterfall Cavern in an uncontrolled descent. Creatures moving in an uncontrolled descent must make the following saving throws:",
+                    {
+                      "type": "list",
+                      "items": [
+                        "A successful DC 14 Dexterity saving throw to avoid crashing into the walls and sharp icicles, taking {@dice 1d6} bludgeoning damage and {@dice 1d6} piercing damage on a failed save.",
+                        "A successful DC 14 Constitution saving throw to avoid the shock of breathing in the cold air after being submerged, taking {@dice 2d6} cold damage on a failed save."
+                      ]
+                    },
+                    "After these two saving throws are made, the creature finds itself rapidly approaching the Waterfall Cavern."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "E4. Waterfall Cavern",
+                  "page": 6,
+                  "id": "020",
+                  "entries": [
+                    "The chute ends in a large cavern where a waterfall tumbles into an underground pool. When a character enters this area, you can read the following:",
+                    "The chute begins to widen and a large cavern opens up ahead. The tunnel appears to end in a cascading waterfall that crashes into a pool filled with jagged icicles thirty feet below. A large pillar of ice extends from floor to ceiling some fifteen feet beyond the top of the waterfall.",
+                    "When a creature reaches the end of the chute and tunnel, it is faced with a quick decision to avoid tumbling over the waterfall. Creatures have two options:",
+                    {
+                      "type": "list",
+                      "items": [
+                        "A successful DC 14 Strength saving throw to quickly halt the descent before tumbling over the waterfall into the Waterfall Cavern. A character that uses a piton or ice pick makes the save with advantage. A character that falls over the edge of the waterfall tumbles 30 feet onto sharp icicles, taking {@dice 3d6} bludgeoning and {@dice 2d6} piercing damage. A creature that successfully stops itself must repeat the saving throw each time another creature runs into it after failing their saving throw.",
+                        "As an alternative to stopping, a creature can instead try to propel itself towards the large pillar of ice just past the waterfall and use it to slide safely to the ground. Doing so requires a DC 16 Strength (Athletics) or Dexterity (Acrobatics) check. A character that successfully accomplishes this can be awarded inspiration at your discretion."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Hengar",
+                          "page": 6,
+                          "id": "021",
+                          "entries": [
+                            "Hengar is unconscious (with 0 hit points, stable, and with a point of exhaustion) on the cavern floor having narrowly missed a large pointed icicle. A character proficient in the Medicine skill can determine his condition from a distance."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "E5N. Northern Tunnel",
+                  "page": 6,
+                  "id": "022",
+                  "entries": [
+                    "If the party inspects the northern tunnel, you can read:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "023",
+                      "entries": [
+                        "The ground is frozen slick in this narrow tunnel and spearsharp icicles cling precariously to the ceiling. Further in, frozen skeletons lie huddled together. Beyond, the tunnel turns to the right."
+                      ]
+                    },
+                    "The skeletons are harmless deceased members of the Bear Tribe who escaped Auril's reanimation.",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Hallucinatory Terrain",
+                          "page": 6,
+                          "id": "024",
+                          "entries": [
+                            "After identifying the {@hazard brown mold} hazard in the southern tunnel, the frost druids try to steer the party away from the safe northern tunnel by making the terrain look dangerous. The icy floor and dangerous looking icicles are merely a {@spell hallucinatory terrain|PHB} spell cast by one of the druids. A DC 14 Intelligence (Investigation) check reveals the illusion."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Treasure",
+                          "page": 6,
+                          "id": "025",
+                          "entries": [
+                            "One skeleton carries a {@item horn of silent alarm|XGE}."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "E5S. Southern Tunnel",
+                  "page": 6,
+                  "id": "026",
+                  "entries": [
+                    "If the party inspects the southern tunnel, you can read:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "027",
+                      "entries": [
+                        "A small ledge leads to a natural tunnel where the ground is soft and patched with areas of brown. Beyond, the tunnel turns left."
+                      ]
+                    },
+                    "What appears to be brown dirt in the southern tunnel is actually a patch of brown mold. Characters who succeed on a DC 14 Intelligence (Nature) or Wisdom (Survival) check recognize it for what it truly is. When a creature enters the area marked 'B' on the map, it suffers the effects of the brown mold, unless it was already destroyed."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "E6. Icingdeath's Lair",
+                  "page": 8,
+                  "id": "028",
+                  "entries": [
+                    "When the party approaches this area, you can read the following:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "029",
+                      "entries": [
+                        "This massive chamber is dominated by the skeletal remains of a large dragon encased in a thin layer of ice on the floor of the cavern. A large icicle protrudes out of its broken rib cage and its horns appear to be missing. The cavern's domed ceiling peaks nearly a hundred feet above the floor."
+                      ]
+                    },
+                    "The bones belonged to the white dragon Icingdeath. A band of {@creature frost druid|IDRotF|frost druids} loyal to the Frostmaiden have followed the party to this location taking the form of small critters that would otherwise go unnoticed under the effect of a pass without trace spell. Their animal forms can be noticed with a DC 21 Wisdom (Perception) check, but they scatter to the shadows and hide if noticed. Shortly after the party enters the cave, the frost druids emerge from the shadows and begin a terrible ritual. When this happens, you can read:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "02a",
+                      "entries": [
+                        "From the shadows, small animals shift into cloaked human forms. One calls out, \"Auril, we are your humble servants. Grant us the power to raise this great beast as your champion so that all may dread to defy you.\" Their eyes glow blue as energy shoots forth each of their hands towards the bones."
+                      ]
+                    },
+                    "At this point, have the party and the three {@creature frost druid|IDRotF|frost druids} roll for initiative. The frost druids start a divine spell to raise {@creature Icingdeath|DKahnEvermelt} as an undead servant of the Frostmaiden.",
+                    {
+                      "type": "list",
+                      "items": [
+                        "The druids begin combat concentrating on the spell (the druids have +3 to Constitution saving throws).",
+                        "Icingdeath begins the fight dormant and with 0 hit points.",
+                        "If a druid is concentrating on the spell at the start of their turn, add 10 hit points to Icingdeath.",
+                        "A druid can use an action on each of their turns to maintain the spell or begin casting again if their concentration was broken before the start of their turn. Rather than channeling the spell, you can have one of the druids cast a {@spell fog cloud|PHB} spell to aid their comrades.",
+                        "Icingdeath remains dormant until he has accumulated a total of 100 hit points or all of the frost druids have been defeated. (For example, if the frost druids are defeated and only accumulated 80 hit points, Icingdeath animates with 80/100 hit points upon their defeat). For added challenge, you can have Icingdeath use its lair actions before it becomes animated."
+                      ]
+                    },
+                    "For added flavor, on each of their turns, you can have the druids recite a sentence from the tenants of Auril that appeared in {@i Legacy of the Crystal Shard}.",
+                    {
+                      "type": "list",
+                      "items": [
+                        "\"Let in the cold, that it may chase away the false security of warmth.\"",
+                        "\"Embrace the cold, that you may feel her presence.\"",
+                        "\"Spread the cold, that others may know and fear her power.\"",
+                        "\"Do not kill creatures of the cold except in great need, for she embraces them as her own.\"",
+                        "\"Slay others as you will, for my chill breath spares neither king nor beggar, and those who do not know the dangers of the cold can still perish by it.'"
+                      ]
+                    },
+                    "Once Icingdeath animates, you can read:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "02b",
+                      "entries": [
+                        "A sudden crackle sounds as the bones begin to shift. Ice sprays across the room as the dragon's corpse stands and a blue glow flares in its eye sockets."
+                      ]
+                    },
+                    "Icingdeath fights to the death alongside any remaining frost druids. Icingdeath has access to the following lair actions, which it can trigger on initiative count 20 (losing initiative ties):",
+                    {
+                      "type": "list",
+                      "items": [
+                        "Freezing fog fills a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The fog spreads around corners, and its area is heavily obscured. Each creature in the fog when it appears must make a DC 10 Constitution saving throw, taking 10 ({@dice 3d6}) cold damage on a failed save, or half as much damage on a successful one. A creature that ends its turn in the fog takes 10 ({@dice 3d6}) cold damage. A wind of at least 20 miles per hour disperses the fog. The fog otherwise lasts until the dragon uses this lair action again or until the dragon dies.",
+                        "Jagged ice shards fall from the ceiling, striking up to three creatures underneath that the dragon can see within 120 feet of it. The dragon makes one ranged attack roll ({@hit 7} to hit) against each target. On a hit, the target takes 10 ({@dice 3d6}) piercing damage.",
+                        "The dragon creates an opaque wall of ice on a solid surface it can see within 120 feet of it. The wall can be up to 30 feet long, 30 feet high, and 1 foot thick. When the wall appears, each creature within its area is pushed 5 feet out of the wall's space, appearing on whichever side of the wall it wants. Each 10-foot section of the wall has AC 5, 30 hit points, vulnerability to fire damage, and immunity to acid, cold, necrotic, poison, and psychic damage. The wall disappears when the dragon uses this lair action again or when the dragon dies."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Secret Tunnel",
+                          "page": 8,
+                          "id": "02c",
+                          "entries": [
+                            "During the course of battle, Icingdeath's wild attacks break off a chunk of the icy wall revealing a secret passageway marked 'S' on the map. The passage leads up and out of the cave 500 feet south of the Sacred Pool. The exit of the passage is covered in a thin layer of ice, making it impossible to detect from the outside without knowing what to look for."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Treasure",
+                          "page": 8,
+                          "id": "02d",
+                          "entries": [
+                            "The druids each carry a druidic focus worth 50 gp in the shape of a snowflake (the symbol of the Frostmaiden). Icingdeath's bones can be used by Mjenir to craft a {@item hallowstone|DKahnEvermelt} or by Dannika Graysteel to craft {@item potion of cold resistance|DMG|potions of cold resistance}."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Conclusion",
+                  "page": 9,
+                  "id": "02e",
+                  "entries": [
+                    "Once the party defeats Icingdeath and the frost druids, Hengar suggests they salvage what they can of the dragon's bones to bring back to Mjenir at the Elk Tribe Camp. At the camp, Jarund agrees to support the party in their quest to open the Reghed Glacier and end the Everlasting Rime. If no characters have access to the {@spell sending|PHB} spell, you can have Mjenir provide the party with one of his pair of {@item sending stones|DMG} so that they can meet when the party is ready to head to the glacier. In addition, Mjenir can craft a {@item hallowstone|DKahnEvermelt} that he can use as a last resort to keep Auril's forces from following the party into the glacier."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Troubleshooting",
+                  "page": 9,
+                  "id": "02f",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Coldlight Children",
+                          "page": 9,
+                          "id": "030",
+                          "entries": [
+                            "While {@i Icewind Dale: Rime of the Frostmaiden} is advertised as a \"horror\" campaign, not all groups enjoy horror and there are certainly different tolerances for it. If you think your group will not respond well to Auril turning children into undead creatures, you can re-flavor the coldlight children as \"lesser coldlight walkers\" and change their size to medium."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Abandoning Hengar",
+                          "page": 9,
+                          "id": "031",
+                          "entries": [
+                            "The party should already be motivated to explore the cave below Evermelt in order to find the dragon bones to craft the {@item hallowstone|DKahnEvermelt}. Hengar tumbling ahead into the cave system serves as a secondary hook to get the party moving in the right direction. If you think your party may not be motivated by these two things, you can have another beloved NPC tumble ahead instead of Hengar or you can have an NPC suggest that some treasure may still remain in the dragon's lair. Alternatively, you can have the frost druids reveal themselves and go ahead of the party down into the caves, potentially drawing the party into a chase. If the party still does not follow, you can have Icingdeath emerge and fight the party outside of the caves, potentially alongside the druids!"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Climbing the Waterfall",
+                          "page": 9,
+                          "id": "032",
+                          "entries": [
+                            "After the party enters the Waterfall Cavern there is further adventure to be had in the caves below. If the party suggests climbing the waterfall and swimming back to the surface, Hengar can suggest that there must be another (less hazardous) way out. If the party insists on climbing up the waterfall, it requires a successful DC 20 Strength (Athletics) check. On a failure, the creature falls taking {@dice 3d6} bludgeoning and {@dice 2d6} piercing damage. Climbing the chute against the current requires a DC 20 Strength (Athletics) check if a character has crampons and an ice pick and is impossible without those tools or the use of magic. Characters attempting to follow behind on a rope must succeed on the same checks with the DC reduced to 15. Alternatively, if the party takes too long with this effort, they may be interrupted by the chanting of the druids who begin the ritual to raise Icingdeath!"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Magic Items",
+          "page": 9,
+          "id": "033",
+          "entries": [
+            "{@note Items marked with * are new}",
+            {
+              "type": "list",
+              "columns": 2,
+              "items": [
+                "{@item Hallowstone|DKahnEvermelt} *",
+                "{@item Horn of Silent Alarm|XGE}",
+                "{@item Potion of Healing|DMG}",
+                "{@item Potion of Cold Resistance|DMG}",
+                "{@item Sending Stones|DMG}"
+              ]
+            },
+            {
+              "type": "list",
+              "style": "list-no-bullets",
+              "columns": 2,
+              "items": [
+                {
+                  "type": "statblock",
+                  "tag": "item",
+                  "source": "DKahnEvermelt",
+                  "name": "Hallowstone"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Scaling & Adjustments",
+          "page": 10,
+          "id": "034",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Level 5-6 Scaling",
+              "page": 10,
+              "id": "035",
+              "entries": [
+                "This adventure can be run for groups of average party levels 5-7. For a level 5 party, you can make three of the following suggested adjustments. For a level 6 party, make one of the following suggested adjustments. Note that if most or all of your party has resistance to cold damage, these scaling adjustments are likely unnecessary.",
+                {
+                  "type": "list",
+                  "items": [
+                    "Remove one coldlight walker and one coldlight child from E1. Reghed Camp.",
+                    "Hengar kills the frost druid that drags him down the chute, leaving two remaining alive for the battle at E6. Icingdeath's Lair.",
+                    "Allow any character proficient in the Nature skill to identify the brown mold hazard."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Adjustments for Legacy",
+              "page": 10,
+              "id": "036",
+              "entries": [
+                "If you are running {@i Legacy of the Crystal Shard}, you can use this supplement as an expansion to what is presented in the campaign book. Because the adventure will likely involve characters of average level 2-3, in addition to changing the monsters outlined in the campaign, here are a few other suggestions to change:",
+                {
+                  "type": "list",
+                  "style": "list-no-bullets",
+                  "columns": 2,
+                  "items": [
+                    {
+                      "type": "entries",
+                      "name": "E1. Reghed Camp",
+                      "page": 10,
+                      "id": "037",
+                      "entries": [
+                        {
+                          "type": "list",
+                          "items": [
+                            "Substitute coldlight walkers for tribal warriors as described in the campaign.",
+                            "Lower Wisdom (Perception) check DC to 12."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "E3. Chute and Tunnel",
+                      "page": 10,
+                      "id": "038",
+                      "entries": [
+                        {
+                          "type": "list",
+                          "items": [
+                            "Lower Strength (Athletics) check DC to 12.",
+                            "Lower Dexterity saving throw DC to 12 and lower damage to 1d4 bludgeoning and 1d4 piercing.",
+                            "Lower Constitution saving throw DC to DC 12 and lower damage to 1d6 cold."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "E4. Waterfall Cavern",
+                      "page": 10,
+                      "id": "039",
+                      "entries": [
+                        {
+                          "type": "list",
+                          "items": [
+                            "Lower Strength saving throw DC to 12 in order to avoid falling. Remove the 2d6 piercing damage from the fall.",
+                            "Add Elk Tribe prisoners and Bear Tribe guards as described in the campaign."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "E5N. Northern Tunnel",
+                      "page": 10,
+                      "id": "03a",
+                      "entries": [
+                        {
+                          "type": "list",
+                          "items": [
+                            "Remove skeletons."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "E5S. Southern Tunnel",
+                      "page": 10,
+                      "id": "03b",
+                      "entries": [
+                        {
+                          "type": "list",
+                          "items": [
+                            "Remove brown mold.",
+                            "Add a piercer to the ceiling."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "E6. Icingdeath's Lair",
+                      "page": 10,
+                      "id": "03c",
+                      "entries": [
+                        {
+                          "type": "list",
+                          "items": [
+                            "Remove frost druids.",
+                            "Add Icingdeath and Ice Witch's Simulacrum as described in the campaign."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Bestiary",
+          "page": 12,
+          "id": "03d",
+          "entries": [
+            {
+              "type": "list",
+              "columns": 2,
+              "items": [
+                "{@creature Gladiator|MM|Hengar (gladiator)}",
+                "{@creature Coldlight Walker|IDRotF}",
+                "{@creature Coldlight Child|DKahnEvermelt} *",
+                "{@creature Giant Octopus|MM|Giant Octopus (Wildshape)}",
+                "{@creature Frost Druid|IDRotF}",
+                "{@creature Icingdeath|DKahnEvermelt} *"
+              ]
+            },
+            {
+              "type": "list",
+              "style": "list-no-bullets",
+              "columns": 2,
+              "items": [
+                {
+                  "type": "statblock",
+                  "tag": "creature",
+                  "source": "DKahnEvermelt",
+                  "name": "Coldlight Child"
+                },
+                {
+                  "type": "statblock",
+                  "tag": "creature",
+                  "source": "DKahnEvermelt",
+                  "name": "Icingdeath"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Player Maps",
+          "id": "03e",
+          "entries": [
+            {
+              "type": "gallery",
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/maps/Evermelt-grid-23x22-162ppi.webp"
+                  },
+                  "title": "Evermelt",
+                  "imageType": "mapPlayer"
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/maps/Evermelt-gridless-23x22-162ppi.webp"
+                  },
+                  "title": "Evermelt (no grid)",
+                  "imageType": "mapPlayer"
+                }
+              ]
+            },
+            {
+              "type": "gallery",
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/maps/Evermelt-warm-grid-23x22-162ppi.webp"
+                  },
+                  "title": "Evermelt (Warm)",
+                  "imageType": "mapPlayer"
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/maps/Evermelt-warm-gridless-23x22-162ppi.webp"
+                  },
+                  "title": "Evermelt (Warm) (no grid)",
+                  "imageType": "mapPlayer"
+                }
+              ]
+            },
+            {
+              "type": "gallery",
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/maps/EvermeltCave-grid-29x39-162ppi.webp"
+                  },
+                  "title": "Evermelt Cave",
+                  "imageType": "mapPlayer"
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/maps/EvermeltCave-gridless-29x39-162ppi.webp"
+                  },
+                  "title": "Evermelt Cave (no grid)",
+                  "imageType": "mapPlayer"
+                }
+              ]
+            },
+            {
+              "type": "gallery",
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/maps/EvermeltCave-noskeletons-grid-29x39-162ppi.webp"
+                  },
+                  "title": "Evermelt Cave (without skeletons)",
+                  "imageType": "mapPlayer"
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/maps/EvermeltCave-noskeletons-gridless-29x39-162ppi.webp"
+                  },
+                  "title": "Evermelt Cave (without skeletons) (no grid)",
+                  "imageType": "mapPlayer"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "item": [
+    {
+      "name": "Hallowstone",
+      "source": "DKahnEvermelt",
+      "page": 9,
+      "rarity": "very rare",
+      "wondrous": true,
+      "reqAttune": true,
+      "entries": [
+        "While holding this smooth, obsidian stone, you can use an action to cast the spell {@spell hallow|PHB}, with no material components required. The spell lasts for as long as you are within the area of its effect and maintain concentration on it, or until it is dispelled. Once used, this feature can't be used again until seven days have passed."
+      ]
+    }
+  ],
+  "monster": [
+    {
+      "name": "Coldlight Child",
+      "source": "DKahnEvermelt",
+      "page": 11,
+      "_copy": {
+        "name": "Coldlight Walker",
+        "source": "IDRotF",
+        "_mod": {
+          "trait": [
+            {
+              "mode": "replaceArr",
+              "replace": "Blinding Light",
+              "items": [
+                {
+                  "name": "Eerie Light",
+                  "entries": [
+                    "The walker sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
+                  ]
+                }
+              ]
+            }
+          ],
+          "action": [
+            {
+              "mode": "replaceArr",
+              "replace": "Slam",
+              "items": [
+                {
+                  "name": "Slam",
+                  "entries": [
+                    "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 1}) bludgeoning damage plus {@h}7 ({@damage 2d6}) cold damage."
+                  ]
+                }
+              ]
+            },
+            {
+              "mode": "replaceArr",
+              "replace": "Cold Ray",
+              "items": [
+                {
+                  "name": "Cold Ray",
+                  "entries": [
+                    "{@atk rs} {@hit 3} to hit, range 60 ft., one target. {@h}12 ({@damage 2d10 + 1}) cold damage."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "size": [
+        "S"
+      ],
+      "ac": [
+        {
+          "ac": 11,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d6 + 8",
+        "average": 36
+      },
+      "str": 13,
+      "dex": 10,
+      "con": 12,
+      "int": 8,
+      "wis": 10,
+      "cha": 8,
+      "cr": "2",
+      "token": {
+        "name": "Coldlight Walker",
+        "source": "IDRotF"
+      },
+      "damageTags": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "name": "Icingdeath",
+      "source": "DKahnEvermelt",
+      "page": 12,
+      "_copy": {
+        "name": "Young White Dragon",
+        "source": "MM",
+        "_mod": {
+          "trait": [
+            {
+              "mode": "appendArr",
+              "items": [
+                {
+                  "name": "Unusual nature",
+                  "entries": [
+                    "The dragon doesn't require air, food, drink, or sleep."
+                  ]
+                }
+              ]
+            }
+          ],
+          "action": [
+            {
+              "mode": "replaceArr",
+              "replace": "Claw",
+              "items": [
+                {
+                  "name": "Claw",
+                  "entries": [
+                    "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+                  ]
+                }
+              ]
+            },
+            {
+              "mode": "replaceArr",
+              "replace": "Cold Breath {@recharge 5}",
+              "items": [
+                {
+                  "name": "Chilling Breath {@recharge 5|6}",
+                  "entries": [
+                    "The dragon exhales an icy blast in a 30-foot cone. Each creature in that area must make a {@dc 15} Constitution saving throw, taking 23 ({@damage 5d8}) cold damage and 23 ({@damage 5d8}) cold damage on a failed save, or half as much damage on a successful one."
+                  ]
+                }
+              ]
+            }
+          ],
+          "variant": "remove"
+        }
+      },
+      "isNpc": true,
+      "type": "undead",
+      "hp": {
+        "formula": "14d10 + 56",
+        "average": 100
+      },
+      "str": 18,
+      "dex": 10,
+      "con": 18,
+      "int": 6,
+      "wis": 8,
+      "cha": 5,
+      "save": {
+        "dex": "+3",
+        "con": "+7",
+        "wis": "+2",
+        "cha": "+0"
+      },
+      "immune": [
+        "cold",
+        "poison"
+      ],
+      "cr": "7",
+      "legendaryGroup": {
+        "name": "White Dragon",
+        "source": "MM"
+      },
+      "hasToken": true,
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/tokens/Icingdeath.webp"
+      },
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/art/Icingdeath (nikodomeniko).webp"
+            },
+            "title": "Icingdeath",
+            "credit": "Nicole Mastrodomenico @nikodomeniko on Instagram"
+          },
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnEvermelt/art/Icingdeath (drmapzo) (full).webp"
+            },
+            "title": "Icingdeath",
+            "credit": "Dr. Mapzo"
+          }
+        ]
+      },
+      "languages": [
+        "understand Common and Draconic but can't speak"
+      ],
+      "languageTags": [
+        "C",
+        "CS",
+        "DR"
+      ],
+      "vulnerable": [
+        "bludgeoning"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "poisoned"
+      ],
+      "damageTags": [
+        "C",
+        "P",
+        "S"
+      ]
+    }
+  ]
+}

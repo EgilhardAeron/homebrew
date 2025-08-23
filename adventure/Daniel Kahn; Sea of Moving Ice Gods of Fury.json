@@ -1,0 +1,1774 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "DKahnSeaOfMovingIceGodsOfFury",
+        "abbreviation": "DK;ID:SoMIGoF",
+        "full": "Icewind Dale: Sea of Moving Ice, Gods of Fury",
+        "color": "7ab3bc",
+        "url": "https://www.dmsguild.com/product/331882/Sea-of-Moving-Ice-Gods-of-Fury--expanded-maps-and-content-for-Rime-of-the-Frostmaiden",
+        "authors": [
+          "Daniel Kahn"
+        ],
+        "convertedBy": [
+          "EgilhardAeron"
+        ],
+        "version": "1.0.0"
+      }
+    ],
+    "edition": "classic",
+    "status": "ready",
+    "dateAdded": 1742132757,
+    "dateLastModified": 1742132757
+  },
+  "adventure": [
+    {
+      "name": "Icewind Dale: Sea of Moving Ice, Gods of Fury",
+      "id": "DKahnSeaOfMovingIceGodsOfFury",
+      "source": "DKahnSeaOfMovingIceGodsOfFury",
+      "group": "homebrew",
+      "cover": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnSeaOfMovingIceGodsOfFury/cover.webp"
+      },
+      "published": "2020-10-12",
+      "storyline": "Icewind Dale",
+      "level": {
+        "custom": "APL 6-7"
+      },
+      "contents": [
+        {
+          "name": "Cover & Credits"
+        },
+        {
+          "name": "Introduction",
+          "headers": [
+            "What's This All About?",
+            "Adventure Hooks"
+          ]
+        },
+        {
+          "name": "Temple of the Gods of Fury",
+          "headers": [
+            "General Features",
+            "Approaching the Temple",
+            {
+              "header": "1. Entrance Cavern",
+              "depth": 1
+            },
+            {
+              "header": "2. Shrine to Umberlee",
+              "depth": 1
+            },
+            {
+              "header": "3. High Priestess's Chambers",
+              "depth": 1
+            },
+            {
+              "header": "4. Hatchery (Shrine to Auril)",
+              "depth": 1
+            },
+            {
+              "header": "5. Priestess's Chambers",
+              "depth": 1
+            },
+            {
+              "header": "6. Armory (Shrine to Talos)",
+              "depth": 1
+            },
+            {
+              "header": "7. Champion's Chambers",
+              "depth": 1
+            },
+            {
+              "header": "8. Larder (Shrine to Malar)",
+              "depth": 1
+            },
+            {
+              "header": "9. Prison Cell",
+              "depth": 1
+            },
+            {
+              "header": "10. Living Quarters",
+              "depth": 1
+            },
+            {
+              "header": "11. Treasury",
+              "depth": 1
+            },
+            {
+              "header": "12. Orca Pool",
+              "depth": 1
+            },
+            "Conclusion",
+            "Troubleshooting"
+          ]
+        },
+        {
+          "name": "Magic Items",
+          "headers": [
+            "Optional Magic Items"
+          ]
+        },
+        {
+          "name": "Supernatural Gifts"
+        },
+        {
+          "name": "Monsters"
+        },
+        {
+          "name": "Player Maps"
+        }
+      ]
+    }
+  ],
+  "adventureData": [
+    {
+      "id": "DKahnSeaOfMovingIceGodsOfFury",
+      "source": "DKahnSeaOfMovingIceGodsOfFury",
+      "data": [
+        {
+          "type": "section",
+          "name": "Cover & Credits",
+          "page": 1,
+          "id": "001",
+          "entries": [
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnSeaOfMovingIceGodsOfFury/cover-full.webp"
+              },
+              "title": "Sea of Moving Ice, Gods of Fury Cover",
+              "credit": "Nicole Mastrodomenico @nikodomeniko on Instagram"
+            },
+            {
+              "type": "section",
+              "name": "Credits",
+              "page": 2,
+              "id": "002",
+              "entries": [
+                {
+                  "type": "list",
+                  "style": "list-no-bullets",
+                  "columns": 2,
+                  "items": [
+                    {
+                      "type": "list",
+                      "style": "list-no-bullets",
+                      "items": [
+                        "{@b Writing & Layout:} Daniel Kahn",
+                        "{@b Cover Art:} Nicole Mastrodomenico @nikodomeniko on Instagram",
+                        "{@b Sahuagin Art:} by {@link Dr. Mapzo|https://www.patreon.com/drmapzo}",
+                        "{@b Dungeon Map:} by {@link Franz Warm|https://franzwarm.itch.io/} with DungeonDraft"
+                      ]
+                    },
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnSeaOfMovingIceGodsOfFury/art/Sahuagin 1.webp"
+                      },
+                      "credit": "Dr. Mapzo"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "entries": [
+                "DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, Ravenloft, Eberron, the dragon ampersand, Ravnica and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries.",
+                "This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild.",
+                "All other original material in this work is copyright 2020 by Daniel Kahn and published under the Community Content Agreement for Dungeon Masters Guild."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Introduction",
+          "page": 3,
+          "id": "003",
+          "entries": [
+            "Deep beneath the sea of moving ice lies an ancient temple inhabited by wicked sharklike people known as sahuagin. When these sahuagin find something and drag it down to the frozen depths, there is little hope of ever seeing it again. Will heroes have what it takes to brave to bone-chilling waters of the Sea of Moving Ice to recover what was lost?",
+            {
+              "type": "entries",
+              "name": "What's This All About?",
+              "page": 3,
+              "id": "004",
+              "entries": [
+                "As written in {@i Icewind Dale: Rime of the Frostmaiden}, Vellynne Harpell knows the general location of the {@item professor skant|IDRotF|professor orb} (pg. 315) and then in {@adventure Chapter 5: Auril's Abode|IDRotF|15}, the party more or less stumbles upon it. Some DMs may want to throw in an additional challenge for their players during this chapter, such as going on a daring mission to recover the professor orb .",
+                "Furthermore, pg. 274 {@note ({@creature auril (first form)|IDRotF|see the Info tab})} of the campaign book describes Auril's motivations as the following: \"Auril was aligned with the gods Talos, Umberlee, and Malar. Together they wrought terrible destruction, inspiring fear that compelled tribute to hold their power at bay. Umberlee, queen of the wrathful sea, grew to despise the enduring nature of the ice and snow Auril created. Umberlee seethed when Auril's frigid cold transformed her chaotic, unpredictable tides into rigid, motionless sheets of ice. Umberlee brought Talos and Malar into an alliance against Auril, who retreated to the coldest corner of Toril to escape their fury.\" Unfortunately, the campaign, as written, never gives an opportunity for characters (and players) to learn this backstory and some of the motivations behind the Frostmaiden's deeds.",
+                "This supplement provides an exciting dungeon (average party level 6-7) where your party can learn more about this lore and not be so left in the dark (pun intended). The premise is that a group of sahuagin have stolen the professor orb off Nass's corpse and brought it back to their underwater lair. The party must dive down into the depths of the Sea of Moving Ice to recover it."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Adventure Hooks",
+              "page": 3,
+              "id": "005",
+              "entries": [
+                "The primary objective of this supplement is to provide an interesting and challenging mission for the party to recover the {@item professor skant|IDRotF|professor orb}. The party can be hooked into venturing to the Temple of the Gods of Fury in one of the following ways.",
+                {
+                  "type": "entries",
+                  "name": "Sea Hags of Solstice",
+                  "page": 3,
+                  "id": "006",
+                  "entries": [
+                    "According to the Shipwreck Discoveries table (pg. 200), there is a coven of three sea hags that is using one of the shipwrecks as their lair. Rather than stumbling across Nass Lantomir's body as described in the book (pg. 200), we can have Nass's weasel familiar, Zelennor run into the party shortly after they arrive on Solstice. Zelennor can lead the party to Nass's body, where the ghost can explain that she no longer possesses the {@item professor skant|IDRotF|professor orb}. The ghost or Zelennor can tell the party that the {@item professor skant|IDRotF|professor orb} was taken by a group of sea hags who live in a nearby land-bound shipwreck. At your discretion, Nass's ghost may try to possess one of the player characters and tag along.",
+                    "The sea hags (Ellin Urchingums, Marlin Slugwart, and Atrunia Leechfingers) loot ships and eat survivors that crash into Solstice from time to time and amassed a sizable treasure trove. Recently, however, a group of sahuagin stole a large portion of their trove, including the {@item professor skant|IDRotF|professor orb}. The sea hags are willing to give the party the location of the sahuagin's lair in exchange for the party exacting revenge upon the sahuagins (and perhaps bringing back some eyes and tongues for the hags to use for their brew). The hags allow the party to keep the {@item professor skant|IDRotF|professor orb} if they find it.",
+                    "To enable the characters to make the underwater journey, the hags can perform a ritual to cast the {@spell water breathing|PHB} spell on the party. If the party requires cold resistance to survive the journey into the cold waters, the hags can craft enough {@item potion of cold resistance|DMG|potions of resistance (cold)} for the entire party if the party can bring the hags an {@object ice troll heart|IDRotF} (pg. 295) from the {@adventure Garden of Death on Solstice|IDRotF|15|i6. garden of death} (pg. 202)."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Arveiaturace's Revenge",
+                  "page": 3,
+                  "id": "007",
+                  "entries": [
+                    "Alternatively, you can have Nass's body be on the {@adventure Dark Duchess|IDRotF|12|dark duchess} from Chapter 2: Icewind Dale (pg. 127). If the party seeks out Nass's body at this location, you can have them encounter the ancient white dragon Arveiaturace, who is mourning a recent plundering of her treasure hoard. Arveiaturace knows that the hoard was stolen by a group of sahuagins and will eagerly use the party as a vessel for her revenge.",
+                    "Arveiaturace can gift the party {@item potion of water breathing|DMG|potions of water breathing} from her remaining treasure. In addition, she can grant the party a {@reward Charm of Cold Resistance (Arveiaturace)|DKahnSeaOfMovingIceGodsOfFury|supernatural charm} that provides them with cold resistance for an hour using a variant of her cold breath. You can have Arveiaturace ask that the party return all of her treasure that she lost (all of the first layer described on pg. 129, including 72 gp, 181 sp, 352 cp, and two pearls), which is now held in location 11. Treasury in the treasury of Umberlee. The party is allowed to keep the {@item professor skant|IDRotF|professor orb} and any other treasure they find."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Temple of the Gods of Fury",
+          "page": 3,
+          "id": "008",
+          "entries": [
+            "As described on pg. 274 {@note ({@creature auril (first form)|IDRotF|see the Info tab})} of {@i Rime of the Frostmaiden}, Auril was once aligned with the gods Talos, Malar, and Umberlee (known as the Gods of Fury). For a time, there was a temple where worshipers of these four gods gathered to pray. During their falling out, Umberlee cast the temple to the bottom of the Sea of Moving Ice, where even Auril's frozen touch could not penetrate.",
+            "The temple is currently inhabited by arctic sahuagin who worship Umberlee, show indifference towards Malar and Talos, and hatred for Auril. Unbeknown to the sahuagin, there are other treasures in the temple that have been locked away for a century. If the party is particularly daring, they could not only recover the {@item professor skant|IDRotF|professor orb}, but also pass the tests of the Gods of Fury to be worthy of their treasure hoards.",
+            "There are two ways into the temple, the first is 1. Entrance Cavern and the second is 12. Orca Pool. Characters who look for another entrance and succeed on a DC 15 Wisdom (Survival or Perception) check notice the concealed entrance to the Orca Pool. Parties that approach through the Orca Pool have a chance to start their infiltration of the temple unnoticed.",
+            "Of the sahuagin in the temple, Glauca in 4. Hatchery (Shrine to Auril) is the most likely to be reasoned with. The other sahuagin are likely to be hostile on sight. Parties that declare themselves to be actively working against Auril are brought before Carcharia in 2. Shrine to Umberlee, where she deems them worthy sacrifices to Umberlee.",
+            {
+              "type": "gallery",
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnSeaOfMovingIceGodsOfFury/maps/dm/Temple of the Gods of Fury.webp"
+                  },
+                  "title": "Map: Temple of the Gods of Fury",
+                  "imageType": "map",
+                  "credit": "Franz Warm",
+                  "mapRegions": [
+                    {
+                      "area": "1. Entrance Cavern",
+                      "points": [
+                        [
+                          810,
+                          390
+                        ],
+                        [
+                          810,
+                          435
+                        ],
+                        [
+                          840,
+                          435
+                        ],
+                        [
+                          855,
+                          435
+                        ],
+                        [
+                          855,
+                          390
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "2. Shrine to Umberlee",
+                      "points": [
+                        [
+                          706,
+                          113
+                        ],
+                        [
+                          706,
+                          157
+                        ],
+                        [
+                          748,
+                          158
+                        ],
+                        [
+                          746,
+                          111
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "3. High Priestess's Chambers",
+                      "points": [
+                        [
+                          544,
+                          57
+                        ],
+                        [
+                          545,
+                          94
+                        ],
+                        [
+                          580,
+                          95
+                        ],
+                        [
+                          581,
+                          56
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "4. Hatchery (Shrine to Auril)",
+                      "points": [
+                        [
+                          608,
+                          381
+                        ],
+                        [
+                          606,
+                          432
+                        ],
+                        [
+                          648,
+                          432
+                        ],
+                        [
+                          647,
+                          380
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "5. Priestess's Chambers",
+                      "points": [
+                        [
+                          580,
+                          178
+                        ],
+                        [
+                          580,
+                          212
+                        ],
+                        [
+                          617,
+                          214
+                        ],
+                        [
+                          618,
+                          174
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "6. Armory (Shrine to Talos)",
+                      "points": [
+                        [
+                          590,
+                          475
+                        ],
+                        [
+                          589,
+                          517
+                        ],
+                        [
+                          632,
+                          517
+                        ],
+                        [
+                          630,
+                          473
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "7. Champion's Chambers",
+                      "points": [
+                        [
+                          491,
+                          417
+                        ],
+                        [
+                          491,
+                          455
+                        ],
+                        [
+                          529,
+                          456
+                        ],
+                        [
+                          530,
+                          416
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "8. Larder (Shrine to Malar)",
+                      "points": [
+                        [
+                          362,
+                          464
+                        ],
+                        [
+                          362,
+                          506
+                        ],
+                        [
+                          400,
+                          508
+                        ],
+                        [
+                          398,
+                          461
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "9. Prison Cell",
+                      "points": [
+                        [
+                          335,
+                          300
+                        ],
+                        [
+                          335,
+                          339
+                        ],
+                        [
+                          377,
+                          340
+                        ],
+                        [
+                          375,
+                          294
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "10. Living Quarters",
+                      "points": [
+                        [
+                          480,
+                          246
+                        ],
+                        [
+                          480,
+                          290
+                        ],
+                        [
+                          532,
+                          291
+                        ],
+                        [
+                          532,
+                          247
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "11. Treasury",
+                      "points": [
+                        [
+                          308,
+                          195
+                        ],
+                        [
+                          308,
+                          237
+                        ],
+                        [
+                          357,
+                          238
+                        ],
+                        [
+                          357,
+                          195
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "12. Orca Pool",
+                      "points": [
+                        [
+                          161,
+                          244
+                        ],
+                        [
+                          161,
+                          297
+                        ],
+                        [
+                          216,
+                          298
+                        ],
+                        [
+                          216,
+                          243
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "General Features",
+              "page": 4,
+              "id": "009",
+              "entries": [
+                {
+                  "type": "list",
+                  "items": [
+                    "{@b {@i Sunken Temple.}} The entire temple is 80 feet underwater. See {@quickref underwater combat|PHB} sidebar for rules from the {@i Player's Handbook}.",
+                    "{@b {@i Corridors and Rooms.}} All corridors are 10 feet high. All the rooms are 15 feet high.",
+                    "{@b {@i Doors.}} All doors are 4-inch-thick doors made of stone and 10 feet tall. All doors open into the areas they border on metal casters that move along grooves cut into the stone floor.",
+                    "{@b {@i Illumination.}} Though the water is clear, there are no light sources in the temple. The sahuagin occupants use darkvision to see."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "gallery",
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnSeaOfMovingIceGodsOfFury/art/Sahuagin 2.webp"
+                  },
+                  "credit": "Dr. Mapzo"
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnSeaOfMovingIceGodsOfFury/art/Sahuagin 3.webp"
+                  },
+                  "credit": "Dr. Mapzo"
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Approaching the Temple",
+              "page": 4,
+              "id": "00a",
+              "entries": [
+                "Assuming one or more party members has a light source or darkvision, you can read:",
+                {
+                  "type": "insetReadaloud",
+                  "id": "00b",
+                  "entries": [
+                    "The rocky mound that extends to the surface has been hallowed out to form 12. Orca Pool. The pyramidal roof marks the top of the 10. Living Quarters."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "1. Entrance Cavern",
+              "page": 4,
+              "id": "00c",
+              "entries": [
+                "The entrance cavern is the primary entrance to the Temple of the Gods of Fury.",
+                {
+                  "type": "insetReadaloud",
+                  "id": "00d",
+                  "entries": [
+                    "Three of the four walls of this large cavern appear to be naturally formed. The western wall contains wondrous reliefs depicting four entities with tunnels leading downwards beneath each one. Small humanoid figures gather at the feet of these entities laying down sacrifices and treasure. Other humanoid figures on the periphery appear to be running in fear."
+                  ]
+                },
+                "Four {@creature sahuagin coral smasher|GoS|sahuagin coral smashers} guard this entrance. If two sahuagin are killed, one of the remaining guards will retreat to 6. Armory (Shrine to Talos) to alert more guards. Once the characters defeat the guards or have time to further take in the wall reliefs, you can read the following:",
+                {
+                  "type": "insetReadaloud",
+                  "id": "00e",
+                  "entries": [
+                    "The first entity is a broad-shouldered, bearded young man with an eye patch gripping a bolt of lightning. The second entity is a hairy bestial man with large fangs and claws. The third entity is an illustrious woman surrounded by swirling waves. The fourth entity is a hunched humanoid with the head of the snowy owl, black talons, cloven hooves, and snowflakes dancing about."
+                  ]
+                },
+                "Almost a hundred feet below the surface lies a partially buried stone structure in the eastern side of a rocky mound, which extends to the surface of the water. A four-sided pyramidal roof can be seen above the debris in the middle of the structure. A natural cave entrance appears to lead inward on the northeast side.",
+                "Characters proficient in Religion recognize the entities as the gods Talos (the Stormlord), Malar (the Beastlord), Umberlee (the Queen of the Depths), and Auril (the Frostmaiden), respectively. A successful DC 15 Intelligence (Religion) check allows a character to recall that at one point the gods Talos, Malar, Umberlee, and Auril were all aligned. Together they wrought terrible destruction, inspiring fear that compelled tribute to hold their power at bay."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "2. Shrine to Umberlee",
+              "page": 5,
+              "id": "00f",
+              "entries": [
+                {
+                  "type": "list",
+                  "columns": 2,
+                  "style": "list-no-bullets",
+                  "items": [
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnSeaOfMovingIceGodsOfFury/maps/dm/Temple of the Gods of Fury (detail 2).webp"
+                      },
+                      "title": "Shrine to Umberlee (DM)",
+                      "credit": "Franz Warm"
+                    },
+                    "The Shrine to Umberlee is one of the only rooms in the temple that has not been converted to another purpose. The sahuagin that live here worship Umberlee, the Queen of the Depths under the guidance of the high priestess Carcharia.",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "010",
+                      "entries": [
+                        "Iconography of waves, seaweed, and sharks are carved into the walls of this long hall. At the north end of the hall sits a decorated shrine. Atop the shrine sits a few pieces of fine treasure and a small, smooth sphere of smoky gray quartz. Beyond the shrine, a whirlpool is etched into the north wall."
+                      ]
+                    },
+                    "Inspection of the whirlpool reveals a button in the center of it. An inscription around the whirlpool is written in Common and reads:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "011",
+                      "style": "text-center",
+                      "entries": [
+                        "A trackless ocean outstretched wide",
+                        "An endless grave for those who've died",
+                        "Many hopeful who have tried",
+                        "But chosen few can escape the tide"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Test of Umberlee",
+                          "page": 5,
+                          "id": "012",
+                          "entries": [
+                            "The test was originally intended to try to drown those who would press the button and those who survived would receive a blessing. When pushed, all characters should roll initiative. On initiative count 20, bubbling jets shoot out of the tiny holes in the wall as if the chamber were supposed to fill with water (though it is already full of water) and a whirlpool starts sucking creatures towards the north wall."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "The whirlpool forms a vortex that spans the width of the room (15 feet) and is 60 feet long. When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a DC 15 Strength saving throw. On a failed save, the creature takes {@dice 2d8} bludgeoning damage and is pulled 10 feet towards the north wall.",
+                "On a successful save, the creature takes half damage, and is not pulled in. Creatures with swim speeds are immune to the whirlpool's effects. The whirlpool lasts for 1 minute.",
+                "Regardless of if the alarm has been raised, a {@creature sahuagin high priestess|GoS} named {@b Carcharia} and two {@creature sahuagin priestess|MM|sahuagin priestesses} are located here. If a fight breaks out, one of them presses the button and uses the whirlpool to help fight characters who may not possess a swim speed to escape it. The two junior priestesses let Carcharia do all of the talking. If characters try to reason with her, she may entertain them for a while, drawing them into the room hoping to sacrifice them to Umberlee with the whirlpool trap.",
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Treasure",
+                          "page": 5,
+                          "id": "013",
+                          "entries": [
+                            "The shrine holds four 100 gp pearls, one 500 gp black pearl, 170 gp, and the {@item professor skant|IDRotF|professor orb}. The Carcharia carries a key to 3. High Priestess's Chambers."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Blessing of Umberlee",
+                          "page": 5,
+                          "id": "014",
+                          "entries": [
+                            "A creature who press the button and manages to escape the room is blessed with gills and fins that allow them to breathe underwater and grant a swimming speed of 30 feet for 10 days."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "3. High Priestess's Chambers",
+              "page": 5,
+              "id": "015",
+              "entries": [
+                "The door is locked and can be picked with a successful DC 15 Dexterity check using thieves' tools.",
+                {
+                  "type": "insetReadaloud",
+                  "id": "016",
+                  "entries": [
+                    "An ornately carved bench stands near a table in the center of the room. A seaweed bed sits against the northern wall. On the western wall, seaweed vestments are hung from fishing hooks. A small chest lies at the foot of the bed."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Treasure",
+                          "page": 5,
+                          "id": "017",
+                          "entries": [
+                            "The chest contains a golden shark tooth necklace worth 200 gp as well as a holy symbol of Umberlee worth 50 gp."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "4. Hatchery (Shrine to Auril)",
+              "page": 6,
+              "id": "018",
+              "entries": [
+                "The eastern door to this room is barred shut from the inside and can be opened with a successful DC 25 Strength (Athletics) check.",
+                {
+                  "type": "insetReadaloud",
+                  "id": "019",
+                  "entries": [
+                    "This room contains a cluster of what look like a dozen fish eggs floating against the southern wall. The walls are engraved with iconography of snowflakes with a large 6 -pointed snowflake dominating the western wall, though most of the engravings have been defaced or covered in seaweed."
+                  ]
+                },
+                "Inspection of the large snowflake reveals a button in the center of it. An inscription is written in the branches of the snowflake that in Common and reads:",
+                {
+                  "type": "insetReadaloud",
+                  "id": "01a",
+                  "style": "text-center",
+                  "entries": [
+                    "Embrace the cold to share my might",
+                    "Resist the blast winter's bite",
+                    "A blessing to survive the rite",
+                    "Or be preserved in snowy white"
+                  ]
+                },
+                "The test was originally intended to expel a blast of cold from the wall when the button was pressed and those who survived would receive a blessing. Now that the room is flooded with water, the blast of cold makes the water turn to a block of ice in a 15 foot wide, 30 foot long line originating from the button.",
+                "A creature trapped within the ice is paralyzed and begins to suffocate (see {@hazard Suffocating|PHB} sidebar), though spells can still be cast that only require verbal components (or no components at all, such as with Subtle Spell Metamagic). Additionally, trapped creatures must succeed on a DC 12 Constitution saving throw at the start of each turn or take 3d6 cold damage. A 5 foot square block of ice has 18 hit points, an AC of 13, is vulnerable to fire damage (which is negated by the fact that it is fully immersed in water), and is immune to psychic, poison, and cold damage. The ice melts away by itself after 10 minutes.",
+                "A {@creature sahuagin priestess|MM} named {@b Glauca} is responsible for tending to the eggs. She understands the importance of tending to the eggs, but resents high priestess Carcharia who has assigned her to this duty rather than being able to spend her days worshiping Umberlee. If caught by herself, Glauca may surrender to the party if they help her overthrow Carcharia so that Glauca may take the mantle of Umberlee's favorite. If characters inquire about the defaced Frostmaiden symbology in the room, Glauca can explain the following:",
+                {
+                  "type": "list",
+                  "items": [
+                    "The sahuagin in this temple are worshipers of the goddess Umberlee, queen of the wrathful sea.",
+                    "Auril was aligned with the gods Talos, Umberlee, and Malar. Together they wrought terrible destruction, inspiring fear that compelled tribute to hold their power at bay.",
+                    "Umberlee grew to despise the enduring nature of the ice and snow Auril created. Umberlee seethed when Auril's frigid cold transformed her chaotic, unpredictable tides into rigid, motionless sheets of ice.",
+                    "Umberlee brought Talos and Malar into an alliance against Auril, who retreated to the coldest corner of Toril to escape their fury.",
+                    "After a world-shaking event known as the Sundering, most of the gods withdrew from Toril, leaving mortals to govern their own fates without the gods' meddling, but Auril seems to have returned.",
+                    "Glauca nor any of the sahuagin have ever pressed the button as it is likely linked to the blasphemous magic of the Frostmaiden."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Treasure",
+                          "page": 6,
+                          "id": "01b",
+                          "entries": [
+                            "Glauca carries a holy symbol of Umberlee worth 50 gp."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Blessing of Auril",
+                          "page": 6,
+                          "id": "01c",
+                          "entries": [
+                            "Creatures who press the button and survive are granted the ability to cast the {@spell absorb elements|XGE} spell at 1st level for 10 days. Once a creature casts a spell with this trait, it can't cast that spell with it again until it finishes a long rest. Charisma is the spellcasting ability for this spell."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "inset",
+                  "name": "Suffocating (Player's Handbook)",
+                  "page": 6,
+                  "id": "01d",
+                  "entries": [
+                    "A creature can hold its breath for a number of minutes equal to 1 + its Constitution modifier (minimum of 30 seconds). When a creature runs out of breath, it can survive for a number of rounds equal to its Constitution modifier (minimum of 1 round). At the start of its next turn, it drops to 0 hit points and is dying, and it can't regain hit points or be stabilized until it can breathe again.",
+                    "{@b Homebrew:} To add an additional challenge, you can have a character that takes damage while holding their breath make a successful DC 10 Constitution saving throw or lose 1 minute of air."
+                  ]
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnSeaOfMovingIceGodsOfFury/maps/dm/Temple of the Gods of Fury (detail 4).webp"
+                  },
+                  "title": "Hatchery (Shrine to Auril) (DM)",
+                  "credit": "Franz Warm"
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "5. Priestess's Chambers",
+              "page": 7,
+              "id": "01e",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "id": "01f",
+                  "entries": [
+                    "A bench stands near a table in the center of the room. A seaweed bed sits against the eastern wall."
+                  ]
+                },
+                "There is nothing more to find in this room.",
+                "The test was originally intended to expel a thin bolt of lightning when the button was pressed. A clever individual or an individual with allies could form a link between the button and the lightning rod to dissipate the charge and survive to receive a blessing."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "6. Armory (Shrine to Talos)",
+              "page": 7,
+              "id": "020",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "id": "021",
+                  "entries": [
+                    "Spears and tridents line the northern wall of this square room on metal racks. Jutting out from the north wall is a three foot long metal rod. On the southern wall, three lightning bolts carved into the wall seem to point to a central location on the wall."
+                  ]
+                },
+                "Inspection of the lightning bolts reveals a button at the center of where the three lightning bolts point. An inscription is written around the lightning bolts in Common and reads:",
+                {
+                  "type": "insetReadaloud",
+                  "id": "022",
+                  "style": "text-center",
+                  "entries": [
+                    "A lightning strike, a charge ejected,",
+                    "A single man would die affected,",
+                    "Power fails if undirected,",
+                    "But current flows with arms connected."
+                  ]
+                },
+                "However, now that the hall is underwater, the charge shocks everything in the room. A creature within the room that is affected by the shock must succeed on a DC 15 Constitution saving throw taking 6d8 lightning damage on a failed save and half damage on a success. The solution remains the same and if the character pushing the button is physically touching another creature or object touching the rod, the charge passes harmlessly through them into the wall, though all other creatures in the room are shocked.",
+                "The sahuagin have tried this riddle, but when several died, they decided not to mess with it further. They now use it as a trap if characters enter the room, throwing tridents at the button from just outside the room. For the purposes of this, the button has an AC of 16 from the western doorway of the room and releases the shock if hit. The button resets after 1 minute so the trap can essentially only be sprung once per combat.",
+                "Two {@creature sahuagin coral smasher|GoS|sahuagin coral smashers} reside in the armory at any time unless they are alerted to danger elsewhere.",
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Treasure",
+                          "page": 7,
+                          "id": "023",
+                          "entries": [
+                            "This room contains 6 tridents and 6 spears."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Blessing of Talos",
+                          "page": 7,
+                          "id": "024",
+                          "entries": [
+                            "Creatures who allow the current to pass through them from the button to the rod receive the Blessing of Talos, which gives them resistance to lightning damage for 10 days."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnSeaOfMovingIceGodsOfFury/maps/dm/Temple of the Gods of Fury (detail 6).webp"
+                  },
+                  "title": "Armory (Shrine to Talos) (DM)",
+                  "credit": "Franz Warm"
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "7. Champion's Chambers",
+              "page": 7,
+              "id": "025",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "id": "026",
+                  "entries": [
+                    "This plain room contains a seaweed bed but is otherwise devoid of furniture or decorations."
+                  ]
+                },
+                "A {@creature sahuagin champion|GoS} rests here unless alerted to intruders. He will hear and join any conflict that erupts in 6. Armory (Shrine to Malar) or 10. Living Quarters.",
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Treasure",
+                          "page": 7,
+                          "id": "027",
+                          "entries": [
+                            "The sahuagin champion carries the key to 9. Prison Cell."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "8. Larder (Shrine to Malar)",
+              "page": 8,
+              "id": "028",
+              "entries": [
+                {
+                  "type": "list",
+                  "columns": 2,
+                  "style": "list-no-bullets",
+                  "items": [
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnSeaOfMovingIceGodsOfFury/maps/dm/Temple of the Gods of Fury (detail 8).webp"
+                      },
+                      "title": "Larder (Shrine to Malar) (DM)",
+                      "credit": "Franz Warm"
+                    },
+                    {
+                      "type": "insetReadaloud",
+                      "id": "029",
+                      "entries": [
+                        "The walls of this room are decorated by carvings of vicious bestial creatures, including wolves, rats, bears, boars, and tigers. Various kelp-like vegetation grows in shelved gardens in the corners of the room. Claw marks riddle the floor, though many appear to be quite old. Some objects in the room appear to be overturned or broken, suggesting a recent struggle. On the western wall, large jaws are carved into the wall."
+                      ]
+                    },
+                    "On inspection, there is a button in the center of the jaws. An inscription around the jaws is written in Common and reads:",
+                    {
+                      "type": "insetReadaloud",
+                      "id": "02a",
+                      "style": "text-center",
+                      "entries": [
+                        "A bestial kaleidoscope",
+                        "From polar bear to antelope,",
+                        "To hunt by moonlight is one's trope,",
+                        "The blessing of a lycanthrope."
+                      ]
+                    },
+                    "When a creature presses the button, one or more lycanthropes appear in the room. The test was meant to challenge warriors against mighty foes and bestow a blessing to the survivors. Because none of the lycanthropes are aquatic, the combatants are now more like fish out of water (or the other way around). When the button is pressed, roll 1d6, and consult the following chart to determine what appears."
+                  ]
+                },
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "d6",
+                    "Discovery"
+                  ],
+                  "colStyles": [
+                    "text-align-left",
+                    "text-align-left"
+                  ],
+                  "rows": [
+                    [
+                      "1-2",
+                      "2  {@creature werebear|MM}"
+                    ],
+                    [
+                      "3-4",
+                      "4  {@creature wererat|MM|wererats}"
+                    ],
+                    [
+                      "5-6",
+                      "3  {@creature werewolf|MM|werewolves}"
+                    ]
+                  ],
+                  "caption": "Lycanthrope Table"
+                },
+                "The lycanthropes appear in animal form and use their natural weapons in an attempt to transmit the curse of lycanthropy and then kill whomever pressed the button. The creatures disappear when slain.",
+                "The sole occupant of this room is the cook named Cuvier. He's spent a lot of time in this room and in experiments with the button, contracted lycanthropy. Because of his sharklike heritage, the curse manifested itself such that Cuvier became a {@creature sahuagin wereshark|DKahnSeaOfMovingIceGodsOfFury}. He recently had an episode that caused him to wreck a bit of the room and eat most of the food stores.",
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Blessing of Malar",
+                          "page": 8,
+                          "id": "02b",
+                          "entries": [
+                            "A creature that presses the button and survives the encounter has its Strength score become 19. The blessing has no effect if the creature's Strength is already 19 or higher. The blessing lasts 10 days."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "9. Prison Cell",
+              "page": 8,
+              "id": "02c",
+              "entries": [
+                "At your discretion, party members may be captured rather than killed. Any captured party members are taken to this room and put in manacles. The prison cell is otherwise empty. The temple's sahuagin champion possesses the only key to this room and the manacles. Alternatively, this room is a holding pen for knucklehead trout caught by the sahuagin hunters."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "10. Living Quarters",
+              "page": 8,
+              "id": "02d",
+              "entries": [
+                "This central chamber was where the priests of the four gods came together to revel in the shared might of their gods. Each sect had a different treasure room that could be accessed through here (see 11. Treasury).",
+                {
+                  "type": "insetReadaloud",
+                  "id": "02e",
+                  "entries": [
+                    "This large area is supported by four large pillars and has a pyramidal ceiling. Two tables with benches are set in the center of the room with beds of seaweed arrayed around the perimeter. Four double doors lead out of each side of this rectangular room. A door-sized outline is visible on a portion of the wall on the western side of the room  carved with a lightning bolt, a bestial claw, a snowflake, and a whirlpool."
+                  ]
+                },
+                "Six {@creature sahuagin|MM} reside in this chamber at any time. Two {@creature sahuagin coral smasher|GoS|sahuagin coral smashers} reside in this chamber as well unless called to defend somewhere else in the temple. Sounds of battle in this room draw the attention of the {@creature sahuagin champion|GoS} in 7. Champion's Chambers.",
+                "The section of wall on the western side of the room is marked with the symbols of Talos, Malar, Auril, and Umberlee. A creature affected by the blessing of one of those gods may open the door by placing a hand on it."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "11. Treasury",
+              "page": 8,
+              "id": "02f",
+              "entries": [
+                {
+                  "type": "list",
+                  "columns": 2,
+                  "style": "list-no-bullets",
+                  "items": [
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnSeaOfMovingIceGodsOfFury/maps/dm/Temple of the Gods of Fury (detail 11).webp"
+                      },
+                      "title": "Treasury (DM)",
+                      "credit": "Franz Warm"
+                    },
+                    {
+                      "type": "insetReadaloud",
+                      "id": "030",
+                      "entries": [
+                        "Behind the door, four more door-sized outlines are visible. The north-east depicting a lightning bolt, the northwest depicting a bestial claw, the south-west depicting a snowflake, and the southern-east depicting a whirlpool."
+                      ]
+                    },
+                    "The sections of walls are marked with the symbols of Talos, Malar, Auril, and Umberlee, respectively. A creature affected by the blessing of one of those gods may open a door marked with the symbol of the god for which they have the blessing of by placing a hand on it. {@b Carcharia} (see 2. Shrine of Umberlee) and {@b Glauca} (see 4. Hatchery [Shrine of Auril]) are both affected by the blessing of Umberlee and can access that treasury as they please. {@b Cuvier} (see 8. Ladar and Shrine of Malar) is affected by the blessing of Malar, but has not yet realized he can open the treasury.",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "entries": [
+                            {
+                              "type": "entries",
+                              "name": "Treasury of Talos",
+                              "page": 8,
+                              "id": "031",
+                              "entries": [
+                                "Contains 170 cp, 735 sp, 348 gp, four 50 gp citrine gems, and a quiver of twenty {@item +1 Arrow|DMG|+1 arrows}  (or {@item +1 Bolt|XDMG|crossbow bolts})."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "entries": [
+                            {
+                              "type": "entries",
+                              "name": "Treasury of Malar",
+                              "page": 8,
+                              "id": "032",
+                              "entries": [
+                                "Contains 162 cp, 1,750 sp, 580 gp, a silver ewer worth 25 gp, and a {@item staff of the adder|DMG}."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "entries": [
+                            {
+                              "type": "entries",
+                              "name": "Treasury of Auril",
+                              "page": 8,
+                              "id": "033",
+                              "entries": [
+                                "Contains 138 cp, 750 sp, and 410 gp, one ruined piece of art, and snowflake embroidered {@item Mithral Chain Mail|XDMG|mithral chainmail}."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "entries": [
+                            {
+                              "type": "entries",
+                              "name": "Treasury of Umberlee",
+                              "page": 8,
+                              "id": "034",
+                              "entries": [
+                                "Contains 288 cp, 2,765 sp, 942 gp, two pearls (100 gp each), a golden sea horse worth 250 gp, and a {@item ring of swimming|DMG}. 72 gp, 181 sp, 352 cp, and the two pearls were stolen from Arveiaturace (or the sea hags)."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "If you want your party to have access to more powerful items ({@item spear of talos|DKahnSeaOfMovingIceGodsOfFury}, {@item malar's greatsword|DKahnSeaOfMovingIceGodsOfFury}, {@item shield of auril|DKahnSeaOfMovingIceGodsOfFury}, or {@item umberlee's crest|DKahnSeaOfMovingIceGodsOfFury}), consider adding one of the items from the Optional Magic Items section in the back of this supplement."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "12. Orca Pool",
+              "page": 9,
+              "id": "035",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "id": "036",
+                  "entries": [
+                    "This massive natural cavern opens up to the surface above. Three massive shadows move about in the dark water."
+                  ]
+                },
+                "This cavern is the holding area for the sahuagin's four {@creature killer whale|MM|killer whales}, which the sahuagin coral smashers and sahuagin champion ride when hunting. The killer whales attack non-sahuagin creatures on sight, but cannot fit through the small tunnel or the portcullis bars. The north exit to the cavern is blocked by a portcullis with bars spaced 3 feet apart. A medium or smaller creature can squeeze through the bars. The lever to raise and lower the portcullis sits just inside the small tunnel on the east side of the cavern."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Conclusion",
+              "page": 9,
+              "id": "037",
+              "entries": [
+                "Ideally the party will be able to obtain the {@item professor skant|IDRotF|professor orb}, the treasure for either the hags or Arveiaturace, some bonus treasure for themselves, and some divine blessings. The next step for the party will likely be to return the treasure to the sea hags or Arveiturace and then continue to Grimskalle.",
+                "If the party keeps all of the treasure for themselves, you can have the sea hags or Arveiaturace seek vengeance on them. This could come into play at a dramatic moment when the party completes their business in Grimskalle or when they are hurrying to reach the entrance to the Caves of Hunger."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Troubleshooting",
+              "page": 9,
+              "id": "038",
+              "entries": [
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Motivation",
+                          "page": 9,
+                          "id": "039",
+                          "entries": [
+                            "The allure of treasure is likely enough to keep most parties exploring the temple even after they find the {@item professor skant|IDRotF|professor orb}. If you think that your party may dip the moment they find it, you can have the professor orb to be located in the Treasury of Umberlee rather than the Shrine to Umberlee. Additionally, you can have Glauca or another NPC suggest that it may be worth looting the other treasure rooms to find magical items that may help them defeat Auril. It is also okay if they do not get all of the treasure in the temple."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Time Constraints",
+                          "page": 9,
+                          "id": "03a",
+                          "entries": [
+                            "Because only one character per party needs to complete the test in each of the shrine rooms to access the treasure, it is fairly likely that a level 7 party will have enough resources to complete everything without taking a rest. Depending on how the party arrived at the temple, they may be under a bit of a time crunch as {@item potion of water breathing|DMG|potions of water breathing} and {@item potion of cold resistance|DMG|potions of resistance (cold)} only last for one hour. Characters who complete the test of Umberlee can gain water breathing, or you can have Glauca or a wizard NPC be able to re-cast the spell. If you don't want to deal with {@hazard frigid water|DMG} at all, you can have the temple be heated by underwater thermal vents, but have characters need to deal with the frigid water on the way to and from the temple as a sort of skill challenge."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Killing Glauca",
+                          "page": 9,
+                          "id": "03b",
+                          "entries": [
+                            "Glauca is not an essential NPC, but the party kills her, they will not get to learn the lore about the four gods or figure out what they need to do in the temple. If the party gets stuck in this way, you can have a friendly triton NPC or an awakened knucklehead trout be in 9. Prison Cell that can provide helpful information about the temple or have the professor orb be able to provide historical information."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Lycanthropy",
+                          "page": 9,
+                          "id": "03c",
+                          "entries": [
+                            "If any of the party members contract lycanthropy and are unhappy about it, you can have Arveiaturace gift them the figurine that acts as a {@item spell scroll (3rd level)|DMG|spell scroll} of {@spell remove curse|PHB} from the second layer of her treasure trove (pg. 129). Alternatively, you can have the hags remove the curse for in exchange for something from the party."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Magic Items",
+          "page": 10,
+          "id": "03d",
+          "entries": [
+            {
+              "type": "list",
+              "columns": 2,
+              "items": [
+                "{@item Mithral Chain Mail|XDMG}",
+                "{@item Potion of Cold Resistance|DMG}",
+                "{@item Potion of Water Breathing|DMG}",
+                "{@item Ring of Swimming|DMG}",
+                "{@item Staff of the Adder|DMG}"
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Optional Magic Items",
+              "page": 10,
+              "id": "03e",
+              "entries": [
+                "The following magic items can be found in {@link Nybor's Tomes of Enchantments by Eventyr Games|https://www.dmsguild.com/product/327955/Nybors-Tomes-of-Enchantments-BUNDLE}. These items can be quite powerful, but a lot of fun if you want to give your party a boost. It is recommended to either include a single one of these items or remove a property from each if putting one in each treasure room.",
+                "{@note Items marked with * are new}",
+                {
+                  "type": "list",
+                  "columns": 2,
+                  "items": [
+                    "{@item Spear of Talos|DKahnSeaOfMovingIceGodsOfFury} *",
+                    "{@item Malar's Greatsword|DKahnSeaOfMovingIceGodsOfFury} *",
+                    "{@item Shield of Agathys (Auril)|DKahnSeaOfMovingIceGodsOfFury} *",
+                    "{@item Umberlee's Crest|DKahnSeaOfMovingIceGodsOfFury} *"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "list-no-bullets",
+                  "columns": 2,
+                  "items": [
+                    {
+                      "type": "statblock",
+                      "tag": "item",
+                      "source": "DKahnSeaOfMovingIceGodsOfFury",
+                      "name": "Spear of Talos"
+                    },
+                    {
+                      "type": "statblock",
+                      "tag": "item",
+                      "source": "DKahnSeaOfMovingIceGodsOfFury",
+                      "name": "Malar's Greatsword"
+                    },
+                    {
+                      "type": "statblock",
+                      "tag": "item",
+                      "source": "DKahnSeaOfMovingIceGodsOfFury",
+                      "name": "Shield of Agathys (Auril)"
+                    },
+                    {
+                      "type": "statblock",
+                      "tag": "item",
+                      "source": "DKahnSeaOfMovingIceGodsOfFury",
+                      "name": "Umberlee's Crest"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Supernatural Gifts",
+          "page": 10,
+          "id": "03f",
+          "entries": [
+            {
+              "type": "list",
+              "columns": 2,
+              "items": [
+                "{@reward Charm of Cold Resistance (Arveiaturace)|DKahnSeaOfMovingIceGodsOfFury} *"
+              ]
+            },
+            {
+              "type": "list",
+              "style": "list-no-bullets",
+              "columns": 1,
+              "items": [
+                {
+                  "type": "statblock",
+                  "tag": "reward",
+                  "source": "DKahnSeaOfMovingIceGodsOfFury",
+                  "name": "Charm of Cold Resistance (Arveiaturace)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Monsters",
+          "page": 11,
+          "id": "040",
+          "entries": [
+            "{@note Items marked with * are new}",
+            {
+              "type": "list",
+              "columns": 2,
+              "items": [
+                "{@creature Sahuagin|MM}",
+                "{@creature Sahuagin Priestess|MM}",
+                "{@creature Sahuagin High Priestess|GoS}",
+                "{@creature Sahuagin Wereshark|DKahnSeaOfMovingIceGodsOfFury} *",
+                "{@creature Sahuagin Champion|GoS}",
+                "{@creature Sahuagin Coral Smasher|GoS}"
+              ]
+            },
+            {
+              "type": "list",
+              "style": "list-no-bullets",
+              "columns": 1,
+              "items": [
+                {
+                  "type": "statblock",
+                  "tag": "creature",
+                  "source": "DKahnSeaOfMovingIceGodsOfFury",
+                  "name": "Sahuagin Wereshark"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Player Maps",
+          "id": "041",
+          "entries": [
+            {
+              "type": "gallery",
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnSeaOfMovingIceGodsOfFury/maps/temple_of_four_gods-60x40-VTT.webp"
+                  },
+                  "title": "Map: Temple of the Four Gods",
+                  "imageType": "mapPlayer"
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnSeaOfMovingIceGodsOfFury/maps/temple_of_four_gods-60x40-VTT-no-grid.webp"
+                  },
+                  "title": "Map: Temple of the Four Gods (no grid)",
+                  "imageType": "mapPlayer"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "item": [
+    {
+      "name": "Spear of Talos",
+      "source": "DKahnSeaOfMovingIceGodsOfFury",
+      "page": 12,
+      "baseItem": "spear|phb",
+      "type": "M",
+      "rarity": "very rare",
+      "reqAttune": true,
+      "weight": 3,
+      "weaponCategory": "simple",
+      "property": [
+        "T",
+        "V"
+      ],
+      "range": "20/60",
+      "dmg1": "1d6",
+      "dmgType": "P",
+      "dmg2": "1d8",
+      "recharge": "dawn",
+      "rechargeAmount": 3,
+      "charges": 3,
+      "entries": [
+        "This spear is shaped like a bolt of lightning.",
+        {
+          "type": "entries",
+          "name": "Shocking",
+          "entries": [
+            "When you hit with an attack using this spear, the target takes an additional {@damage 1d6} lightning damage and can't take reactions until the start of its next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Thunder",
+          "entries": [
+            "This spear has 3 charges. While you carry it, you can use an action and expend 1 or more of its charges to cast {@spell thunderwave}. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. You can also use an action and expend 2 of its charges to cast {@spell thunder step|XGE}. The save DC for both spells is 15. The weapon regains all expended charges daily at dawn."
+          ]
+        }
+      ],
+      "attachedSpells": [
+        "thunderwave",
+        "thunder step|xge"
+      ]
+    },
+    {
+      "name": "Malar's Greatsword",
+      "source": "DKahnSeaOfMovingIceGodsOfFury",
+      "page": 12,
+      "baseItem": "greatsword|phb",
+      "type": "M",
+      "rarity": "very rare",
+      "reqAttune": true,
+      "weight": 6,
+      "weaponCategory": "martial",
+      "property": [
+        "H",
+        "2H"
+      ],
+      "dmg1": "2d6",
+      "dmgType": "S",
+      "entries": [
+        "This greatsword is decorated with animal iconography.",
+        {
+          "type": "entries",
+          "name": "Trainer's",
+          "entries": [
+            "While you carry this weapon, you have advantage on {@skill Animal Handling} checks. In addition, when you hit a beast or monstrosity with an Intelligence score of 5 or less with this weapon, the creature must succeed on a DC 15 Wisdom saving throw or become {@condition frightened} of you until the end of your next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Vicious",
+          "entries": [
+            "When you roll a 20 on your attack roll with this weapon, the target takes an extra 10 damage of the weapon's type, and you can immediately make another weapon attack with this weapon against the same target."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shield of Agathys (Auril)",
+      "source": "DKahnSeaOfMovingIceGodsOfFury",
+      "page": 12,
+      "baseItem": "shield|phb",
+      "type": "S",
+      "resist": [
+        "cold"
+      ],
+      "rarity": "very rare",
+      "reqAttune": true,
+      "weight": 6,
+      "ac": 2,
+      "recharge": "dawn",
+      "rechargeAmount": 3,
+      "charges": 3,
+      "entries": [
+        "This shield is crafted from white dragon scales and has a snowflake symbol etched into its surface.",
+        {
+          "type": "entries",
+          "name": "Dragonscale",
+          "entries": [
+            "While carrying this shield, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Agathys",
+          "entries": [
+            "This shield has 3 charges. While wearing it, you can use an action and expend 1 or more of its charges to cast {@spell armor of Agathys} . For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. You can also use an action and expend 2 charges to cast the cold version of fire shield. The shield regains all expended charges daily at dawn."
+          ]
+        }
+      ],
+      "attachedSpells": [
+        "armor of Agathys"
+      ]
+    },
+    {
+      "name": "Umberlee's Crest",
+      "source": "DKahnSeaOfMovingIceGodsOfFury",
+      "page": 12,
+      "baseItem": "breastplate|phb",
+      "type": "MA",
+      "resist": [
+        "cold"
+      ],
+      "rarity": "very rare",
+      "reqAttune": true,
+      "weight": 20,
+      "ac": 14,
+      "entries": [
+        "This breastplate is crafted from azure metal and corals.",
+        {
+          "type": "entries",
+          "name": "Marid's",
+          "entries": [
+            "While wearing this armor, you have resistance to cold damage and a swimming speed equal to your walking speed."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Shark",
+          "entries": [
+            "While wearing this armor, you can use an action to transform into a giant shark or a bulette. The transformation functions as the {@spell polymorph} spell and lasts for 1 minute or until your {@status concentration} ends (as if {@status concentration||concentrating} on a spell). Once used, this property can't be used again until the next dawn."
+          ]
+        }
+      ],
+      "attachedSpells": [
+        "polymorph"
+      ]
+    }
+  ],
+  "reward": [
+    {
+      "name": "Charm of Cold Resistance (Arveiaturace)",
+      "source": "DKahnSeaOfMovingIceGodsOfFury",
+      "page": 10,
+      "type": "Charm",
+      "entries": [
+        "{@note This charm can be bestowed by {@i Arveiaturace} in Icewind Dale during the {@adventure Sea of Moving Ice, Gods of Fury|DKahnSeaOfMovingIceGodsOfFury} adventure.}",
+        "This charm gives you resistance against cold damage for {@homebrew 1 hour|8 hours. {@note The duration of the charm in the appendix (pg. 10) contradicts the text in the introduction (pg. 3)}}."
+      ]
+    }
+  ],
+  "monster": [
+    {
+      "name": "Sahuagin Wereshark",
+      "source": "DKahnSeaOfMovingIceGodsOfFury",
+      "page": 12,
+      "token": {
+        "name": "Sahuagin Wave Shaper",
+        "source": "GoS"
+      },
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "sahuagin",
+          "shapechanger"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 171,
+        "formula": "18d8 + 90"
+      },
+      "speed": {
+        "walk": 30,
+        "swim": {
+          "number": 40,
+          "condition": "(swim 50 ft. in shark form)"
+        }
+      },
+      "str": 23,
+      "dex": 14,
+      "con": 21,
+      "int": 12,
+      "wis": 13,
+      "cha": 9,
+      "skill": {
+        "perception": "+7"
+      },
+      "immune": [
+        {
+          "immune": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks that aren't silvered",
+          "cond": true
+        }
+      ],
+      "languages": [
+        "Sahuagin (can't speak in shark form)"
+      ],
+      "cr": "6",
+      "trait": [
+        {
+          "name": "Blood Frenzy",
+          "entries": [
+            "The sahuagin has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+          ]
+        },
+        {
+          "name": "Limited Amphibiousness",
+          "entries": [
+            "The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating."
+          ]
+        },
+        {
+          "name": "Shapechanger",
+          "entries": [
+            "The wereshark can use its action to polymorph into a Huge shark-humanoid hybrid or into a Huge shark, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+          ]
+        },
+        {
+          "name": "Shark Telepathy",
+          "entries": [
+            "The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "In shark form, the wereshark makes one bite attack. In humanoid form, it makes three spear attacks. In hybrid form, it can attack like a shark or a humanoid."
+          ]
+        },
+        {
+          "name": "Bite (Shark or Hybrid Form Only)",
+          "entries": [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}22 ({@damage 3d10 + 6}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 14} Constitution saving throw or be cursed with wereshark lycanthropy."
+          ]
+        },
+        {
+          "name": "Spear (Humanoid or Hybrid Form Only)",
+          "entries": [
+            "{@atk mw,rw} {@hit 9} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage, or 10 ({@damage 1d8 + 6}) piercing damage if used with two hands to make a melee attack."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "spear|phb"
+      ],
+      "traitTags": [
+        "Shapechanger"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "CS",
+        "OTH"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "CUR",
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ]
+    }
+  ]
+}

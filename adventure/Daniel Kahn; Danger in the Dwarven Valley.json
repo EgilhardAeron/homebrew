@@ -1,0 +1,1427 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "DKahnDangerInTheDwarvenValley",
+        "abbreviation": "DK;ID:DitDV",
+        "full": "Icewind Dale: Danger in the Dwarven Valley",
+        "color": "7ab3bc",
+        "url": "https://www.dmsguild.com/product/332666/Danger-in-the-Dwarven-Valley--maps-and-extra-content-for-Rime-of-the-Frostmaiden",
+        "authors": [
+          "Daniel Kahn",
+          "Michael Rosenthal"
+        ],
+        "convertedBy": [
+          "EgilhardAeron"
+        ],
+        "version": "1.0.0"
+      }
+    ],
+    "edition": "classic",
+    "status": "ready",
+    "dateAdded": 1742132757,
+    "dateLastModified": 1742132757
+  },
+  "adventure": [
+    {
+      "name": "Icewind Dale: Danger in the Dwarven Valley",
+      "id": "DKahnDangerInTheDwarvenValley",
+      "source": "DKahnDangerInTheDwarvenValley",
+      "group": "homebrew",
+      "cover": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnDangerInTheDwarvenValley/cover.webp"
+      },
+      "published": "2020-10-19",
+      "storyline": "Icewind Dale",
+      "level": {
+        "custom": "APL 2-3"
+      },
+      "contents": [
+        {
+          "name": "Cover & Credits"
+        },
+        {
+          "name": "Introduction",
+          "headers": [
+            "What's This All About?",
+            "Adventure Hooks",
+            "Adventure Summary"
+          ]
+        },
+        {
+          "name": "Battlehammer Hold",
+          "headers": [
+            "The Plight of the Dwarves",
+            "Trade in the Valley"
+          ]
+        },
+        {
+          "name": "Halls of Black Ice",
+          "headers": [
+            "Approaching the Halls of Black Ice",
+            {
+              "header": "1. Entrance Hall",
+              "depth": 1
+            },
+            {
+              "header": "2. Forge Room",
+              "depth": 1
+            },
+            {
+              "header": "3. Dwarven Dwellings",
+              "depth": 1
+            },
+            {
+              "header": "4. Nursery",
+              "depth": 1
+            },
+            {
+              "header": "5. Shrine to Dumathoin",
+              "depth": 1
+            },
+            {
+              "header": "6. Fungi Garden",
+              "depth": 1
+            },
+            {
+              "header": "7. Conservatory",
+              "depth": 1
+            },
+            {
+              "header": "8. Druid's Living Quarters",
+              "depth": 1
+            },
+            "Conclusion",
+            "Troubleshooting"
+          ]
+        },
+        {
+          "name": "Magic Items"
+        },
+        {
+          "name": "Mundane Items"
+        },
+        {
+          "name": "Bestiary"
+        },
+        {
+          "name": "Player Maps"
+        }
+      ]
+    }
+  ],
+  "adventureData": [
+    {
+      "id": "DKahnDangerInTheDwarvenValley",
+      "source": "DKahnDangerInTheDwarvenValley",
+      "data": [
+        {
+          "type": "section",
+          "name": "Cover & Credits",
+          "page": 1,
+          "id": "001",
+          "entries": [
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnDangerInTheDwarvenValley/cover-full.webp"
+              },
+              "title": "Danger in the Dwarven Valley Cover",
+              "credit": "Nicole Mastrodomenico @nikodomeniko on Instagram"
+            },
+            {
+              "type": "entries",
+              "name": "Credits",
+              "page": 2,
+              "id": "002",
+              "entries": [
+                {
+                  "type": "list",
+                  "style": "list-no-bullets",
+                  "columns": 2,
+                  "items": [
+                    {
+                      "type": "list",
+                      "style": "list-no-bullets",
+                      "items": [
+                        "{@b Writing & Layout:} Daniel Kahn & Michael Rosenthal",
+                        "{@b Cover Art:} Nicole Mastrodomenico @nikodomeniko on Instagram",
+                        "{@b Interior Art:} by {@link Dr. Mapzo|https://www.patreon.com/drmapzo}",
+                        "{@b Dungeon Map:} by {@link Tactical Map|https://www.patreon.com/tacticalmap}"
+                      ]
+                    },
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnDangerInTheDwarvenValley/art/Dwarf 1.webp"
+                      },
+                      "credit": "Dr. Mapzo"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "entries": [
+                "DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, Ravenloft, Eberron, the dragon ampersand, Ravnica and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries.",
+                "This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild.",
+                "All other original material in this work is copyright 2020 by Daniel Kahn and published under the Community Content Agreement for Dungeon Masters Guild."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Introduction",
+          "page": 3,
+          "id": "003",
+          "entries": [
+            "Nestled at the base of kelvin's cairn lies the Dwarven Valley where the goodly dwarves of Icewind Dale have lived for centuries crafting fine weapons and armor. Looming on the eastern side of the valley lies the Halls of Black Ice, where an evil plagued the mind of many dwarves, culminating in a civil war. Recently, a new foe has found a home in these abandoned halls. With the help of some brave heroes, the dwarves may be able to reclaim these bountiful halls once more.",
+            {
+              "type": "entries",
+              "name": "What's This All About?",
+              "page": 3,
+              "id": "004",
+              "entries": [
+                "Little is written about the Dwarven Valley in Icewind Dale: Rime of the Frostmaiden, though it was partially explored in {@i Legacy of the Crystal Shard}. This supplement to {@adventure Chapter 1: Ten Towns|IDRotF|1} and {@adventure Chapter 2: Icewind Dale|IDRotF|12} provides an expansion of the Dwarven Valley and includes:",
+                {
+                  "type": "list",
+                  "items": [
+                    "{@b {@i Expanded Dwarven Valley}}, including some NPCs, trade options, fungi, lore, and the Halls of Black Ice.",
+                    "{@b {@i Additional Adventure Hooks}}, providing the characters with reasons to explore the Dwarven Valley.",
+                    "{@b {@i A New Dungeon Battlemap}}, providing a harrowing battle in the tunnels of the Halls of Black Ice."
+                  ]
+                },
+                "As always, it is up to you how much of the content you want to use. It's perfectly fine to use some parts of this supplement while discarding others, or simply let the ideas presented here inspire new ideas of your own.",
+                "This supplement assumes a party of 4-6 characters of 3rd level. More powerful parties will have an easier time with the challenges within. Suggestions for scaling for 2nd level characters are presented within."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Adventure Hooks",
+              "page": 3,
+              "id": "005",
+              "entries": [
+                "The primary objective of this supplement is to provide a way for parties to interact with the Dwarven Valley. This can be easily accomplished in one of the following ways:",
+                {
+                  "type": "entries",
+                  "name": "Foaming Mugs",
+                  "page": 3,
+                  "id": "006",
+                  "entries": [
+                    "After characters help the dwarves Hruna, Korux, and Storn with the {@adventure 'Foaming Mugs'|IDRotF|3|foaming mugs} quest in Bryn Shander (pg. 34). The dwarves can offer to bring the characters back to the Dwarven Valley to meet Stokely Silverstream, the Dain of the Dwarven Valley. The dwarves are trying to reclaim some parts of the eastern side of the valley that were lost a few years ago during a civil war."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Mountain Climb",
+                  "page": 3,
+                  "id": "007",
+                  "entries": [
+                    "If your characters have engaged with the quest {@adventure 'Mountain Climb'|IDRotF|10|mountain climb} in Targos (pg. 87) (or whatever town you decide to start this quest in), Keegan Velryn may suggest that the characters cut through the Dwarven Valley to save time on the way to Kelvin's Cairn. Once characters reach the Dwarven Valley, a friendly dwarf patrol can lead them to an audience with Stokely Silverstream."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Dwarves in Ten Towns",
+                  "page": 3,
+                  "id": "008",
+                  "entries": [
+                    "There are various dwarven NPCs in Ten-Towns who can direct parties to the dwarven valley. Any of these dwarves may say something like, 'The dwarves of the valley have the finest craftsmanship in the dale. If you're looking for some upgraded weapons or armor, that's the place to go. Tell Stokely Silverstream that [Insert NPC Name] sent you.' Some dwarven NPCs include: Hlin Trollbane from the {@adventure \"Cold Hearted Killer\"|IDRotF|1|starting quest: cold-hearted killer} quest, {@adventure Speaker Dorbulgruf Shalescar|IDRotF|2|leader} in Bremen, Garn the Hammer and Elza in Bryn Shander ({@adventure Blackiron Blades|IDRotF|3|blackiron blades}), or Jarthra from Caer-Konig ({@adventure Frozenfar Expeditions|IDRotF|5|frozenfar expeditions}).",
+                    {
+                      "type": "inset",
+                      "name": "Brief History of the Valley Dwarves",
+                      "page": 3,
+                      "id": "009",
+                      "entries": [
+                        "In the year 1485 DR (roughly 4 years before the events of {@i Rime of the Frostmaiden}), a group of dwarves led by a dwarf named Baerick Hammerstone discovered a resilient black mineral that the dwarves called Black Ice (now called Chardalyn). Baerick and those loyal to him imported loads of the Chardalyn to make weapons and armor, but eventually fell under the corruption of the evil magic within the material. These dwarves split off from the Battlehammer dwarves of the Dwarven Valley and laid claim to the eastern side of the valley, which the Valley Dwarves now refer to as the Halls of Black Ice.",
+                        "The uncorrupted dwarves on the western side of the valley under the leadership of Dain Stokely Silverstream, occupied an area called Battlehammer Hold. After many confrontations with the Black Ice Dwarves and with the help of some adventurers, 'Stokely's boys' were able to save most of the Black Ice Dwarves from irreversible corruption.",
+                        "To this day, the Halls of Black Ice are still full of corrupted Chardalyn and the Valley Dwarves are wary to reclaim the halls. To make matters worse, Auril's minions have recently taken notice of the dwarves' comfort in their underground hovels and are actively working to instill fear in their hearts. A frost druid by the name of Verna began growing thorny shrubs in the Halls of Black Ice so that she could awaken them and unleash them upon the Valley Dwarves."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Adventure Summary",
+              "page": 3,
+              "id": "00a",
+              "entries": [
+                "This adventure starts when the party reaches the Dwarven Valley. Here, Dain Stokely Silverstream requests that the party help the dwarves by dealing with the unknown threats that lie in the Halls of Black Ice on the eastern side of the valley. The dwarves are afraid to go in themselves for fear of going mad due to the black ice (Chardalyn) that's been stockpiled there. The party will encounter a number of {@creature needle spawn|MFF|needle spawns} that have been created by an evil frost druid, and eventually a needle lord - the transformed druid herself. Once the party is able to dispatch the evil plants, Stokely has his pet xorn devour the remaining Chardalyn in the Halls of Black Ice so that his people can re-inhabit the halls."
+              ]
+            },
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnDangerInTheDwarvenValley/art/Dwarf 2.webp"
+              },
+              "credit": "Dr. Mapzo"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Battlehammer Hold",
+          "page": 4,
+          "id": "00b",
+          "entries": [
+            "The Dwarven Valley is home to approximately 150 shield dwarves. Most of these dwarves live on the western edge of the valley in Battlehammer Hold. When the party reaches the valley you can read the following:",
+            {
+              "type": "insetReadaloud",
+              "id": "00c",
+              "entries": [
+                "A large cleft of earth stretches before you to the base of Kelvin's Cairn. Tunnels run in rows along the walls, connected by narrow walkways. The faint ringing of hammer strikes can be heard on the wind."
+              ]
+            },
+            "If the party arrives from the direction of Bryn Shander, they enter from a road at the southern tip of the valley. If the party arrives from the direction of Caer Konig, they enter the valley at the northern tip at a switchback path called Daledrop. Either way, shortly after the party arrives, they are noticed by a dwarven patrol who will happily invite the party to join them in Battlehammer Hold for a reprieve from the cold. If a stat block becomes necessary, the dwarves are {@creature battlehammer dwarf|IDRotF|battlehammer dwarves}.",
+            "Dain Stokely Silverstream is the leader of the shield dwarves living in the Dwarven Valley. His niece, Helda Silverstream, is a strong warrior visiting from Mirabar. Here are some dwarf names, in case you need them: Bevris, Bolhild, Darrak, Dworic, Fallthra, Gardain, Harbek, Holst, Jarana, Kalanor, Morgrail, Nora, Nordak, Olunt, and Ulf.",
+            {
+              "type": "entries",
+              "name": "The Plight of the Dwarves",
+              "page": 4,
+              "id": "00d",
+              "entries": [
+                "Stokely wants to rid the Halls of Black Ice of the Chardalyn that still remains there and with the brave party's arrival, he can finally enact his plan. Through quite a bit of trouble, Stokely has managed to obtain a juvenile {@creature xorn}, named Ruby, which he hopes to use to eat and destroy all of the Chardalyn. Before he's willing to send in Ruby to clean up the Chardalyn, he asks the characters to make sure there's no lingering undead in the halls. He states that if Ruby is killed, all hopes of reclaiming the halls are lost and refuses to send it with the party. As a reward for their help, Stokely is willing to provide the party with 250 gp in gems of their choosing.",
+                "If questioned about the presence of undead, Stokely explains that a few years ago the dwarves were plagued by a necromancer in the deep mines. While the necromancer has been dealt with, many of his undead minions still survive and may lurk in the halls.",
+                "At your discretion, the party may be able to convince Helda to accompany them. She has the statistics of a {@creature battlehammer dwarf|IDRotF}. If the party is level 2, you may want to have Helda accompany them for combat balance. When the party is ready to head to the eastern side of the Dwarven Valley, Stokely arranges an escort to show them the way, but the escort refuses to enter the Halls of Black Ice.",
+                {
+                  "type": "inset",
+                  "name": "Roleplaying the Dwarves",
+                  "page": 4,
+                  "id": "00e",
+                  "entries": [
+                    "The western side of the Dwarven Valley is home to the remnants of Battlehammer Hold. The dwarves here maintain some loyalty to the ruler of Mithral Hall, far to the southeast. They are craftsmen and artisans, working the iron and rare bit of gold that comes out of their mines. They maintain strong trade relationships with the Ten-Towns, and have been known to take apprentices from them and from other friendly settlements throughout the Dale.",
+                    "The dwarves here are as gruff and straight-to-business as any, and the hierarchy is very informal, with Stokely Silverstream acting as the local leader, or Dain. His band of warriors, 'Stokely's Boys' (though there is a roughly even split of male and female warriors), are a well-equipped if not very orderly militia. While there are always a few dwarves on guard and some occasional patrols of the area, most dwarves here spend their time working hard on their mining and craftsmanship.",
+                    "The wounds from the corruption and civil war caused by the Chardalyn still have not fully recovered. As a result, the Valley Dwarves are superstitious of the Halls of Black Ice. They are willing to have a small contingent escort the party to the halls, but will not enter it while the Chardalyn remains."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Trade in the Valley",
+              "page": 4,
+              "id": "00f",
+              "entries": [
+                "The Valley Dwarves, above all else, are known for their weapon and armor craftsmanship. The dwarves sell all weapons and armor from the Player's Handbook. Additionally, the dwarves carry any metal or gem-based spell components, such as diamonds, which can be purchased at-cost.",
+                "At your discretion the dwarves are able to produce a few specialty items. These could include {@item +1 weapon|dmg|+1 weapons}, which cost an additional 1000 gp beyond the base price or {@item mithral armor}, which costs 800 gp above the base price. It is unlikely that the party has this amount of gold at this point in the adventure, but it gives them a reason to come back later and shed some of their treasure. If characters help clear the Halls of Black Ice, the Valley Dwarves are happy to offer a 10% discount."
+              ]
+            },
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnDangerInTheDwarvenValley/art/Xorn.webp"
+              },
+              "credit": "Dr. Mapzo"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Halls of Black Ice",
+          "page": 5,
+          "id": "010",
+          "entries": [
+            "Stokely and the Valley Dwarves mistakenly believe that the main threat in the Halls of Black Ice is renegade zombies. However, the real threat is due to a frost druid named Verna. Over the past few months, Verna had been creating a bunch of thorny shrubs, which she meant to awaken and unleash upon the dwarves. Due to the significant stores of Chardalyn remaining in the halls, as the shrubs gained intelligence, many were corrupted and turned them into evil {@creature needle spawn|MFF|needle spawns}. Recently, Verna, succumbing to the madness herself, allowed her needle spawn followers to transform her into a needle lord.",
+            "While the threat of Chardalyn exists, unless the party is standing within the forge room, the Chardalyn does not affect them during their short visit. If the party takes a long rest within the Halls of Black Ice, you can have them make a DC 10 Wisdom saving throws or suffer a bout of short-term madness on a failed save. Madness is described further in 2. Forge Room and in {@variantrule Chapter 8} of the {@i Dungeon Master's Guide}.",
+            {
+              "type": "inset",
+              "name": "Disclaimer on Madness",
+              "page": 5,
+              "id": "011",
+              "entries": [
+                "Not all groups enjoy the use of madness mechanically or the allusion to mental illness, which is a serious issue around the world. You may want to have a discussion with your players about the use of these rules or re-framing D&D 'madness' as a dark supernatural effect rather than an illness."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Approaching the Halls of Black Ice",
+              "page": 5,
+              "id": "012",
+              "entries": [
+                "As the party approaches the Halls of Black Ice, you can read:",
+                {
+                  "type": "insetReadaloud",
+                  "id": "013",
+                  "entries": [
+                    "The air is damp, still, and much warmer than the surface. Side tunnels and shafts weave and wend off this tunnel, some blocked where wooden supports buckled beneath the weight of the earth above. The only visible signs of life in this grim place are the mushrooms that grow from the weakened beams."
+                  ]
+                },
+                "After descending a hundred feet, the tunnel opens to a larger cavern supported by two stone columns and a partially constructed wall. An open gate stands ahead."
+              ]
+            },
+            {
+              "type": "gallery",
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnDangerInTheDwarvenValley/maps/dm/Halls_of_Black_Ice-55x85.webp"
+                  },
+                  "title": "Map: Halls of Black Ice",
+                  "imageType": "map",
+                  "mapRegions": [
+                    {
+                      "area": "1. Entrance Hall",
+                      "points": [
+                        [
+                          500,
+                          196
+                        ],
+                        [
+                          495,
+                          375
+                        ],
+                        [
+                          750,
+                          375
+                        ],
+                        [
+                          750,
+                          195
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "2. Forge Room",
+                      "points": [
+                        [
+                          882,
+                          742
+                        ],
+                        [
+                          825,
+                          675
+                        ],
+                        [
+                          825,
+                          255
+                        ],
+                        [
+                          945,
+                          255
+                        ],
+                        [
+                          1065,
+                          360
+                        ],
+                        [
+                          1065,
+                          495
+                        ],
+                        [
+                          945,
+                          585
+                        ],
+                        [
+                          945,
+                          690
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "3. Dwarven Dwellings",
+                      "points": [
+                        [
+                          978,
+                          699
+                        ],
+                        [
+                          980,
+                          606
+                        ],
+                        [
+                          1051,
+                          608
+                        ],
+                        [
+                          1051,
+                          699
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "3. Dwarven Dwellings",
+                      "points": [
+                        [
+                          1036,
+                          1047
+                        ],
+                        [
+                          1081,
+                          1125
+                        ],
+                        [
+                          1019,
+                          1163
+                        ],
+                        [
+                          975,
+                          1082
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "3. Dwarven Dwellings",
+                      "points": [
+                        [
+                          984,
+                          858
+                        ],
+                        [
+                          1076,
+                          861
+                        ],
+                        [
+                          1076,
+                          933
+                        ],
+                        [
+                          985,
+                          931
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "3. Dwarven Dwellings",
+                      "points": [
+                        [
+                          10,
+                          1060
+                        ],
+                        [
+                          10,
+                          1130
+                        ],
+                        [
+                          100,
+                          1131
+                        ],
+                        [
+                          99,
+                          1062
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "3. Dwarven Dwellings",
+                      "points": [
+                        [
+                          682,
+                          578
+                        ],
+                        [
+                          769,
+                          579
+                        ],
+                        [
+                          768,
+                          647
+                        ],
+                        [
+                          679,
+                          646
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "3. Dwarven Dwellings",
+                      "points": [
+                        [
+                          324,
+                          1355
+                        ],
+                        [
+                          384,
+                          1390
+                        ],
+                        [
+                          339,
+                          1468
+                        ],
+                        [
+                          278,
+                          1432
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "3. Dwarven Dwellings",
+                      "points": [
+                        [
+                          205,
+                          1522
+                        ],
+                        [
+                          205,
+                          1593
+                        ],
+                        [
+                          295,
+                          1593
+                        ],
+                        [
+                          293,
+                          1523
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "3. Dwarven Dwellings",
+                      "points": [
+                        [
+                          451,
+                          1532
+                        ],
+                        [
+                          541,
+                          1533
+                        ],
+                        [
+                          541,
+                          1601
+                        ],
+                        [
+                          450,
+                          1601
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "4. Nursery",
+                      "points": [
+                        [
+                          404,
+                          779
+                        ],
+                        [
+                          405,
+                          600
+                        ],
+                        [
+                          345,
+                          600
+                        ],
+                        [
+                          345,
+                          540
+                        ],
+                        [
+                          315,
+                          540
+                        ],
+                        [
+                          315,
+                          465
+                        ],
+                        [
+                          177,
+                          466
+                        ],
+                        [
+                          175,
+                          536
+                        ],
+                        [
+                          143,
+                          535
+                        ],
+                        [
+                          142,
+                          597
+                        ],
+                        [
+                          84,
+                          599
+                        ],
+                        [
+                          85,
+                          1019
+                        ],
+                        [
+                          216,
+                          1019
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "5. Shrine to Dumathoin",
+                      "points": [
+                        [
+                          135,
+                          1171
+                        ],
+                        [
+                          227,
+                          1238
+                        ],
+                        [
+                          142,
+                          1343
+                        ],
+                        [
+                          55,
+                          1276
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "6. Fungi Garden",
+                      "points": [
+                        [
+                          768,
+                          1464
+                        ],
+                        [
+                          768,
+                          1288
+                        ],
+                        [
+                          818,
+                          1247
+                        ],
+                        [
+                          946,
+                          1251
+                        ],
+                        [
+                          959,
+                          1287
+                        ],
+                        [
+                          958,
+                          1464
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "8. Druid's Living Quarters",
+                      "points": [
+                        [
+                          864,
+                          1123
+                        ],
+                        [
+                          954,
+                          1122
+                        ],
+                        [
+                          971,
+                          1142
+                        ],
+                        [
+                          973,
+                          1241
+                        ],
+                        [
+                          952,
+                          1259
+                        ],
+                        [
+                          816,
+                          1257
+                        ],
+                        [
+                          819,
+                          1225
+                        ]
+                      ]
+                    },
+                    {
+                      "area": "7. Conservatory",
+                      "points": [
+                        [
+                          557,
+                          817
+                        ],
+                        [
+                          425,
+                          902
+                        ],
+                        [
+                          375,
+                          989
+                        ],
+                        [
+                          362,
+                          1064
+                        ],
+                        [
+                          378,
+                          1163
+                        ],
+                        [
+                          446,
+                          1256
+                        ],
+                        [
+                          534,
+                          1313
+                        ],
+                        [
+                          581,
+                          1323
+                        ],
+                        [
+                          656,
+                          1324
+                        ],
+                        [
+                          745,
+                          1298
+                        ],
+                        [
+                          812,
+                          1247
+                        ],
+                        [
+                          821,
+                          1202
+                        ],
+                        [
+                          862,
+                          1115
+                        ],
+                        [
+                          868,
+                          1088
+                        ],
+                        [
+                          868,
+                          997
+                        ],
+                        [
+                          802,
+                          886
+                        ],
+                        [
+                          707,
+                          828
+                        ],
+                        [
+                          680,
+                          817
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "1. Entrance Hall",
+              "page": 5,
+              "id": "014",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "id": "015",
+                  "entries": [
+                    "The room beyond the wall is supported by two stone columns in the center of which lies the ragged remains of a dwarf-sized body. To the west, a mineshaft extends into darkness. Smooth stone tunnels extend to rooms to the east and to the south."
+                  ]
+                },
+                "Characters who make a successful DC 12 Wisdom (Medicine) check can deduce that the dwarf died of piercing damage, and a successful DC 12 Intelligence (Investigation) check will allow characters to notice wooden barbs or needles in the body or embedded in the wall nearby.",
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Trap",
+                          "page": 5,
+                          "id": "016",
+                          "entries": [
+                            "As Verna grew more paranoid as a result of the Chardalyn, she began setting up traps for the dwarves in the event that they tried to reclaim this area of the valley. One such trap exists in Entrance Hall on the squares marked with a 'T'. Characters actively looking for threats notice a tripwire connected to some loose rocks on the ceiling with a successful DC 15 Wisdom (Perception) check in the hallway."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "If the trap is activated, any characters within the marked area must succeed on a DC 12 Dexterity saving throw or take {@dice 2d6} bludgeoning damage, be knocked prone, and become restrained under {@dice 1d6} feet of rubble as part of ceiling collapses. Characters can use an action to escape with a successful Strength (Athletics) check with a DC equal to 10 plus the number of feet of rubble on the buried character. The trap can be disarmed with a successful DC 12 Dexterity (Sleight of Hand) check, a failure by more than 5 results in the trap being sprung.",
+                "While the characters disarm the trap, or at the moment when the trap is sprung, four {@creature needle spawn|MFF|needle spawns} stealthily approach. Creatures with a passive Perception of 15 or higher notice the threat, all other characters are surprised.",
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Mines",
+                          "page": 5,
+                          "id": "017",
+                          "entries": [
+                            "The tunnels to the west head into the mines. If a character using a miner's pick spends an hour chipping away at the walls, they can recover {@dice 1d6} lbs of iron ore, worth 1 sp each. After an hour of venturing into the mines, characters reach a dead end and are forced to backtrack to the Halls of Black Ice."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "2. Forge Room",
+              "page": 5,
+              "id": "018",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "id": "019",
+                  "entries": [
+                    "This room is compartmentalized into three chambers. The northern and southern chambers contain forges, while the middle chamber contains a large pile of a jet black rock."
+                  ]
+                },
+                "Chardalyn suffused with evil magic is pervasive in this chamber. Characters who spend more than 1 minute in this room must succeed on a DC 10 Wisdom saving throw or suffer a bout of {@table short-term madness|DMG}. Characters must repeat the saving throw every 10 minutes while within the forge room. Characters who carry Chardalyn with them must repeat the saving throw every hour. After 24-hours, a failed saving throw results in a bout of {@table long-term madness|DMG}. Once the characters have cleared the halls, Ruby (Stokely's xorn) can consume all of the Chardalyn in the room in 2 hours and is unaffected by the evil magic.",
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Treasure",
+                          "page": 5,
+                          "id": "01a",
+                          "entries": [
+                            "Characters who search through the rubble find a {@item chardalyn dagger|DKahnDangerInTheDwarvenValley}."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "3. Dwarven Dwellings",
+              "page": 7,
+              "id": "01b",
+              "entries": [
+                "Characters may decide to search some of the small dwarven dwelling rooms scattered about the Halls of Black Ice. For each room searched, roll a d8 and consult the Dwellings Discoveries table to determine what the characters find. No discovery can occur more than once; if you get the same result twice, re-roll or choose a different possibility.",
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "d8",
+                    "Discovery"
+                  ],
+                  "colStyles": [
+                    "col-1 text-center",
+                    "text-left"
+                  ],
+                  "rows": [
+                    [
+                      "1",
+                      "This room holds the dead body of a dwarf that died of starvation as the Chardalyn possessed him to stop eating entirely. His soul now haunts this room as a {@creature specter} and attacks anyone who enters, but does not pursue those who leave immediately."
+                    ],
+                    [
+                      "2",
+                      "This room contains various bits of stone worked into dwarven action figures. A set of {@item mason's tools|PHB} can be found here."
+                    ],
+                    [
+                      "3",
+                      "This room contains a bag of 6 banded agate gems worth 10 gp under the bed."
+                    ],
+                    [
+                      "4",
+                      "This room contains a horned battle helmet with one of the horns broken off and a few rusted battle axes. The helmet is a {@item helm of dwarvenkind|DKahnDangerInTheDwarvenValley}."
+                    ],
+                    [
+                      "5",
+                      "This room is in total disarray. A hungry {@creature swarm of rats} attacks anyone who enters the room and chases them if they leave."
+                    ],
+                    [
+                      "6",
+                      "This room contains a drawer with moldy clothing and 2 gold ingots worth 25 gp each."
+                    ],
+                    [
+                      "7",
+                      "This room contains the bones of two dwarves, each wearing a platinum ring worth 50 gp each, and a partially decomposed love letter. The rings can be used as the spell component for the {@spell warding bond} spell."
+                    ],
+                    [
+                      "8",
+                      "This room contains the body of a recently deceased {@creature duergar}. This duergar was spying in the Dwarven Valley looking for Chardalyn and had a rough encounter with some needle spawn, crawled into this room and died from his wounds. The cause of death is obvious to any characters proficient in medicine. Characters who have not yet seen a duergar can tell that this dwarf looks quite different from the rest of the Valley Dwarves with its bald head and ashen grey skin."
+                    ]
+                  ],
+                  "name": "Dwellings Discoveries Table",
+                  "caption": "Dwellings Discoveries Table"
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnDangerInTheDwarvenValley/art/Specter.webp"
+                  },
+                  "credit": "Dr. Mapzo"
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "4. Nursery",
+              "page": 7,
+              "id": "01c",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "id": "01d",
+                  "entries": [
+                    "Bluish light from fungi on the walls show this room is filled with a great variety of potted plants. Some appear blighted, others covered in thorns, and still some others appear quite normal. The pots are made from old barrels, cookware, even old boots and rusted helms. One table by the recently used hearth is devoted entirely to two small yew bushes planted within halves of old ale casks. Scratched into the wood of the casks appear to be labels. Under this table is a pot that has been filled with soil but lacks any plants."
+                  ]
+                },
+                "There are six dormant {@creature needle spawn|MFF|needle spawns}, eight ordinary shrubs, and the two yew bushes are each {@creature awakened shrub|MM|awakened shrubs}. The {@creature needle spawn|MFF|needle spawns} attack the party if any of the plants are harmed, but otherwise lay dormant. The labels on the barrels of the awakened shrubs are 'Clay' and 'Yewgo'.",
+                "If approached, they will try to get the attention of the characters by speaking. You can read:",
+                {
+                  "type": "insetReadaloud",
+                  "id": "01e",
+                  "entries": [
+                    "A voice seems to originate from one of the potted plants. 'Pardon me, if it isn't too much trouble, it's a wee bit cold in here and we were hoping someone could light the hearth.' Another voice echoes emphatically in agreement and says, 'I'd do it myself if not for my crippling fear of fire.' The first voice echoes this in more emphatic agreement."
+                  ]
+                },
+                "Since Verna began her transformation, the fire has not been lit and the shrubs are getting cold. Neither one is willing to leave their pot to attempt to light a fire, and they are split on waiting for their master to return or on venturing off into the unknown in search of somewhere more to their liking. If questioned the awakened shrubs can share the following information:",
+                {
+                  "type": "list",
+                  "items": [
+                    "A number of their angry 'cousins' lurk about the hall. (The cousins are referring to the {@creature needle spawn|MFF|needle spawns}). They explain that their cousins are prone to violence and can't be reasoned with.",
+                    "A druid, named Verna, created them and their cousins, but they haven't seen Verna in a few days and haven't had the will to go look.",
+                    "They all came from special pots like the one sitting under the table."
+                  ]
+                },
+                "Clay is happy to leave with the party if given the opportunity. Yewgo can be convinced with a successful DC 12 Charisma (Persuasion) check. The shrubs follow the characters around, staying out of harms way. Potentially providing useful information about the mushrooms in 6. Fungi Garden.",
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Dormant Threat",
+                          "page": 7,
+                          "id": "01f",
+                          "entries": [
+                            "If the characters destroy any of the potted plants, six {@creature needle spawn|MFF|needle spawns} emerge from their pots and attack."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Treasure",
+                          "page": 7,
+                          "id": "020",
+                          "entries": [
+                            "The pot under the table is an empty {@item pot of awakening|XGE}."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "inset",
+                  "name": "Roleplaying the Shrubs",
+                  "page": 7,
+                  "id": "021",
+                  "entries": [
+                    "The shrubs are of average intelligence but have very limited life experience. They act similarly to very sheltered children. Clay wants to leave the table to seek out better fortune elsewhere. It believes itself to be older and wiser than Yewgo though neither are sure how long the other has been alive. Yewgo favors a cautious approach and does not wish to leave. It has dreams of one day becoming a real boy (human) at the hands of its master."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "5. Shrine to Dumathoin",
+              "page": 8,
+              "id": "022",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "id": "023",
+                  "entries": [
+                    "A stone statue in the likeness of a dwarven man stands in this small shrine chamber. His right hand is outstretched towards the entrance. The insignia of a mountain silhouette with a central gemstone is carved into his breastplate. At the base of the statue there is some engraved writing."
+                  ]
+                },
+                "Characters proficient in the Religion skill can identify this as the dwarven god Dumathoin. A successful DC 12 Intelligence (Religion) check allows a character to recall that Dumathoin is the god of buried secrets. The inscription is written in Dwarvish and reads:",
+                {
+                  "type": "entries",
+                  "style": "text-center small-caps bold",
+                  "entries": [
+                    "A shroud that hides both day and night,",
+                    "Keeping secrets from the light,",
+                    "Bring to me that which concealed",
+                    "The many treasures it may yield."
+                  ]
+                },
+                "If a character places dirt or rocks in the right hand of Dumathoin, they receive a blessing of dwarven courage, which grants 5 temporary hit points, advantage on saving throws against poison, and resistance against poison damage for 8 hours."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "6. Fungi Garden",
+              "page": 8,
+              "id": "024",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "id": "025",
+                  "entries": [
+                    "A trickle of water has formed a puddle in what used to be the hearth of this room. Strange fungi grow here in cultivated beds made from the furniture the dwarves left behind. One bed contains large cask-shaped fungi, another is filled with blue capped mushrooms, and from another emerge shoulder-high mushrooms with a gray stalk and greenish cap. Round, brown mushrooms up to a foot in diameter grow in abundance from the wooden supports and even from the frames of the beds themselves."
+                  ]
+                },
+                "The first three fungi described above are, respectively, {@item barrelstalk|DKahnDangerInTheDwarvenValley}, {@item bluecap|DKahnDangerInTheDwarvenValley}, and {@item trillimac|DKahnDangerInTheDwarvenValley}, native to the Underdark. A character who succeeds on a DC 12 Intelligence (Nature) check, or who is native to the Underdark, would recognize these mushrooms and their uses. The round variety is called {@item orevein|DKahnDangerInTheDwarvenValley}. If she is with the party, Helda can point out the oreveins as a sign that the tunnels haven't been maintained, and inform them of its use as a healing agent. The awakened shrubs can also identify the mushrooms and their properties. The mushrooms in this room can be harvested, yielding up to {@dice 1d4} {@item barrelstalk|DKahnDangerInTheDwarvenValley|barrelstalks}, {@dice 1d4} pounds of {@item bluecap|DKahnDangerInTheDwarvenValley} spores, {@dice 1d4} {@item trillimac|DKahnDangerInTheDwarvenValley} stems, and {@dice 2d4} cups of {@item orevein|DKahnDangerInTheDwarvenValley}. Characters who investigate the soil may discover dwarven bones mixed in as Verna used their undead bodies as fertilizer."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "7. Conservatory",
+              "page": 8,
+              "id": "026",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "id": "027",
+                  "entries": [
+                    "In the center of this chamber looms a large plant, its trunk rising nearly to the ceiling. Branches resembling muscled arms erupt from the central stalk at unnatural angles before fanning out into leafless twigs, bristling with thorns, coated with foul-smelling dark yellow sap, clinging to the six stone pillars that support the ceiling of this large room. From the top of the plant a large, ribbed, black seed pod hangs, reaching nearly to the ground. A faint sickly yellow glow can be seen through cracks in the pod."
+                  ]
+                },
+                "When the party arrives, Verna has completed her transformation into a {@creature needle lord|MFF}. If the characters approach further or attack the pod, you can read:",
+                "Suddenly, the cracks begin to widen, and an acrid smell fills the air. Barbed vines slither through the openings in the pod, widening the gaps. With an audible CRACK, a large, vaguely humanoid creature formed entirely from thorned vegetation emerges from the pod. It is difficult to distinguish from the surrounding briars, except for a faint yellow glow in its inhuman eyes, which gaze upon you with rage.",
+                "Until the needle lord is defeated, it summons two {@creature needle spawn|MFF|needle spawns} at a point it choses within the room on initiative count 20 of each round. When the needle lord is defeated, all of the {@creature needle spawn|MFF|needle spawns} summoned this way fall dead.",
+                "On each of its turns, as a bonus action, the needle lord can create a 15 ft. square of poisonous briars centered on a target it can see within 120 feet. When a creature moves into or within the area, it takes 1 piercing damage and {@dice 1d4} poison damage for every 5 feet it travels. The {@creature needle spawn|MFF|needle spawns} are immune to the damaging effect of these thorns. These briars can be destroyed with fire, which will spread through the plants at 5 feet per round, taking one full round to burn. Any creature in a section that is burning will take {@dice 2d4} fire damage at the start of its turn. A 5 foot cubic section can be destroyed by any amount of damage (AC of 10), but is immune to bludgeoning, piercing, psychic, and poison damage.",
+                {
+                  "type": "entries",
+                  "entries": [
+                    {
+                      "type": "entries",
+                      "entries": [
+                        {
+                          "type": "entries",
+                          "name": "Treasure",
+                          "page": 8,
+                          "id": "028",
+                          "entries": [
+                            "Verna gave up all of her earthly possessions save for a {@item charm of plant command|GoS} that she wears around her neck."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "list-no-bullets",
+                  "columns": 2,
+                  "items": [
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnDangerInTheDwarvenValley/art/Needle 1.webp"
+                      },
+                      "credit": "Dr. Mapzo"
+                    },
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnDangerInTheDwarvenValley/art/Needle 2.webp"
+                      },
+                      "credit": "Dr. Mapzo"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "8. Druid's Living Quarters",
+              "page": 9,
+              "id": "029",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "id": "02a",
+                  "entries": [
+                    "This room appears to have once been some kind of office, but has been converted into living quarters for a single occupant. A worn leather bound book sits open on the desk."
+                  ]
+                },
+                "The book is Verna's journal. Many of the pages have been rendered illegible by the moisture and fungi. The earliest legible entry is 6 months prior to the start of the campaign.",
+                {
+                  "type": "list",
+                  "items": [
+                    "Day 14 - This whole half of the valley has been abandoned by dwarves for years - it should be an excellent place to establish the nursery. The dwarves have enjoyed respite from winter's wrath for too long. Ravisin and I will avenge Vurnis, starting with these Ten-Towns sympathizers.",
+                    "Day 25 - I have found a most peculiar little workshop. It's by far the most intact of all the mines I've yet seen. The dwarves left loads of black ore behind, which is strange because it looks as if they may have killed each other over it. There are a few zombies scattered about, but they should make for good fertilizer once dealt with.",
+                    "Day 43 - I am certain the undead are dealt with yet I am hearing occasional whispers in the halls. I'll sort it out soon. It's not like the rocks are speaking.",
+                    "Day 62 -  The experiments? They are going well, yes. My plants grow strong, and the mushrooms do well here. Even Geluvicken will be proud of my accomplishments.",
+                    "Day 104 - The plants are grown now, yes. They speak to me, tell me I am a sapling, they say. I will grow strong, too. They will help, yes."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Conclusion",
+              "page": 9,
+              "id": "02b",
+              "entries": [
+                "After the party defeats the needle lord, they can return to Stokely with the news that Halls of Black Ice are clear of threats. At that point, Stokely and a few other dwarves accompany Ruby, the xorn, to the Halls of Black Ice and let Ruby run loose. After about 2 hours, Ruby returns to the dwarves still munching on bits of Chardalyn. At this point, Stokely will investigate for himself that the halls are safe and subsequently declare the Halls of Black Ice renamed to the Halls of Heroes (or perhaps prompt the party for a suitable name).",
+                "Stokely and the dwarves are happy to allow characters to rest in the Dwarven Valley before the characters head on their way. From here, characters may head back to one of the Ten-Towns or continue with a quest they were already following. If the party has not yet been to CaerKonig, Stokely may suggest that the party head there if they're looking for work. He's heard the rumor \"In Caer-Konig, local establishments are beset by vandals and thieves that skulk about unseen. The town speaker, a dragonborn named Trovus, could really use some help catching the interlopers.\" If the party shows Stokely the body of the duergar in one of the dwelling rooms, Stokely may be able to suggest to the party that duergar have the ability to turn invisible at will and could be the culprits for the thievery.",
+                "Alternatively, if you want to continue the story of the frost druids, you can have Stokely suggests that his boys have seen a white moose on the borders of the woods outside Lonelywood and that there's been rumors that its been killing people. If characters are looking for work, they may want to check on the situation there.",
+                "If Clay and Yewgo, the awakened shrubs, are still with the party at the end of the adventure, they will be overjoyed to live among the dwarves. The dwarven forges provide plenty of heat and Stokely is happy to have the shrubs as well. At your discretion, Clay may be willing to adventure with the party as a sort of mascot."
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Troubleshooting",
+              "page": 9,
+              "id": "02c",
+              "entries": [
+                "The suggestions presented in this supplement for Chardalyn are different than the {@adventure Chardalyn Amulets sidebar|IDRotF|4|chardalyn amulets|0} on page 39 of {@i Rime of the Frostmaiden}, which suggests characters that fail their Charisma saves become evil. You can use the rules presented in this supplement for any evil Chardalyn throughout your campaign rather than those presented in the book. Another alternative is to have characters carrying Chardalyn have terrible nightmares, which prevents them from gaining the benefits of a long rest. If you are worried that your party's affection for Chardalyn may upset your game, you can consider leaving its effects entirely.",
+                "If you want to give your players more agency, you can give them clues that the Chardalyn is affecting their minds before the effects start taking hold. Describe the darkness that they can feel pulsing from the mineral. Once the characters have a bout or two of madness, they will likely forgo trying to carry around the Chardalyn."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Magic Items",
+          "page": 10,
+          "id": "02d",
+          "entries": [
+            "{@note Items marked with * are new}",
+            {
+              "type": "list",
+              "columns": 2,
+              "items": [
+                "{@item Chardalyn Dagger|DKahnDangerInTheDwarvenValley} *",
+                "{@item Charm of Plant Command|GoS}",
+                "{@item Helm of Dwarvenkind|DKahnDangerInTheDwarvenValley} *",
+                "{@item Mithral Armor}",
+                "{@item Pot of Awakening|XGE}"
+              ]
+            },
+            {
+              "type": "list",
+              "style": "list-no-bullets",
+              "columns": 2,
+              "items": [
+                {
+                  "type": "statblock",
+                  "tag": "item",
+                  "source": "DKahnDangerInTheDwarvenValley",
+                  "name": "Chardalyn Dagger"
+                },
+                {
+                  "type": "statblock",
+                  "tag": "item",
+                  "source": "DKahnDangerInTheDwarvenValley",
+                  "name": "Helm of Dwarvenkind"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Mundane Items",
+          "page": 10,
+          "id": "02e",
+          "entries": [
+            "{@note Items marked with * are new}",
+            {
+              "type": "list",
+              "columns": 2,
+              "items": [
+                "{@item Orevein|DKahnDangerInTheDwarvenValley} *",
+                "{@item Barrelstalk|DKahnDangerInTheDwarvenValley} *",
+                "{@item Bluecap|DKahnDangerInTheDwarvenValley} *",
+                "{@item Trillimac|DKahnDangerInTheDwarvenValley} *"
+              ]
+            },
+            {
+              "type": "list",
+              "style": "list-no-bullets",
+              "columns": 2,
+              "items": [
+                {
+                  "type": "statblock",
+                  "tag": "item",
+                  "source": "DKahnDangerInTheDwarvenValley",
+                  "name": "Orevein"
+                },
+                {
+                  "type": "statblock",
+                  "tag": "item",
+                  "source": "DKahnDangerInTheDwarvenValley",
+                  "name": "Barrelstalk"
+                },
+                {
+                  "type": "statblock",
+                  "tag": "item",
+                  "source": "DKahnDangerInTheDwarvenValley",
+                  "name": "Bluecap"
+                },
+                {
+                  "type": "statblock",
+                  "tag": "item",
+                  "source": "DKahnDangerInTheDwarvenValley",
+                  "name": "Trillimac"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Bestiary",
+          "page": 11,
+          "id": "02f",
+          "entries": [
+            {
+              "type": "list",
+              "columns": 2,
+              "items": [
+                "{@creature Battlehammer Dwarf|IDRotF}",
+                "{@creature Awakened Shrub|MM}",
+                "{@creature Needle Spawn|MFF}",
+                "{@creature Needle Lord|MFF}",
+                "{@creature Swarm of Rats|MM}",
+                "{@creature Specter|MM}",
+                "{@creature Xorn|MM}"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Player Maps",
+          "id": "030",
+          "entries": [
+            {
+              "type": "gallery",
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnDangerInTheDwarvenValley/maps/Halls_of_Black_Ice-55x85-VTT.webp"
+                  },
+                  "title": "Map: Halls of Black Ice",
+                  "imageType": "mapPlayer"
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/DKahnDangerInTheDwarvenValley/maps/Halls_of_Black_Ice-55x85-No-Grid.webp"
+                  },
+                  "title": "Map: Halls of Black Ice (no grid)",
+                  "imageType": "mapPlayer"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "item": [
+    {
+      "name": "Orevein",
+      "source": "DKahnDangerInTheDwarvenValley",
+      "page": 10,
+      "rarity": "unknown",
+      "entries": [
+        "This mushroom grows underground in iron rich environments. When ground into a paste, it can serve as a minor healing agent. One cup of mushrooms yields one vial of paste. As an action a vial of the paste can be applied to a creature, which heals 1 hit point after 1 minute."
+      ]
+    },
+    {
+      "name": "Barrelstalk",
+      "source": "DKahnDangerInTheDwarvenValley",
+      "page": 10,
+      "rarity": "unknown",
+      "entries": [
+        "A barrelstalk is a large, cask-shaped fungus that can be tapped and drained of the fresh water stored within it. A single barrelstalk contains {@dice 1d4 + 4} gallons of water and yields {@dice 1d6 + 4} pounds of food."
+      ]
+    },
+    {
+      "name": "Bluecap",
+      "source": "DKahnDangerInTheDwarvenValley",
+      "page": 10,
+      "rarity": "unknown",
+      "entries": [
+        "Dubbed the 'grain of the Underdark,' a bluecap is inedible, but its spores can be ground to make a nutritious, bland flour. Bread made from bluecap flour is known as sporebread or bluebread. One loaf is equivalent to 1 pound of food."
+      ]
+    },
+    {
+      "name": "Trillimac",
+      "source": "DKahnDangerInTheDwarvenValley",
+      "page": 10,
+      "rarity": "unknown",
+      "entries": [
+        "A trillimac is a mushroom that grows to a height of four to five feet, and has a broad gray-green cap and a light gray stalk. The cap's leathery surface can be cut and cleaned for use in making maps, hats, and scrolls (its surface takes on dyes and inks well). The stalk can be cleaned, soaked in water for an hour, then dried to make a palatable food akin to bread. Each trillimac stalk provides {@dice 1d6 + 4} pounds of food."
+      ]
+    },
+    {
+      "name": "Chardalyn Dagger",
+      "source": "DKahnDangerInTheDwarvenValley",
+      "page": 10,
+      "baseItem": "dagger|phb",
+      "type": "M",
+      "rarity": "uncommon",
+      "reqAttune": true,
+      "weight": 1,
+      "weaponCategory": "simple",
+      "property": [
+        "F",
+        "L",
+        "T"
+      ],
+      "range": "20/60",
+      "dmg1": "1d4",
+      "dmgType": "P",
+      "curse": true,
+      "entries": [
+        "You gain a +1 bonus to attack and damage rolls made with this magic weapon and it deals an additional {@dice 1d4} cold damage on a hit.",
+        "{@b Curse.} This dagger is cursed and possessed by an evil spirit. Becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the sword, keeping it on your person at all times. While attuned to this weapon, you have disadvantage on attack rolls made with weapons other than this one.",
+        "In addition, while the dagger is on your person, you must succeed on a DC 15 Wisdom saving throw whenever you take damage in combat. On a failed save, you must attack the creature that damaged you until you drop to 0 hit points or it does, or until you can't reach the creature to make a melee attack against it.",
+        "You can break the curse in the usual ways. Alternatively, casting {@spell banishment} on the sword forces the evil spirit to leave it. The dagger then becomes a {@item +1 dagger|DMG|+1 weapon} with no other properties."
+      ]
+    },
+    {
+      "name": "Helm of Dwarvenkind",
+      "source": "DKahnDangerInTheDwarvenValley",
+      "page": 10,
+      "rarity": "common",
+      "wondrous": true,
+      "entries": [
+        "You have advantage on Charisma (Persuasion) checks made to interact with dwarves."
+      ]
+    }
+  ]
+}
