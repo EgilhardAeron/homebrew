@@ -9,8 +9,7 @@
           "James Jacobs",
           "Richard Baker"
         ],
-        "convertedBy": [
-        ],
+        "convertedBy": [],
         "version": "1.0.0"
       }
     ],
@@ -1574,9 +1573,9 @@
                         {
                           "type": "item",
                           "entries": [
-                            "{@i Normal Travel:} 50% per 12 hours.",
-                            "{@i Camping or Cautious Travel:} 25% per 12 hours.",
-                            "{@i Hiding:} 10% per 12 hours."
+                            "{@i Normal Travel:} {@chance 50} per 12 hours.",
+                            "{@i Camping or Cautious Travel:} {@chance 25} per 12 hours.",
+                            "{@i Hiding:} {@chance 10} per 12 hours."
                           ]
                         },
                         "Check once per day, and once per night. If an encounter is indicated, refer to the table below. We recommend that you don't add more than one or two random encounters per day to the adventure, regardless of the results of the encounter checks.",
@@ -1600,17 +1599,17 @@
                             ],
                             [
                               "04–05",
-                              "1d3+1 centipede swarms (MM 238)",
+                              "{@dice 1d3+1} centipede swarms (MM 238)",
                               "7"
                             ],
                             [
                               "06–08",
-                              "1d2+3 dryads (MM 90)",
+                              "{@dice 1d2+3} dryads (MM 90)",
                               "7"
                             ],
                             [
                               "09–14",
-                              "1d3+1 assassin vines (MM 20)",
+                              "{@dice 1d3+1} assassin vines (MM 20)",
                               "6"
                             ],
                             [
@@ -1620,12 +1619,12 @@
                             ],
                             [
                               "21–28",
-                              "1d2 ettercaps (MM 106) plus 1d3+1 Large monstrous spiders (MM 289)",
+                              "{@dice 1d2} ettercaps (MM 106) plus {@dice 1d3+1} Large monstrous spiders (MM 289)",
                               "6"
                             ],
                             [
                               "29–34",
-                              "1d4+1 giant wasps (MM 285)",
+                              "{@dice 1d4+1} giant wasps (MM 285)",
                               "6"
                             ],
                             [
@@ -1635,17 +1634,17 @@
                             ],
                             [
                               "41–50",
-                              "1d4+1 goblin worg riders (see page 119)*",
+                              "{@dice 1d4+1} goblin worg riders (see page 119)*",
                               "6"
                             ],
                             [
                               "51–55",
-                              "1d2 manticores (MM 179)",
+                              "{@dice 1d2} manticores (MM 179)",
                               "6"
                             ],
                             [
                               "56–63",
-                              "1d2 owlbears (MM 206)",
+                              "{@dice 1d2} owlbears (MM 206)",
                               "6"
                             ],
                             [
@@ -1660,12 +1659,12 @@
                             ],
                             [
                               "76–80",
-                              "1d2 trolls (MM 247)",
+                              "{@dice 1d2} trolls (MM 247)",
                               "6"
                             ],
                             [
                               "81–92",
-                              "1d6+8 stirges (MM 236)",
+                              "{@dice 1d6+8} stirges (MM 236)",
                               "5"
                             ],
                             [
@@ -1758,7 +1757,7 @@
                     "The doors inside the keep are made of wood and remain sturdy. They can be barred on the inside but are generally left unbarred by the hobgoblins. They are strong wooden doors ({@i DMG} 61).",
                     "{@b Creatures}: The majority of Wyrmlord Koth's hobgoblin raiders do not stay at Vraath Keep but patrol the Witchwood or scout out the surrounding human lands. The band the PCs fought at the start of this adventure was one of a dozen such groups. These groups report to Wyrmlord Koth about once a week. Koth spends most of his time studying maps of the region, reading over intelligence reports, and training his hand-picked cadre of hobgoblin warriors. Apart from the Wyrmlord, dwelling in the ruin are two goblin worg riders (and their mounts), four hobgoblin veterans, a minotaur named Karkilan who serves Koth as second in command, and a manticore. These various creatures all inhabit different parts of the ruined keep, but once they realize the PCs are nearby, they're quick to raise the alarm.",
                     "Fortunately for the PCs, the Wyrmlord and his band have grown overconfident. They count too much on the keep's isolated location and sinister reputation, and don't even post guards. Koth has gone so far as to rig a fake ghost in the top of the tower (see area 11) to strengthen the rumors that the place is haunted, should someone pass by the place at a distance. On their initial foray into the keep, the PCs should be able to scout the perimeter with ease.",
-                    "If the keep's defenders realize that trouble is brewing, the goblin worg riders are first to react. They mount their worgs and move out into area 3 for 1d4 rounds, then patrol the perimeter of the keep for 10 minutes before returning to area 3. The hobgoblin regulars move out to protect area 3 for this duration. If any group spots the PCs, it raises an alarm and attacks. Regardless of where this attack occurs, Wyrmlord Koth and Karkilan are the last to arrive, preferring to let the soldiers do the bulk of the fighting.",
+                    "If the keep's defenders realize that trouble is brewing, the goblin worg riders are first to react. They mount their worgs and move out into area 3 for {@dice 1d4} rounds, then patrol the perimeter of the keep for 10 minutes before returning to area 3. The hobgoblin regulars move out to protect area 3 for this duration. If any group spots the PCs, it raises an alarm and attacks. Regardless of where this attack occurs, Wyrmlord Koth and Karkilan are the last to arrive, preferring to let the soldiers do the bulk of the fighting.",
                     {
                       "type": "entries",
                       "name": "1. Ruined Gatehouse",
@@ -1790,7 +1789,7 @@
                         "Vraath Keep's groundskeeper lived in this shack, which is now empty and verging on collapse. In fact, if the PCs insist on exploring the shack, they might finish the job and bring it down on their heads. A PC who checks out the structure before entering can attempt either a DC 10 Knowledge (architecture and engineering) or a DC 15 Search check to recognize the potential peril.",
                         "{@b Decrepit Shack:} CR 2; DC 8 Fort save (save modifier +0) or the shack collapses.",
                         "At the end of each round when at least one creature stands within the shack, the shack must succeed on a DC 8 Fortitude save or collapse 1 round later; the shack has an effective save modifier of +0 for this check. The save DC for the Fortitude checks increases by 2 for each additional creature in the shack.",
-                        "Once the shack fails a save, allow characters inside the shack to make a DC 10 Listen check. Those who succeed can hear the timbers creaking and straining. One round after the shack fails its save, the structure comes crashing down, dealing 2d6 points of bludgeoning and piercing damage to anyone still inside the shack (Refl ex DC 15 half).",
+                        "Once the shack fails a save, allow characters inside the shack to make a DC 10 Listen check. Those who succeed can hear the timbers creaking and straining. One round after the shack fails its save, the structure comes crashing down, dealing {@dice 2d6} points of bludgeoning and piercing damage to anyone still inside the shack (Refl ex DC 15 half).",
                         "If the shack collapses, the inhabitants of the keep are immediately alerted to the PCs' presence and react as detailed above."
                       ]
                     },
@@ -1829,7 +1828,7 @@
                           "type": "inset",
                           "name": "Vraath Keep Developments",
                           "entries": [
-                            "If the PCs are forced to retreat from the keep and return at a later date, they find that Koth and his minions are on the alert. If any of the keep's defenders were killed, there is a 50% chance per day that groups returning from scouting the forest made up for the loss. Two hobgoblin veterans now patrol the top of the keep's walls, and goblin worg riders patrols the surrounding hillside.",
+                            "If the PCs are forced to retreat from the keep and return at a later date, they find that Koth and his minions are on the alert. If any of the keep's defenders were killed, there is a {@chance 50} chance per day that groups returning from scouting the forest made up for the loss. Two hobgoblin veterans now patrol the top of the keep's walls, and goblin worg riders patrols the surrounding hillside.",
                             "If the PCs assault the keep a second time but retreat again, Wyrmlord Koth decides to give up his prime location in return for safety. Besides, he needs to report the presence of adventurers this powerful back to his commanders. He and any surviving minions abandon Vraath Keep and withdraw to the north to rejoin the rest of the Red Hand horde, leaving the ruins abandoned.",
                             "There's a good chance that the PCs capture at least some of Koth's minions. As long as they believe Koth is alive, the goblins and hobgoblins are very resistant to attempts to get them to talk (they're more afraid of Koth than any PC) and gain a +4 circumstance bonus on checks to resist Intimidate efforts. If a prisoner's attitude can be improved from hostile to unfriendly, or if he can be deceived through some kind of bluff, a prisoner from Vraath Keep can impart any of the information mentioned in the Marauder Attack developments sidebar on page 16, as well as the following facts.",
                             {
@@ -2112,7 +2111,7 @@
                     "{@i Hobgoblin Sentries:} The four hobgoblins atop the towers spend the entire combat firing on the PCs with their longbows. Each has a small barrel of 40 arrows ready at hand, so they don't worry about running out of ammunition. Any wounded hobgoblin drinks a {@i potion of cure moderate wounds} on his next turn (each one has three). If the sentries spot anyone tampering with the bridge, they shout a warning to their comrades and focus arrow attacks on that character.",
                     "{@i Hobgoblins in the Campsite:} Once they're aware of the PCs, the five hobgoblins at the campsite (four veteran warriors and one sergeant) grab their gear; it takes them a full round to get their weapons. On the second round they move up to the edge of the gorge to fire at the PCs with their bows. They close to melee if it becomes obvious that they can't hit the PCs with ranged attacks or if the PCs start to attack the bridge. If attacked with {@i fireball} or similar area magic, the archers each take a round to drink a {@i potion of cure moderate wounds} and then spread out before resuming their shooting.",
                     "{@i Ozyrrandion:} The green dragon is the most dangerous foe the PCs face in this combat. Ozyrrandion opens combat by using his breath weapon in conjunction with Flyby Attack (which he typically finds sufficient to drive away annoying intruders). If this attack doesn't drop any characters or send them fleeing, he realizes that he's up against more challenging foes and returns to his roost to drink his {@i potion of bull's strength}. (He keeps his potions in a small hole in the roof of the northwest guard tower, found with a DC 15 Search check of the roof.)",
-                    "As combat continues, his preferred method of attack is to blast as many PCs as he can with his breath weapon, using Flyby Attack to do so in the middle of a move or his Hover feat to stay near a particularly vulnerable target. While he waits for his breath weapon to recharge, he circles around out of range of the PCs' melee attacks or close-range spells. If a PC seems to be making progress in destroying the bridge, Ozyrrandion swoops down to make a bull rush attempt against that PC, trying to push him or her off the bridge. It's a 150-foot drop to the bottom of the gorge, with a 50% chance that the falling character lands in the rushing white water instead of the rocks (see {@i DMG} 303 for falling damage rules).",
+                    "As combat continues, his preferred method of attack is to blast as many PCs as he can with his breath weapon, using Flyby Attack to do so in the middle of a move or his Hover feat to stay near a particularly vulnerable target. While he waits for his breath weapon to recharge, he circles around out of range of the PCs' melee attacks or close-range spells. If a PC seems to be making progress in destroying the bridge, Ozyrrandion swoops down to make a bull rush attempt against that PC, trying to push him or her off the bridge. It's a 150-foot drop to the bottom of the gorge, with a {@chance 50} chance that the falling character lands in the rushing white water instead of the rocks (see {@i DMG} 303 for falling damage rules).",
                     "If reduced to fewer than 50 hit points, Ozyrrandion flies back to the tower top to drink his two remaining potions ({@i invisibility}, then {@i cure serious wounds}) before flying back to deliver a stealthy attack against whichever PC most threatens the bridge. If no single target stands out, he reappears in whatever spot he can attack the most characters (see {@i PH} 309 for rules on invisible attackers).",
                     "{@b Taking out the Bridge:} Skull Gorge Bridge is fairly solid, but it's also old. In order to render it unusable, the PCs must either destroy two adjacent 5-foot-wide sections of the bridge spanning its full width (a difficult task, especially during combat) or find and take advantage of the bridge's weak spot (see below).",
                     "{@i Bridge Walkway:} The bridge walkway is made of heavy stone blocks set tightly together (the equivalent of extra-thick superior masonry; see {@i DMG} 60). While the characters can bash at the bridge with weapons (a slow process, due to the walkway's hardness and hit points) or blast it with spells (remember that objects take half damage from electricity and fire and onequarter damage from cold), certain spells offer a more effective way to neutralize the bridge (see sidebar).",
@@ -2120,18 +2119,18 @@
                     "{@i Weak Spot:} Alternatively, characters who take the time to inspect the bridge can locate a weak point. At the point where the bridge meets the southeast tower, centuries of erosion and weathering have created a vulnerable spot. This can be located and identified with a DC 20 Search check or a DC 15 Knowledge (architecture and engineering) check. A mere 40 points of damage dealt to this 5-foot square (remember the bridge still has hardness 8) causes the entire bridge to collapse.",
                     "{@i Guard Towers:} These four towers serve as anchors connecting the bridge to the sides of the gorge. The bridge can be destroyed by ruining both of the towers on either end (that is, both north towers or both south towers). To bring down a tower, at least five 5-foot sections must be destroyed. Each is constructed from reinforced masonry. (This tactic is best employed if the PCs overcome all their enemies and then have all the time they need to bring down the bridge.)",
                     "{@b Guard Tower (5-foot section):} 1 ft. thick; hardness 8; hp 180; break DC 45.",
-                    "However the characters accomplish the task, the actual collapse of the bridge takes only 1 round after the necessary damage is dealt. During this time, all characters are allowed a free DC 5 Listen or Spot check to determine that collapse is imminent (characters engaged in combat, particularly melee combat, are likely to be distracted and thus take a –5 penalty on such checks). Any character adjacent to either side of the gorge when the bridge collapses can attempt a DC 15 Refl ex save to grab hold; otherwise he or she falls to the bottom of the gorge. This fall deals 7d6 points of damage if a character is above either of the sloping sides of the gorge (she hits a ledge halfway down), or 15d6 points of damage if he's in the middle. A character falling from the middle of the bridge has a 50% chance to hit the rushing river instead, taking 11d6 points of lethal damage and 2d6 points of nonlethal damage—and now he's in the river, being washed downstream.",
+                    "However the characters accomplish the task, the actual collapse of the bridge takes only 1 round after the necessary damage is dealt. During this time, all characters are allowed a free DC 5 Listen or Spot check to determine that collapse is imminent (characters engaged in combat, particularly melee combat, are likely to be distracted and thus take a –5 penalty on such checks). Any character adjacent to either side of the gorge when the bridge collapses can attempt a DC 15 Refl ex save to grab hold; otherwise he or she falls to the bottom of the gorge. This fall deals {@dice 7d6} points of damage if a character is above either of the sloping sides of the gorge (she hits a ledge halfway down), or {@dice 15d6} points of damage if he's in the middle. A character falling from the middle of the bridge has a {@chance 50} chance to hit the rushing river instead, taking {@dice 11d6} points of lethal damage and {@dice 2d6} points of nonlethal damage—and now he's in the river, being washed downstream.",
                     "{@b Ad Hoc XP Adjustment:} Destroying the bridge is a noteworthy accomplishment. If the characters succeed in bringing down the bridge, award XP as if they had defeated a CR 8 monster.",
                     "{@b Treasure:} In addition to the combat gear Ozyrrandion and the hobgoblins carry, the dragon has six pearls embedded in his scales, each worth 100 gp.",
                     {
                       "type": "inset",
                       "name": "Using Magic Against The Bridge",
                       "entries": [
-                        "Here are some guidelines for adjudicating the application of specific spells against the bridge. For spells or effects not given here, use your best judgment. In general, 1st- or 2nd-level spells won't do much to the bridge, 3rd- to 5th-level spells can damage it, and 6th-level or higher spells can deal significant damage. Disintegrate: This spell completely obliterates a 10-foot cube of the bridge walkway, which immediately causes it to collapse. Soften Earth and Stone: This spell has no effect against dressed or worked stone and thus won't affect the bridge. However, if directed at the ground beneath one of the towers, the spell deals 1d4×10 points of damage to each 5-foot section of wall above the area of the spell.",
+                        "Here are some guidelines for adjudicating the application of specific spells against the bridge. For spells or effects not given here, use your best judgment. In general, 1st- or 2nd-level spells won't do much to the bridge, 3rd- to 5th-level spells can damage it, and 6th-level or higher spells can deal significant damage. Disintegrate: This spell completely obliterates a 10-foot cube of the bridge walkway, which immediately causes it to collapse. Soften Earth and Stone: This spell has no effect against dressed or worked stone and thus won't affect the bridge. However, if directed at the ground beneath one of the towers, the spell deals {@dice 1d4}×10 points of damage to each 5-foot section of wall above the area of the spell.",
                         "Stone Shape: Each casting of the spell can shave several inches of thickness from a single 5-foot section of bridge or wall, reducing its hit points by 50 per casting.",
                         "Alternatively, a clever caster can use stone shape to create a seam in the bridge. A 5th-level caster can create a 6-inch-wide seam across the entire bridge or a 1-foot-wide seam across a 5-foot section. While this action isn't enough to ruin the bridge by itself, it deals 45 points of damage to each affected section (or 90 points if directed at a single section). If directed at the weak point (see text), it causes the bridge to collapse.",
                         "Stone to Flesh: A single casting of this spell on the bridge can turn a 3-foot-wide section across the width of the bridge into flesh. Doing this collapses the bridge.",
-                        "Transmute Rock to Mud: Same as soften earth and stone, except the damage dealt is 2d4×10 points."
+                        "Transmute Rock to Mud: Same as soften earth and stone, except the damage dealt is {@dice 2d4}×10 points."
                       ]
                     },
                     {
@@ -2321,7 +2320,7 @@
                     "The text above assumes that the PCs are somewhere near the middle of the town—perhaps roaming about conducting business, conferring with Soranna, or simply relaxing on the porch of the Old Bridge. There's no reason you can't adapt this encounter for a fight in or around any of the small towns of Elsir Vale, if you choose not to use it in Drellin's Ferry.",
                     "{@b Combat:} The chimera is hungry and somewhat overconfident, so it thinks nothing of taking on a whole town single-handedly. The monster is not particularly cunning or clever (few chimeras are), so it strikes at whatever targets present themselves. The monster begins 200 feet up in the air, which allows it to descend to the ground by diving in a double move.",
                     "{@b Chimera:} hp 88 ({@i MM} 34).",
-                    "This chimera's dragon head is white, so its breath weapon is a 20-foot cone dealing 3d8 points of cold damage (Refl ex DC 18 half). It is an unusually tough example of its kind.",
+                    "This chimera's dragon head is white, so its breath weapon is a 20-foot cone dealing {@dice 3d8} points of cold damage (Refl ex DC 18 half). It is an unusually tough example of its kind.",
                     "{@b Tactics:} The chimera fights on the ground until it encounters serious opposition, at which point it takes to the air again. When fighting on the wing, it swoops by foes to use its breath weapon and employs its Hover feat to make a full attack against any foe who doesn't have allies close by—especially a spellcaster.",
                     "The chimera abandons the fight and flies off if reduced to 20 hit points or fewer."
                   ]
@@ -2654,7 +2653,7 @@
                         "{@b Hell Hound}: hp 22 ({@i MM} 152)."
                       ]
                     },
-                    "{@b Tactics:} These hobgoblin warriors are armed with composite longbows (+2 ranged, damage 1d8) instead of javelins as described in the {@i Monster Manual.} Half of the warriors hold their ground and shoot at the PCs, targeting spellcasters first. The other half rush the party, led by the bladebearer and the hell hound. The hobgoblins break and flee if both the bladebearer and the hell hound fall, or if five warriors are killed."
+                    "{@b Tactics:} These hobgoblin warriors are armed with composite longbows (+2 ranged, damage {@dice 1d8}) instead of javelins as described in the {@i Monster Manual.} Half of the warriors hold their ground and shoot at the PCs, targeting spellcasters first. The other half rush the party, led by the bladebearer and the hell hound. The hobgoblins break and flee if both the bladebearer and the hell hound fall, or if five warriors are killed."
                   ]
                 },
                 {
@@ -2682,8 +2681,8 @@
                       ]
                     },
                     "{@b Tactics}: The Crimson Tigers are greedy, not brave. If the PCs challenge them, their greed wins out initially and they fight to defend their haul. They break into two groups of two and move to flank the closest two PCs. If brought below 6 hit points, a Crimson Tiger cries out in fear and tries to escape. Once at least two do so, the other two follow suit.",
-                    "{@b Terrain:} The four squares in which the Crimson Tigers start are covered with the broken fragments of nearly two dozen glass bottles. These sharp glass shards function as caltrops ({@i PH} 126); the thugs make sure to get out of this dangerous area as soon as possible. Anyone tripped or falling prone in one of these squares is subject to 1d3–1 attacks (+4 melee, damage 1d4).",
-                    "{@b Treasure}: If the PCs are a callous lot, they might finish the job the Crimson Tigers started and loot the tavern. If they do, a 30-minute looting session earns them 2d6×10 gp worth of loot. Of course, if they're caught, they might find themselves in the same position the Crimson Tigers were just in when a group of town guards or (worse!) a more righteous band of adventurers catches them in the act."
+                    "{@b Terrain:} The four squares in which the Crimson Tigers start are covered with the broken fragments of nearly two dozen glass bottles. These sharp glass shards function as caltrops ({@i PH} 126); the thugs make sure to get out of this dangerous area as soon as possible. Anyone tripped or falling prone in one of these squares is subject to {@dice 1d3}–1 attacks (+4 melee, damage {@dice 1d4}).",
+                    "{@b Treasure}: If the PCs are a callous lot, they might finish the job the Crimson Tigers started and loot the tavern. If they do, a 30-minute looting session earns them {@dice 2d6}×10 gp worth of loot. Of course, if they're caught, they might find themselves in the same position the Crimson Tigers were just in when a group of town guards or (worse!) a more righteous band of adventurers catches them in the act."
                   ]
                 },
                 {
@@ -2828,7 +2827,7 @@
                     },
                     "{@b Tactics:} The ogre and the hobgoblins remain near the farmhouse, trying to lure the PCs in close. They get behind cover and use their bows (or, in the case of the ogre, javelins) instead of rushing off to meet PCs who attack. Hobgoblins forced into melee are not above fighting defensively in order to stay alive long enough for the barghests and blackspawn raiders to launch their surprise attack.",
                     "The greater barghests use {@i mass bull's strength} to power up their raiders and themselves and attempt to use {@i charm monster} to take a tough PC fighter out of the battle.",
-                    "The blackspawn raiders are fanatic in the extreme and fight to the death. They begin the fight by using their breath weapons, and they breathe again as often as possible (once every 1d4 rounds). The blackspawn initially use their Power Attack (masterwork falchion +7/+2, 2d4+13/18–20 while under the effects of the barghests' {@i mass bull's strength}). If they have trouble scoring hits against the PCs, they stop using Power Attack, greatly improving their chance to hit at the cost of reduced damage (masterwork falchion +11/+6, 2d4+5/18–20 while under the effect of the {@i mass bull's strength}). The barghests are less dedicated, and seek to withdraw if reduced to 15 hit points or fewer.",
+                    "The blackspawn raiders are fanatic in the extreme and fight to the death. They begin the fight by using their breath weapons, and they breathe again as often as possible (once every {@dice 1d4} rounds). The blackspawn initially use their Power Attack (masterwork falchion +7/+2, 2d4+13/18–20 while under the effects of the barghests' {@i mass bull's strength}). If they have trouble scoring hits against the PCs, they stop using Power Attack, greatly improving their chance to hit at the cost of reduced damage (masterwork falchion +11/+6, {@dice 2d4+5}/18–20 while under the effect of the {@i mass bull's strength}). The barghests are less dedicated, and seek to withdraw if reduced to 15 hit points or fewer.",
                     "The two prisoners bound to the trees are local farmers, both of whom died hours ago.",
                     {
                       "type": "insetReadaloud",
@@ -3003,7 +3002,7 @@
                       ]
                     },
                     "{@b Tactics}: In order for an assassination attempt on Wyrmlord Kharn to work, the PCs need to get to him first. You can resolve the success of their approach by having them make a number of Bluff, Hide, and Move Silently checks as needed to sneak by or trick any horde members they encounter.",
-                    "Once they reach Kharn, they'll need to strike quickly. As soon as he or any of his allies raise the alarm, the horde is quick to mobilize. Kharn doesn't stick around if he's caught off guard—he does what he can to escape, by drinking a {@i potion of fly} or a {@i potion of haste} or by casting spells such as {@i air walk, wind wall} (to slow down pursuit), or {@i obscuring mist}. Reinforcements are quick to arrive; twenty-four battle-ready Blood Ghost berserkers reach the spot 2 rounds after the alarm is raised, followed within 1d6 rounds by Abithriax and 1d8 manticores.",
+                    "Once they reach Kharn, they'll need to strike quickly. As soon as he or any of his allies raise the alarm, the horde is quick to mobilize. Kharn doesn't stick around if he's caught off guard—he does what he can to escape, by drinking a {@i potion of fly} or a {@i potion of haste} or by casting spells such as {@i air walk, wind wall} (to slow down pursuit), or {@i obscuring mist}. Reinforcements are quick to arrive; twenty-four battle-ready Blood Ghost berserkers reach the spot 2 rounds after the alarm is raised, followed within {@dice 1d6} rounds by Abithriax and {@dice 1d8} manticores.",
                     {
                       "type": "item",
                       "entries": [
@@ -3065,9 +3064,9 @@
                         {
                           "type": "item",
                           "entries": [
-                            "{@i Normal Travel:} 60% per 12 hours.",
-                            "{@i Camping or Cautious Travel:} 30% per 12 hours.",
-                            "{@i Hiding:} 15% per 12 hours."
+                            "{@i Normal Travel:} {@chance 60} per 12 hours.",
+                            "{@i Camping or Cautious Travel:} {@chance 30} per 12 hours.",
+                            "{@i Hiding:} {@chance 15} per 12 hours."
                           ]
                         },
                         "Check once per day, and once per night. If an encounter is indicated, refer to the table below. If the d% roll indicates one of the encounters marked with an asterisk, roll again unless the PCs have already experienced the events described in Spawn of Tiamat (page 51) and Killiar's Hunters (page 52).",
@@ -3087,7 +3086,7 @@
                           "rows": [
                             [
                               "01–05",
-                              "1d2 greenspawn razorfiends (see page 119)*",
+                              "{@dice 1d2} greenspawn razorfiends (see page 119)*",
                               "8"
                             ],
                             [
@@ -3107,22 +3106,22 @@
                             ],
                             [
                               "27–34",
-                              "1d4 manticores (MM 179)",
+                              "{@dice 1d4} manticores (MM 179)",
                               "7"
                             ],
                             [
                               "35–42",
-                              "1d3 giant crocodiles (MM 271)",
+                              "{@dice 1d3} giant crocodiles (MM 271)",
                               "6"
                             ],
                             [
                               "43–48",
-                              "1d6 giant wasps (MM 285)",
+                              "{@dice 1d6} giant wasps (MM 285)",
                               "6"
                             ],
                             [
                               "49–56",
-                              "1d3 harpies (MM 150)",
+                              "{@dice 1d3} harpies (MM 150)",
                               "6"
                             ],
                             [
@@ -3142,17 +3141,17 @@
                             ],
                             [
                               "73–82",
-                              "1d6+8 stirges (MM 236)",
+                              "{@dice 1d6+8} stirges (MM 236)",
                               "5"
                             ],
                             [
                               "83–90",
-                              "1d4 ghouls and 1 ghast (MM 119)",
+                              "{@dice 1d4} ghouls and 1 ghast (MM 119)",
                               "4"
                             ],
                             [
                               "91–100",
-                              "2d4 lizardfolk (MM 169)",
+                              "{@dice 2d4} lizardfolk (MM 169)",
                               "4"
                             ]
                           ]
@@ -3190,7 +3189,7 @@
                 },
                 "{@b Tactics}: The two lookouts react promptly to an attack, while their off-duty comrades do not. The ogres spend the first round of combat groggily sitting up, rubbing their eyes, and looking around in confusion. The hobgoblins inside the watchtower fare little better and waste their first round of combat scrambling over each other in a frantic attempt to gather their weapons.",
                 "Each ogre sleeps by a barrel of twenty Large spears. On the second round, each ogre takes a move action to step up onto the packed earth piled against the inside of the palisade (allowing it to see out over the wall) and a standard action to pick up a spear; on following rounds, each throws one spear per round at any targets it can see. The hobgoblins inside the watchtower climb up to take positions on the roof on the second round and are able to fire their bows starting in the third round.",
-                "All of the defenders here have relatively low morale (that's why they've been assigned to this remote duty). As soon as a hobgoblin regular takes 7 or more points of damage, he panics, drops his bow, and tries to run away by clambering down the ladder and unbarring the double doors on the side of the tower opposite from the PCs. Although ladders are a simple DC 0 Climb check to navigate, any panicked hobgoblin uses the accelerated climbing option to move his full speed down the ladder, taking a –5 penalty on his Climb check. This, combined with the chainmail and heavy steel shields the hobgoblins refuse to abandon, produces a total Climb modifier of –11. Chances are good that at least one or two panicked hobgoblins fall the 20 feet to the ground in their haste. If the PCs have already forced their way into the lower level of the watchtower, fleeing hobgoblins instead jump from the tower top to the ground outside (DC 15 Jump check for 1d6 damage, 2d6 damage on failed check, –6 Jump modifier).",
+                "All of the defenders here have relatively low morale (that's why they've been assigned to this remote duty). As soon as a hobgoblin regular takes 7 or more points of damage, he panics, drops his bow, and tries to run away by clambering down the ladder and unbarring the double doors on the side of the tower opposite from the PCs. Although ladders are a simple DC 0 Climb check to navigate, any panicked hobgoblin uses the accelerated climbing option to move his full speed down the ladder, taking a –5 penalty on his Climb check. This, combined with the chainmail and heavy steel shields the hobgoblins refuse to abandon, produces a total Climb modifier of –11. Chances are good that at least one or two panicked hobgoblins fall the 20 feet to the ground in their haste. If the PCs have already forced their way into the lower level of the watchtower, fleeing hobgoblins instead jump from the tower top to the ground outside (DC 15 Jump check for {@dice 1d6} damage, {@dice 2d6} damage on failed check, –6 Jump modifier).",
                 "The sergeants and ogres are a little braver, but they also try to flee if reduced to 10 or fewer hit points.",
                 {
                   "type": "inset",
@@ -3426,7 +3425,7 @@
                     "{@color {@i Out near the middle of the lake, dozens of decrepit stone buildings jut from the black waters. In most cases, these buildings sag and lean treacherously, the windows of their upper stories now even with the still lake's surface. Two buildings that seem to have survived relatively intact draw your attention—one a large stone tower, about a quarter-mile from the southern shore, and the other a large stone building near the lake's center. Both structures have rickety wooden walkways ringing them at water level. These look like recent additions; it would seem that someone has made an attempt to settle down here.}|--rgb-name}"
                   ]
                 },
-                "Today, much of Rhest is underwater. Although quite expansive, this lake is rather shallow, rarely reaching depths of over 20 feet. The majority of the buildings in Rhest were made of wood, and these have collapsed and rotted into tangled piles of debris over the centuries. The lakebed is crisscrossed by a tangled network of canals, all that remains of the city's streets, deeper by 10 feet on average than the mounds of ruins around them. The waters are quite murky: Submerged creatures can see only 1d6×5 feet, even on sunny days.",
+                "Today, much of Rhest is underwater. Although quite expansive, this lake is rather shallow, rarely reaching depths of over 20 feet. The majority of the buildings in Rhest were made of wood, and these have collapsed and rotted into tangled piles of debris over the centuries. The lakebed is crisscrossed by a tangled network of canals, all that remains of the city's streets, deeper by 10 feet on average than the mounds of ruins around them. The waters are quite murky: Submerged creatures can see only {@dice 1d6×5} feet, even on sunny days.",
                 "Although the lake's waters are calm, and require only a DC 10 Swim check to navigate, they are treacherous. A character who fails her Swim check by 5 or more has become tangled in some root or debris and must succeed on a DC 15 Escape Artist check or Strength check to wriggle or tear free before she can move again.",
                 "Not all of Rhest's buildings have collapsed. A fair number of stone buildings survive, most completely submerged but a few protruding several feet above the surface of the murky waters of the lake. Two of the stone buildings are noticeably larger and better preserved than the others: the old bell tower (area 2 on the accompanying map) and the Rhest Town Hall (area 3).",
                 "Also surviving are numerous statues of lions in various poses. The citizens of Rhest had a particular affinity for the proud cats, and lion visages often graced their buildings (a heritage the folk of Brindol preserve to this day). Statues of guardian lions stood in front of important sites. Even bits and pieces of ancient armor, weapons, and other relics the PCs might find while sifting through the silt often incorporate the forms of lions into their workmanship.",
@@ -3459,7 +3458,7 @@
                     "After 1 hour of continuous observation, the PCs automatically notice the lizardfolk and the hobgoblin sentries. A successful DC 20 Listen check allows them to hear a distant, chittering roar from somewhere within the ruins, which sounds much like the roar of the greenspawn razorfiend the PCs fought in the Spawn of Tiamat event (see page 51).",
                     "After 2 hours of continuous observation, the PCs automatically notice the periodic roars and bellows of the green spawn razorfiend.",
                     "After 3 hours of observation, the characters see a group of six lizardfolk board a reed boat and paddle across the lake to the central building (area 3 on The Ruins of Rhest map). They moor the boat (at area 3B on the Rhest Town Hall map; see page 60) and enter (passing by way of the stairs in area 3A into area 3D). Five minutes later, the PCs hear a tremendous roar followed by two wailing screams and a loud hissing sound—not the same roar that they have heard already. Four lizardfolk immediately emerge from the building, scramble back down to their boat, and hurriedly return to shore to hide in their hut. {@i (Regiarix didn't take kindly to the creatures' request for him to wipe out two }other lizardfolk groups on the opposite shore of the lake.)*",
-                    "After nearly 5 hours of watching, the PCs see a human-sized black dragon (Regiarix) clamber up from within the central building to perch on the roof. A goblin wearing bright armor (a mithral shirt) and carrying a wicked-looking bow appears, chats with the dragon for a minute, then climbs up on its back (this is Wyrmlord Saarvith). After taking a moment to stretch his wings, Regiarix launches into the air and heads east to hunt for food. He won't return for 1d4 hours, making the interim an excellent time for the PCs to act."
+                    "After nearly 5 hours of watching, the PCs see a human-sized black dragon (Regiarix) clamber up from within the central building to perch on the roof. A goblin wearing bright armor (a mithral shirt) and carrying a wicked-looking bow appears, chats with the dragon for a minute, then climbs up on its back (this is Wyrmlord Saarvith). After taking a moment to stretch his wings, Regiarix launches into the air and heads east to hunt for food. He won't return for {@dice 1d4} hours, making the interim an excellent time for the PCs to act."
                   ]
                 },
                 {
@@ -3531,7 +3530,7 @@
                       ]
                     },
                     "Each of these huts contains a single room, the walls lined with crude nests and a large mound of bones and refuse stacked in the center. Poorly preserved trophies (mostly tail feathers of giant owls) hang on the walls inside.",
-                    "Six lizardfolk dwell in each hut, and there are ten huts in all around the lake's perimeter. There's a 40% chance that any particular hut the PCs approach is currently empty, its denizens out hunting or patrolling the surrounding fen.",
+                    "Six lizardfolk dwell in each hut, and there are ten huts in all around the lake's perimeter. There's a {@chance 40} chance that any particular hut the PCs approach is currently empty, its denizens out hunting or patrolling the surrounding fen.",
                     {
                       "type": "item",
                       "entries": [
@@ -3539,7 +3538,7 @@
                       ]
                     },
                     "{@b Tactics}: A group of six lizardfolk should be no problem for the PCs to handle—the real danger here is that one of the creatures might escape and alert the Red Hand. If a lizardfolk is reduced to less than 4 hit points, it leaps into the water and swims underwater toward the lake's center to raise the alarm. The lizardfolk have swum the lake countless times and don't need to make Survival checks to successfully navigate their route, nor do they run the risk of becoming caught up in a submerged root or piece of debris.",
-                    "{@b Treasure}: The lizardfolk aren't rich, but they have managed to collect a tiny amount of treasure from scrounging the numerous ruins in the Blackfens over the years. A successful DC 20 Search check in a lizardfolk hut uncovers 3d6×10 gp in coins, gems, and jewelry."
+                    "{@b Treasure}: The lizardfolk aren't rich, but they have managed to collect a tiny amount of treasure from scrounging the numerous ruins in the Blackfens over the years. A successful DC 20 Search check in a lizardfolk hut uncovers {@dice 3d6×10} gp in coins, gems, and jewelry."
                   ]
                 },
                 {
@@ -3664,9 +3663,9 @@
                       ]
                     },
                     "A second flight of stairs beneath the ones leading down from the roof once provided access to the flooded ground level of the Town Hall (see area 3G), but these have long since become blocked with impassable rubble.",
-                    "Nurklenak's ettin minion spends most of its time stationed in this otherwise empty chamber. Many years of magical enslavement to the hobgoblin mindbender have left the ettin with little personality of its own. When not standing guard in the middle of the room, staring expectantly at the stairs leading up to the roof, the ettin is eating or sleeping in its pile of furs to the east. There is a 30% chance the ettin is asleep if the PCs get this far without raising the alarm.",
+                    "Nurklenak's ettin minion spends most of its time stationed in this otherwise empty chamber. Many years of magical enslavement to the hobgoblin mindbender have left the ettin with little personality of its own. When not standing guard in the middle of the room, staring expectantly at the stairs leading up to the roof, the ettin is eating or sleeping in its pile of furs to the east. There is a {@chance 30} chance the ettin is asleep if the PCs get this far without raising the alarm.",
                     "{@b Ettin:} hp 65 ({@i MM} 107).",
-                    "{@b Tactics}: The ettin is a loud fighter, giving off whoops and hollers as it tries to smash intruders with its clubs. Wyrmlord Saarvith and Nurklenak automatically hear the sounds of this combat, and both come to aid the ettin within 1d3 rounds."
+                    "{@b Tactics}: The ettin is a loud fighter, giving off whoops and hollers as it tries to smash intruders with its clubs. Wyrmlord Saarvith and Nurklenak automatically hear the sounds of this combat, and both come to aid the ettin within {@dice 1d3} rounds."
                   ]
                 },
                 {
@@ -3760,7 +3759,7 @@
                       ]
                     },
                     "The hole in the floor allows access to the flooded ground level of the Town Hall. The water is 30 feet deep. The ground floor's layout matches that of the second floor (areas 3D through 3G), except that a thick layer of silt covers the mosaic floors, and the doors have long since rotted away.",
-                    "These lower chambers are the lair of the black dragon Regiarix. If the PCs manage to make it to this area without raising the alarm, there is a 35% chance that the dragon is resting in this room. Otherwise he's lurking somewhere in the waters below, unless the PCs timed their visit when he is away on a hunt with the Wyrmlord (see Observing Rhest on page 58).",
+                    "These lower chambers are the lair of the black dragon Regiarix. If the PCs manage to make it to this area without raising the alarm, there is a {@chance 35} chance that the dragon is resting in this room. Otherwise he's lurking somewhere in the waters below, unless the PCs timed their visit when he is away on a hunt with the Wyrmlord (see Observing Rhest on page 58).",
                     "Regiarix has laired in the ruins of Rhest for a number of years. He has little interest in serving Tiamat but has allied himself with the Red Hand for a personal reason—he burns with a need for revenge against none other than Lord Kerden Jarmaath of Brindol. Seventeen years ago, when young Jarmaath was a member of an adventuring band known as the Knights of the Vale, he and his companions encountered a very young Regiarix in the Marth Forest near Elsircross. Jarmaath landed a lucky blow that sent Regiarax fleeing for his life. The dragon returned several hours later to find that his treasure had been stolen by the adventurers, down to the last copper piece. Regiarix fled to the Blackfens to heal and plot his revenge. The dragon met Saarvith several years ago when the goblin ranger scouted out the city of Rhest as a potential outpost for the growing strength of the Kulkor Zhul. Saarvith promised to help Regiarax get his stolen treasure back someday, and the dragon has aided the goblin—and through him, the Red Hand—ever since.",
                     {
                       "type": "item",
@@ -3837,8 +3836,8 @@
                 "When the PCs discover the Ghostlord's phylactery at the end of Part II, all they have to go on for determining its authenticity is a single letter and perhaps the word of one of their captured enemies. Nonetheless, magic and research validates their suspicions. An {@i identify} spell reveals the object to be a lich's phylactery, and a {@i divination} spell confirms the letter's claim. Simply destroying the phylactery would earn the characters the lich's eternal enmity, but if they were to return it to him, perhaps they could undo the alliance threatening the vale.",
                 "The PCs can learn more about the Ghostlord by making a number of Knowledge checks. Since the Ghost lord is a legendary figure in these parts, bardic knowledge checks can used to obtain any of the pieces of information described below (against the same DC specified for a Knowledge check). If the PCs don't have the appropriate skills, or no PC gets a high enough check result to learn key bits of information, they can consult with NPC allies or research the lich in the town of Brindol.",
                 "{@b NPC Allies}: Of the NPCs the characters have encountered and likely befriended so far, only Jorr Natherson (because of his local knowledge), Trellara Nightshadow (because of her bardic knowledge), or Sellyria Starsinger (because she's old enough to remember events from those days from personal experience) have a chance of imparting anything of value about the Ghostlord.",
-                "{@b Research}: If none of the PCs or their allies can provide the necessary information, the characters must travel to Brindol to research the Ghostlord. The most efficient method of researching the lich is to pay an NPC spellcaster in the town for a {@i legend lore} spell concerning the Ghostlord—with the phylactery at hand, the spell only takes 1d4×10 minutes to provide all the relevant information given below.",
-                "Alternatively, the PCs could hire a sage to research the Ghostlord. For 5 gp, they can have all the information given below in 1d4 days. For 50 gp, they can hire a sage who will have the information in 8 hours. A sage who can provide the information more or less immediately costs 400 gp.",
+                "{@b Research}: If none of the PCs or their allies can provide the necessary information, the characters must travel to Brindol to research the Ghostlord. The most efficient method of researching the lich is to pay an NPC spellcaster in the town for a {@i legend lore} spell concerning the Ghostlord—with the phylactery at hand, the spell only takes {@dice 1d4×10} minutes to provide all the relevant information given below.",
+                "Alternatively, the PCs could hire a sage to research the Ghostlord. For 5 gp, they can have all the information given below in {@dice 1d4} days. For 50 gp, they can hire a sage who will have the information in 8 hours. A sage who can provide the information more or less immediately costs 400 gp.",
                 "If the PCs just need a boost to their existing skills, they can utilize one of Brindol's libraries to aid their Knowledge check.",
                 "Access to these books requires a DC 15 Diplomacy check and a bribe of 10 gp (or just a bribe of 20 gp without a check). Any character who has access to a library gains a +4 circumstance bonus on Knowledge checks he or she makes to answer the questions discussed below.",
                 {
@@ -3921,9 +3920,9 @@
                     {
                       "type": "item",
                       "entries": [
-                        "{@i Normal Travel:} 60% per 12 hours.",
-                        "{@i Camping or Cautious Travel:} 30% per 12 hours.",
-                        "{@i Hiding:} 15% per 12 hours."
+                        "{@i Normal Travel:} {@chance 60} per 12 hours.",
+                        "{@i Camping or Cautious Travel:} {@chance 30} per 12 hours.",
+                        "{@i Hiding:} {@chance 15} per 12 hours."
                       ]
                     },
                     "Check once per day and once per night. If an encounter is indicated, refer to the table below.",
@@ -3948,7 +3947,7 @@
                         ],
                         [
                           "05–10",
-                          "1d4 basilisks (MM 23)",
+                          "{@dice 1d4} basilisks (MM 23)",
                           "7"
                         ],
                         [
@@ -3963,12 +3962,12 @@
                         ],
                         [
                           "20–29",
-                          "1d4 dire lions (MM 63)",
+                          "{@dice 1d4} dire lions (MM 63)",
                           "7"
                         ],
                         [
                           "30–34",
-                          "1d4 ghost brute lions (see page 121)",
+                          "{@dice 1d4} ghost brute lions (see page 121)",
                           "7"
                         ],
                         [
@@ -3978,37 +3977,37 @@
                         ],
                         [
                           "39–46",
-                          "1d4 hieracosphinxes (MM 234)",
+                          "{@dice 1d4} hieracosphinxes (MM 234)",
                           "7"
                         ],
                         [
                           "47–52",
-                          "1d4 spider eaters (MM 234)",
+                          "{@dice 1d4} spider eaters (MM 234)",
                           "7"
                         ],
                         [
                           "53–57",
-                          "1d4 lesser bonedrinkers (see page 122)",
+                          "{@dice 1d4} lesser bonedrinkers (see page 122)",
                           "6"
                         ],
                         [
                           "58–72",
-                          "1d6 lions (MM 274)",
+                          "{@dice 1d6} lions (MM 274)",
                           "6"
                         ],
                         [
                           "73–78",
-                          "1d6 wights (MM 255)",
+                          "{@dice 1d6} wights (MM 255)",
                           "6"
                         ],
                         [
                           "79–86",
-                          "1d4 ankhegs (MM 14)",
+                          "{@dice 1d4} ankhegs (MM 14)",
                           "5"
                         ],
                         [
                           "87–94",
-                          "1d4 assassin vines (MM 20)",
+                          "{@dice 1d4} assassin vines (MM 20)",
                           "5"
                         ],
                         [
@@ -4078,7 +4077,7 @@
                       ]
                     },
                     "The half-fiend behir Varanthian has served Azarr Kul longer than any other monster or champion except for the blue dragon Tyrgarun (Kul's own father). Called up from the fuming bowels of the Wyrmsmoke Mountains by Tiamat herself, Varanthian pledged her service to the High Wyrmlord. Time has not blunted her devotion to Azarr Kul, although she has grown weary of treating the lesser Wyrmlords as equals. Wyrmlord Ulwai Stormcaller understands this and tends to leave the moody behir to her own designs, aside from occasionally performing some of the behir's favorite pieces of draconic music for her. Varanthian agreed to accompany Wyrmlord Stormcaller on this mission to the Thornwaste as a personal favor to Azarr Kul and has already begun to regret it. She counts the days until she can hurry north to join the rest of the horde in the battle she has awaited so long.",
-                    "There's a 30% chance that Varanthian is out hunting for food when the characters arrive at the Ghostlord's lair. In this case, this cavern is empty. Otherwise, Varanthian can be found here, chewing on the remains of an unfortunate hieracosphinx.",
+                    "There's a {@chance 30} chance that Varanthian is out hunting for food when the characters arrive at the Ghostlord's lair. In this case, this cavern is empty. Otherwise, Varanthian can be found here, chewing on the remains of an unfortunate hieracosphinx.",
                     {
                       "type": "item",
                       "entries": [
@@ -4204,7 +4203,7 @@
                       ]
                     },
                     "The Ghostlord has little use for every single part of every single creature that he captures on his treks into the Thornwaste. Often he only needs the basilisk's eyes, or the adventurer's brain, or a sphinx's heart for his necromantic experiments. In such cases, he or one of his undead minions carries the body here, where the necessary parts are harvested and the rest cut into small chunks and disposed of down the pit to area 9.",
-                    "The shaft leading to area 9 is 70 feet deep; it can be climbed with a DC 20 Climb check. Characters who fall into the pit take 7d6 points of damage and land on the Large gray ooze that awaits them below."
+                    "The shaft leading to area 9 is 70 feet deep; it can be climbed with a DC 20 Climb check. Characters who fall into the pit take {@dice 7d6} points of damage and land on the Large gray ooze that awaits them below."
                   ]
                 },
                 {
@@ -4339,7 +4338,7 @@
                     },
                     "This chamber is the sanctum of the Ghostlord's lair, the place where the lich brings his chosen lions for transformation into his beloved ghost minions. Over the past several days, he has had to abandon these agreeable pursuits to create the platoon of bonedrinkers Wyrmlord Stormcaller has demanded of him.",
                     "The statue of the undead lion was built by the Ghostlord and represents the corruption of nature he has come to embrace.",
-                    "The pool is a large and immobile necromantic magic item of the Ghostlord's creation. Twenty feet deep, the liquid within it is an odorless, tasteless substance that feels strangely warm to the touch. A splash of this liquid, or any idle contact, requires a living creature to make a DC 15 Fortitude save to avoid taking 1 point of Dexterity damage as the liquid slowly numbs the affected body part. A creature wholly immersed must make a DC 15 Fortitude save each round to avoid taking 2d6 points of Dexterity drain. The liquid can be breathed as if it were air, so creatures within cannot drown, but once drained to Dexterity 0 a creature cannot escape the pool without aid. The liquid also provides nourishment to anything that breathes it. Effectively, a creature can live out the rest of its life suspended within the pool. Currently, a dire lion is submerged within the pool. Vials of liquid taken from the pool can serve as grenadelike missiles—but not for long, since once taken from the pool, the Dexterity-draining property of the water lasts for only 1 hour.",
+                    "The pool is a large and immobile necromantic magic item of the Ghostlord's creation. Twenty feet deep, the liquid within it is an odorless, tasteless substance that feels strangely warm to the touch. A splash of this liquid, or any idle contact, requires a living creature to make a DC 15 Fortitude save to avoid taking 1 point of Dexterity damage as the liquid slowly numbs the affected body part. A creature wholly immersed must make a DC 15 Fortitude save each round to avoid taking {@dice 2d6} points of Dexterity drain. The liquid can be breathed as if it were air, so creatures within cannot drown, but once drained to Dexterity 0 a creature cannot escape the pool without aid. The liquid also provides nourishment to anything that breathes it. Effectively, a creature can live out the rest of its life suspended within the pool. Currently, a dire lion is submerged within the pool. Vials of liquid taken from the pool can serve as grenadelike missiles—but not for long, since once taken from the pool, the Dexterity-draining property of the water lasts for only 1 hour.",
                     "The pool's purpose is to aid anyone who utilizes the {@i Lion's Heart} (see area 15) in the transformation of creatures trapped within it into ghosts.",
                     "{@b Creatures}: Of the twelve bonedrinkers the Ghostlord has promised the Red Hand, six are already complete. These six lurk in the alcoves of this room and lunge forth to attack any intruders they notice.",
                     {
@@ -4851,7 +4850,7 @@
                         "{@b Hill Giants (4):} hp 102 each ({@i MM} 123)."
                       ]
                     },
-                    "{@b Tactics:} Each round, unless the PCs interfere, each giant throws one boulder at the city wall. The wall has an Armor Class of –1, so even though the giants take a –6 penalty on their attacks due to range, they only miss the wall on a natural 1. Four contiguous wall sections are under attack, with each giant focusing on one section. Rather than keep track of all four wall sections, you can track damage as one larger section. Each round, any giant that isn't engaged in melee throws one rock, dealing 2d6+7 points of damage with each hit. The stone wall has hardness 8 and an initial combined total of 1,800 hit points. By the time the PCs reach the wall, the giants have been lobbing rocks for over 5 minutes; the wall has only 600 hit points remaining and will stand for about another 25 rounds (average 6 points of damage per giant × four giants = about 24 points of damage per round total) unless the attacks are stopped.",
+                    "{@b Tactics:} Each round, unless the PCs interfere, each giant throws one boulder at the city wall. The wall has an Armor Class of –1, so even though the giants take a –6 penalty on their attacks due to range, they only miss the wall on a natural 1. Four contiguous wall sections are under attack, with each giant focusing on one section. Rather than keep track of all four wall sections, you can track damage as one larger section. Each round, any giant that isn't engaged in melee throws one rock, dealing {@dice 2d6+7} points of damage with each hit. The stone wall has hardness 8 and an initial combined total of 1,800 hit points. By the time the PCs reach the wall, the giants have been lobbing rocks for over 5 minutes; the wall has only 600 hit points remaining and will stand for about another 25 rounds (average 6 points of damage per giant × four giants = about 24 points of damage per round total) unless the attacks are stopped.",
                     "The giants use no light sources, relying on their low-light vision to pinpoint the wall. Start the encounter when the PCs are 480 feet away from the giants—as a result, the giants should have a few rounds at least to continue throwing boulders before the PCs reach them. The ground between the PCs and the giants is open and free of difficult terrain, but the last 50 feet are up a gradual slope—enough to give the giants a +1 bonus on attack rolls against PCs approaching on the ground, but not enough to affect movement.",
                     "If a giant is reduced to less than 50 hit points by ranged attacks, it abandons its mission and starts throwing boulders at the source of its pain. A giant reduced to 20 or fewer hit points panics and flees.",
                     "{@b Treasure:} Each of the giants carries a large leather bag filled with miscellaneous objects of value to that giant, but only a few of these objects are valuable to anyone else. Along with many strange odds and ends, there's a total of 2,540 gp, 190 pp, 24 gems and pieces of jewelry worth a combined total of 2,500 gp, a {@i +1 arrow catching light wooden shield}, and a {@i +1 warhammer} strewn among the four bags.",
@@ -4860,8 +4859,8 @@
                       "type": "inset",
                       "name": "Danger Outside The Wall",
                       "entries": [
-                        "This encounter as written assumes the giants are alone, with the main body of the horde busy facing Jarmaath's army on the western side of the city. If you would like to raise the stakes, assume the giants are accompanied by a detachment of hobgoblins, anything from a few dozen regulars to roughly 10% of the foot soldiers given on page 48 (that is, about 80 hobgoblin warriors, 160 hobgoblin regulars, 20 hobgoblin regulars, and 6 hobgoblin bladebearers). If one of the lesser Wyrmlords (Saarvith or Koth) survived his earlier encounter with the PCs, he commands this group; otherwise the leader is one of the Doom Hand warpriests.",
-                        "These soldiers wait in the darkness outside bow range for the walls to be breached, whereupon they intend to storm this side of the town and create as much havoc as possible to draw defenders from the main attack. Since they are more than 500 feet farther back than the giants, they probably do not notice the PCs before the heroes engage the giants in melee. It takes them several rounds to react, but once they realize a small group of Brindol's defenders is outside the walls and near at hand, they give their battle cry and rush to the attack. The first hobgoblins reach the PCs 1d4+5 rounds after the PCs begin melee with the giants. PCs who deal with the giants quickly and beat a hasty retreat should be fine; those who linger can find themselves in a race back to the safety of the wall with hundreds of screaming hobgoblins not far behind."
+                        "This encounter as written assumes the giants are alone, with the main body of the horde busy facing Jarmaath's army on the western side of the city. If you would like to raise the stakes, assume the giants are accompanied by a detachment of hobgoblins, anything from a few dozen regulars to roughly {@chance 10} of the foot soldiers given on page 48 (that is, about 80 hobgoblin warriors, 160 hobgoblin regulars, 20 hobgoblin regulars, and 6 hobgoblin bladebearers). If one of the lesser Wyrmlords (Saarvith or Koth) survived his earlier encounter with the PCs, he commands this group; otherwise the leader is one of the Doom Hand warpriests.",
+                        "These soldiers wait in the darkness outside bow range for the walls to be breached, whereupon they intend to storm this side of the town and create as much havoc as possible to draw defenders from the main attack. Since they are more than 500 feet farther back than the giants, they probably do not notice the PCs before the heroes engage the giants in melee. It takes them several rounds to react, but once they realize a small group of Brindol's defenders is outside the walls and near at hand, they give their battle cry and rush to the attack. The first hobgoblins reach the PCs {@dice 1d4+5} rounds after the PCs begin melee with the giants. PCs who deal with the giants quickly and beat a hasty retreat should be fine; those who linger can find themselves in a race back to the safety of the wall with hundreds of screaming hobgoblins not far behind."
                       ]
                     }
                   ]
@@ -4903,7 +4902,7 @@
                     "{@b Setup:} This encounter can be played out on the battle map that depicts a town street with buildings on either side. Before locating any characters or creatures on the map, designate a 2 square-wide strip running across the road in the middle of the map to be a barricade. Have the players place their characters anywhere on one side of the barricade (the invaders will advance toward them from the other side of the barricade) The PCs can order the soldiers to take up posts anywhere on the map. Give the players about 10 minutes of real time to plot out a defense of the street—after this, announce the approach of the first wave of attackers.",
                     "The soldiers consist of one Lion of Brindol (see page 125) and ten 1st-level warrior town guards (see page 125). If the PCs have secured an alliance with the Tiri Kitor elves, six wild elf rangers (see page 124) are also here to aid with the defense. Any additional reinforcements under the PCs' command whom they wish to call upon to aid in the defense are also present.",
                     "The barricade across the road is made up of rubble and lumber, hastily erected by the soldiers to give them some cover and to slow the advance of the horde. A character who wants to move through a square occupied by this obstacle ({@i PH} 148) must take a move action that provokes attacks of opportunity to do so, and it takes 2 squares of movement to cross each square of barricade. The barricade is 4 feet high, so a successful Jump check allows a character to pass over the barricade as part of a move action.",
-                    "A successful DC 24 Strength check allows a creature to break apart one section of the barricade, turning a square of barricade into a square of difficult terrain. It takes 1d4 rounds to rebuild this square back into a barricade.",
+                    "A successful DC 24 Strength check allows a creature to break apart one section of the barricade, turning a square of barricade into a square of difficult terrain. It takes {@dice 1d4} rounds to rebuild this square back into a barricade.",
                     "In order to hold the line, the PCs and their allies must defeat several waves of increasingly dangerous attackers. If they've done well in previous chapters, they'll have less to face in this encounter.",
                     "The goal of each wave of attackers is to reach the marketplace (located off the map, behind the defenders). The PCs fail in this encounter if either of the following conditions is met.",
                     {
@@ -4913,7 +4912,7 @@
                         "At least twenty enemy creatures manage to move off the map past the barricade and into the marketplace."
                       ]
                     },
-                    "{@b Creatures:} The horde sends several waves of attackers at the PCs in this event. These are advance shock troops, moving ahead of the main body of the horde. Allow each wave's resulting combat to play out, then let 1d4+2 rounds pass before the next wave arrives. The PCs have just enough time to reposition themselves, cast some healing magic, and perhaps make some quick repairs to the barricade, but they won't have enough time to call in reinforcements unless they use magic ({@i dimension door}, {@i summon monster}, and the like).",
+                    "{@b Creatures:} The horde sends several waves of attackers at the PCs in this event. These are advance shock troops, moving ahead of the main body of the horde. Allow each wave's resulting combat to play out, then let {@dice 1d4+2} rounds pass before the next wave arrives. The PCs have just enough time to reposition themselves, cast some healing magic, and perhaps make some quick repairs to the barricade, but they won't have enough time to call in reinforcements unless they use magic ({@i dimension door}, {@i summon monster}, and the like).",
                     {
                       "type": "entries",
                       "name": "First Wave (EL 9)",
@@ -5019,7 +5018,7 @@
                         "{@b Kulkor Zhul War Adepts (2):} hp 28 each (see page 120)."
                       ]
                     },
-                    "{@b Tactics:} Skather has an excellent view of the square from partially shuttered windows, while he himself has improved cover (+8 AC) against any attacks launched from below. Additionally, the three windows that face the square make it difficult to determine which one he's hiding behind at any one time, since the ninja moves between windows with each sniper shot. One side window to the north and another to the south allow him to take shots at anyone who tries to enter the building from these directions. If he sees anyone get into the building, Skather drops his shortbow, draws his short sword, and poisons the blade with purple worm poison. He then hides near the room's entrance and prepares to use a sudden strike attack on the first enemy to enter the room. Downstairs, the two Kulkor Zhul war adepts each wait in different rooms, one in the workshop and the other in the rear office, each with the doors leading to the display room and also the one connecting their two rooms ajar. Both have imbibed one of their {@i potions of invisibility} and have readied a {@i lightning bolt} to cast at anyone they see entering the display room. Once the bolts go off, one hobgoblin follows up with {@i mirror image} and then {@i magic missile} or {@i lesser orb of electricity}. The other hobgoblin uses his {@i summon monster IV} scroll to summon 1d3 hell hounds, and then joins his fellow hobgoblin in using ranged spells against the PCs. Should the PCs instead enter through the side door into the workshop, the hobgoblin within lets loose his {@i lightning bolt} while the other moves to blast the intruders through the connecting door.",
+                    "{@b Tactics:} Skather has an excellent view of the square from partially shuttered windows, while he himself has improved cover (+8 AC) against any attacks launched from below. Additionally, the three windows that face the square make it difficult to determine which one he's hiding behind at any one time, since the ninja moves between windows with each sniper shot. One side window to the north and another to the south allow him to take shots at anyone who tries to enter the building from these directions. If he sees anyone get into the building, Skather drops his shortbow, draws his short sword, and poisons the blade with purple worm poison. He then hides near the room's entrance and prepares to use a sudden strike attack on the first enemy to enter the room. Downstairs, the two Kulkor Zhul war adepts each wait in different rooms, one in the workshop and the other in the rear office, each with the doors leading to the display room and also the one connecting their two rooms ajar. Both have imbibed one of their {@i potions of invisibility} and have readied a {@i lightning bolt} to cast at anyone they see entering the display room. Once the bolts go off, one hobgoblin follows up with {@i mirror image} and then {@i magic missile} or {@i lesser orb of electricity}. The other hobgoblin uses his {@i summon monster IV} scroll to summon {@dice 1d3} hell hounds, and then joins his fellow hobgoblin in using ranged spells against the PCs. Should the PCs instead enter through the side door into the workshop, the hobgoblin within lets loose his {@i lightning bolt} while the other moves to blast the intruders through the connecting door.",
                     "All this activity should give Skather plenty of time to prepare. If the PCs don't immediately head upstairs, he prepares further by drinking a {@i potion of invisibility} and his {@i potion of protection from good}. Skather has already placed his caltrops on the stairs, so anyone who rushes up them is in for a surprise; see the caltrop description ({@i PH} 126{@i )} for details.",
                     "Skather is a deadly foe, but one who would prefer to live to fight another day. If he's brought below 30 hit points, he tries to flee. If he escapes, he returns all the way to the Fane of Tiamat—he considers only Azarr Kul his superior and does not report to any of the lesser Wyrmlords. In this case, the PCs certainly encounter the ninja again in Part V of the adventure.",
                     {
@@ -5056,7 +5055,7 @@
                       "type": "inset",
                       "name": "Final Battle Developments",
                       "entries": [
-                        "This adventure assumes that the PCs emerge from this event victorious, since the only other outcomes are ignominious retreat or their bloody deaths at Kharn's murderous hands. As soon as Kharn is slain, a noticeable ripple of shock and fear washes over the hobgoblins. The battle with any remaining ogres or hill giants should continue for 1d4 rounds before the giants lose morale, turn, and flee. This triggers a general rout, and the streets fill with human cheers of victory as the hobgoblin horde breaks and scatters."
+                        "This adventure assumes that the PCs emerge from this event victorious, since the only other outcomes are ignominious retreat or their bloody deaths at Kharn's murderous hands. As soon as Kharn is slain, a noticeable ripple of shock and fear washes over the hobgoblins. The battle with any remaining ogres or hill giants should continue for {@dice 1d4} rounds before the giants lose morale, turn, and flee. This triggers a general rout, and the streets fill with human cheers of victory as the hobgoblin horde breaks and scatters."
                       ]
                     }
                   ]
@@ -5216,7 +5215,7 @@
                       "name": "Defeat!",
                       "entries": [
                         "If the PCs have earned less than 40 Victory Points, all might not be lost. Lord Jarmaath remains unconscious, and Lady Kaal, after consulting with the remains of the Defense Council, decides to take advantage of the temporary reprieve granted by Wyrmlord Kharn's death to abandon the city. A small band of brave soldiers (under the command of the NPC of your choice) volunteer to remain behind and do what they can to hold off the horde a little longer, while the rest gather their wounded and flee along the Dawn Way toward Dennovar.",
-                        "If the PCs have come close to 40 Victory Points, they might be able to save Brindol. The horde takes 1d4+1 hours to regroup and attacks in the last dark hours before dawn. If the PCs can manage to kill enough of the named commanders to put their Victory Point total above 40, the horde breaks and Brindol is saved. On the other hand, if their total is at less than 40 points even after they kill all the commanders present, then there's nothing they can do.",
+                        "If the PCs have come close to 40 Victory Points, they might be able to save Brindol. The horde takes {@dice 1d4+1} hours to regroup and attacks in the last dark hours before dawn. If the PCs can manage to kill enough of the named commanders to put their Victory Point total above 40, the horde breaks and Brindol is saved. On the other hand, if their total is at less than 40 points even after they kill all the commanders present, then there's nothing they can do.",
                         "In this case, the horde invades again and puts Brindol to the torch. The Cathedral of Pelor is razed and Brindol Keep is looted. The one thing that saves those who decide to flee to Dennovar is the fact that the horde takes a few days to plunder and torch the city before continuing its westward march.",
                         "Lord Jarmaath contacts the PCs and thanks them for their aid, but he is unable to hide the bitterness and despair in his voice. There is no ceremony, and this meeting is rushed and probably conducted from a sickbed as clerics tend to their leader's poisoned wound. Yet before he and his soldiers abandon their home, he asks the PCs to stay a bit. He has learned something new... something dire. He has learned that what they have seen so far is little more than an advance scout for the true horde. Proceed with Part V."
                       ]
@@ -5269,7 +5268,7 @@
                     "Although Azarr Kul is confident that few of the humans of Elsir Vale are brave enough to confront him within his lair, the denizens of the Fane are nevertheless quick to mobilize if the general alarm is raised. Azarr Kul only rarely allows members of the horde to enter the Fane—with the exception of his priests, most of the defenders and guardians of the Fane are outsiders he has called from Tiamat's court, or monsters he has bribed or otherwise lured to his service from the surrounding mountains.",
                     "The descriptions of the rooms within the Fane below assume that the place is not on alert. If the alarm is raised, inhabitants of the rooms become more alert and take 10 on Spot and Listen checks. Otherwise, little actually changes except for the frequency of the patrols (see below).",
                     "The primary guards of the Fane consist of two varieties, stationary and mobile. Most of the stationary guards are unique monsters selected by Azarr Kul for their particular abilities and strengths in the rooms they are to watch over. These guardians do not leave their posts except to pursue fleeing characters, and even then they give up pursuit if the PCs leave the Fane entirely, returning to their posts. If they hear battle in a nearby chamber, they prepare themselves for combat but do not abandon their posts.",
-                    "The mobile patrols are made up of blackspawn raiders (see page 117). These creatures rest and eat in a large barracks (area 4), but as a rule only six of them can be found there at any given time, with the others out patrolling the halls and chambers of the Fane, on constant alert for trouble. A total of thirty blackspawn raiders dwell in the Fane, arranged into ten groups of three each. As the PCs explore the Fane, they have a 20% chance every 10 minutes to encounter one of these patrols. In addition, each time a battle begins there's a 20% chance that a blackspawn raider patrol is nearby and responds to the sounds of combat, arriving 1d4+1 rounds after the fight begins. Since Azarr Kul only has a limited supply of blackspawn, keep track of the number the PCs slay, subtracting them from the total. Azarr Kul is busy in the Fane's inner sanctum (area 17) during this entire part of the adventure, overseeing the ritual to establish a permanent portal between the Material Plane and Tiamat's court, but he'll do what he can to reinforce guards the PCs slay. He can replace slain blackspawn raiders at the rate of one patrol (three blackspawn) per day. He has no capability to replace the other guardian monsters with others of their kind, but he'll do the next best thing by replacing each with a pair of blue abishai (see page 117), draconic devils that serve Tiamat as rank-and-file soldiers in her infernal wars. Once per day, Azarr Kul can replace one defeated guardian with a pair of blue abishai.",
+                    "The mobile patrols are made up of blackspawn raiders (see page 117). These creatures rest and eat in a large barracks (area 4), but as a rule only six of them can be found there at any given time, with the others out patrolling the halls and chambers of the Fane, on constant alert for trouble. A total of thirty blackspawn raiders dwell in the Fane, arranged into ten groups of three each. As the PCs explore the Fane, they have a {@chance 20} chance every 10 minutes to encounter one of these patrols. In addition, each time a battle begins there's a {@chance 20} chance that a blackspawn raider patrol is nearby and responds to the sounds of combat, arriving {@dice 1d4+1} rounds after the fight begins. Since Azarr Kul only has a limited supply of blackspawn, keep track of the number the PCs slay, subtracting them from the total. Azarr Kul is busy in the Fane's inner sanctum (area 17) during this entire part of the adventure, overseeing the ritual to establish a permanent portal between the Material Plane and Tiamat's court, but he'll do what he can to reinforce guards the PCs slay. He can replace slain blackspawn raiders at the rate of one patrol (three blackspawn) per day. He has no capability to replace the other guardian monsters with others of their kind, but he'll do the next best thing by replacing each with a pair of blue abishai (see page 117), draconic devils that serve Tiamat as rank-and-file soldiers in her infernal wars. Once per day, Azarr Kul can replace one defeated guardian with a pair of blue abishai.",
                     {
                       "type": "table",
                       "caption": "Random Encounters",
@@ -5286,12 +5285,12 @@
                       "rows": [
                         [
                           "01–05",
-                          "2d4 blackspawn raiders (see page 117)",
+                          "{@dice 2d4} blackspawn raiders (see page 117)",
                           "9"
                         ],
                         [
                           "06–15",
-                          "2d4 Blood Ghost berserkers (see page 117)",
+                          "{@dice 2d4} Blood Ghost berserkers (see page 117)",
                           "9"
                         ],
                         [
@@ -5311,7 +5310,7 @@
                         ],
                         [
                           "41–45",
-                          "1d6 achaierais (MM 9)",
+                          "{@dice 1d6} achaierais (MM 9)",
                           "8"
                         ],
                         [
@@ -5321,27 +5320,27 @@
                         ],
                         [
                           "51–60",
-                          "1d4 ettins (MM 106)",
+                          "{@dice 1d4} ettins (MM 106)",
                           "8"
                         ],
                         [
                           "61–65",
-                          "1d6 manticores (MM 179)",
+                          "{@dice 1d6} manticores (MM 179)",
                           "8"
                         ],
                         [
                           "66–70",
-                          "1d6 trolls (MM 247)",
+                          "{@dice 1d6} trolls (MM 247)",
                           "8"
                         ],
                         [
                           "71–75",
-                          "1d4 wyverns (MM 259)",
+                          "{@dice 1d4} wyverns (MM 259)",
                           "8"
                         ],
                         [
                           "76–80",
-                          "1d4 bearded devils (MM 52)",
+                          "{@dice 1d4} bearded devils (MM 52)",
                           "7"
                         ],
                         [
@@ -5356,12 +5355,12 @@
                         ],
                         [
                           "91–95",
-                          "1d6 griffons (MM 139)",
+                          "{@dice 1d6} griffons (MM 139)",
                           "7"
                         ],
                         [
                           "96–100",
-                          "2d4 hell hounds (MM 151)",
+                          "{@dice 2d4} hell hounds (MM 151)",
                           "7"
                         ]
                       ],
@@ -5399,13 +5398,13 @@
                       ]
                     },
                     "{@b Tactics}: If the PCs don't leave as commanded, or if they attempt to enter the dragon lairs or the Fane itself, Tyrgarun abandons his little game and leaps out of his cavern and into flight. His tactics are relatively simple—he flies down into the canyon to a point where he is level with the ledge but still 30 or so feet from its edge, then uses his breath weapon and his {@i wand of fireballs} to barrage the PCs with fire and electricity. If confronted by flying enemies, Tyrgarun changes tactics and uses flyby attacks to bite foes to death. If he gets a chance to make a full attack, he passes up one of his claw attacks since he doesn't want to drop his wand. The dragon realizes that he has an advantage over land-based creatures as long as he's in flight, so he does what he can to avoid landing during the entire combat.",
-                    "Tyrgarun pursues any foes who try to flee for 1d6 rounds, using flyby attacks and his magic against them. If he still has a lot of hit points, he even risks attacks of opportunity to try to bull rush enemies on ledges over the side. A creature who falls has to contend with a 150-foot drop (and 15d6 points of falling damage).",
+                    "Tyrgarun pursues any foes who try to flee for {@dice 1d6} rounds, using flyby attacks and his magic against them. If he still has a lot of hit points, he even risks attacks of opportunity to try to bull rush enemies on ledges over the side. A creature who falls has to contend with a 150-foot drop (and {@dice 15d6} points of falling damage).",
                     "{@b Trap:} The main entrance to the Fane bears a dangerous trap, created by Azarr Kul with the aid of several Kulkor Zhul war adepts. The trap is triggered whenever anyone touches the doors or attempts to open them. (Speaking the phrase \"Hail Tiamat, Devourer of Worlds and Scourge of Hell\" in Infernal deactivates the trap for 1 minute or as long as the doors remain open. If you want the PCs to get through this door without incident, it might be possible for them to glean this information if they hide nearby and watch while someone approaches the door and speaks the pass-phrase before entering.)",
-                    "If the trap is triggered, the five stone dragon heads that leer out of the door's frame expel blasts of fire, cold, acid, and electricity. This blast of energy fills a 20-foot-radius hemispherical burst, centered on the outside surface of the door. The energy damage does no harm to the door or the surrounding area, but any creatures caught in the burst that fail Refl ex saves immediately take 3d6 points of acid damage, 3d6 points of cold damage, 3d6 points of electricity damage, and 3d6 points of fire damage.",
+                    "If the trap is triggered, the five stone dragon heads that leer out of the door's frame expel blasts of fire, cold, acid, and electricity. This blast of energy fills a 20-foot-radius hemispherical burst, centered on the outside surface of the door. The energy damage does no harm to the door or the surrounding area, but any creatures caught in the burst that fail Refl ex saves immediately take {@dice 3d6} points of acid damage, {@dice 3d6} points of cold damage, {@dice 3d6} points of electricity damage, and {@dice 3d6} points of fire damage.",
                     {
                       "type": "item",
                       "entries": [
-                        "{@b Tiamat Trap}: CR 9; magic device; touch trigger; automatic reset; multiple targets (20-ft.-radius burst); 3d6 acid, 3d6 cold, 3d6 electricity, and 3d6 fire damage (Refl ex DC 25 half); Search DC 30; Disable Device DC 25."
+                        "{@b Tiamat Trap}: CR 9; magic device; touch trigger; automatic reset; multiple targets (20-ft.-radius burst); {@dice 3d6} acid, {@dice 3d6} cold, {@dice 3d6} electricity, and {@dice 3d6} fire damage (Refl ex DC 25 half); Search DC 30; Disable Device DC 25."
                       ]
                     }
                   ]
@@ -5423,7 +5422,7 @@
                     "Area 2d is the lair of the red dragon Abithriax. The cave stinks of sulfur and ash, and the walls are covered with soot. An extensive collection of skulls is embedded on the wall, affixed to melted metal that has been used as a mounting matrix for the collection.",
                     "Area 2e is Tyrgarun's lair. The largest of these alcoves, it's also the only cavern that is still definitely lived in when the PCs arrive at the Fane. Tyrgarun is the most religious of the five dragons, and at his insistence Azarr Kul decorated the walls of his cave with {@i stone shaped} carvings of Tiamat. The blue dragon generally hurls waste and bones from his meals into the chasm to the south, so his lair is fairly clean and free of foul smells.",
                     "{@b Treasure:} These five creatures have most of their treasure in the form of magical gear, but each nevertheless kept a considerable stash of coins, gems, and art objects here as a home-away-from-home \"comfort hoard.\"",
-                    "Although the dragons differed in age and power, they all had fairly similar monetary hoards, as befits the draconic fellowship they all joined when they embraced Azarr Kul's cause. These hoards consist of piles of coins of every denomination, bags of gems, and miscellaneous art objects and pieces of jewelry. Each hoard is worth 1d6×500 gp.",
+                    "Although the dragons differed in age and power, they all had fairly similar monetary hoards, as befits the draconic fellowship they all joined when they embraced Azarr Kul's cause. These hoards consist of piles of coins of every denomination, bags of gems, and miscellaneous art objects and pieces of jewelry. Each hoard is worth {@dice 1d6×500} gp.",
                     "Tyrgarun has made the Fane his home for some years now and has amassed an impressive hoard that includes a {@i +2 adamantine shocking burst greatsword,} a {@i belt of giant strength +4,} a {@i cloak of resistance +2,} a pair of {@i boots of striding and springing,} and a {@i staff of fire} (22 charges remaining); 9,700 sp, 8,200 gp, 180 pp; a fine gold statuette of an elf maiden, worth 1,600 gp; 3 matched emeralds in a wooden case, each worth 700 gp; and 8 smaller gemstones, each worth 40 gp."
                   ]
                 },
@@ -5515,7 +5514,7 @@
                         "{@b Terilanyx, Bone Devil:} hp 95 ({@i MM} 52–53)."
                       ]
                     },
-                    "{@b Tactics:} Terilanyx's first actions in combat are to activate his fear aura as he attempts to summon 2d10 lemures. If successful, he places the lemures throughout the room, using them to separate PCs, flank them, and create a barrier between himself and the party. He orders one lemure to use the aid another action to aid his Armor Class, and another to aid his melee attacks. All other lemures are ordered to attack the PCs, while he uses his reach to attack PCs over the front rank of summoned devils. If a player character manages to get through the lemures, Terilanyx uses his {@i fly} spell-like ability to get above the PCs, keeping them in reach of his attacks but out of reach of theirs. If brought to less than 20 hit points, he uses {@i greater teleport} to escape to area 8, where the clerics there heal his wounds. He then teleports back to this room to stalk the PCs. If no clerics are in area 8, he hides in one of the guest quarters (area 7) until this whole invasion of the Fane thing blows over and he can resume his stimulating vocation."
+                    "{@b Tactics:} Terilanyx's first actions in combat are to activate his fear aura as he attempts to summon {@dice 2d10} lemures. If successful, he places the lemures throughout the room, using them to separate PCs, flank them, and create a barrier between himself and the party. He orders one lemure to use the aid another action to aid his Armor Class, and another to aid his melee attacks. All other lemures are ordered to attack the PCs, while he uses his reach to attack PCs over the front rank of summoned devils. If a player character manages to get through the lemures, Terilanyx uses his {@i fly} spell-like ability to get above the PCs, keeping them in reach of his attacks but out of reach of theirs. If brought to less than 20 hit points, he uses {@i greater teleport} to escape to area 8, where the clerics there heal his wounds. He then teleports back to this room to stalk the PCs. If no clerics are in area 8, he hides in one of the guest quarters (area 7) until this whole invasion of the Fane thing blows over and he can resume his stimulating vocation."
                   ]
                 },
                 {
@@ -5558,7 +5557,7 @@
                     "The clerics react to an intrusion into these cells with a mixture of horrified shock and frothing rage at the impiety of unbelievers within the Fane. If the alarm has been raised, they will have locked the doors to this room; if they hear PCs on the other side trying to get in, they cast several spells in preparation for combat.",
                     "The clerics cast {@i resistance} and {@i invisibility} on themselves; one of them casts {@i bless}.",
                     "The warpriests cast {@i invisibility}, {@i air walk}, {@i shield of faith}, {@i divine favor}, {@i resistance}, and {@i virtue}. Once they are air walking, they move up to locations near the ceiling. Each of these warpriests has a scroll of {@i prayer}, and one of them uses his at this time.",
-                    "When combat begins, the clerics move to attack in melee, using their smite attacks while they have the advantage of {@i invisibility}. The warpriests immediately use their scrolls of {@i summon monster IV} to summon 1d3 hell hounds each, which they place to flank PCs. They follow with their scrolls of {@i flame strike}, then use {@i dominate person} and {@i suggestion} to make the PCs either fight their allies or cast healing or other beneficial spells on the hobgoblins."
+                    "When combat begins, the clerics move to attack in melee, using their smite attacks while they have the advantage of {@i invisibility}. The warpriests immediately use their scrolls of {@i summon monster IV} to summon {@dice 1d3} hell hounds each, which they place to flank PCs. They follow with their scrolls of {@i flame strike}, then use {@i dominate person} and {@i suggestion} to make the PCs either fight their allies or cast healing or other beneficial spells on the hobgoblins."
                   ]
                 },
                 {
@@ -5575,7 +5574,7 @@
                     },
                     "The blackspawn raiders forage for their own, hunting in the surrounding mountains. Everyone else who dwells here relies on the talents of a night hag named Laryssa for their meals. As wretched as she looks, Laryssa is in fact a quite accomplished cook who has a Craft (cooking) skill modifier of +11 (this skill replaces the Spellcraft +11 of a standard night hag). However, as tasty as her recipes smell, they all incorporate something foul—even her bread contains powdered halfling. Characters who partake of any of the food here can make a DC 15 Spot check to notice an object such as a humanoid tooth or fingerbone in their meal.",
                     "The two storerooms (area 5) off the kitchen hold food and supplies. The southern storeroom contains several human, elf, dwarf, and halfling bodies preserved in various ways (salted, pickled, smoked) or in some cases just hung to ripen, all for use in stews and entrees.",
-                    "The fire pit is a minor magic item created by the ancient human cultists who built this complex centuries ago. The fire within burns constantly, without needing a source of fuel and without giving off any smoke. A creature that falls into the fire pit takes 1d6 points of fire damage per round. The flames function at caster level 17th; if the effect is successfully dispelled, they are only suppressed for 1d4 rounds before they return.",
+                    "The fire pit is a minor magic item created by the ancient human cultists who built this complex centuries ago. The fire within burns constantly, without needing a source of fuel and without giving off any smoke. A creature that falls into the fire pit takes {@dice 1d6} points of fire damage per round. The flames function at caster level 17th; if the effect is successfully dispelled, they are only suppressed for {@dice 1d4} rounds before they return.",
                     "{@b Creatures:} Laryssa is an exiled night hag, cast out of the lower planes by a pit fiend who found one of her dishes mildly unpleasant. Afterward, she spent much of her time wandering the wilds of the Material Plane and eventually came upon the Fane of Tiamat. Azarr Kul was impressed enough to offer her a job in his army. She has little interest in fighting and volunteered instead to be his cook. Azarr Kul was reluctant at first but changed his mind after he tried her elf-kidney pies. Laryssa has the assistance of two bearded devils, called from Tiamat's court to serve her in any way she requires as thanks from Azarr Kul. She uses the devils mostly to take care of menial tasks, such as cleaning or fetching supplies, and she has developed a taste for a tealike beverage made from clippings taken from their beards.",
                     {
                       "type": "item",
@@ -5646,7 +5645,7 @@
                         "{@color {@i The air in this large cavern is cold and smells musty. Thick carpets of pallid fungus grow around the stalagmites that cover the floor of this cave, and razor-sharp stalactites hang from the ceiling above. The cave's floor has three tiers, each rising five feet above the one before it. The ceiling slopes upward to the north as well, never reaching a height of more than twenty feet. To the far north, a fifteen-foot-wide passageway continues north. To the south, a massive, irregular pit yawns into darkness.}|--rgb-name}"
                       ]
                     },
-                    "This large cavern was once the lair of a powerful white wyrm that served the ancient Tiamat cult that predated the Kulkor Zhul. The thick stalactites and fungus that clutter the floor of this cavern count as difficult terrain ({@i PH} 148). The tiers each rise 5 feet and require a DC 15 Climb check to climb up (any Small or larger creature can drop down from one tier to a lower one with ease). The pit to the south is a vertical shaft that plunges 200 feet into a cold, lightless cave. Any creature that falls into the pit takes 20d6 points of damage from the fall. The wall of the pit can be climbed with a DC 20 Climb check.",
+                    "This large cavern was once the lair of a powerful white wyrm that served the ancient Tiamat cult that predated the Kulkor Zhul. The thick stalactites and fungus that clutter the floor of this cavern count as difficult terrain ({@i PH} 148). The tiers each rise 5 feet and require a DC 15 Climb check to climb up (any Small or larger creature can drop down from one tier to a lower one with ease). The pit to the south is a vertical shaft that plunges 200 feet into a cold, lightless cave. Any creature that falls into the pit takes {@dice 20d6} points of damage from the fall. The wall of the pit can be climbed with a DC 20 Climb check.",
                     "{@b Creatures:} This cavern is guarded by three greenspawn razorfiends that Azarr Kul has managed to pull into the Material Plane using the summoning room (area 15). Despite their bestial appearance, the razorfiends are quite intelligent and use the terrain here to their advantage. Azarr Kul has promised them a chance to join the horde soon, but razorfiends aren't known for their patience, and these three are growing restless. The entry of the PCs should be just the thing to relieve their pent-up bloodlust.",
                     {
                       "type": "item",
@@ -5670,7 +5669,7 @@
                         "{@color {@i This circular chamber is dominated by a three-tiered circular platform. Five sinuous stone dragon necks arc up from around the second tier, their heads turned upward to aim open maws at a pulsating hemisphere set in the ceiling above. Within each of the dragon's jaws glows a brilliant sphere of rapidly pulsating light, shifting from white to red to green to blue to black. The ceiling in this area rises to a thirtyfoot-high dome. An alcove to the north houses a ten-foot-wide shaft leading up through the ceiling.}|--rgb-name}"
                       ]
                     },
-                    "This is the outer sanctum of the Fane, a place where clerics of Tiamat can come to focus their divine magic and amplify it up into the altar in the inner sanctum above. This altar (and the corresponding one in area 17) are minor artifacts created hundreds of years ago by the original cult of Tiamat that dwelt here. With these altars, the clerics could combine their spellcasting powers and achieve works far greater than any of them could alone. Unfortunately for the PCs, the altar works only for worshipers of Tiamat. Any other cleric who attempts to use either altar to augment her spellcasting powers must make a DC 25 Will save or be slain by blasts of fire, ice, lightning, and acid. Success on the save indicates the cleric is stunned for 3d4 rounds.",
+                    "This is the outer sanctum of the Fane, a place where clerics of Tiamat can come to focus their divine magic and amplify it up into the altar in the inner sanctum above. This altar (and the corresponding one in area 17) are minor artifacts created hundreds of years ago by the original cult of Tiamat that dwelt here. With these altars, the clerics could combine their spellcasting powers and achieve works far greater than any of them could alone. Unfortunately for the PCs, the altar works only for worshipers of Tiamat. Any other cleric who attempts to use either altar to augment her spellcasting powers must make a DC 25 Will save or be slain by blasts of fire, ice, lightning, and acid. Success on the save indicates the cleric is stunned for {@dice 3d4} rounds.",
                     "The shaft to the north rises 100 feet into the Fane's inner sanctum (area 17). Azarr Kul typically uses {@i air walk} to access the inner sanctum; the walls of the shaft are polished smooth and impossible to climb without magic or a rope secured from above.",
                     "Azarr Kul has cast an {@i unhallow} spell on the altar; its effect fills the entire chamber. It also provides the effect of an {@i aid} spell to any worshipers of Tiamat in the room. The extra hit points granted by this spell are incorporated into the creature hit point totals given below.",
                     "{@b Creatures:} Seven of Azarr Kul's clerics are here, focusing their divine power into the altar to help focus and augment Azarr Kul's work in area 17 above. The two warpriests stand back to back on the center pedestal, while the five Doom Hand clerics each stand at the base of the five dragon heads on the pedestal's second tier.",
@@ -5707,7 +5706,7 @@
                       ]
                     },
                     "{@b Tactics:} The beautiful devils react quickly when they notice the PCs, each attempting to use {@i charm monster} on the PCs. They order a charmed PC to wait outside, hoping to charm all the characters so that they can take their time with each one of them in turn—a time that ends, after several minutes of bliss, in that character's gory death.",
-                    "If an erinyes finds a PC difficult to charm, she tries to entangle him in her rope or attempts to summon 1d4 bearded devils to aid in the fight. Neither devil particularly likes the idea of being slain, so if reduced to 20 hit points or fewer, she teleports to Azarr Kul's side in area 17, where the priest heals her wounds and prepares for the PCs.",
+                    "If an erinyes finds a PC difficult to charm, she tries to entangle him in her rope or attempts to summon {@dice 1d4} bearded devils to aid in the fight. Neither devil particularly likes the idea of being slain, so if reduced to 20 hit points or fewer, she teleports to Azarr Kul's side in area 17, where the priest heals her wounds and prepares for the PCs.",
                     "{@b Treasure:} The two tapestries each weigh 100 pounds; each is worth 800 gp. The bejeweled water pipe is worth 1,400 gp and weighs 50 pounds.",
                     "A DC 25 Search check made while examining the bed uncovers a set of five bone keys, each painted a different color (blue, red, green, black, and white), hidden in the bed's lower mattress. These keys can be used to open the dragonchests in area 16, but note that simply using a key to open one of the chests does not bypass the trap on that chest."
                   ]
@@ -5750,14 +5749,14 @@
                         "{@b Barbed Devil:} hp 126 ({@i MM} 51)."
                       ]
                     },
-                    "{@b Tactics:} When it sees the secret door to the east open, the barbed devil immediately tries to summon 1d6 bearded devils. It hopes some of the PCs will try to rush up the stairs and into the room to engage it in melee, thereby triggering the trap. The devil uses {@i scorching rays}, {@i order's wrath}, and {@i unholy blight} against the PCs if they stay at range, trying to goad them into the room. Anyone that makes it into the room is promptly attacked by the devil, who fights to the death.",
-                    "{@b Traps:} The area between the room and the stairs marked on the map contains a destructive trap that can be bypassed by speaking the phrase \"By the grace of Tiamat do I live and breathe,\" which deactivates the trap for 1 minute. Otherwise, anyone who moves into this area is blasted by a howling vortex of acid, cold, electricity, and fire. The vortex deals 12d6 points of damage in all (equal parts of all four energy types) and continues to blast and burn and freeze and electrocute as long as a living creature is in the area of the trap, which automatically resets. The wall is opaque when active and functions as a {@i wind wall} for the purpose of firing projectiles through it ({@i PH} 302).",
-                    "Each of the traps on the chests can be deactivated for 1 minute by touching an unholy symbol of Tiamat to the chest's lid. Failure to take this step results in a burst of energy in a 5-foot-radius around the chest when it is touched. This burst of energy deals 8d6 points of damage of an energy type corresponding to the color of the chest. The black and green chests deal acid damage, the white cold, the blue electricity, and the red chest fire.",
+                    "{@b Tactics:} When it sees the secret door to the east open, the barbed devil immediately tries to summon {@dice 1d6} bearded devils. It hopes some of the PCs will try to rush up the stairs and into the room to engage it in melee, thereby triggering the trap. The devil uses {@i scorching rays}, {@i order's wrath}, and {@i unholy blight} against the PCs if they stay at range, trying to goad them into the room. Anyone that makes it into the room is promptly attacked by the devil, who fights to the death.",
+                    "{@b Traps:} The area between the room and the stairs marked on the map contains a destructive trap that can be bypassed by speaking the phrase \"By the grace of Tiamat do I live and breathe,\" which deactivates the trap for 1 minute. Otherwise, anyone who moves into this area is blasted by a howling vortex of acid, cold, electricity, and fire. The vortex deals {@dice 12d6} points of damage in all (equal parts of all four energy types) and continues to blast and burn and freeze and electrocute as long as a living creature is in the area of the trap, which automatically resets. The wall is opaque when active and functions as a {@i wind wall} for the purpose of firing projectiles through it ({@i PH} 302).",
+                    "Each of the traps on the chests can be deactivated for 1 minute by touching an unholy symbol of Tiamat to the chest's lid. Failure to take this step results in a burst of energy in a 5-foot-radius around the chest when it is touched. This burst of energy deals {@dice 8d6} points of damage of an energy type corresponding to the color of the chest. The black and green chests deal acid damage, the white cold, the blue electricity, and the red chest fire.",
                     {
                       "type": "item",
                       "entries": [
-                        "{@b Wall of Tiamat's Wrath:} CR 9; magic device; location trigger; automatic reset; multiple targets (all creatures in a 5-ft.-by-15-ft. wall); 3d6 acid, 3d6 cold, 3d6 electricity, and 3d6 fire damage (Refl ex DC 25 half); Search DC 30; Disable Device DC 25.",
-                        "{@b Dragonchest Trap:} CR 7; magic device; touch trigger; automatic reset; multiple targets (5-ft.-radius burst); 8d6 energy damage (Refl ex DC 25 half); Search DC 30; Disable Device DC 25."
+                        "{@b Wall of Tiamat's Wrath:} CR 9; magic device; location trigger; automatic reset; multiple targets (all creatures in a 5-ft.-by-15-ft. wall); {@dice 3d6} acid, {@dice 3d6} cold, {@dice 3d6} electricity, and {@dice 3d6} fire damage (Refl ex DC 25 half); Search DC 30; Disable Device DC 25.",
+                        "{@b Dragonchest Trap:} CR 7; magic device; touch trigger; automatic reset; multiple targets (5-ft.-radius burst); {@dice 8d6} energy damage (Refl ex DC 25 half); Search DC 30; Disable Device DC 25."
                       ]
                     },
                     "{@b Treasure:} In addition to being trapped, the dragonchests are all locked. Azarr Kul keeps the keys hidden in his bedroom, but using one to unlock a chest does not bypass the trap on that chest. Without the keys, it takes a DC 30 Open Lock check to open a chest. Alternatively, they can be bashed open, although doing so could damage potions and other fragile contents (in addition, such attacks trigger the trap on each round).",
@@ -5827,8 +5826,8 @@
                     "{@b Creature:} One aspect of Tiamat.",
                     "As Azarr Kul dies, the swirling vortex of energy above thunders and rumbles with power. Suddenly, the energy is swept away... along with the roof itself, like an egg hatching outward. A searing hell-wind blasts through the inner sanctum, thick with the gut-churning reek of brimstone and burning flesh as a blasted landscape of twisted mountains and red lightning-plagued skies is revealed to the PCs. And towering before them is a colossal shape, a shape they should recognize. Tiamat has placed much on Azarr Kul's plans, and his failure has incited her wrath.",
                     "The chromatic dragon's massive blue head darts down with lightning speed on Azarr Kul's body, swallowing him with one effortless gulp. As this head pulls back into the writhing infernal sky, her other four leer down at the party, their jaws gape, and an unholy blast of divine retribution tears into the gap between the planes. With a deafening blast of wind, the portal closes and the room is momentarily plunged into darkness.",
-                    "All PCs in the inner sanctum at this point must make a DC 20 Fortitude save or be deafened for 1d6 rounds. All devils, clerics, and other minions of Tiamat in the room are immediately slain and crumble into piles of wet corruption.",
-                    "An instant later, the jaws of the five dragon statues pulse with energy, flooding the room with light again as they breathe acid, ice, lightning, and fire into the room, converging on the upraised platform in the center of the inner sanctum. Any creature standing at this location immediately takes 10d6 points of acid damage, 10d6 points of cold damage, 10d6 points of electricity damage, and 10d6 points of fire damage (Refl ex DC 20 half) and is pushed off the pedestal as a terrible aspect of Tiamat manifests in the room.",
+                    "All PCs in the inner sanctum at this point must make a DC 20 Fortitude save or be deafened for {@dice 1d6} rounds. All devils, clerics, and other minions of Tiamat in the room are immediately slain and crumble into piles of wet corruption.",
+                    "An instant later, the jaws of the five dragon statues pulse with energy, flooding the room with light again as they breathe acid, ice, lightning, and fire into the room, converging on the upraised platform in the center of the inner sanctum. Any creature standing at this location immediately takes {@dice 10d6} points of acid damage, {@dice 10d6} points of cold damage, {@dice 10d6} points of electricity damage, and {@dice 10d6} points of fire damage (Refl ex DC 20 half) and is pushed off the pedestal as a terrible aspect of Tiamat manifests in the room.",
                     "{@b Creature:} The concept of divine aspects first appeared in {@i Miniatures Handbook}. Aspects are physical manifestations of deities made flesh in the Material Plane. Now that Azarr Kul has failed her, Tiamat has decided to send an aspect embodying her wrath to take his place. This creature is dangerous indeed.",
                     {
                       "type": "item",
