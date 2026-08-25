@@ -593,6 +593,7 @@
       "data": [
         {
           "type": "section",
+          "id": "001",
           "name": "Cover & Credits",
           "page": 1,
           "entries": [
@@ -607,6 +608,7 @@
             },
             {
               "type": "section",
+              "id": "000",
               "name": "Credits",
               "page": 3,
               "entries": [
@@ -652,6 +654,7 @@
         },
         {
           "type": "section",
+          "id": "01q",
           "name": "Introduction",
           "page": 3,
           "entries": [
@@ -675,6 +678,7 @@
             "{@b Encounter Levels:} {@i Red Hand of Doom} is designed for a party of four characters who begin the adventure at 5th level. Over the course of the adventure they should accumulate enough experience to reach 10th level before the climactic encounters at the end of the adventure",
             {
               "type": "section",
+              "id": "003",
               "name": "Preparation",
               "page": 4,
               "entries": [
@@ -683,6 +687,7 @@
                 "Finally, we've made an effort to feature NPCs and monsters you can easily represent with the available sets of D&D miniatures. {@i Red Hand of Doom} assumes that you're using some sort of battle mat or grid for your game, as well as miniatures to represent the heroes and the monsters in tactical situations. You don't need to use the minis or resolve the fights on a tabletop mapsheet, but we think you'll enjoy the adventure more if you do.",
                 {
                   "type": "entries",
+                  "id": "002",
                   "name": "The Battle Maps",
                   "page": 4,
                   "entries": [
@@ -712,6 +717,7 @@
             },
             {
               "type": "section",
+              "id": "004",
               "name": "Adventure Background",
               "page": 4,
               "entries": [
@@ -725,6 +731,7 @@
             },
             {
               "type": "section",
+              "id": "00a",
               "name": "Adventure Outline",
               "page": 4,
               "entries": [
@@ -743,6 +750,7 @@
                 "The adventure is divided into five parts, describing five key locations the PCs are likely to explore in the course of the adventure. Event-triggered encounters are also woven into each of the five parts. The adventure locales and events are designed to interact: Events will steer the heroes toward adventure locales, and things the heroes do in the locales will trigger events.",
                 {
                   "type": "entries",
+                  "id": "005",
                   "name": "Part I: The Witchwood",
                   "page": 5,
                   "entries": [
@@ -753,6 +761,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "006",
                   "name": "Part II: The Ruins of Rhest",
                   "page": 5,
                   "entries": [
@@ -762,6 +771,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "007",
                   "name": "Part III: The Ghostlord's Tower",
                   "page": 5,
                   "entries": [
@@ -770,6 +780,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "008",
                   "name": "Part IV: The Enemy at the Gates",
                   "page": 5,
                   "entries": [
@@ -778,6 +789,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "009",
                   "name": "Part V: Fane of Tiamat",
                   "page": 5,
                   "entries": [
@@ -788,6 +800,7 @@
             },
             {
               "type": "section",
+              "id": "00b",
               "name": "Character Hooks",
               "page": 5,
               "entries": [
@@ -826,12 +839,14 @@
             },
             {
               "type": "section",
+              "id": "00l",
               "name": "Running the Adventure",
               "page": 6,
               "entries": [
                 "{@i Red Hand of Doom} includes a number of special features and systems designed to help you portray the urgency and heroism of standing against a great onslaught of evil. The adventure also uses some new formats and presentations that are discussed later in this introduction.",
                 {
                   "type": "entries",
+                  "id": "00d",
                   "name": "The Timeline",
                   "page": 6,
                   "entries": [
@@ -904,6 +919,7 @@
                     "Actions by the PCs can throw off this timeline, buying more time for the defenders. For example, if the PCs destroy Skull Gorge Bridge before day 8, the Red Hand must then spend three days detouring around Skull Gorge. The horde now attacks Drellin's Ferry on day 15 instead of day 12 and reaches Brindol on day 45 (assuming no further interference).",
                     {
                       "type": "inset",
+                      "id": "00c",
                       "name": "They Don't Have Time to Walk",
                       "page": 6,
                       "entries": [
@@ -915,6 +931,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "00e",
                   "name": "Playing the Villains Smart",
                   "page": 6,
                   "entries": [
@@ -979,6 +996,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "00f",
                   "name": "Great Battles",
                   "page": 7,
                   "entries": [
@@ -989,6 +1007,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "00g",
                   "name": "Awarding Treasure",
                   "page": 7,
                   "entries": [
@@ -1000,6 +1019,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "00j",
                   "name": "Encounter Descriptions",
                   "page": 7,
                   "entries": [
@@ -1010,6 +1030,7 @@
                     "In addition to the normal entries you'll find in an encounter description, {@i Red Hand of Doom} features a number of sidebars, boxes, and special instructions. Here's what all the sidebars and boxes mean.",
                     {
                       "type": "entries",
+                      "id": "00h",
                       "name": "Read-Aloud Text",
                       "page": 7,
                       "entries": [
@@ -1018,6 +1039,7 @@
                     },
                     {
                       "type": "insetReadaloud",
+                      "id": "00i",
                       "name": "Designers' Notes",
                       "page": 7,
                       "entries": [
@@ -1029,6 +1051,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "00k",
                   "name": "Statistics Blocks",
                   "page": 8,
                   "entries": [
@@ -1041,6 +1064,7 @@
             },
             {
               "type": "section",
+              "id": "01o",
               "name": "Overview of Elsir Vale",
               "page": 8,
               "entries": [
@@ -1065,12 +1089,14 @@
                 },
                 {
                   "type": "entries",
+                  "id": "00q",
                   "name": "Climate and Terrain",
                   "page": 8,
                   "entries": [
                     "Elsir Vale lies in the subtropical latitudes. Summers are hot and dry (although punctuated by the occasional intense thunderstorm), and winters are warm and rainy. Large stretches of the area are quite arid, and the vale is flanked by vast savannahs stretching for mile after dusty mile. The forests that stretch across most of the vale's northern reaches are stifling and swelteringly hot in the summertime, with not a breath of wind to relieve the oppressive heat.",
                     {
                       "type": "entries",
+                      "id": "00m",
                       "name": "Weather",
                       "page": 8,
                       "entries": [
@@ -1080,6 +1106,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "00n",
                       "name": "Clear Terrain",
                       "page": 8,
                       "entries": [
@@ -1126,12 +1153,14 @@
                     },
                     {
                       "type": "entries",
+                      "id": "00p",
                       "name": "Settled Lands",
                       "page": 8,
                       "entries": [
                         "One of the terrain types indicated on Map 1 is \"settled lands.\" This is simply cleared farmland in the vicinity of a village or town. Scattered homesteads and farmhouses lie amid broad fields, with the occasional hillock or copse of woodland. The closer to the village, the closer together the outlying farms and homesteads. Treat settled lands as plains (farm fields).",
                         {
                           "type": "inset",
+                          "id": "00o",
                           "name": "Developments",
                           "page": 8,
                           "entries": [
@@ -1144,6 +1173,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "00r",
                   "name": "History of the Vale",
                   "page": 8,
                   "entries": [
@@ -1155,12 +1185,14 @@
                 },
                 {
                   "type": "entries",
+                  "id": "016",
                   "name": "Major Settlements",
                   "page": 9,
                   "entries": [
                     "In addition to the settlements described in this section, a fair number of isolated homesteads (more than a few of them long abandoned) are scattered throughout this terrain.",
                     {
                       "type": "entries",
+                      "id": "00s",
                       "name": "Brindol",
                       "page": 9,
                       "entries": [
@@ -1183,6 +1215,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "00t",
                       "name": "Dauth",
                       "page": 10,
                       "entries": [
@@ -1191,6 +1224,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "00u",
                       "name": "Dennovar",
                       "page": 10,
                       "entries": [
@@ -1210,6 +1244,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "00v",
                       "name": "Drellin's Ferry",
                       "page": 10,
                       "entries": [
@@ -1219,6 +1254,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "00w",
                       "name": "Elsircross",
                       "page": 10,
                       "entries": [
@@ -1227,6 +1263,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "00x",
                       "name": "Hammerfist Holds",
                       "page": 10,
                       "entries": [
@@ -1245,6 +1282,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "00y",
                       "name": "Hillwatch",
                       "page": 11,
                       "entries": [
@@ -1253,6 +1291,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "00z",
                       "name": "Marthton",
                       "page": 11,
                       "entries": [
@@ -1261,6 +1300,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "010",
                       "name": "Nimon Gap",
                       "page": 11,
                       "entries": [
@@ -1269,6 +1309,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "011",
                       "name": "Prosser",
                       "page": 11,
                       "entries": [
@@ -1277,6 +1318,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "012",
                       "name": "Red Rock",
                       "page": 11,
                       "entries": [
@@ -1285,6 +1327,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "013",
                       "name": "Talar",
                       "page": 11,
                       "entries": [
@@ -1293,6 +1336,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "014",
                       "name": "Terrelton",
                       "page": 11,
                       "entries": [
@@ -1301,6 +1345,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "015",
                       "name": "Witchcross",
                       "page": 11,
                       "entries": [
@@ -1311,12 +1356,14 @@
                 },
                 {
                   "type": "entries",
+                  "id": "01n",
                   "name": "Sites of Interest",
                   "page": 11,
                   "entries": [
                     "Ruined keeps, burned-out watchtowers, and occasional abandoned farmsteads dot the backlands of Elsir Vale and the area around Lake Rhestin, reminders of the fallen kingdom of Rhestilor. Even older ruins can be found here and there, dating back to the old dwarf-realm or the druidic human folk.",
                     {
                       "type": "entries",
+                      "id": "017",
                       "name": "The Blackfens",
                       "page": 11,
                       "entries": [
@@ -1336,6 +1383,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "018",
                       "name": "The Dwarfroad",
                       "page": 12,
                       "entries": [
@@ -1344,6 +1392,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "019",
                       "name": "Elsir River",
                       "page": 12,
                       "entries": [
@@ -1352,6 +1401,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01a",
                       "name": "Endless Plains",
                       "page": 12,
                       "entries": [
@@ -1360,6 +1410,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01b",
                       "name": "Fane of Tiamat",
                       "page": 12,
                       "entries": [
@@ -1369,6 +1420,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01c",
                       "name": "Giantshield Mountains",
                       "page": 12,
                       "entries": [
@@ -1377,6 +1429,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01d",
                       "name": "Golden Plains",
                       "page": 12,
                       "entries": [
@@ -1385,6 +1438,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01e",
                       "name": "Lake Rhestin",
                       "page": 12,
                       "entries": [
@@ -1393,6 +1447,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01f",
                       "name": "Marth Forest",
                       "page": 12,
                       "entries": [
@@ -1401,6 +1456,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01g",
                       "name": "Rhest",
                       "page": 13,
                       "entries": [
@@ -1410,6 +1466,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01h",
                       "name": "The Thornwaste",
                       "page": 13,
                       "entries": [
@@ -1419,6 +1476,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01i",
                       "name": "Vraath Keep",
                       "page": 13,
                       "entries": [
@@ -1428,6 +1486,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01j",
                       "name": "The Westdeep",
                       "page": 13,
                       "entries": [
@@ -1436,6 +1495,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01k",
                       "name": "The Witchwood",
                       "page": 13,
                       "entries": [
@@ -1445,6 +1505,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01l",
                       "name": "Wyrmsmoke Mountains",
                       "page": 13,
                       "entries": [
@@ -1454,6 +1515,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01m",
                       "name": "Wyvernwatch Mountains",
                       "page": 13,
                       "entries": [
@@ -1475,6 +1537,7 @@
             },
             {
               "type": "section",
+              "id": "01p",
               "name": "Cast of Characters",
               "page": 13,
               "entries": [
@@ -1584,6 +1647,7 @@
         },
         {
           "type": "section",
+          "id": "048",
           "name": "Part One: The Witchwood",
           "page": 14,
           "entries": [
@@ -1607,6 +1671,7 @@
             },
             {
               "type": "entries",
+              "id": "01u",
               "name": "Adventure Start",
               "page": 14,
               "entries": [
@@ -1615,6 +1680,7 @@
                 "{@i The afternoon sun beats down on you; the air is hot and still. The sparsely settled lands of Elsir Vale are starting to grow monotonous, with a seemingly endless line of dusty flyspecks of towns. The town of Drellin's Ferry lies a few miles ahead of you. It's a settlement hard on the borders of the Witchwood, and the best place from which to begin exploring the nearby forest.}",
                 {
                   "type": "entries",
+                  "id": "01r",
                   "name": "Marauder Attack (EL 8)",
                   "page": 14,
                   "entries": [
@@ -1682,6 +1748,7 @@
                 },
                 {
                   "type": "insetReadaloud",
+                  "id": "01s",
                   "name": "Designers' Notes",
                   "page": 15,
                   "entries": [
@@ -1691,6 +1758,7 @@
                 },
                 {
                   "type": "inset",
+                  "id": "01t",
                   "name": "Marauder Attack Developments",
                   "page": 16,
                   "entries": [
@@ -1712,6 +1780,7 @@
             },
             {
               "type": "section",
+              "id": "02k",
               "name": "Drellin's Ferry",
               "page": 16,
               "entries": [
@@ -1728,6 +1797,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "02e",
                   "name": "Drellin's Fery Key Sites",
                   "page": 16,
                   "entries": [
@@ -1759,6 +1829,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01v",
                       "name": "1. Watchposts",
                       "page": 16,
                       "entries": [
@@ -1767,6 +1838,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01w",
                       "name": "2. The Green",
                       "page": 17,
                       "entries": [
@@ -1775,6 +1847,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01x",
                       "name": "3. Town Speaker's House",
                       "page": 17,
                       "entries": [
@@ -1783,6 +1856,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01y",
                       "name": "4. The Green Apple",
                       "page": 17,
                       "entries": [
@@ -1792,6 +1866,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "01z",
                       "name": "5. Morlin's Smithy",
                       "page": 17,
                       "entries": [
@@ -1801,6 +1876,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "020",
                       "name": "6. Shrine of Pelor",
                       "page": 17,
                       "entries": [
@@ -1810,6 +1886,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "021",
                       "name": "7. House of Sertieren the Wise",
                       "page": 17,
                       "entries": [
@@ -1819,6 +1896,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "022",
                       "name": "8. Old Toll House",
                       "page": 17,
                       "entries": [
@@ -1827,6 +1905,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "023",
                       "name": "9. Armory",
                       "page": 17,
                       "entries": [
@@ -1835,6 +1914,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "024",
                       "name": "10. The Old Bridge Inn",
                       "page": 18,
                       "entries": [
@@ -1845,6 +1925,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "025",
                       "name": "11. Jarett's Sundries",
                       "page": 18,
                       "entries": [
@@ -1854,6 +1935,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "026",
                       "name": "12. Delora's Livery Stable",
                       "page": 18,
                       "entries": [
@@ -1863,6 +1945,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "027",
                       "name": "13. Iormel's Warehouse",
                       "page": 18,
                       "entries": [
@@ -1871,6 +1954,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "028",
                       "name": "14. The Ferry",
                       "page": 18,
                       "entries": [
@@ -1880,6 +1964,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "029",
                       "name": "15. The Dwarfbridge",
                       "page": 18,
                       "entries": [
@@ -1888,6 +1973,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "02a",
                       "name": "16. Gausler's Brewhouse",
                       "page": 18,
                       "entries": [
@@ -1896,6 +1982,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "02b",
                       "name": "17. Jendar's Warehouse",
                       "page": 18,
                       "entries": [
@@ -1904,6 +1991,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "02c",
                       "name": "18. Sterrel's Provisioning",
                       "page": 18,
                       "entries": [
@@ -1913,6 +2001,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "02d",
                       "name": "19. The Old Ones",
                       "page": 18,
                       "entries": [
@@ -1924,6 +2013,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "02f",
                   "name": "Important People",
                   "page": 18,
                   "entries": [
@@ -1973,6 +2063,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "02h",
                   "name": "Riding Into Town (EL 2)",
                   "page": 19,
                   "entries": [
@@ -2011,6 +2102,7 @@
                     "{@b Ad Hoc XP Adjustment:} If the PCs make a good impression on the guards, award them XP as if they had overcome a CR 2 encounter.",
                     {
                       "type": "inset",
+                      "id": "02g",
                       "name": "What If the Party is Bizarre?",
                       "page": 20,
                       "entries": [
@@ -2022,6 +2114,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "02j",
                   "name": "The Town Speaker",
                   "page": 20,
                   "entries": [
@@ -2070,6 +2163,7 @@
                     },
                     {
                       "type": "inset",
+                      "id": "02i",
                       "name": "What Next?",
                       "page": 21,
                       "entries": [
@@ -2082,6 +2176,7 @@
             },
             {
               "type": "section",
+              "id": "03k",
               "name": "The Witchwood",
               "page": 21,
               "entries": [
@@ -2114,6 +2209,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "02l",
                   "name": "A. The Dawn Way",
                   "page": 21,
                   "entries": [
@@ -2123,6 +2219,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "02m",
                   "name": "B. The Witch Trail",
                   "page": 21,
                   "entries": [
@@ -2132,6 +2229,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "02o",
                   "name": "C. Jorr's Cabin (EL 6)",
                   "page": 21,
                   "entries": [
@@ -2179,6 +2277,7 @@
                     "{@b Ad Hoc XP Award:} If the PCs manage to enlist Jorr's help, award them XP as if they had overcome a CR 5 encounter. If they merely manage to get some useful information from him, award them XP as if they had overcome a CR 4 encounter instead.",
                     {
                       "type": "inset",
+                      "id": "02n",
                       "name": "Random Encounters In The Witchwood",
                       "page": 22,
                       "entries": [
@@ -2301,6 +2400,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "02q",
                   "name": "D. Blackwater Causeway (EL 6)",
                   "page": 23,
                   "entries": [
@@ -2352,6 +2452,7 @@
                     "{@b Treasure}: The hydra has killed several goblins and hobgoblins since moving into this region. A search of the wreckage of the wagon uncovers a large number of partial hobgoblin skeletons in the mud, most still wearing now-ruined armor. However, the {@i +1 mithral breastplate} of a deceased hobgoblin champion survives.",
                     {
                       "type": "inset",
+                      "id": "02p",
                       "name": "Developments For Jorr's Cabin",
                       "page": 23,
                       "entries": [
@@ -2363,6 +2464,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "02t",
                   "name": "E. Vraath Keep",
                   "page": 24,
                   "entries": [
@@ -2377,6 +2479,7 @@
                     "{@color {@i A sickly greenish-yellow light flickers inside the second floor of the ruined tower, and the faint sound of eerie moaning can be heard from within.}|--rgb-name}",
                     {
                       "type": "entries",
+                      "id": "02s",
                       "name": "The Story of the Keep",
                       "page": 24,
                       "entries": [
@@ -2387,6 +2490,7 @@
                         "Wyrmlord Koth knew of these rumors. He led a small group of his hobgoblins and goblins into Vraath Keep several weeks ago. They slew a pair of owlbears lairing in the place and have used the keep as their headquarters ever since. The keep's reputation for being haunted has served the Wyrmlord well; until the PCs arrive on the scene, he hasn't had to contend with any curious adventurers.",
                         {
                           "type": "inset",
+                          "id": "02r",
                           "name": "What Do We Know About This Place?",
                           "page": 24,
                           "entries": [
@@ -2399,6 +2503,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "039",
                   "name": "Vraath Keep Details",
                   "page": 25,
                   "entries": [
@@ -2434,6 +2539,7 @@
                     "If the keep's defenders realize that trouble is brewing, the goblin worg riders are first to react. They mount their worgs and move out into area 3 for {@dice 1d4} rounds, then patrol the perimeter of the keep for 10 minutes before returning to area 3. The hobgoblin regulars move out to protect area 3 for this duration. If any group spots the PCs, it raises an alarm and attacks. Regardless of where this attack occurs, Wyrmlord Koth and Karkilan are the last to arrive, preferring to let the soldiers do the bulk of the fighting.",
                     {
                       "type": "entries",
+                      "id": "02u",
                       "name": "1. Ruined Gatehouse",
                       "page": 25,
                       "entries": [
@@ -2451,6 +2557,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "02v",
                       "name": "2. Gardener's Shack (EL 2)",
                       "page": 26,
                       "entries": [
@@ -2476,6 +2583,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "02w",
                       "name": "3. Courtyard",
                       "page": 26,
                       "entries": [
@@ -2492,6 +2600,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "02x",
                       "name": "4. North Tower",
                       "page": 26,
                       "entries": [
@@ -2502,6 +2611,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "02z",
                       "name": "5. South Tower",
                       "page": 26,
                       "entries": [
@@ -2510,6 +2620,7 @@
                         "This area holds nothing of interest. If the PCs attack the keep and withdraw, thereafter two of the hobgoblin regulars from area 8 will be hidden here.",
                         {
                           "type": "inset",
+                          "id": "02y",
                           "name": "Vraath Keep Developments",
                           "page": 26,
                           "entries": [
@@ -2532,6 +2643,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "030",
                       "name": "6. Worg Stables (EL 6)",
                       "page": 27,
                       "entries": [
@@ -2558,6 +2670,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "031",
                       "name": "7. Spike-Littered Nest (EL 5)",
                       "page": 27,
                       "entries": [
@@ -2593,6 +2706,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "032",
                       "name": "8. Barracks (EL 5)",
                       "page": 28,
                       "entries": [
@@ -2622,6 +2736,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "033",
                       "name": "9. War Room",
                       "page": 28,
                       "entries": [
@@ -2649,6 +2764,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "034",
                       "name": "10. Wyrmlord Koth's Quarters (EL 7)",
                       "page": 29,
                       "entries": [
@@ -2691,6 +2807,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "035",
                       "name": "11. Fake Haunt",
                       "page": 30,
                       "entries": [
@@ -2708,6 +2825,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "038",
                       "name": "12. Vraath Vault",
                       "page": 30,
                       "entries": [
@@ -2737,6 +2855,7 @@
                         "The gauntlet was made from a bulette's teeth and claws, and despite its magic it looks fairly primitive. Embossed on the back of the gauntlet is a distinctive symbol that looks something like a frowning tusked mouth. This gauntlet once belonged to a Twistusk giant chieftain slain by Amery Vraath. Although it's probably too big for any of the PCs to use, they could sell it in a city such as Brindol for a modest profit. A better use for the gauntlet, though, is as a peace offering to Old Warklegnaw (see below).",
                         {
                           "type": "insetReadaloud",
+                          "id": "036",
                           "name": "Designers' Notes",
                           "page": 31,
                           "entries": [
@@ -2747,6 +2866,7 @@
                         },
                         {
                           "type": "inset",
+                          "id": "037",
                           "name": "Wyrmlord Koth Developments",
                           "page": 30,
                           "entries": [
@@ -2772,6 +2892,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "03a",
                   "name": "F. Old Forest Road",
                   "page": 31,
                   "entries": [
@@ -2780,6 +2901,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "03b",
                   "name": "G. Decrepit Effigy",
                   "page": 31,
                   "entries": [
@@ -2795,6 +2917,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "03d",
                   "name": "H. Old Warklegnaw (EL 7)",
                   "page": 31,
                   "entries": [
@@ -2829,6 +2952,7 @@
                     "{@b Ad Hoc XP Award:} If the characters manage to enlist Warklegnaw's assistance in the war effort, award them XP as if they had overcome a CR 7 encounter. Even improving his attitude to indifferent (and thus avoiding a fight) results in an XP award equal to a CR 6 encounter.",
                     {
                       "type": "inset",
+                      "id": "03c",
                       "name": "Warklegnaw Developments",
                       "page": 32,
                       "entries": [
@@ -2840,6 +2964,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "03h",
                   "name": "I. Skull Gorge Bridge (EL 10)",
                   "page": 32,
                   "entries": [
@@ -2937,6 +3062,7 @@
                     "{@b Treasure:} In addition to the combat gear Ozyrrandion and the hobgoblins carry, the dragon has six pearls embedded in his scales, each worth 100 gp.",
                     {
                       "type": "inset",
+                      "id": "03e",
                       "name": "Using Magic Against The Bridge",
                       "page": 33,
                       "entries": [
@@ -2949,6 +3075,7 @@
                     },
                     {
                       "type": "insetReadaloud",
+                      "id": "03f",
                       "name": "Designers' Notes",
                       "page": 35,
                       "entries": [
@@ -2959,6 +3086,7 @@
                     },
                     {
                       "type": "inset",
+                      "id": "03g",
                       "name": "Skull Gorge Bridge Developments",
                       "page": 34,
                       "entries": [
@@ -2970,6 +3098,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "03j",
                   "name": "J. Cinder Hill",
                   "page": 35,
                   "entries": [
@@ -2985,6 +3114,7 @@
                     },
                     {
                       "type": "inset",
+                      "id": "03i",
                       "name": "What Now?",
                       "page": 35,
                       "entries": [
@@ -2999,12 +3129,14 @@
             },
             {
               "type": "section",
+              "id": "046",
               "name": "Return To Drellin's Ferry",
               "page": 36,
               "entries": [
                 "Once the PCs get their hands on Wyrmlord Koth's map and notes, or when they observe the horde gathering at Cinder Hill, it should be clear that they need to warn the people of Drellin's Ferry about the impending attack.",
                 {
                   "type": "entries",
+                  "id": "03l",
                   "name": "Approaching Doom",
                   "page": 36,
                   "entries": [
@@ -3017,6 +3149,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "03n",
                   "name": "Saving the Town",
                   "page": 36,
                   "entries": [
@@ -3028,6 +3161,7 @@
                     "{@b Evacuate the Town:} This is by far the best option. Given any kind of head start, the folk of Drellin's Ferry will be able to flee east along the Dawn Way and stay ahead of the horde. Run the event The PCs' Next Move (page 41) when the town evacuates.",
                     {
                       "type": "inset",
+                      "id": "03m",
                       "name": " What if the PCs Came Back Early?",
                       "page": 36,
                       "entries": [
@@ -3039,6 +3173,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "03o",
                   "name": "Ill Tidings",
                   "page": 36,
                   "entries": [
@@ -3073,6 +3208,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "03s",
                   "name": "Goblin Raid",
                   "page": 37,
                   "entries": [
@@ -3098,6 +3234,7 @@
                     "{@b Combat:} The PCs are up against a band of blood-maddened reavers, eager to kill any who oppose them. The monsters hit the party in two waves.",
                     {
                       "type": "entries",
+                      "id": "03p",
                       "name": "First Wave (EL 7)",
                       "page": 37,
                       "entries": [
@@ -3113,6 +3250,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "03r",
                       "name": "Second Wave (EL 8)",
                       "page": 37,
                       "entries": [
@@ -3128,6 +3266,7 @@
                         "These raiders want to cause as much mayhem as possible and seek to withdraw if badly wounded. They would rather escape to fight another day, content with the havoc they've already caused this evening.",
                         {
                           "type": "inset",
+                          "id": "03q",
                           "name": "Goblin Raid Developments",
                           "page": 37,
                           "entries": [
@@ -3140,6 +3279,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "03u",
                   "name": "Chimera Attack (EL 7)",
                   "page": 38,
                   "entries": [
@@ -3159,6 +3299,7 @@
                     "{@b Combat:} The chimera is hungry and somewhat overconfident, so it thinks nothing of taking on a whole town single-handedly. The monster is not particularly cunning or clever (few chimeras are), so it strikes at whatever targets present themselves. The monster begins 200 feet up in the air, which allows it to descend to the ground by diving in a double move.",
                     {
                       "type": "item",
+                      "id": "03t",
                       "name": "",
                       "entries": [
                         "{@b Chimera:} hp 88 ({@i MM} 34)."
@@ -3171,6 +3312,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "03v",
                   "name": "Rumors of War",
                   "page": 38,
                   "entries": [
@@ -3194,6 +3336,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "03x",
                   "name": "Desperate Counsel",
                   "page": 38,
                   "entries": [
@@ -3233,6 +3376,7 @@
                     "{@b Ad Hoc XP Award:} Award the PCs XP equal to that of defeating a CR 5 monster if they succeed in persuading the council to adopt their preferred course of action. Award a +50% bonus if they advocate evacuation of the town (it's simply the best decision under the circumstances).",
                     {
                       "type": "inset",
+                      "id": "03w",
                       "name": "Taking Control of the Situation",
                       "page": 39,
                       "entries": [
@@ -3243,6 +3387,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "044",
                   "name": "Massacre at Drellin's Ferry",
                   "page": 39,
                   "entries": [
@@ -3278,6 +3423,7 @@
                     "{@b Combat:} If the PCs do something to signal their presence for example, taking long-range bowshots across the river, or trying to throw {@i fireballs} across—the Red Hand warriors retreat a bit, then counter with a raid of flying monsters to chase the PCs away. Some of the creatures that might be used to attack the east bank while the horde is preparing to cross include chimeras, manticores, wyverns, hieracosphinxes, wyrmling or very young dragons, or even Kulkor Zhul war adepts armed with flying magic.",
                     {
                       "type": "inset",
+                      "id": "03y",
                       "name": "Return Fire",
                       "page": 40,
                       "entries": [
@@ -3291,6 +3437,7 @@
                       "items": [
                         {
                           "type": "entries",
+                          "id": "03z",
                           "name": "First Wave (EL 9)",
                           "page": 40,
                           "entries": [
@@ -3305,6 +3452,7 @@
                         },
                         {
                           "type": "entries",
+                          "id": "040",
                           "name": "Second Wave (EL 11)",
                           "page": 40,
                           "entries": [
@@ -3320,6 +3468,7 @@
                         },
                         {
                           "type": "entries",
+                          "id": "041",
                           "name": "Third Wave (EL 13)",
                           "page": 40,
                           "entries": [
@@ -3336,6 +3485,7 @@
                         },
                         {
                           "type": "entries",
+                          "id": "042",
                           "name": "Assault Barge (EL 12 Each)",
                           "page": 40,
                           "entries": [
@@ -3360,6 +3510,7 @@
                     "If the PCs last long enough to battle against the assault barges crossing the river, they find that the Red Hand warriors launch twenty barges at the same time. Each barge holds all the creatures listed above. The regulars man the oars and row the barge across the river, while the veterans reply to attacks from the shore with archery of their own. It takes a barge 20 rounds to cross the river. While the barges cross, hill giants wade the river and more flying monsters cross at the same time.",
                     {
                       "type": "insetReadaloud",
+                      "id": "043",
                       "name": "Designers' Notes",
                       "page": 41,
                       "entries": [
@@ -3372,6 +3523,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "045",
                   "name": "The PCs' Next Move",
                   "page": 41,
                   "entries": [
@@ -3405,6 +3557,7 @@
             },
             {
               "type": "section",
+              "id": "047",
               "name": "Concluding Part I",
               "page": 41,
               "entries": [
@@ -3424,6 +3577,7 @@
         },
         {
           "type": "section",
+          "id": "06d",
           "name": "Part Two: The Ruins of Rhest",
           "page": 42,
           "entries": [
@@ -3441,6 +3595,7 @@
             "Some PCs might instead decide that their job is to harry the horde as it marches east, fighting the scouts, skirmishers, and monsters ranging out in front of the main body. If they decide to stay in Elsir Vale and resist the horde's onslaught, continue with The Elsir War, below.",
             {
               "type": "section",
+              "id": "04w",
               "name": "The Elsir War",
               "page": 42,
               "entries": [
@@ -3450,6 +3605,7 @@
                 "Eventually, the Red Hand comes up against its first real obstacle: the walls of Brindol. Refer to the Timeline on page 6; remember to modify the day of the horde's arrival to account for any delays the PCs cause.",
                 {
                   "type": "entries",
+                  "id": "04c",
                   "name": "Incorporating Horde Events Into the Adventure",
                   "page": 42,
                   "entries": [
@@ -3487,6 +3643,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "049",
                       "name": "How Many Events Do You Run?",
                       "page": 43,
                       "entries": [
@@ -3496,6 +3653,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "04a",
                       "name": "When Do Events Occur?",
                       "page": 43,
                       "entries": [
@@ -3505,6 +3663,7 @@
                     },
                     {
                       "type": "insetReadaloud",
+                      "id": "04b",
                       "name": "Designers' Notes",
                       "page": 43,
                       "entries": [
@@ -3516,6 +3675,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "04d",
                   "name": "Easy Skirmish (EL 6)",
                   "page": 43,
                   "entries": [
@@ -3544,6 +3704,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "04e",
                   "name": "Dirty Rotten Looters (EL 7)",
                   "page": 43,
                   "entries": [
@@ -3574,6 +3735,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "04g",
                   "name": "Mercenary Gold (EL 8)",
                   "page": 44,
                   "entries": [
@@ -3602,6 +3764,7 @@
                     "A leather satchel lying near a dead guard close to the chests contains a key to the chests and a letter. The letter is addressed to Captain Ervath Helmbreaker of the Shining Axe Company, Hammerfist Holds. It is a mercenary contract signed by Lord Jarmaath of Brindol, which hires the Shining Axes for the defense of the city; it refers to the 6,000 gp payment for the company's services. According to the letter, the Shining Axes—a skilled company of axe-wielding dwarves almost two hundred strong—are to set out for Brindol at once on receipt of Lord Jarmaath's payment.",
                     {
                       "type": "inset",
+                      "id": "04f",
                       "name": "The Mercenaries' Gold",
                       "page": 44,
                       "entries": [
@@ -3613,6 +3776,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "04i",
                   "name": "The Not-So-Sick Spy (EL 8)",
                   "page": 44,
                   "entries": [
@@ -3651,6 +3815,7 @@
                     "The clerics are no help if a fight breaks out; they have already used all their prepared spells for the day in tending the wounded. Additionally, once Miha bursts into action, they're too concerned with protecting their other patients to aid in Miha's capture.",
                     {
                       "type": "inset",
+                      "id": "04h",
                       "name": "Not-So-Sick Spy Developments",
                       "page": 45,
                       "entries": [
@@ -3662,6 +3827,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "04j",
                   "name": "Barghest Reavers (EL 8)",
                   "page": 46,
                   "entries": [
@@ -3692,6 +3858,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "04m",
                   "name": "Marked For Death (EL 10)",
                   "page": 46,
                   "entries": [
@@ -3733,6 +3900,7 @@
                     "The two prisoners bound to the trees are local farmers, both of whom died hours ago.",
                     {
                       "type": "insetReadaloud",
+                      "id": "04k",
                       "name": "Designers' Notes",
                       "page": 47,
                       "entries": [
@@ -3742,6 +3910,7 @@
                     },
                     {
                       "type": "inset",
+                      "id": "04l",
                       "name": "Marked For Death Developments",
                       "page": 47,
                       "entries": [
@@ -3752,6 +3921,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "04p",
                   "name": "Captured! (EL 7)",
                   "page": 47,
                   "entries": [
@@ -3774,6 +3944,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "04n",
                       "name": "Escape",
                       "page": 47,
                       "entries": [
@@ -3800,6 +3971,7 @@
                     },
                     {
                       "type": "insetReadaloud",
+                      "id": "04o",
                       "name": "Designers' Notes",
                       "page": 48,
                       "entries": [
@@ -3811,6 +3983,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "04v",
                   "name": "Into the Horde (EL 15)",
                   "page": 48,
                   "entries": [
@@ -3825,6 +3998,7 @@
                       "items": [
                         {
                           "type": "entries",
+                          "id": "04q",
                           "name": "Warriors",
                           "page": 48,
                           "entries": [
@@ -3849,6 +4023,7 @@
                         },
                         {
                           "type": "entries",
+                          "id": "04r",
                           "name": "Monsters and Champions",
                           "page": 48,
                           "entries": [
@@ -3870,6 +4045,7 @@
                         },
                         {
                           "type": "entries",
+                          "id": "04s",
                           "name": "The Undead Contingent",
                           "page": 49,
                           "entries": [
@@ -3886,6 +4062,7 @@
                         },
                         {
                           "type": "entries",
+                          "id": "04t",
                           "name": "Leaders and Commanders",
                           "page": 49,
                           "entries": [
@@ -3932,6 +4109,7 @@
                     },
                     {
                       "type": "inset",
+                      "id": "04u",
                       "name": "Into The Horde Developments",
                       "page": 49,
                       "entries": [
@@ -3944,6 +4122,7 @@
             },
             {
               "type": "section",
+              "id": "051",
               "name": "The Blackfens",
               "page": 49,
               "entries": [
@@ -3976,6 +4155,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "04x",
                   "name": "The Tiri Kitor",
                   "page": 49,
                   "entries": [
@@ -3987,6 +4167,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "04y",
                   "name": "Getting There",
                   "page": 50,
                   "entries": [
@@ -4000,6 +4181,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "050",
                   "name": "Exploring the Marsh",
                   "page": 50,
                   "entries": [
@@ -4007,6 +4189,7 @@
                     "Refer to the accompanying map of the Blackfens to identify the locations of three encounters that await the PCs as they travel through this area: Road Blockade (A), Starsong Hill (B), and The Ruins of Rhest (C). Each of these encounters has its own map detailing the area is takes place in.",
                     {
                       "type": "inset",
+                      "id": "04z",
                       "name": "Random Encounters in the Blackfens",
                       "page": 50,
                       "entries": [
@@ -4116,6 +4299,7 @@
             },
             {
               "type": "entries",
+              "id": "055",
               "name": "A. Road Blockade (EL 7)",
               "page": 50,
               "entries": [
@@ -4169,6 +4353,7 @@
                 "The sergeants and ogres are a little braver, but they also try to flee if reduced to 10 or fewer hit points.",
                 {
                   "type": "inset",
+                  "id": "052",
                   "name": "Road Blockade Developments",
                   "page": 52,
                   "entries": [
@@ -4178,6 +4363,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "053",
                   "name": "Spawn of Tiamat (EL 7)",
                   "page": 51,
                   "entries": [
@@ -4208,6 +4394,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "054",
                   "name": "Killiar's Hunters (EL 9)",
                   "page": 52,
                   "entries": [
@@ -4244,6 +4431,7 @@
             },
             {
               "type": "entries",
+              "id": "05a",
               "name": "B. Starsong Hill",
               "page": 53,
               "entries": [
@@ -4277,6 +4465,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "057",
                   "name": "Important People",
                   "page": 54,
                   "entries": [
@@ -4321,6 +4510,7 @@
                     },
                     {
                       "type": "insetReadaloud",
+                      "id": "056",
                       "name": "Designers' Notes",
                       "page": 55,
                       "entries": [
@@ -4333,6 +4523,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "059",
                   "name": "Meeting The Tiri Kitor",
                   "page": 55,
                   "entries": [
@@ -4385,6 +4576,7 @@
                     "Once the PCs run out of questions, Sellyria thanks them again for slaying the harrowblade (greenspawn). She also invites them to attend Lanikar's funeral the following day. In any case, the PCs are now free to move about Starsong Hill.",
                     {
                       "type": "inset",
+                      "id": "058",
                       "name": "Lanikar's Funeral",
                       "page": 56,
                       "entries": [
@@ -4398,12 +4590,14 @@
             },
             {
               "type": "entries",
+              "id": "05i",
               "name": "Starsong Hill Key Sites",
               "page": 53,
               "entries": [
                 "Places of particular interest in Starsong Hill include the following.",
                 {
                   "type": "entries",
+                  "id": "05b",
                   "name": "1. Watchposts",
                   "page": 53,
                   "entries": [
@@ -4412,6 +4606,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "05c",
                   "name": "2. Owl Nests",
                   "page": 53,
                   "entries": [
@@ -4420,6 +4615,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "05d",
                   "name": "3. Guest Tents",
                   "page": 53,
                   "entries": [
@@ -4428,6 +4624,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "05e",
                   "name": "4. House of the Speaker",
                   "page": 53,
                   "entries": [
@@ -4436,6 +4633,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "05f",
                   "name": "5. Temple of Corellon Larethian",
                   "page": 53,
                   "entries": [
@@ -4444,6 +4642,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "05g",
                   "name": "6. Hall of Ancestors",
                   "page": 54,
                   "entries": [
@@ -4455,6 +4654,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "05h",
                   "name": "7. Killiar's Home",
                   "page": 54,
                   "entries": [
@@ -4465,6 +4665,7 @@
             },
             {
               "type": "entries",
+              "id": "05s",
               "name": "C. The Ruins of Rhest",
               "page": 56,
               "entries": [
@@ -4510,6 +4711,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "05k",
                   "name": "Denizens of Rhest",
                   "page": 57,
                   "entries": [
@@ -4518,6 +4720,7 @@
                     "The rest of the lake is uninhabited by intelligent foes. If the PCs insist on exploring, feel free to have them encounter giant crocodiles, ochre jellies, ghouls or ghasts, and perhaps a shambling mound or two.",
                     {
                       "type": "inset",
+                      "id": "05j",
                       "name": "It's a Long Swim",
                       "page": 57,
                       "entries": [
@@ -4530,6 +4733,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "05l",
                   "name": "Observing Rhest",
                   "page": 58,
                   "entries": [
@@ -4543,6 +4747,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "05n",
                   "name": "Infiltration",
                   "page": 58,
                   "entries": [
@@ -4551,6 +4756,7 @@
                     "At night, the PCs fare much better unless they use any sort of light. An underwater approach allows for undetected entry into any point, day or night, unless the travelers are using an underwater light source.",
                     {
                       "type": "inset",
+                      "id": "05m",
                       "name": "Helping the PCs with Weather",
                       "page": 58,
                       "entries": [
@@ -4561,6 +4767,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "05r",
                   "name": "Enemy Reactions",
                   "page": 58,
                   "entries": [
@@ -4570,6 +4777,7 @@
                     "The third time the PCs are caught trying to invade Rhest, all the Red Hand agents respond to the alarm, since it is now obvious to them that the characters aren't going to stop until either they or all their foes are dead. Wyrmlord Saarvith mounts Regiarix, and the two take to the air to seek out intruders. Nurklenak climbs to the top of the Town Hall, orders his ettin to guard him, and casts his long-range spells or uses bardic music to aid his allies.",
                     {
                       "type": "entries",
+                      "id": "05o",
                       "name": "Reinforcements",
                       "page": 59,
                       "entries": [
@@ -4578,6 +4786,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "05p",
                       "name": "Retaliation",
                       "page": 59,
                       "entries": [
@@ -4595,6 +4804,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "05q",
                       "name": "Leaving The Job Unfinished",
                       "page": 59,
                       "entries": [
@@ -4607,11 +4817,13 @@
             },
             {
               "type": "entries",
+              "id": "068",
               "name": "The Ruins of Rhest Details",
               "page": 59,
               "entries": [
                 {
                   "type": "entries",
+                  "id": "05t",
                   "name": "1. Lizardfolk Huts (EL 5)",
                   "page": 59,
                   "entries": [
@@ -4637,6 +4849,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "05x",
                   "name": "2. Bell Tower (EL 7)",
                   "page": 59,
                   "entries": [
@@ -4652,6 +4865,7 @@
                     "The bell tower is held by a group of six hobgoblin veterans, commanded by a hobgoblin bladebearer named Korkulan. Typically, a shift of three hobgoblins is stationed on lookout duty in the bell room (the top floor) while the other three sleep in their makeshift barracks on the lower level. The three onduty hobgoblins take their job very seriously—it's an honor to them to be able to serve with one of the Wyrmlords. However, squabbles happen down in the lizardfolk huts all the time, so unless the hobgoblins see something unusual (such as a {@i fireball} or summoned monsters), they generally ignore the sounds of combat from these locations.",
                     {
                       "type": "entries",
+                      "id": "05u",
                       "name": "First Wave",
                       "page": 59,
                       "entries": [
@@ -4660,6 +4874,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "05v",
                       "name": "Second Wave",
                       "page": 59,
                       "entries": [
@@ -4668,6 +4883,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "05w",
                       "name": "Third Wave",
                       "page": 59,
                       "entries": [
@@ -4692,6 +4908,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "05y",
                   "name": "3. Town Hall",
                   "page": 60,
                   "entries": [
@@ -4734,6 +4951,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "05z",
                   "name": "3A. Roof (EL 7)",
                   "page": 61,
                   "entries": [
@@ -4747,6 +4965,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "060",
                   "name": "3B. Boardwalk (EL 5)",
                   "page": 61,
                   "entries": [
@@ -4759,6 +4978,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "061",
                   "name": "3C. Razorfiend Hatchery (EL 7)",
                   "page": 61,
                   "entries": [
@@ -4790,6 +5010,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "062",
                   "name": "3D. Ettin Guardpost (EL 6)",
                   "page": 61,
                   "entries": [
@@ -4809,6 +5030,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "063",
                   "name": "3E. Interrogation Room (EL 8)",
                   "page": 62,
                   "entries": [
@@ -4834,6 +5056,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "065",
                   "name": "3F. Saarvith's HQ (EL 7)",
                   "page": 62,
                   "entries": [
@@ -4892,6 +5115,7 @@
                     },
                     {
                       "type": "inset",
+                      "id": "064",
                       "name": "Wyrmlord Saarvith Development",
                       "page": 63,
                       "entries": [
@@ -4907,6 +5131,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "067",
                   "name": "3G. Regiarix's Lair (EL 7)",
                   "page": 64,
                   "entries": [
@@ -4942,6 +5167,7 @@
                     "{@b Treasure}: Since the theft of his original hoard, Regiarix has slowly amassed a new one, which he counts and recounts several times a day. He takes particular pride in the arms and armor of a Rhestiloran champion, which he found in one of the ruined chapels of the city. These items are a suit of {@i +2 full plate armor,} a {@i periapt of Wisdom +2,} and a {@i +2 silvered heavy mace.} The rest of his hoard includes a {@i horn of fog,} 8,800 sp, 2,300 gp, 130 pp, a gold necklace worth 800 gp, and eleven small gemstones (spinels, tourmalines, and peridots) worth 30 gp each. A small iron coffer, unlocked, contains the most valuable item of all—the Ghostlord's phylactery, a delicate adamantine chain on which are threaded a lion's claws and teeth; it radiates a strong aura of necromancy and evil.",
                     {
                       "type": "insetReadaloud",
+                      "id": "066",
                       "name": "Designers' Notes",
                       "page": 65,
                       "entries": [
@@ -4955,6 +5181,7 @@
             },
             {
               "type": "section",
+              "id": "06c",
               "name": "Concluding Part II",
               "page": 65,
               "entries": [
@@ -4966,6 +5193,7 @@
                   "items": [
                     {
                       "type": "entries",
+                      "id": "069",
                       "name": "The Ghostlord's Phylactery",
                       "page": 65,
                       "entries": [
@@ -4985,6 +5213,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "06b",
                       "name": "The Elf Alliance",
                       "page": 65,
                       "entries": [
@@ -5005,6 +5234,7 @@
                         "After you have tabulated the PCs' alliance points, consult whichever of the following paragraphs applies.",
                         {
                           "type": "item",
+                          "id": "06a",
                           "name": "",
                           "entries": [
                             "{@b Alliance Points 8 or Lower:} While the elves might be thankful to the PCs for driving off the Red Hand, they haven't been convinced to join the cause, and they refuse to risk their lives defending Brindol when they might need every last elf to defend their own lands. Further attempts to get them to join the fight only cause their patience to wear thin.",
@@ -5022,6 +5252,7 @@
         },
         {
           "type": "section",
+          "id": "07f",
           "name": "Part Three: The Ghostlord's Lair",
           "page": 66,
           "entries": [
@@ -5039,6 +5270,7 @@
             "Unfortunately for the vale, the Ghostlord is quite real.",
             {
               "type": "section",
+              "id": "06h",
               "name": "Ghostlord Lore",
               "page": 66,
               "entries": [
@@ -5051,6 +5283,7 @@
                 "Access to these books requires a DC 15 Diplomacy check and a bribe of 10 gp (or just a bribe of 20 gp without a check). Any character who has access to a library gains a +4 circumstance bonus on Knowledge checks he or she makes to answer the questions discussed below.",
                 {
                   "type": "entries",
+                  "id": "06e",
                   "name": "Who is the Ghostlord?",
                   "page": 67,
                   "entries": [
@@ -5063,6 +5296,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "06f",
                   "name": "What is the Ghostlord?",
                   "page": 67,
                   "entries": [
@@ -5071,6 +5305,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "06g",
                   "name": "Where is the Ghostlord?",
                   "page": 67,
                   "entries": [
@@ -5081,6 +5316,7 @@
             },
             {
               "type": "section",
+              "id": "06j",
               "name": "Travel to the Thornwaste",
               "page": 67,
               "entries": [
@@ -5089,6 +5325,7 @@
                 "This adventure assumes that the PCs should be able to reach the Thornwaste by day 30, twelve days before the earliest time when the horde can encamp at Brindol. Depending on where the PCs cross the Dawn Way, they could encounter towns still oblivious to the approaching danger, towns in the process of being evacuated, or towns that have already been razed to the ground. They could even run into the horde itself if they're not careful.",
                 {
                   "type": "inset",
+                  "id": "06i",
                   "name": "Crossing the War-Torn Vale",
                   "page": 67,
                   "entries": [
@@ -5099,6 +5336,7 @@
             },
             {
               "type": "section",
+              "id": "06k",
               "name": "The Thornwaste",
               "page": 68,
               "entries": [
@@ -5110,6 +5348,7 @@
             },
             {
               "type": "section",
+              "id": "07c",
               "name": "The Ghostlord's Lair",
               "page": 68,
               "entries": [
@@ -5130,6 +5369,7 @@
                 "Each of these shapes is in fact a failed attempt by the Ghostlord to create a ghost brute lion, now merely a harmless remnant of a lion's spirit. They do not harm intruders and can be turned or destroyed as if they were 3 Hit Die undead creatures, although they reform in one night's time. Only the destruction of the Lion's Heart (area 15) permanently puts these spirits to rest.",
                 {
                   "type": "inset",
+                  "id": "06l",
                   "name": "Random Encounters in the Thornwaste",
                   "page": 68,
                   "entries": [
@@ -5244,6 +5484,7 @@
                   "entries": [
                     {
                       "type": "entries",
+                      "id": "06m",
                       "name": "Check the Weather",
                       "page": 70,
                       "entries": [
@@ -5254,6 +5495,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "07b",
                   "name": "Ghostlord's Lair Details",
                   "page": 70,
                   "entries": [
@@ -5288,6 +5530,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "06n",
                       "name": "Denizens of the Lair",
                       "page": 70,
                       "entries": [
@@ -5298,6 +5541,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "06o",
                       "name": "1. The Lion's Walk",
                       "page": 70,
                       "entries": [
@@ -5315,6 +5559,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "06q",
                       "name": "2. Varanthian's Lair (EL 8)",
                       "page": 70,
                       "entries": [
@@ -5338,6 +5583,7 @@
                         "{@b Treasure:} Varanthian wears a simple bracelet around her left foreleg, a string of seven black pearls worth 500 gp each, which she uses as a devotional aid when praying to Tiamat.",
                         {
                           "type": "inset",
+                          "id": "06p",
                           "name": "Varanthian Development",
                           "page": 70,
                           "entries": [
@@ -5361,6 +5607,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "06r",
                       "name": "3. The Lion's Path (EL 8)",
                       "page": 71,
                       "entries": [
@@ -5380,6 +5627,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "06s",
                       "name": "4. Welcoming Chamber",
                       "page": 72,
                       "entries": [
@@ -5399,6 +5647,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "06t",
                       "name": "5. Central Stairwell",
                       "page": 72,
                       "entries": [
@@ -5415,6 +5664,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "06u",
                       "name": "6. Guardroom (EL 7)",
                       "page": 72,
                       "entries": [
@@ -5440,6 +5690,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "06v",
                       "name": "7. The Lion's Maw",
                       "page": 72,
                       "entries": [
@@ -5457,6 +5708,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "06w",
                       "name": "8. Dissection Chamber",
                       "page": 73,
                       "entries": [
@@ -5474,6 +5726,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "06x",
                       "name": "9. Ooze Pit (EL 7)",
                       "page": 73,
                       "entries": [
@@ -5498,6 +5751,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "06z",
                       "name": "10. Guest Quarters (EL 11)",
                       "page": 73,
                       "entries": [
@@ -5546,6 +5800,7 @@
                         },
                         {
                           "type": "insetReadaloud",
+                          "id": "06y",
                           "name": "Designers' Notes",
                           "page": 75,
                           "entries": [
@@ -5559,6 +5814,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "070",
                       "name": "11. Storeroom",
                       "page": 75,
                       "entries": [
@@ -5575,6 +5831,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "072",
                       "name": "12. Guest Quarters",
                       "page": 75,
                       "entries": [
@@ -5591,6 +5848,7 @@
                         "Ulwai's treasure is her gear; she keeps little else of value here. Likewise, she knows better than to keep written intelligence. She communicates with her superiors through magic, and on the rare occasions when she has been forced to use written communications, she has always been careful to destroy the letters once they've been read. If the PCs kill Ulwai, or she escapes, or they otherwise fail to successfully interrogate her, they must wait till after the defense of Brindol (in Part IV) to learn most of the information detailed in the Wyrmlord Ulwai Developments sidebar.",
                         {
                           "type": "inset",
+                          "id": "071",
                           "name": "Wyrmlord Ulwai Developments",
                           "page": 75,
                           "entries": [
@@ -5607,6 +5865,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "073",
                       "name": "13. The Pool of Rebirth (EL 9)",
                       "page": 76,
                       "entries": [
@@ -5643,6 +5902,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "074",
                       "name": "14. Parlor",
                       "page": 77,
                       "entries": [
@@ -5661,6 +5921,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "075",
                       "name": "15. The Lion's Heart",
                       "page": 77,
                       "entries": [
@@ -5687,6 +5948,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "076",
                       "name": "16. Chamber of the Betrayed (EL 13)",
                       "page": 77,
                       "entries": [
@@ -5720,6 +5982,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "077",
                       "name": "17. Shrine of Blight (EL 7)",
                       "page": 78,
                       "entries": [
@@ -5746,6 +6009,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "078",
                       "name": "18. Treasury",
                       "page": 78,
                       "entries": [
@@ -5763,6 +6027,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07a",
                       "name": "Confronting the Ghostlord (EL 13)",
                       "page": 79,
                       "entries": [
@@ -5779,6 +6044,7 @@
                         "The lich is true to his word. If the PCs return his phylactery, he helps them destroy any remaining hobgoblins here and doesn't send the ghosts and bonedrinkers north to join the horde. The PCs have secured a major victory with this development, and if they're wise, they won't stick around to get too friendly with the lich. Once he has his phylactery back, his good mood doesn't last for long, and if the PCs linger, he just might recruit them into his undead ranks.",
                         {
                           "type": "insetReadaloud",
+                          "id": "079",
                           "name": "Designers' Notes",
                           "page": 79,
                           "entries": [
@@ -5796,6 +6062,7 @@
             },
             {
               "type": "section",
+              "id": "07e",
               "name": "Concluding Part III",
               "page": 79,
               "entries": [
@@ -5803,6 +6070,7 @@
                 "Of course, the PCs don't have to come to Brindol's aid. If, instead, they decide to march on the Fane of Tiamat, you can proceed directly to Part V of the adventure. Brindol is sacked, and the survivors are forced to flee east to Dennovar, but Part V should play out more or less the same. In this case, the PCs will be one level lower than they should be when they tackle the Fane, and they'll miss out on the rewards that Lord Jarmaath gives those who aid in Brindol's defense, so they might find that they've bitten off more than they can chew.",
                 {
                   "type": "entries",
+                  "id": "07d",
                   "name": "A Call for Help",
                   "page": 79,
                   "entries": [
@@ -5826,6 +6094,7 @@
         },
         {
           "type": "section",
+          "id": "09a",
           "name": "Part Four: Enemy at the Gates",
           "page": 80,
           "entries": [
@@ -5843,6 +6112,7 @@
             "This part of the adventure presents the climactic confrontation between the Red Hand horde and the humans of Elsir Vale. By taking part in these events, the PCs can help turn back the horde. If they are successful here, and if they managed to stymie the horde at key points earlier in the adventure, they just might save the day!",
             {
               "type": "section",
+              "id": "089",
               "name": "The Days Before The Battle",
               "page": 80,
               "entries": [
@@ -5865,6 +6135,7 @@
                 },
                 {
                   "type": "inset",
+                  "id": "07g",
                   "name": "Before The Battle Developments",
                   "page": 81,
                   "entries": [
@@ -5876,6 +6147,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "082",
                   "name": "Brindol Key Sites",
                   "page": 81,
                   "entries": [
@@ -5907,6 +6179,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07h",
                       "name": "1. City Gates",
                       "page": 81,
                       "entries": [
@@ -5915,6 +6188,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07i",
                       "name": "2. The Stone Wyvern",
                       "page": 82,
                       "entries": [
@@ -5923,6 +6197,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07j",
                       "name": "3. Axenhaft Security",
                       "page": 82,
                       "entries": [
@@ -5931,6 +6206,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07k",
                       "name": "4. Shank's Shivs",
                       "page": 82,
                       "entries": [
@@ -5939,6 +6215,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07l",
                       "name": "5. Brindol Market",
                       "page": 82,
                       "entries": [
@@ -5947,6 +6224,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07m",
                       "name": "6. The Thirsty Zombie",
                       "page": 82,
                       "entries": [
@@ -5955,6 +6233,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07n",
                       "name": "7. Red Magic and Sundries",
                       "page": 82,
                       "entries": [
@@ -5969,6 +6248,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07o",
                       "name": "8. Shrine of Yondalla",
                       "page": 82,
                       "entries": [
@@ -5977,6 +6257,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07p",
                       "name": "9. The Craven Raven",
                       "page": 82,
                       "entries": [
@@ -5985,6 +6266,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07q",
                       "name": "10. Velorian's",
                       "page": 82,
                       "entries": [
@@ -5993,6 +6275,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07r",
                       "name": "11. Brindol Academy",
                       "page": 82,
                       "entries": [
@@ -6001,6 +6284,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07s",
                       "name": "12. The Laughing Manticore",
                       "page": 82,
                       "entries": [
@@ -6009,6 +6293,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07t",
                       "name": "13. Kaal Manor",
                       "page": 84,
                       "entries": [
@@ -6026,6 +6311,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07u",
                       "name": "14. Teskerwill Manor",
                       "page": 84,
                       "entries": [
@@ -6034,6 +6320,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07v",
                       "name": "15. Discreet Departures",
                       "page": 84,
                       "entries": [
@@ -6042,6 +6329,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07w",
                       "name": "16. Cathedral Square",
                       "page": 84,
                       "entries": [
@@ -6050,6 +6338,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "07x",
                       "name": "17. Cathedral of Pelor",
                       "page": 84,
                       "entries": [
@@ -6059,6 +6348,7 @@
                     "The cathedral has a host of nearly two dozen clerics, led by Shining Servant Tredora Goldenbrow, Brindol's most powerful cleric.",
                     {
                       "type": "entries",
+                      "id": "07y",
                       "name": "18. Brindol Keep",
                       "page": 84,
                       "entries": [
@@ -6068,6 +6358,7 @@
                     "dol welcomed this return to tradition with open arms, and the younger residents are just happy that someone relatively young is in charge of the city for a change. Lord Jarmaath is one of the best, and best loved, leaders Brindol has ever had. It remains to be seen during the Battle of Brindol if history cares.",
                     {
                       "type": "entries",
+                      "id": "07z",
                       "name": "19. Haskinar Mansion",
                       "page": 84,
                       "entries": [
@@ -6076,6 +6367,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "080",
                       "name": "20. Brindol Cemetery",
                       "page": 84,
                       "entries": [
@@ -6084,6 +6376,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "081",
                       "name": "21. Temple of Wee Jas",
                       "page": 85,
                       "entries": [
@@ -6094,6 +6387,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "083",
                   "name": "Important People",
                   "page": 85,
                   "entries": [
@@ -6125,6 +6419,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "088",
                   "name": "Audience with the Lords",
                   "page": 85,
                   "entries": [
@@ -6142,6 +6437,7 @@
                     "The easiest way to run this audience is to break it down into four phases. During all four phases, the council members offer their commentary as indicated. If the PCs present themselves well and offer sound advice, they have a chance not only to improve the morale of Brindol's movers and shakers (and thus the morale of the city's defenders as a whole) but also to prevent unnecessary deaths that would have resulted from poor tactics.",
                     {
                       "type": "entries",
+                      "id": "084",
                       "name": "Phase One: Introductions",
                       "page": 86,
                       "entries": [
@@ -6163,6 +6459,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "085",
                       "name": "Phase Two: Battle Plans",
                       "page": 87,
                       "entries": [
@@ -6185,6 +6482,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "086",
                       "name": "Phase Three: City Defense",
                       "page": 87,
                       "entries": [
@@ -6208,6 +6506,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "087",
                       "name": "Phase Four: Pcs On The Battlefield",
                       "page": 88,
                       "entries": [
@@ -6223,6 +6522,7 @@
             },
             {
               "type": "section",
+              "id": "099",
               "name": "The Battle of Brindol",
               "page": 88,
               "entries": [
@@ -6241,6 +6541,7 @@
                   "entries": [
                     {
                       "type": "entries",
+                      "id": "08b",
                       "name": "Battlefield Resources",
                       "page": 88,
                       "entries": [
@@ -6253,6 +6554,7 @@
                         "{@b Spells:} All of Brindol's available clerics are stationed at the Cathedral of Pelor or assigned to infantry groups—there won't be any available to cast spells for the PCs as a result.",
                         {
                           "type": "insetReadaloud",
+                          "id": "08a",
                           "name": "Designers' Notes",
                           "page": 89,
                           "entries": [
@@ -6269,6 +6571,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "08d",
                   "name": "Save The Walls (EL 11)",
                   "page": 89,
                   "entries": [
@@ -6290,6 +6593,7 @@
                     "{@b Development:} Not long after this encounter is over, the PCs receive word from Lord Jarmaath through their {@i telepathic link} that the other group failed to stop the giants it was battling, which have managed to breach the wall at the western gate. Jarmaath orders the army to fall back to the breach in an attempt to hold it. Allow the PCs to react to this development as they wish—but before they have a chance to aid in the defense of the breach, the next event (Abithriax's Rampage) begins.",
                     {
                       "type": "inset",
+                      "id": "08c",
                       "name": "Danger Outside The Wall",
                       "page": 89,
                       "entries": [
@@ -6301,6 +6605,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "08e",
                   "name": "Abithriax's Rampage (EL 10)",
                   "page": 90,
                   "entries": [
@@ -6339,6 +6644,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "08l",
                   "name": "Streets of Blood",
                   "page": 91,
                   "entries": [
@@ -6362,6 +6668,7 @@
                     "{@b Creatures:} The horde sends several waves of attackers at the PCs in this event. These are advance shock troops, moving ahead of the main body of the horde. Allow each wave's resulting combat to play out, then let {@dice 1d4+2} rounds pass before the next wave arrives. The PCs have just enough time to reposition themselves, cast some healing magic, and perhaps make some quick repairs to the barricade, but they won't have enough time to call in reinforcements unless they use magic ({@i dimension door}, {@i summon monster}, and the like).",
                     {
                       "type": "entries",
+                      "id": "08f",
                       "name": "First Wave (EL 9)",
                       "page": 92,
                       "entries": [
@@ -6378,6 +6685,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "08g",
                       "name": "Second Wave (EL 10)",
                       "page": 92,
                       "entries": [
@@ -6392,6 +6700,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "08h",
                       "name": "Third Wave (EL 11)",
                       "page": 92,
                       "entries": [
@@ -6408,6 +6717,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "08i",
                       "name": "Fourth Wave (EL 12)",
                       "page": 92,
                       "entries": [
@@ -6423,6 +6733,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "08k",
                       "name": "Fifth Wave (EL 12)",
                       "page": 92,
                       "entries": [
@@ -6439,6 +6750,7 @@
                         },
                         {
                           "type": "inset",
+                          "id": "08j",
                           "name": "Streets of Blood Development",
                           "page": 92,
                           "entries": [
@@ -6451,6 +6763,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "08n",
                   "name": "Sniper Attack (EL 11)",
                   "page": 93,
                   "entries": [
@@ -6502,6 +6815,7 @@
                     "Skather is a deadly foe, but one who would prefer to live to fight another day. If he's brought below 30 hit points, he tries to flee. If he escapes, he returns all the way to the Fane of Tiamat—he considers only Azarr Kul his superior and does not report to any of the lesser Wyrmlords. In this case, the PCs certainly encounter the ninja again in Part V of the adventure.",
                     {
                       "type": "inset",
+                      "id": "08m",
                       "name": "Sniper Attack Developments",
                       "page": 94,
                       "entries": [
@@ -6512,6 +6826,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "08p",
                   "name": "Final Battle (EL 12+)",
                   "page": 94,
                   "entries": [
@@ -6545,6 +6860,7 @@
                     },
                     {
                       "type": "inset",
+                      "id": "08o",
                       "name": "Final Battle Developments",
                       "page": 95,
                       "entries": [
@@ -6555,6 +6871,7 @@
                 },
                 {
                   "type": "section",
+                  "id": "098",
                   "name": "Victory Points",
                   "page": 95,
                   "entries": [
@@ -6562,6 +6879,7 @@
                     "As the PCs are recovering from their battle and reveling in their victory over Kharn, take a moment to go over their successes throughout the adventure. Each of their victories earn them a number of victory points (VP), as detailed below.",
                     {
                       "type": "entries",
+                      "id": "095",
                       "name": "Awarding Points",
                       "page": 95,
                       "entries": [
@@ -6572,6 +6890,7 @@
                           "items": [
                             {
                               "type": "entries",
+                              "id": "08q",
                               "name": "Destroying Skull Gorge Bridge",
                               "page": 95,
                               "entries": [
@@ -6580,6 +6899,7 @@
                             },
                             {
                               "type": "entries",
+                              "id": "08r",
                               "name": "Twistusk Aid",
                               "page": 95,
                               "entries": [
@@ -6588,6 +6908,7 @@
                             },
                             {
                               "type": "entries",
+                              "id": "08s",
                               "name": "Evacuating Drellin's Ferry",
                               "page": 96,
                               "entries": [
@@ -6596,6 +6917,7 @@
                             },
                             {
                               "type": "entries",
+                              "id": "08t",
                               "name": "Busting a Road Blockade",
                               "page": 96,
                               "entries": [
@@ -6604,6 +6926,7 @@
                             },
                             {
                               "type": "entries",
+                              "id": "08u",
                               "name": "Delivering the Gold",
                               "page": 96,
                               "entries": [
@@ -6612,6 +6935,7 @@
                             },
                             {
                               "type": "entries",
+                              "id": "08v",
                               "name": "Tiri Kitor Alliance",
                               "page": 96,
                               "entries": [
@@ -6620,6 +6944,7 @@
                             },
                             {
                               "type": "entries",
+                              "id": "08w",
                               "name": "Disrupting the Hatchery",
                               "page": 96,
                               "entries": [
@@ -6628,6 +6953,7 @@
                             },
                             {
                               "type": "entries",
+                              "id": "08x",
                               "name": "Disrupting Ghostlord Alliance",
                               "page": 96,
                               "entries": [
@@ -6636,6 +6962,7 @@
                             },
                             {
                               "type": "entries",
+                              "id": "08y",
                               "name": "Exposing Miha",
                               "page": 96,
                               "entries": [
@@ -6644,6 +6971,7 @@
                             },
                             {
                               "type": "entries",
+                              "id": "08z",
                               "name": "Audience with the Defense Council",
                               "page": 96,
                               "entries": [
@@ -6656,6 +6984,7 @@
                             },
                             {
                               "type": "entries",
+                              "id": "090",
                               "name": "Disrupting Hill Giant Battery",
                               "page": 96,
                               "entries": [
@@ -6664,6 +6993,7 @@
                             },
                             {
                               "type": "entries",
+                              "id": "091",
                               "name": "Putting out the Fires",
                               "page": 96,
                               "entries": [
@@ -6672,6 +7002,7 @@
                             },
                             {
                               "type": "entries",
+                              "id": "092",
                               "name": "Holding the Dawn Way",
                               "page": 96,
                               "entries": [
@@ -6680,6 +7011,7 @@
                             },
                             {
                               "type": "entries",
+                              "id": "093",
                               "name": "Catching the Sniper",
                               "page": 96,
                               "entries": [
@@ -6688,6 +7020,7 @@
                             },
                             {
                               "type": "entries",
+                              "id": "094",
                               "name": "Killing Commanders",
                               "page": 96,
                               "entries": [
@@ -6713,6 +7046,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "096",
                       "name": "Victory!",
                       "page": 96,
                       "entries": [
@@ -6723,6 +7057,7 @@
                     },
                     {
                       "type": "entries",
+                      "id": "097",
                       "name": "Defeat!",
                       "page": 96,
                       "entries": [
@@ -6740,6 +7075,7 @@
         },
         {
           "type": "section",
+          "id": "09z",
           "name": "Part Five: The Fane of Tiamat",
           "page": 97,
           "entries": [
@@ -6761,6 +7097,7 @@
             "Before the PCs go, Lord Jarmaath can donate some magic to their cause. He has gathered together the following supplies (most of it looted from dead hobgoblins): {@i 8 potions of cure moderate wounds}, {@i 3 potions of bull's strength}, {@i 5 potions of invisibility}, 2 scrolls of {@i haste}, and a scroll of {@i fly}.",
             {
               "type": "section",
+              "id": "09x",
               "name": "The Wyrmsmoke Mountains",
               "page": 98,
               "entries": [
@@ -6769,6 +7106,7 @@
                 "Characters who use the trail find it aids their travel through the mountains, allowing them to move at three quarters of their normal speed. Off the trail, the mountains are rugged and unforgiving—reduce overland speeds by half.",
                 {
                   "type": "entries",
+                  "id": "09b",
                   "name": "Fane of Tiamat Features",
                   "page": 98,
                   "entries": [
@@ -6788,6 +7126,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09d",
                   "name": "Security",
                   "page": 98,
                   "entries": [
@@ -6797,6 +7136,7 @@
                     "The mobile patrols are made up of blackspawn raiders (see page 117). These creatures rest and eat in a large barracks (area 4), but as a rule only six of them can be found there at any given time, with the others out patrolling the halls and chambers of the Fane, on constant alert for trouble. A total of thirty blackspawn raiders dwell in the Fane, arranged into ten groups of three each. As the PCs explore the Fane, they have a {@chance 20} chance every 10 minutes to encounter one of these patrols. In addition, each time a battle begins there's a {@chance 20} chance that a blackspawn raider patrol is nearby and responds to the sounds of combat, arriving {@dice 1d4+1} rounds after the fight begins. Since Azarr Kul only has a limited supply of blackspawn, keep track of the number the PCs slay, subtracting them from the total. Azarr Kul is busy in the Fane's inner sanctum (area 17) during this entire part of the adventure, overseeing the ritual to establish a permanent portal between the Material Plane and Tiamat's court, but he'll do what he can to reinforce guards the PCs slay. He can replace slain blackspawn raiders at the rate of one patrol (three blackspawn) per day. He has no capability to replace the other guardian monsters with others of their kind, but he'll do the next best thing by replacing each with a pair of blue abishai (see page 117), draconic devils that serve Tiamat as rank-and-file soldiers in her infernal wars. Once per day, Azarr Kul can replace one defeated guardian with a pair of blue abishai.",
                     {
                       "type": "inset",
+                      "id": "09c",
                       "name": "Random Encounters in the Wyrmsmoke Mountains",
                       "page": 98,
                       "entries": [
@@ -6940,6 +7280,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09e",
                   "name": "1. The Mark of Tiamat (EL 11)",
                   "page": 99,
                   "entries": [
@@ -6979,6 +7320,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09f",
                   "name": "2. Dragons' Lair",
                   "page": 101,
                   "entries": [
@@ -7007,6 +7349,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09g",
                   "name": "3. Foyer (EL 9)",
                   "page": 101,
                   "entries": [
@@ -7034,6 +7377,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09h",
                   "name": "4. Guard Barracks (EL 9)",
                   "page": 102,
                   "entries": [
@@ -7059,6 +7403,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09i",
                   "name": "5. Storage",
                   "page": 102,
                   "entries": [
@@ -7075,6 +7420,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09j",
                   "name": "6. Torture Chamber (EL 9)",
                   "page": 102,
                   "entries": [
@@ -7113,6 +7459,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09k",
                   "name": "7. Guest Quarters",
                   "page": 103,
                   "entries": [
@@ -7129,6 +7476,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09l",
                   "name": "8. Priest Cells (EL 11)",
                   "page": 103,
                   "entries": [
@@ -7158,6 +7506,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09m",
                   "name": "9. Laryssa's Kitchen (EL 10)",
                   "page": 104,
                   "entries": [
@@ -7190,6 +7539,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09n",
                   "name": "10. Council Chamber",
                   "page": 106,
                   "entries": [
@@ -7232,6 +7582,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09o",
                   "name": "11. Great Temple of Tiamat (EL 11)",
                   "page": 106,
                   "entries": [
@@ -7259,6 +7610,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09p",
                   "name": "12. Cavern of the Guardian Spawn (EL 12)",
                   "page": 106,
                   "entries": [
@@ -7284,6 +7636,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09q",
                   "name": "13. Outer Sanctum (EL 12)",
                   "page": 107,
                   "entries": [
@@ -7313,6 +7666,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09r",
                   "name": "14. High Wyrmlord's Chambers (EL 10)",
                   "page": 107,
                   "entries": [
@@ -7351,6 +7705,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09s",
                   "name": "15. Summoning Room",
                   "page": 108,
                   "entries": [
@@ -7369,6 +7724,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09t",
                   "name": "16. Treasury (EL 13)",
                   "page": 108,
                   "entries": [
@@ -7441,6 +7797,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09v",
                   "name": "17. Inner Sanctum (EL 14)",
                   "page": 109,
                   "entries": [
@@ -7474,6 +7831,7 @@
                     "If brought below 25 hit points, Azarr Kul uses {@i mislead} to escape down to area 13. From there, he gathers what allies he can from the Fane and returns to the inner sanctum (using his {@i word of recall} scroll if he's pressed for time) to reclaim it from the PCs.",
                     {
                       "type": "insetReadaloud",
+                      "id": "09u",
                       "name": "Designers' Notes",
                       "page": 110,
                       "entries": [
@@ -7486,6 +7844,7 @@
                 },
                 {
                   "type": "entries",
+                  "id": "09w",
                   "name": "Tiamat's Wrath (EL 13)",
                   "page": 110,
                   "entries": [
@@ -7523,6 +7882,7 @@
             },
             {
               "type": "section",
+              "id": "09y",
               "name": "Conclusion",
               "page": 110,
               "entries": [
