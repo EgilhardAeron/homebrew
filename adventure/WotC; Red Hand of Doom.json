@@ -5,6 +5,7 @@
         "json": "RedHandOfDoom",
         "abbreviation": "RHoD",
         "full": "Red Hand of Doom",
+        "url": "https://www.dmsguild.com/en/product/28797/red-hand-of-doom-3e",
         "authors": [
           "James Jacobs",
           "Richard Baker"
@@ -24,12 +25,18 @@
       "source": "RedHandOfDoom",
       "group": "supplement",
       "level": {
-        "start": 5,
-        "end": 10
+        "custom": "6–12 (3.5e)"
+      },
+      "cover": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/cover.webp"
       },
       "published": "2006-02-01",
       "storyline": "",
       "contents": [
+        {
+          "name": "Cover & Credits"
+        },
         {
           "name": "Introduction",
           "headers": [
@@ -390,7 +397,7 @@
           ]
         },
         {
-          "name": "Part Fourt: Enemy at the Gates",
+          "name": "Part Four: Enemy at the Gates",
           "headers": [
             "The Days Before the Battle",
             {
@@ -502,12 +509,12 @@
           ]
         },
         {
-          "name": "Part Five: The Fane Of Tiamat",
+          "name": "Part Five: The Fane of Tiamat",
           "headers": [
             "The Wyrmsmoke Mountains",
             {
               "depth": 1,
-              "header": "1. The Mark Of Tiamat (EL 11)"
+              "header": "1. The Mark of Tiamat (EL 11)"
             },
             {
               "depth": 1,
@@ -547,11 +554,11 @@
             },
             {
               "depth": 1,
-              "header": "11. Great Temple Of Tiamat (EL 11)"
+              "header": "11. Great Temple of Tiamat (EL 11)"
             },
             {
               "depth": 1,
-              "header": "12. Cavern Of The Guardian Spawn (EL 12)"
+              "header": "12. Cavern of the Guardian Spawn (EL 12)"
             },
             {
               "depth": 1,
@@ -586,15 +593,84 @@
       "data": [
         {
           "type": "section",
+          "name": "Cover & Credits",
+          "page": 1,
+          "entries": [
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/cover-full.webp"
+              },
+              "title": "Red Hand of Doom Cover",
+              "credit": "David Hudnut"
+            },
+            {
+              "type": "section",
+              "name": "Credits",
+              "page": 3,
+              "entries": [
+                {
+                  "type": "list",
+                  "style": "list-no-bullets",
+                  "columns": 2,
+                  "items": [
+                    "{@b Designers:} Richard Baker, James Jacobs",
+                    "{@b Developer:} Andy Collins",
+                    "{@b Editor:} John Rateliff",
+                    "{@b Editing Manager:} Kim Mohan",
+                    "{@b Design Manager:} Christopher Perkins",
+                    "{@b Development Manager:} Jesse Decker",
+                    "{@b Director of RPG R&D:} Bill Slavicsek",
+                    "{@b Production Managers:} Josh Fischer, Randall Crews",
+                    "{@b Art Director D&D:} Karin Jaques",
+                    "{@b Cover Artist:} David Hudnut",
+                    "{@b Interior Artists:} Wayne England, Randy Gallegos, Des Hanley, Ralph Horsley, Howard Lyon, Lucio Parillo, Eric Polak, Scott Roller, Francis Tsai, Franz Vohwinkel, Eva Widermann",
+                    "{@b Cartographer:} Mike Schley",
+                    "{@b Graphic Designer:} Dee Barnett",
+                    "{@b Graphic Production Specialist:} Erin Dorries",
+                    "{@b Image Technician:} Travis Adams"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "entries": [
+                "Based on the original DUNGEONS & DRAGONS® rules created by E. Gary Gygax and Dave Arneson, and the new DUNGEONS & DRAGONS game designed by Jonathan Tweet, Monte Cook, Skip Williams, Richard Baker, and Peter Adkison.",
+                "This product uses updated material from the v.3.5 revision.",
+                "This W IZARDS OF THE COAST ® game product contains no Open Game Content. No portion of this work may be reproduced in any form without written permission. To learn more about the Open Gaming License and the d20 System License, please visit www.wizards.com/d20"
+              ]
+            },
+            {
+              "type": "entries",
+              "entries": [
+                "DUNGEONS & DRAGONS, D&D, DUNGEON MASTER, d20, d20 System, WIZARDS OF THE COAST, {@i Player's Handbook, Dungeon Master's Guide, Monster Manual, Red Hand of Doom}, all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast, Inc., in the U.S.A. and other countries. This material is protected under the copyright laws of the United States of America. Any reproduction or unauthorized use of the material or artwork contained herein is prohibited without the express written permission of Wizards of the Coast, Inc. This product is a work of fiction. Any similarity to actual people, organizations, places, or events is purely coincidental. Printed in the U.S.A. ©2006 Wizards of the Coast, Inc."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
           "name": "Introduction",
           "page": 3,
           "entries": [
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/015.webp"
+              },
+              "title": "Azarr Kul, commander of the Red Hand horde",
+              "credit": "Des Hanley"
+            },
+            "",
             "{@i The dry hilltops danced with fire. Throughout the heart of the wild badlands the humans called the Wyrmsmokes, great bonfires had been kindled atop the ridges overlooking Elsir Vale. There thousands of warriors had gathered—hobgoblins in armor dyed scarlet, thick-thewed bugbear berserkers, goblin worg riders and skirmishers and archers, and the scaled ones as well, who often towered over the rest. For so long they had fought each other, tribe against tribe, race against race, engaged in the endless test of battle, feud, and betrayal. But tonight... tonight they stood together, hated enemies shoulder-to-shoulder, shouting together as brothers. And they saw that they were strong, and together they danced and sang and shook their blades at the smoke-hidden stars overhead.}",
             "{@i “We are the Kulkor Zhul!” they shouted, and the hills shook with the thunder of their voices. “We are the People of the Dragon! Uighulth na Hargai! None can stand before us!”}",
             "{@i One by one the tribes fell silent. Armor creaked as thousands turned to look up to the Place of Speaking. There, a single champion emerged from the assemblage and slowly climbed the ancient stone stair cut into the side of the hill. A hundred bright yellow banners stood beneath him like a phalanx of spears, each marked with a great red hand. The warpriests holding the banners chanted battle-prayers in low voices as the champion ascended.}",
             "{@i On the hundredth step he stopped and turned to face the waiting warriors. He was tall and strong, one of the hobgoblin chieftains, but dull blue scales gleamed along his shoulders, and jutting horns swept back from his head. “I am Azarr Kul, Son of the Dragon!” he cried. “Hear me, warriors of the Kulkor Zhul! Tomorrow we march to war!”}",
-            "{@i The warriors roared their approval, stamping their feet and clashing spear to shield. Azarr Kul waited, holding his hands aloft until they quieted again. “The warpriests of the Doom Hand have shown us the way! They have taught us honor, discipline, obedience—and strength! No more will we waste our blood fighting each other. We will take the lands of the elf, the dwarf, and the human, and make them ours! Under the banner of the Red Hand of Doom we march to victory and conquest! Remember that you stood here this night, warriors of Kulkor Zhul! For a hundred generations your sons and your sons’ sons will sing of the blood spilled by your swords and the glory you win in the nights to come! Now, my brothers—to WAR!”}",
-            "{@i The burning hills were too small to hold the shout the Kulkor Zhul gave in answer to their warlord’s call.}",
+            "{@i The warriors roared their approval, stamping their feet and clashing spear to shield. Azarr Kul waited, holding his hands aloft until they quieted again. “The warpriests of the Doom Hand have shown us the way! They have taught us honor, discipline, obedience—and strength! No more will we waste our blood fighting each other. We will take the lands of the elf, the dwarf, and the human, and make them ours! Under the banner of the Red Hand of Doom we march to victory and conquest! Remember that you stood here this night, warriors of Kulkor Zhul! For a hundred generations your sons and your sons' sons will sing of the blood spilled by your swords and the glory you win in the nights to come! Now, my brothers—to WAR!”}",
+            "{@i The burning hills were too small to hold the shout the Kulkor Zhul gave in answer to their warlord's call.}",
             "War is gathering in the dry brown hills known as the Wyrmsmoke Mountains. As midsummer settles over the land, smothering everything in heat and dust, the fierce warriors of the Kulkor Zhul—“People of the Dragon” in the hobgoblin tongue—gather beneath the dreaded Red Hand banner, ready to sweep down out of the Wyrmsmokes and conquer the human lands below. Your player characters face an onslaught of fire and steel the likes of which few have ever seen.",
             "{@b Encounter Levels:} {@i Red Hand of Doom} is designed for a party of four characters who begin the adventure at 5th level. Over the course of the adventure they should accumulate enough experience to reach 10th level before the climactic encounters at the end of the adventure",
             {
@@ -773,7 +849,7 @@
                       "rows": [
                         [
                           "Day 1",
-                          "PCs encounter marauders near Drellin’s Ferry."
+                          "PCs encounter marauders near Drellin's Ferry."
                         ],
                         [
                           "Day 7",
@@ -789,7 +865,7 @@
                         ],
                         [
                           "Day 12",
-                          "Horde attacks Drellin’s Ferry."
+                          "Horde attacks Drellin's Ferry."
                         ],
                         [
                           "Day 19",
@@ -797,7 +873,7 @@
                         ],
                         [
                           "Day 26",
-                          "Red Hand takes Nimon’s Gap."
+                          "Red Hand takes Nimon's Gap."
                         ],
                         [
                           "Day 32",
@@ -871,6 +947,31 @@
                           "name": "Final Encounters",
                           "page": 7,
                           "entry": "Low-level warriors late in the adventure have heard enough about the PCs that they avoid engaging them if possible. They use the tactics outlined above only if a powerful, charismatic leader is on hand to drive them against the heroes. Otherwise, they flee."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list",
+                      "style": "list-no-bullets",
+                      "columns": 2,
+                      "items": [
+                        {
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/016.webp"
+                          },
+                          "title": "Hobgoblins of the horde show no mercy",
+                          "credit": "Lucio Parillo"
+                        },
+                        {
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/018.webp"
+                          },
+                          "title": "Red Hand hobgoblins lie in wait for their next prey",
+                          "credit": "Lucio Parillo"
                         }
                       ]
                     }
@@ -1358,6 +1459,15 @@
                       "entries": [
                         "South of Elsir Vale lie the Wyvernwatch Mountains, a forbidding range of high, steep mountains with few passes leading to the other side. The Wyvernwatches divide Elsir Vale from the more densely populated and civilized realms of the southern coast. Only the most determined trekkers cross the range; most go hundreds of miles out of their way by circling east or west around the mountains before turning north."
                       ]
+                    },
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/017.webp"
+                      },
+                      "title": "Elsir Vale before the coming of the Red Hand—the calm before the storm",
+                      "credit": "Randy Gallegos"
                     }
                   ]
                 }
@@ -1477,9 +1587,24 @@
           "name": "Part One: The Witchwood",
           "page": 14,
           "entries": [
-            "Red Hand of Doom opens with a campaign of desperate skirmishes against the marauders preceding the Red Hand horde. Under the leadership of Wyrmlord Koth, a powerful warband of goblins, hobgoblins, bugbears, and monsters menaces the small human town of Drellin's Ferry. The PCs quickly discover that the savage raiders plaguing the Witchwood are only the advance guard for a much larger invasion, transforming the skirmishes against the Wyrmlord's marauders into a desperate struggle to buy time for the folk of Drellin's Ferry to escape.",
-            "Let your players ask any questions or make any preparations they like before continuing. Presumably they've had an opportunity to trade or craft magic items and add spells to spellbooks before setting out on their quest, so be generous in allowing time-consuming preparations. Once the adventure starts, the PCs will be hard-pressed to find a lot of time for such tasks.",
-            "When you're ready, begin the adventure by staging the following encounter.",
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/019.webp"
+              },
+              "title": "Uneasiness hangs over the peaceful town of Drellin's Ferry",
+              "credit": "Ralph Horsley"
+            },
+            "",
+            {
+              "type": "entries",
+              "entries": [
+                "Red Hand of Doom opens with a campaign of desperate skirmishes against the marauders preceding the Red Hand horde. Under the leadership of Wyrmlord Koth, a powerful warband of goblins, hobgoblins, bugbears, and monsters menaces the small human town of Drellin's Ferry. The PCs quickly discover that the savage raiders plaguing the Witchwood are only the advance guard for a much larger invasion, transforming the skirmishes against the Wyrmlord's marauders into a desperate struggle to buy time for the folk of Drellin's Ferry to escape.",
+                "Let your players ask any questions or make any preparations they like before continuing. Presumably they've had an opportunity to trade or craft magic items and add spells to spellbooks before setting out on their quest, so be generous in allowing time-consuming preparations. Once the adventure starts, the PCs will be hard-pressed to find a lot of time for such tasks.",
+                "When you're ready, begin the adventure by staging the following encounter."
+              ]
+            },
             {
               "type": "entries",
               "name": "Adventure Start",
@@ -1817,6 +1942,31 @@
                         "{@b Norro Wiston:} The Town Speaker (NG male human aristocrat 5) is a tall, balding man of about fifty who wears a neatly trimmed salt-and-pepper beard. A wealthy landowner whose family has been prominent in Drellin's Ferry for generations, he's a hard worker and keen businessman who comes by his fortune more or less honestly. Wiston has been Speaker (or head of the Town Council) for almost ten years, and in that time Drellin's Ferry has enjoyed peace and prosperity. The threat of the Red Hand is something that he is ill suited to counter, and he knows it, but Wiston is hesitant to let anyone else call the shots for the townsfolk.",
                         "{@b Sertieren the Wise:} The town wizard (N male halfling abjurer 5, Scribe Scroll and Craft Wondrous Item feats) is a highly regarded halfling of middle years who wears spectacles and has a disheveled mop of gray-white hair. An unassuming scholar, he is unselfish about using his magic for the benefit of his neighbors. He is willing to provide arcane spellcasting to PCs in the service of the town for half the normal cost. He also has a small number of scrolls and minor wondrous items he would be willing to sell.",
                         "{@b Captain Soranna Anitah:} Leader of the Town Guard, captain of the militia, and chief constable, Soranna (NG female human fighter 5; see page 122) is a tall, strong-boned woman with simple good looks hidden behind an unsmiling manner. As leader of the town's guardsmen, Soranna holds a seat on the council, but she strictly interprets her role in running the town's affairs and follows the Speaker's lead unquestioningly. A former merchants' guard captain who traveled widely before settling in Drellin's Ferry, she has a good idea of the sort of trouble the town is in for, and she is worried sick."
+                      ]
+                    },
+                    {
+                      "type": "list",
+                      "style": "list-no-bullets",
+                      "columns": 2,
+                      "items": [
+                        {
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/020.webp"
+                          },
+                          "title": "Captain Soranna Anitah of the town guard",
+                          "credit": "Lucio Parillo"
+                        },
+                        {
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/021.webp"
+                          },
+                          "title": "Town Speaker Norro Wiston seeks to recruit the PCs' aid in investigating the trouble that plagues his town",
+                          "credit": "Howard Lyon"
+                        }
                       ]
                     }
                   ]
@@ -2429,7 +2579,16 @@
                           ]
                         },
                         "{@b Tactics}: If combat begins in this room, the manticore flies out of the building through the hole in the roof and perches on the edge, from which point it fires tail spikes down on any foe it can see. It tries to maintain ranged superiority until it runs out of spikes (after about six volleys), at which point it flies over to the roof of area 8 and pounds with its feet to alert Koth and his hobgoblins that trouble has arrived. Only then does it swoop down to engage the party in melee. If the manticore is brought to 10 hit points or fewer, it flees into the mountains to the west, never to return.",
-                        "{@b Treasure}: Koth has paid the manticore generously for its allegiance, and its nest is strewn with these gifts of gold and jewelry: 216 gp, 8 pp, a gold necklace worth 250 gp, and a filthy silk cloak embroidered with silver and gold thread worth 250 gp (if properly cleaned)."
+                        "{@b Treasure}: Koth has paid the manticore generously for its allegiance, and its nest is strewn with these gifts of gold and jewelry: 216 gp, 8 pp, a gold necklace worth 250 gp, and a filthy silk cloak embroidered with silver and gold thread worth 250 gp (if properly cleaned).",
+                        {
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/022.webp"
+                          },
+                          "title": "The bones of a long-dead giant provide impromptu cover against a manticore's straﬁng",
+                          "credit": "Franz Vohwinkel"
+                        }
                       ]
                     },
                     {
@@ -2476,19 +2635,13 @@
                         },
                         "This is where Koth meets with scouts and spies. The map contains a fair amount of intelligence; if Koth learns that the keep is under attack, one of his first acts is to rush into this room, fold up the map, and stash it in his {@i bag of holding} for safekeeping (which requires 5 rounds).",
                         {
-                          "type": "gallery",
-                          "images": [
-                            {
-                              "type": "image",
-                              "href": {
-                                "type": "external",
-                                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/maps/Goblin_Map.webp"
-                              },
-                              "title": "Koth's Map",
-                              "imageType": "mapPlayer",
-                              "credit": "Mike Schley"
-                            }
-                          ]
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/maps/Goblin_Map.webp"
+                          },
+                          "title": "Koth's Map",
+                          "credit": "Mike Schley"
                         },
                         "Numerous notes in Goblin have been scrawled on the map. A character who can understand this language and studies the map for 5 minutes can discern what the Red Hand has planned for the region. Namely, a large group of hobgoblins is massing to the north at a location called Cinder Hill. Numerous spies have been scouting out the region, and they've determined that Drellin's Ferry should be easy to take. The number and strength of the hobgoblin forces at Cinder Hill are not indicated on the map, but they do hint that the force (\"horde\") is large enough that the invaders don't anticipate any major resistance once they march on Drellin's Ferry.",
                         "Another important piece of information the PCs can learn from the map is the fact that the Red Hand has identified a bottleneck in the horde's approach to Drellin's Ferry. With troops massed near Cinder Hill, the easiest route down from the mountains to Drellin's Ferry is by way of an old bridge that spans Skull Gorge. The Red Hand has realized this is a potential problem, and the map indicates that a plan exists to place a fair amount of guards there to make sure that the bridge stays out of enemy hands. Anyone can tell by looking at the map that if the Skull Gorge bridge is taken out of the equation, the Red Hand forces would be much delayed in their imminent assault on Drellin's Ferry."
@@ -2500,24 +2653,40 @@
                       "page": 29,
                       "entries": [
                         {
-                          "type": "entries",
-                          "entries": [
-                            "{@color {@i This circular chamber has been outfitted with a mix of furniture, including a large desk, an overstuffed chair, a massive four-poster bed, and a large easel that holds a sizable canvas covered with a sheet. A flight of stairs arcs up along the south wall to the upper floor, and a fair amount of rubble from a hole in the ceiling lies heaped on the base of these stairs.}|--rgb-name}"
+                          "type": "list",
+                          "style": "list-no-bullets",
+                          "columns": 2,
+                          "items": [
+                            {
+                              "type": "entries",
+                              "entries": [
+                                "{@color {@i This circular chamber has been outfitted with a mix of furniture, including a large desk, an overstuffed chair, a massive four-poster bed, and a large easel that holds a sizable canvas covered with a sheet. A flight of stairs arcs up along the south wall to the upper floor, and a fair amount of rubble from a hole in the ceiling lies heaped on the base of these stairs.}|--rgb-name}"
+                              ]
+                            },
+                            {
+                              "type": "image",
+                              "href": {
+                                "type": "external",
+                                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/023.webp"
+                              },
+                              "title": "Wyrmlord Koth plots the destruction of Drellin's Ferry for the greater glory of the Red Hand",
+                              "credit": "Eva Widermann"
+                            },
+                            "This chamber is claimed by Wyrmlord Koth, the leader of this band of goblinoid soldiers. Of the four current Wyrmlords, Koth is the newest. As a result, he realizes he needs to prove his worth to the Red Hand—he has volunteered to lead the scouts and spies into human lands as a way to make his mark.",
+                            "Koth spends a fair amount of his time here in his quarters, going over reports supplied to him by the spies and scouts he commands in the region.",
+                            "Unknown to Koth, a secret door in the floor of this room leads down to an underground vault. This trap door can be discovered with a successful DC 25 Search check.",
+                            {
+                              "type": "item",
+                              "entries": [
+                                "{@b Wyrmlord Koth, Male Bugbear Sorcerer 6:} hp 59 (see page 114)."
+                              ]
+                            },
+                            "{@b Tactics}: In the unlikely event that the PCs catch Koth in this room without raising an alarm, they find the bugbear studying his documents. His preference is to flee from combat, either up to area 11 or out to area 8 for assistance (depending on the characters' direction of approach). If no allies remain, he drinks his {@i potion of fly} and flies to a safe distance. There, he uses his scroll to create a mount, riding off to the north to Skull Gorge Bridge to warn the troops there.",
+                            "If, on the other hand, the PCs triggered an alarm, Koth casts {@i mage armor} (increasing his AC to 18, touch 11, flat-footed 16) and races over to area 9 to gather up the map kept there (these actions take him 5 rounds). He then seeks out Karkilan and retreats with the minotaur back to this room, trusting his hobgoblins and goblins can handle the problem. Once the sounds of combat end, he heads out to explore the keep, either to congratulate his minions on a job well done or to try to finish the job of defending the keep.",
+                            "Should he find himself in battle, Koth casts {@i shield} (increasing his AC and flat-footed AC by 4) and opens combat by casting {@i blindness/deafness} on an unarmored or lightly armored character (hoping to neutralize a rogue or an arcane spellcaster). He uses {@i ray of enfeeblement} against melee combatants. If he can line up at least two PCs, he lets loose with a {@i lightning bolt}.",
+                            "Once forced into melee, the Wyrmlord relies on his {@i wand of magic missile} in preference to his morningstar. Although overconfident, Koth is not completely foolhardy. If reduced to 10 or fewer hit points, he drinks his {@i potion of fly} and retreats to the Skull Gorge Bridge as described above."
                           ]
-                        },
-                        "This chamber is claimed by Wyrmlord Koth, the leader of this band of goblinoid soldiers. Of the four current Wyrmlords, Koth is the newest. As a result, he realizes he needs to prove his worth to the Red Hand—he has volunteered to lead the scouts and spies into human lands as a way to make his mark.",
-                        "Koth spends a fair amount of his time here in his quarters, going over reports supplied to him by the spies and scouts he commands in the region.",
-                        "Unknown to Koth, a secret door in the floor of this room leads down to an underground vault. This trap door can be discovered with a successful DC 25 Search check.",
-                        {
-                          "type": "item",
-                          "entries": [
-                            "{@b Wyrmlord Koth, Male Bugbear Sorcerer 6:} hp 59 (see page 114)."
-                          ]
-                        },
-                        "{@b Tactics}: In the unlikely event that the PCs catch Koth in this room without raising an alarm, they find the bugbear studying his documents. His preference is to flee from combat, either up to area 11 or out to area 8 for assistance (depending on the characters' direction of approach). If no allies remain, he drinks his {@i potion of fly} and flies to a safe distance. There, he uses his scroll to create a mount, riding off to the north to Skull Gorge Bridge to warn the troops there.",
-                        "If, on the other hand, the PCs triggered an alarm, Koth casts {@i mage armor} (increasing his AC to 18, touch 11, flat-footed 16) and races over to area 9 to gather up the map kept there (these actions take him 5 rounds). He then seeks out Karkilan and retreats with the minotaur back to this room, trusting his hobgoblins and goblins can handle the problem. Once the sounds of combat end, he heads out to explore the keep, either to congratulate his minions on a job well done or to try to finish the job of defending the keep.",
-                        "Should he find himself in battle, Koth casts {@i shield} (increasing his AC and flat-footed AC by 4) and opens combat by casting {@i blindness/deafness} on an unarmored or lightly armored character (hoping to neutralize a rogue or an arcane spellcaster). He uses {@i ray of enfeeblement} against melee combatants. If he can line up at least two PCs, he lets loose with a {@i lightning bolt}.",
-                        "Once forced into melee, the Wyrmlord relies on his {@i wand of magic missile} in preference to his morningstar. Although overconfident, Koth is not completely foolhardy. If reduced to 10 or fewer hit points, he drinks his {@i potion of fly} and retreats to the Skull Gorge Bridge as described above."
+                        }
                       ]
                     },
                     {
@@ -2674,6 +2843,16 @@
                   "name": "I. Skull Gorge Bridge (EL 10)",
                   "page": 32,
                   "entries": [
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/024.webp"
+                      },
+                      "title": "Your mission: destroy the well-guarded Skull Gorge Bridge before the Red Hand army can cross it",
+                      "credit": "Franz Vohwinkel"
+                    },
+                    "",
                     "Skull Gorge Bridge is currently held by Red Hand forces. If the PCs can rout them and destroy the bridge, they'll delay the advance of the Red Hand by three days. As the PCs approach this encounter, allow them to make DC 10 Spot checks to see that the forest clears ahead before they step out into the open.",
                     "{@b Timeline:} The Red Hand horde reaches the bridge at the end of day 8 of the adventure.",
                     "{@b Light:} Varies with time of day.",
@@ -2992,7 +3171,7 @@
                 },
                 {
                   "type": "entries",
-                  "name": "Rumors Of War",
+                  "name": "Rumors of War",
                   "page": 38,
                   "entries": [
                     "In the days immediately preceding the horde's arrival, a disturbing new rumor begins to circulate. Run this encounter to provide the players with a hook for something to investigate in Part II.",
@@ -3077,6 +3256,17 @@
                         "{@color {@i You hear them before you see them—a dull, constant rumble of thousands of booted feet and the creaking of heavy wagons. War drums boom in the distance, and then the first legions appear, marching along the Dawn Way. Goblin worg riders run ahead of the main body, hulking giants stride alongside the hobgoblin ranks like living siege towers, and winged monsters—manticores, wyverns, even a red dragon—circle over the advancing army like harbingers of doom.}|--rgb-name}"
                       ]
                     },
+                    "",
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/025.webp"
+                      },
+                      "title": "The massacre at Drellin's Ferry begins when the Red Hand horde pours across the river, bringing murder and destruction",
+                      "credit": "Francis Tsai"
+                    },
+                    "",
                     "Characters or town guards who try to stage a defense on the west bank will simply be surrounded by hundreds of warriors and monsters. There is still a small chance to escape from this idiotic deployment: PCs who can make it to the river can swim for their lives. The Elsir is about 500 feet wide here and fairly calm (Swim DC 10). Hobgoblin archers take potshots at swimming characters as they flee, but none of the goblinoids or monsters pursue immediately.",
                     "The best defense of the town is to cut the ferry hawsers, draw in or destroy the boats, and try to defend the east bank of the river. The Elsir is a formidable obstacle, and it will take the Red Hand the better part of a day to lash together some assault barges from pieces of Witchwood timber and demolished buildings.",
                     {
@@ -3234,9 +3424,19 @@
         },
         {
           "type": "section",
-          "name": "Part Two: The Ruins Of Rhest",
+          "name": "Part Two: The Ruins of Rhest",
           "page": 42,
           "entries": [
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/026.webp"
+              },
+              "title": "Night flight over Starsong Hill",
+              "credit": "Des Hanley"
+            },
+            "",
             "During Part I of {@i Red Hand of Doom,} the PCs uncover several leads that point them in the direction of the Blackfens. They hear rumors that the road to the north has become blocked and likely have learned from Wyrmlord Koth (or from his notes) that another of the Wyrmlords is stationed in the ruined city of Rhest. If the characters decide to go north to Rhest, continue with The Blackfens on page 49.",
             "Some PCs might instead decide that their job is to harry the horde as it marches east, fighting the scouts, skirmishers, and monsters ranging out in front of the main body. If they decide to stay in Elsir Vale and resist the horde's onslaught, continue with The Elsir War, below.",
             {
@@ -3261,7 +3461,7 @@
                         "Easy Skirmish (see page 43)",
                         "Dirty Rotten Looters (see page 43)",
                         "Mercenary Gold (see page 44)",
-                        "The Not-so-Sick Spy (see page 44)",
+                        "The Not-So-Sick Spy (see page 44)",
                         "Barghest Reavers (see page 46)",
                         "Marked for Death (see page 46)"
                       ]
@@ -3316,304 +3516,313 @@
                 },
                 {
                   "type": "entries",
-                  "name": "Horde Events",
+                  "name": "Easy Skirmish (EL 6)",
                   "page": 43,
                   "entries": [
+                    "The PCs encounter a gang of hobgoblin warriors in search of easy loot. Not every gang of humanoid warriors roaming around the vale is made of up fanatical veterans.",
+                    "{@b Timeline:} Between the fall of Drellin's Ferry and the Battle of Brindol, while the party is traveling.",
+                    "{@b Light:} Bright (near dusk).",
+                    "{@b Creatures:} Nine hobgoblins, one hell hound.",
                     {
                       "type": "entries",
-                      "name": "Easy Skirmish (EL 6)",
-                      "page": 43,
                       "entries": [
-                        "The PCs encounter a gang of hobgoblin warriors in search of easy loot. Not every gang of humanoid warriors roaming around the vale is made of up fanatical veterans.",
-                        "{@b Timeline:} Between the fall of Drellin's Ferry and the Battle of Brindol, while the party is traveling.",
-                        "{@b Light:} Bright (near dusk).",
-                        "{@b Creatures:} Nine hobgoblins, one hell hound.",
-                        {
-                          "type": "entries",
-                          "entries": [
-                            "{@color {@i You're trudging along a road a little before sunset. The temperature hasn't grown much cooler, and it promises to be a hot and sultry night. You top a small rise, and see a band of hobgoblins hurrying toward you along the road!}|--rgb-name}"
-                          ]
-                        },
-                        "To run this encounter on a battle map, place the opposing forces no more than 100 feet from one another. Each side became aware of the other at the same time, so no surprise round occurs before everyone rolls initiative.",
-                        "{@b Combat:} The hobgoblins attack as soon as they see anybody who isn't a goblinoid. Most are only 1st-level hobgoblin warriors, and no match for a skilled party of adventurers.",
-                        {
-                          "type": "item",
-                          "entries": [
-                            "{@b Hobgoblin Bladebearer:} hp 39 (see page 119).",
-                            "{@b Hobgoblin Warriors (8):} hp 6 each ({@i MM} 153).",
-                            "{@b Hell Hound}: hp 22 ({@i MM} 152)."
-                          ]
-                        },
-                        "{@b Tactics:} These hobgoblin warriors are armed with composite longbows (+2 ranged, damage {@dice 1d8}) instead of javelins as described in the {@i Monster Manual.} Half of the warriors hold their ground and shoot at the PCs, targeting spellcasters first. The other half rush the party, led by the bladebearer and the hell hound. The hobgoblins break and flee if both the bladebearer and the hell hound fall, or if five warriors are killed."
+                        "{@color {@i You're trudging along a road a little before sunset. The temperature hasn't grown much cooler, and it promises to be a hot and sultry night. You top a small rise, and see a band of hobgoblins hurrying toward you along the road!}|--rgb-name}"
                       ]
                     },
+                    "To run this encounter on a battle map, place the opposing forces no more than 100 feet from one another. Each side became aware of the other at the same time, so no surprise round occurs before everyone rolls initiative.",
+                    "{@b Combat:} The hobgoblins attack as soon as they see anybody who isn't a goblinoid. Most are only 1st-level hobgoblin warriors, and no match for a skilled party of adventurers.",
                     {
-                      "type": "entries",
-                      "name": "Dirty Rotten Looters (EL 7)",
-                      "page": 43,
+                      "type": "item",
                       "entries": [
-                        "Not everyone in the vale is interested in helping their neighbors get away from the approaching horde. In this event, the PCs confront a band of thugs intent on looting a tavern in a town that's been abandoned to the horde.",
-                        "{@b Timeline}: Whenever the PCs pass through a town that is being evacuated. If set during the Battle of Brindol, completing this event successfully doesn't contribute any victory points to the outcome of that battle.",
-                        "{@b Light}: Varies with time of day.",
-                        "{@b Creatures}: Four humans.",
-                        "{@b Setup:} This encounter can be played out on the battle map that depicts a town street with buildings on either side. Pick a suitably large building to serve as the tavern, and place figures representing the looters and the PCs as described below.",
-                        {
-                          "type": "entries",
-                          "entries": [
-                            "{@color {@i Few people remain in [town name], but a sudden crash followed by a string of curses draws your attention to what was once a rather high-class tavern, now apparently abandoned and vandalized. As you approach the entrance to the building, four men dressed in leather armor are gathered nearby. Between them is the source of the crash—they've dropped a large wine rack on the ground, strewing broken glass all around their feet. They exchange dark looks as they notice the accident has drawn your attention.}|--rgb-name}",
-                            "{@color {@i One of the men draws a short sword and says, \"Just keep moving, chumps! We're working this side of the street.\"}|--rgb-name}",
-                            "{@color {@i \"Easy, Chent!\" one of the others whispers. \"I think it's those guys everyone's been talkin' about!\"}|--rgb-name}"
-                          ]
-                        },
-                        "These thugs are members of a local gang of scoundrels and thieves that call themselves the Crimson Tigers. Each has a fairly crude red tattoo of a pouncing tiger on his right shoulder. Opportunists at heart, the thugs decided to stay behind to see what sort of loot they could scavenge from the abandoned buildings. Once their favorite place to meet and plan their capers, this tavern has now become their latest crime scene.",
-                        {
-                          "type": "item",
-                          "entries": [
-                            "{@b Crimson Tiger Thugs (4):} hp 18 each (see page 125)."
-                          ]
-                        },
-                        "{@b Tactics}: The Crimson Tigers are greedy, not brave. If the PCs challenge them, their greed wins out initially and they fight to defend their haul. They break into two groups of two and move to flank the closest two PCs. If brought below 6 hit points, a Crimson Tiger cries out in fear and tries to escape. Once at least two do so, the other two follow suit.",
-                        "{@b Terrain:} The four squares in which the Crimson Tigers start are covered with the broken fragments of nearly two dozen glass bottles. These sharp glass shards function as caltrops ({@i PH} 126); the thugs make sure to get out of this dangerous area as soon as possible. Anyone tripped or falling prone in one of these squares is subject to {@dice 1d3}–1 attacks (+4 melee, damage {@dice 1d4}).",
-                        "{@b Treasure}: If the PCs are a callous lot, they might finish the job the Crimson Tigers started and loot the tavern. If they do, a 30-minute looting session earns them {@dice 2d6}×10 gp worth of loot. Of course, if they're caught, they might find themselves in the same position the Crimson Tigers were just in when a group of town guards or (worse!) a more righteous band of adventurers catches them in the act."
+                        "{@b Hobgoblin Bladebearer:} hp 39 (see page 119).",
+                        "{@b Hobgoblin Warriors (8):} hp 6 each ({@i MM} 153).",
+                        "{@b Hell Hound}: hp 22 ({@i MM} 152)."
                       ]
                     },
+                    "{@b Tactics:} These hobgoblin warriors are armed with composite longbows (+2 ranged, damage {@dice 1d8}) instead of javelins as described in the {@i Monster Manual.} Half of the warriors hold their ground and shoot at the PCs, targeting spellcasters first. The other half rush the party, led by the bladebearer and the hell hound. The hobgoblins break and flee if both the bladebearer and the hell hound fall, or if five warriors are killed."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Dirty Rotten Looters (EL 7)",
+                  "page": 43,
+                  "entries": [
+                    "Not everyone in the vale is interested in helping their neighbors get away from the approaching horde. In this event, the PCs confront a band of thugs intent on looting a tavern in a town that's been abandoned to the horde.",
+                    "{@b Timeline}: Whenever the PCs pass through a town that is being evacuated. If set during the Battle of Brindol, completing this event successfully doesn't contribute any victory points to the outcome of that battle.",
+                    "{@b Light}: Varies with time of day.",
+                    "{@b Creatures}: Four humans.",
+                    "{@b Setup:} This encounter can be played out on the battle map that depicts a town street with buildings on either side. Pick a suitably large building to serve as the tavern, and place figures representing the looters and the PCs as described below.",
                     {
                       "type": "entries",
-                      "name": "Mercenary Gold (EL 8)",
+                      "entries": [
+                        "{@color {@i Few people remain in [town name], but a sudden crash followed by a string of curses draws your attention to what was once a rather high-class tavern, now apparently abandoned and vandalized. As you approach the entrance to the building, four men dressed in leather armor are gathered nearby. Between them is the source of the crash—they've dropped a large wine rack on the ground, strewing broken glass all around their feet. They exchange dark looks as they notice the accident has drawn your attention.}|--rgb-name}",
+                        "{@color {@i One of the men draws a short sword and says, \"Just keep moving, chumps! We're working this side of the street.\"}|--rgb-name}",
+                        "{@color {@i \"Easy, Chent!\" one of the others whispers. \"I think it's those guys everyone's been talkin' about!\"}|--rgb-name}"
+                      ]
+                    },
+                    "These thugs are members of a local gang of scoundrels and thieves that call themselves the Crimson Tigers. Each has a fairly crude red tattoo of a pouncing tiger on his right shoulder. Opportunists at heart, the thugs decided to stay behind to see what sort of loot they could scavenge from the abandoned buildings. Once their favorite place to meet and plan their capers, this tavern has now become their latest crime scene.",
+                    {
+                      "type": "item",
+                      "entries": [
+                        "{@b Crimson Tiger Thugs (4):} hp 18 each (see page 125)."
+                      ]
+                    },
+                    "{@b Tactics}: The Crimson Tigers are greedy, not brave. If the PCs challenge them, their greed wins out initially and they fight to defend their haul. They break into two groups of two and move to flank the closest two PCs. If brought below 6 hit points, a Crimson Tiger cries out in fear and tries to escape. Once at least two do so, the other two follow suit.",
+                    "{@b Terrain:} The four squares in which the Crimson Tigers start are covered with the broken fragments of nearly two dozen glass bottles. These sharp glass shards function as caltrops ({@i PH} 126); the thugs make sure to get out of this dangerous area as soon as possible. Anyone tripped or falling prone in one of these squares is subject to {@dice 1d3}–1 attacks (+4 melee, damage {@dice 1d4}).",
+                    "{@b Treasure}: If the PCs are a callous lot, they might finish the job the Crimson Tigers started and loot the tavern. If they do, a 30-minute looting session earns them {@dice 2d6}×10 gp worth of loot. Of course, if they're caught, they might find themselves in the same position the Crimson Tigers were just in when a group of town guards or (worse!) a more righteous band of adventurers catches them in the act."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Mercenary Gold (EL 8)",
+                  "page": 44,
+                  "entries": [
+                    "Two ettins and a gang of goblins blundered into the mother lode when they sacked a wagon bound for the Hammerfist Holds.",
+                    "{@b Timeline:} Between the fall of Drellin's Ferry and the Battle of Brindol.",
+                    "{@b Light:} Bright (daylight).",
+                    "{@b Creatures:} Two ettins, five goblins.",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        "{@color {@i You spy trouble ahead on the road. In the shade of several tall poplars, a two-horse wagon has been dragged off the road. Small goblins clamber all over the wagon, shouting in wicked glee, while a pair of hulking, two-headed monsters roar and shout at the goblins. You think you can make out a couple of motionless bodies in surcoats of blue and white lying at the side of the road.}|--rgb-name}"
+                      ]
+                    },
+                    "{@b Terrain:} The road here cuts across dusty farm fields, with little cover. You can use a blank battle map and simply draw a 10-foot-wide path to indicate the road, with a few tree trunks alongside.",
+                    "{@b Combat:} The ettins and goblins are delighted with the loot they already have and aren't interested in starting another fight. The ettins shake their clubs at any PCs who appear on the scene and shout threats in Giant and Goblin. If the PCs back off quickly, the monsters don't follow them, but if the PCs get too close, the ettins attack.",
+                    {
+                      "type": "item",
+                      "entries": [
+                        "{@b Ettins (2):} hp 65 each ({@i MM} 107).",
+                        "{@b Goblin Warriors (5):} hp 5 each ({@i MM} 133)."
+                      ]
+                    },
+                    "{@b Tactics:} The goblins aren't stupid; they goad the ettins on to crush the PCs, while they hang back from the fighting and help by throwing the occasional javelin. If a single character gets separated from the rest of the party or is badly wounded or weakened by the ettins, the goblins gleefully dash in to try to finish him off. For their own part, the ettins just bash anything that moves. If the PCs attack from range, the ettins try to close the ground as quickly as possible, using run actions if necessary.",
+                    "{@b Treasure:} The wagon carried three locked iron coffers (Open Lock DC 30), which are now lying at the roadside. Each chest contains 1,000 gp and assorted gemstones worth another 1,000 gp, for a total of 6,000 gp of treasure.",
+                    "Four dead guards are here, each wearing the colors of the Lord of Brindol (blue and white surcoats, with a golden lion over the chest). They are dressed in chain shirts and carry longswords and longbows (although the goblins have started to strip the arms and armor from the bodies).",
+                    "A leather satchel lying near a dead guard close to the chests contains a key to the chests and a letter. The letter is addressed to Captain Ervath Helmbreaker of the Shining Axe Company, Hammerfist Holds. It is a mercenary contract signed by Lord Jarmaath of Brindol, which hires the Shining Axes for the defense of the city; it refers to the 6,000 gp payment for the company's services. According to the letter, the Shining Axes—a skilled company of axe-wielding dwarves almost two hundred strong—are to set out for Brindol at once on receipt of Lord Jarmaath's payment.",
+                    {
+                      "type": "inset",
+                      "name": "The Mercenaries' Gold",
                       "page": 44,
                       "entries": [
-                        "Two ettins and a gang of goblins blundered into the mother lode when they sacked a wagon bound for the Hammerfist Holds.",
-                        "{@b Timeline:} Between the fall of Drellin's Ferry and the Battle of Brindol.",
-                        "{@b Light:} Bright (daylight).",
-                        "{@b Creatures:} Two ettins, five goblins.",
-                        {
-                          "type": "entries",
-                          "entries": [
-                            "{@color {@i You spy trouble ahead on the road. In the shade of several tall poplars, a two-horse wagon has been dragged off the road. Small goblins clamber all over the wagon, shouting in wicked glee, while a pair of hulking, two-headed monsters roar and shout at the goblins. You think you can make out a couple of motionless bodies in surcoats of blue and white lying at the side of the road.}|--rgb-name}"
-                          ]
-                        },
-                        "{@b Terrain:} The road here cuts across dusty farm fields, with little cover. You can use a blank battle map and simply draw a 10-foot-wide path to indicate the road, with a few tree trunks alongside.",
-                        "{@b Combat:} The ettins and goblins are delighted with the loot they already have and aren't interested in starting another fight. The ettins shake their clubs at any PCs who appear on the scene and shout threats in Giant and Goblin. If the PCs back off quickly, the monsters don't follow them, but if the PCs get too close, the ettins attack.",
-                        {
-                          "type": "item",
-                          "entries": [
-                            "{@b Ettins (2):} hp 65 each ({@i MM} 107).",
-                            "{@b Goblin Warriors (5):} hp 5 each ({@i MM} 133)."
-                          ]
-                        },
-                        "{@b Tactics:} The goblins aren't stupid; they goad the ettins on to crush the PCs, while they hang back from the fighting and help by throwing the occasional javelin. If a single character gets separated from the rest of the party or is badly wounded or weakened by the ettins, the goblins gleefully dash in to try to finish him off. For their own part, the ettins just bash anything that moves. If the PCs attack from range, the ettins try to close the ground as quickly as possible, using run actions if necessary.",
-                        "{@b Treasure:} The wagon carried three locked iron coffers (Open Lock DC 30), which are now lying at the roadside. Each chest contains 1,000 gp and assorted gemstones worth another 1,000 gp, for a total of 6,000 gp of treasure.",
-                        "Four dead guards are here, each wearing the colors of the Lord of Brindol (blue and white surcoats, with a golden lion over the chest). They are dressed in chain shirts and carry longswords and longbows (although the goblins have started to strip the arms and armor from the bodies).",
-                        "A leather satchel lying near a dead guard close to the chests contains a key to the chests and a letter. The letter is addressed to Captain Ervath Helmbreaker of the Shining Axe Company, Hammerfist Holds. It is a mercenary contract signed by Lord Jarmaath of Brindol, which hires the Shining Axes for the defense of the city; it refers to the 6,000 gp payment for the company's services. According to the letter, the Shining Axes—a skilled company of axe-wielding dwarves almost two hundred strong—are to set out for Brindol at once on receipt of Lord Jarmaath's payment.",
-                        {
-                          "type": "inset",
-                          "name": "The Mercenaries' Gold",
-                          "page": 44,
-                          "entries": [
-                            "Without this payment and the letter specifying the terms of the deal, Captain Helmbreaker and his Shining Axe company won't come to Brindol. The PCs face a nice little ethical dilemma here: Keep Lord Jarmaath's gold for themselves, or try to make sure that the gold gets to the right hands?",
-                            "If the characters decide to send the gold on, they have two choices. They can take it down to the Hammerfist Holds themselves, or they can bring the gold back to an NPC who can see to it, such as Captain Soranna, Norro Wiston, or any of the leaders or authority figures of a nearby town. If the PCs simply turn in the gold and the letter to someone in authority, assume that it'll get where it has to go, without the characters having to escort it the whole way."
-                          ]
-                        }
+                        "Without this payment and the letter specifying the terms of the deal, Captain Helmbreaker and his Shining Axe company won't come to Brindol. The PCs face a nice little ethical dilemma here: Keep Lord Jarmaath's gold for themselves, or try to make sure that the gold gets to the right hands?",
+                        "If the characters decide to send the gold on, they have two choices. They can take it down to the Hammerfist Holds themselves, or they can bring the gold back to an NPC who can see to it, such as Captain Soranna, Norro Wiston, or any of the leaders or authority figures of a nearby town. If the PCs simply turn in the gold and the letter to someone in authority, assume that it'll get where it has to go, without the characters having to escort it the whole way."
                       ]
-                    },
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Not-So-Sick Spy (EL 8)",
+                  "page": 44,
+                  "entries": [
+                    "When the PCs are recruited to help several wounded and sick refugees onto a large wagon, one of them turns out to be a Red Hand spy.",
+                    "{@b Play}: Whenever the PCs are in a town threatened by the horde.",
+                    "{@b Light}: Varies with time of day.",
+                    "{@b Creature}: One aranea.",
                     {
                       "type": "entries",
-                      "name": "The Not-So-Sick Spy (EL 8)",
-                      "page": 44,
                       "entries": [
-                        "When the PCs are recruited to help several wounded and sick refugees onto a large wagon, one of them turns out to be a Red Hand spy.",
-                        "{@b Play}: Whenever the PCs are in a town threatened by the horde.",
-                        "{@b Light}: Varies with time of day.",
-                        "{@b Creature}: One aranea.",
-                        {
-                          "type": "entries",
-                          "entries": [
-                            "{@color {@i You come upon a sorry scene at the edge of town. Two clerics of Pelor are working to evacuate an infirmary next to a small shrine. Dozens of injured and sick people are clustered around the wagons, including some badly frightened children and others on stretchers who moan in pain and fear. The clerics don't seem to have much help. One of the clerics, a woman of about fifty, looks up as you pass by. \"Can you spare ten minutes, friends?\" she asks. \"We need to get these poor people away from here before the goblins arrive!\"}|--rgb-name}"
-                          ]
-                        },
-                        "The clerics need aid in loading patients and calming them, and also in keeping the citizens in the streets from getting in the way of their operation.",
-                        "One of the last patients loaded onto the wagon is a strikinglooking female human with her arm in a sling. The clerics know this woman as a traveling sorcerer named Miha Serani. If asked, they say she was assaulted a few nights ago by a drunken town guard; although she was able to defend herself with her magic, the drunk broke her arm before she killed him with a {@i magic missile}.",
-                        "In truth, Miha is actually an aranea sorcerer spy for the Red Hand, sent to gather information and spread rumors that might weaken morale among the humans opposing the horde; the \"drunk\" she killed was in fact a town guard who discovered her secret. She now bides her time, nervous that her crime could be uncovered at any time but unwilling to abandon her post at such an important time for the Red Hand. Fortunately for her, the guard she killed was indeed known to be a drunkard; his fellow guards have assumed he's simply spent the last few days on one of his periodic binges and haven't even started to miss him yet. Miha has managed to pull the wool over the eyes of the local clergy, but she might not have the same luck with the PCs.",
-                        "As the characters assist the clerics, allow them a Sense Motive check opposed by Miha's Bluff check to notice that the woman is unusually interested in them. Miha realizes who the PCs are and wants to learn as much about them, their strengths and weaknesses, and their mission as she can. If confronted, she",
-                        "feigns an interest in joining their group once her injuries heal, asking where they're going so she might meet up with them later. If the PCs don't believe her and try to interrogate her, she pretends to faint from the pain of her broken arm, hoping the clerics intervene. They do, but if the PCs can see through her Bluff with another successful Sense Motive check, they'll be able to convince the clerics that the woman's up to something by making a DC 15 Diplomacy check.",
-                        "Miha has no method of hiding her alignment, so if the PCs can detect evil, they immediately realize she is trouble but might not realize she's working for the Red Hand. {@i Detect thoughts} can also reveal her deception, as can a {@i true seeing} spell. If the PCs confront Miha, she panics and tries to escape.",
-                        {
-                          "type": "item",
-                          "entries": [
-                            "{@b Miha Serani:} hp 40 (see page 116)."
-                          ]
-                        },
-                        "{@b Tactics}: Miha's first and foremost goal is to gather information useful to the Red Hand without blowing her cover. If confronted, she tries to talk her way out of trouble; if that fails, she attempts to escape and report what she has learned so far. When fleeing, she changes into her monstrous spider form ({@i MM} 15), since she moves much faster in this shape and can climb up over buildings and walls to get away. If cornered, she assumes hybrid form and fights, but not to the death, surrendering if defeat seems certain.",
-                        "The clerics are no help if a fight breaks out; they have already used all their prepared spells for the day in tending the wounded. Additionally, once Miha bursts into action, they're too concerned with protecting their other patients to aid in Miha's capture.",
-                        {
-                          "type": "inset",
-                          "name": "Not-So-Sick Spy Developments",
-                          "page": 45,
-                          "entries": [
-                            "Every army needs its Mata Hari, and Azarr Kul is fortunate to have found a spy as skilled as Miha Serani to serve him. If Miha escapes, she becomes a recurring menace to the PCs. She'll certainly report to the Red Hand that they seem to be setting themselves up as regional heroes and will help arrange an ambush to kill or capture them (see page 46 for an example). She might be encountered later in a different disguise during the Battle of Brindol, or show up in a later combat against the PCs, or be stationed in Rhest or at the Ghostlord's lair. If she is successful in infiltrating their group, she'll work hard to prove her value as an adventuring companion early on—the better to gain access to high-level information about the human resistance to the Red Hand and be in an even better position to betray the PCs when the time is right.",
-                            "Miha surrenders only if escape seems hopeless. If captured, she feigns resignation (\"You caught me fair and square\") to throw her jailors off guard, knowing that her ability to change shape and cast spells even while bound should make it difficult to keep her imprisoned for long. She knows quite a lot about the Red Hand's plans and divulges just enough information to steer the PCs toward the next major encounter area, hoping that the foes they encounter there will finish them off, or at least distract them from the defense of Brindol."
-                          ]
-                        }
+                        "{@color {@i You come upon a sorry scene at the edge of town. Two clerics of Pelor are working to evacuate an infirmary next to a small shrine. Dozens of injured and sick people are clustered around the wagons, including some badly frightened children and others on stretchers who moan in pain and fear. The clerics don't seem to have much help. One of the clerics, a woman of about fifty, looks up as you pass by. \"Can you spare ten minutes, friends?\" she asks. \"We need to get these poor people away from here before the goblins arrive!\"}|--rgb-name}"
                       ]
                     },
                     {
-                      "type": "entries",
-                      "name": "Barghest Reavers (EL 8)",
-                      "page": 46,
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/027.webp"
+                      },
+                      "title": "Exposed as a spy, Miha the aranea breaks cover and attacks",
+                      "credit": "Howard Lyon"
+                    },
+                    "The clerics need aid in loading patients and calming them, and also in keeping the citizens in the streets from getting in the way of their operation.",
+                    "One of the last patients loaded onto the wagon is a strikinglooking female human with her arm in a sling. The clerics know this woman as a traveling sorcerer named Miha Serani. If asked, they say she was assaulted a few nights ago by a drunken town guard; although she was able to defend herself with her magic, the drunk broke her arm before she killed him with a {@i magic missile}.",
+                    "In truth, Miha is actually an aranea sorcerer spy for the Red Hand, sent to gather information and spread rumors that might weaken morale among the humans opposing the horde; the \"drunk\" she killed was in fact a town guard who discovered her secret. She now bides her time, nervous that her crime could be uncovered at any time but unwilling to abandon her post at such an important time for the Red Hand. Fortunately for her, the guard she killed was indeed known to be a drunkard; his fellow guards have assumed he's simply spent the last few days on one of his periodic binges and haven't even started to miss him yet. Miha has managed to pull the wool over the eyes of the local clergy, but she might not have the same luck with the PCs.",
+                    "As the characters assist the clerics, allow them a Sense Motive check opposed by Miha's Bluff check to notice that the woman is unusually interested in them. Miha realizes who the PCs are and wants to learn as much about them, their strengths and weaknesses, and their mission as she can. If confronted, she",
+                    "feigns an interest in joining their group once her injuries heal, asking where they're going so she might meet up with them later. If the PCs don't believe her and try to interrogate her, she pretends to faint from the pain of her broken arm, hoping the clerics intervene. They do, but if the PCs can see through her Bluff with another successful Sense Motive check, they'll be able to convince the clerics that the woman's up to something by making a DC 15 Diplomacy check.",
+                    "Miha has no method of hiding her alignment, so if the PCs can detect evil, they immediately realize she is trouble but might not realize she's working for the Red Hand. {@i Detect thoughts} can also reveal her deception, as can a {@i true seeing} spell. If the PCs confront Miha, she panics and tries to escape.",
+                    {
+                      "type": "item",
                       "entries": [
-                        "In this encounter, the PCs confront a powerful raiding party. A pair of barghests come across the PCs' spoor and track them to their campsite, falling on the party just after sunset.",
-                        "{@b Timeline:} At night, between the fall of Drellin's Ferry and the Battle of Brindol, any time when the PCs are traveling through Elsir Vale.",
-                        "{@b Light:} None (no moonlight).",
-                        "{@b Creatures:} Three barghests, six hobgoblins.",
-                        "If the party has sentries posted, the sentries might spot the barghests (Hide +11) and their hobgoblins (Hide –6, but remember distance and darkness; see {@i PH} 83) sneaking up on the farmhouse. The read-aloud text below assumes that the barghests and their reavers attack as soon as they are discovered.",
-                        {
-                          "type": "entries",
-                          "entries": [
-                            "{@color {@i You've spent a hard day riding across the vale. Signs of war are everywhere. The horizon is littered with the twisting smoke-plumes of distant burnings, and most of the farms around here have been abandoned. Bedding down in a sturdy farmhouse, you are just about to seek your bedrolls for the night when wild war-whoops rouse you from your rest!}|--rgb-name}"
-                          ]
-                        },
-                        "{@b Terrain:} Sketch a small farmhouse (say, 30 feet by 20 feet) on your battle map, with at least two doors and two windows. The farmyard outside is mostly clear terrain, but add a low stone wall or two for the attackers to take cover behind.",
-                        "{@b Combat:} If no sentry spots the hobgoblins before they get within 60 feet of the farmhouse, the monsters gain a surprise round.",
-                        "Characters who aren't on watch aren't wearing their armor when this encounter begins, unless they normally wear light armor only—most folks take off their plate armor before they turn in for the night, after all. See the rules for donning armor for details ({@i PH} 123).",
-                        {
-                          "type": "item",
-                          "entries": [
-                            "{@b Barghests (3):} hp 33 each ({@i MM} 23).",
-                            "{@b Hobgoblin Regulars (6)}: hp 13 each (see page 119)."
-                          ]
-                        },
-                        "{@b Tactics:} Two hobgoblins hang back and use their longbows to pepper the farmhouse, while the barghests split up and lead two regulars each to storm the two doors of the farmhouse. The barghests use {@i crushing despair} against PCs as the opportunity presents itself, and then {@i rage} to whip up the hobgoblins for the fray. After that, the barghests use {@i blink} or {@i dimension door} and storm the house themselves, using their spell-like abilities to simply go through the walls if the doorways are jammed with hobgoblins fighting to get in.",
-                        "A barghest reduced to 15 hit points uses its {@i blink} ability (if it hasn't done so already) and continues the fight. Once down to 7 hit points or fewer, it seeks to withdraw (or uses {@i dimension door} to flee)."
+                        "{@b Miha Serani:} hp 40 (see page 116)."
                       ]
                     },
+                    "{@b Tactics}: Miha's first and foremost goal is to gather information useful to the Red Hand without blowing her cover. If confronted, she tries to talk her way out of trouble; if that fails, she attempts to escape and report what she has learned so far. When fleeing, she changes into her monstrous spider form ({@i MM} 15), since she moves much faster in this shape and can climb up over buildings and walls to get away. If cornered, she assumes hybrid form and fights, but not to the death, surrendering if defeat seems certain.",
+                    "The clerics are no help if a fight breaks out; they have already used all their prepared spells for the day in tending the wounded. Additionally, once Miha bursts into action, they're too concerned with protecting their other patients to aid in Miha's capture.",
                     {
-                      "type": "entries",
-                      "name": "Marked For Death (EL 10)",
-                      "page": 46,
+                      "type": "inset",
+                      "name": "Not-So-Sick Spy Developments",
+                      "page": 45,
                       "entries": [
-                        "PCs who succeed in mopping the floor with Red Hand scouts, skirmishers, or marauders inevitably draw the attention of the horde's leaders. After all, everyone else is running away.",
-                        "Run this encounter when you think the time is right for the Red Hand to turn the tables on the PCs.",
-                        "{@b Timeline:} Between the fall of Drellin's Ferry and the Battle of Brindol, after the PCs score at least two successes against Red Hand scouts or marauders.",
-                        "{@b Light:} Shadowy (moonlight).",
-                        "{@b Creatures:} Five hobgoblin regulars and one ogre; then two greater barghests and four blackspawn raiders.",
-                        "To lure in the PCs, the Red Hand leaders have set out some bait—a gang of hobgoblins with a couple of prisoners. Nearby, stealthy assassins lurk in hiding, waiting for the PCs to take the bait.",
-                        {
-                          "type": "entries",
-                          "entries": [
-                            "{@color {@i Nearing the end of your day's travel, you hear harsh shouts and crude laughter ahead through the trees. In a small clearing around a ruined farmhouse, a gang of hobgoblins and an ogre torment two men who have been tied up to trees. The victims hang listlessly from their bonds, their faces and bodies covered in blood.}|--rgb-name}"
-                          ]
-                        },
-                        "Determining whether or not the prisoners are still alive isn't easy from a distance. They seem unresponsive and could easily be unconscious; it takes a DC 20 Spot check to see that these unfortunate souls are already dead (don't forget to modify the check for range).",
-                        "The hobgoblins and the ogre are deliberately inattentive, pretending to be wholly absorbed in their sport. If any characters become suspicious of the scene, give them a Sense Motive check opposed by a Bluff check by the hobgoblins (modifier –1). If a PC sees through the ruse, he or she realizes that the scene is staged.",
-                        "Two blackspawn raiders and one greater barghest lurk in the forest near the farmhouse, while two more raiders and the other barghest are a short distance away on the other side of the road. If they see the player characters before the PCs approach the torture scene, the greater barghests use {@i invisibility sphere} to hide the ambush until the PCs are engaged with the fight near the farmhouse. Otherwise, they lie low and try to stay out of sight. The blackspawn raiders have a Hide modifier of +10 due to the benefit of improved cover ({@i PH} 152).",
-                        "If the barghests and raiders succeed in staying out of sight and ambushing the PCs, add this bit of read-aloud text when appropriate.",
-                        {
-                          "type": "entries",
-                          "entries": [
-                            "{@color {@i Suddenly, you hear a feral growl behind you. Sinister black shapes rush out of the shadows to attack—two great wolfl ike creatures with baleful red eyes, and four fearsome dragon-men gripping crooked falchions in their talons!}|--rgb-name}"
-                          ]
-                        },
-                        "{@b Combat:} The hobgoblins and ogre stand their ground and wait for the PCs to come to them. Once the characters have revealed their presence, the barghests spend 1 or 2 rounds buffing their allies, and then the barghests and blackspawn raiders burst out of hiding and strike, preferably at the rear of the PC party.",
-                        {
-                          "type": "item",
-                          "entries": [
-                            "{@b Greater Barghests} (2): hp 67 each ({@i MM} 23).",
-                            "{@b Blackspawn Raiders (4):} hp 60 each (see page 117).",
-                            "{@b Ogre}: hp 29 ({@i MM} 199).",
-                            "{@b Hobgoblin Regulars (5):} hp 13 each (see page 119)."
-                          ]
-                        },
-                        "{@b Tactics:} The ogre and the hobgoblins remain near the farmhouse, trying to lure the PCs in close. They get behind cover and use their bows (or, in the case of the ogre, javelins) instead of rushing off to meet PCs who attack. Hobgoblins forced into melee are not above fighting defensively in order to stay alive long enough for the barghests and blackspawn raiders to launch their surprise attack.",
-                        "The greater barghests use {@i mass bull's strength} to power up their raiders and themselves and attempt to use {@i charm monster} to take a tough PC fighter out of the battle.",
-                        "The blackspawn raiders are fanatic in the extreme and fight to the death. They begin the fight by using their breath weapons, and they breathe again as often as possible (once every {@dice 1d4} rounds). The blackspawn initially use their Power Attack (masterwork falchion +7/+2, 2d4+13/18–20 while under the effects of the barghests' {@i mass bull's strength}). If they have trouble scoring hits against the PCs, they stop using Power Attack, greatly improving their chance to hit at the cost of reduced damage (masterwork falchion +11/+6, {@dice 2d4+5}/18–20 while under the effect of the {@i mass bull's strength}). The barghests are less dedicated, and seek to withdraw if reduced to 15 hit points or fewer.",
-                        "The two prisoners bound to the trees are local farmers, both of whom died hours ago.",
-                        {
-                          "type": "insetReadaloud",
-                          "name": "Designers' Notes",
-                          "page": 47,
-                          "entries": [
-                            "This encounter is intended to be very tough. We're trying to walk the line between an encounter that teaches your players some respect for the bad guys and a total party kill. Ideally, the encounter is tough enough that the characters flee the scene, but not so tough that they can't get away. If it shapes up to be too tough, you can have the villains withdraw once they've dropped or captured one or two characters, content with their evening's work.",
-                            "—James and Rich"
-                          ]
-                        },
-                        {
-                          "type": "inset",
-                          "name": "Marked For Death Developments",
-                          "page": 47,
-                          "entries": [
-                            "If the Red Hand ambushers are defeated easily, Wyrmlord Kharn waits a few days, then tries another ambush, this time employing two or three powerful monsters from the horde and different bait (perhaps some still-living captured Lion of Brindol or local person of note)."
-                          ]
-                        }
+                        "Every army needs its Mata Hari, and Azarr Kul is fortunate to have found a spy as skilled as Miha Serani to serve him. If Miha escapes, she becomes a recurring menace to the PCs. She'll certainly report to the Red Hand that they seem to be setting themselves up as regional heroes and will help arrange an ambush to kill or capture them (see page 46 for an example). She might be encountered later in a different disguise during the Battle of Brindol, or show up in a later combat against the PCs, or be stationed in Rhest or at the Ghostlord's lair. If she is successful in infiltrating their group, she'll work hard to prove her value as an adventuring companion early on—the better to gain access to high-level information about the human resistance to the Red Hand and be in an even better position to betray the PCs when the time is right.",
+                        "Miha surrenders only if escape seems hopeless. If captured, she feigns resignation (\"You caught me fair and square\") to throw her jailors off guard, knowing that her ability to change shape and cast spells even while bound should make it difficult to keep her imprisoned for long. She knows quite a lot about the Red Hand's plans and divulges just enough information to steer the PCs toward the next major encounter area, hoping that the foes they encounter there will finish them off, or at least distract them from the defense of Brindol."
                       ]
-                    },
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Barghest Reavers (EL 8)",
+                  "page": 46,
+                  "entries": [
+                    "In this encounter, the PCs confront a powerful raiding party. A pair of barghests come across the PCs' spoor and track them to their campsite, falling on the party just after sunset.",
+                    "{@b Timeline:} At night, between the fall of Drellin's Ferry and the Battle of Brindol, any time when the PCs are traveling through Elsir Vale.",
+                    "{@b Light:} None (no moonlight).",
+                    "{@b Creatures:} Three barghests, six hobgoblins.",
+                    "If the party has sentries posted, the sentries might spot the barghests (Hide +11) and their hobgoblins (Hide –6, but remember distance and darkness; see {@i PH} 83) sneaking up on the farmhouse. The read-aloud text below assumes that the barghests and their reavers attack as soon as they are discovered.",
                     {
                       "type": "entries",
-                      "name": "Captured! (EL 7)",
+                      "entries": [
+                        "{@color {@i You've spent a hard day riding across the vale. Signs of war are everywhere. The horizon is littered with the twisting smoke-plumes of distant burnings, and most of the farms around here have been abandoned. Bedding down in a sturdy farmhouse, you are just about to seek your bedrolls for the night when wild war-whoops rouse you from your rest!}|--rgb-name}"
+                      ]
+                    },
+                    "{@b Terrain:} Sketch a small farmhouse (say, 30 feet by 20 feet) on your battle map, with at least two doors and two windows. The farmyard outside is mostly clear terrain, but add a low stone wall or two for the attackers to take cover behind.",
+                    "{@b Combat:} If no sentry spots the hobgoblins before they get within 60 feet of the farmhouse, the monsters gain a surprise round.",
+                    "Characters who aren't on watch aren't wearing their armor when this encounter begins, unless they normally wear light armor only—most folks take off their plate armor before they turn in for the night, after all. See the rules for donning armor for details ({@i PH} 123).",
+                    {
+                      "type": "item",
+                      "entries": [
+                        "{@b Barghests (3):} hp 33 each ({@i MM} 23).",
+                        "{@b Hobgoblin Regulars (6)}: hp 13 each (see page 119)."
+                      ]
+                    },
+                    "{@b Tactics:} Two hobgoblins hang back and use their longbows to pepper the farmhouse, while the barghests split up and lead two regulars each to storm the two doors of the farmhouse. The barghests use {@i crushing despair} against PCs as the opportunity presents itself, and then {@i rage} to whip up the hobgoblins for the fray. After that, the barghests use {@i blink} or {@i dimension door} and storm the house themselves, using their spell-like abilities to simply go through the walls if the doorways are jammed with hobgoblins fighting to get in.",
+                    "A barghest reduced to 15 hit points uses its {@i blink} ability (if it hasn't done so already) and continues the fight. Once down to 7 hit points or fewer, it seeks to withdraw (or uses {@i dimension door} to flee)."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Marked For Death (EL 10)",
+                  "page": 46,
+                  "entries": [
+                    "PCs who succeed in mopping the floor with Red Hand scouts, skirmishers, or marauders inevitably draw the attention of the horde's leaders. After all, everyone else is running away.",
+                    "Run this encounter when you think the time is right for the Red Hand to turn the tables on the PCs.",
+                    "{@b Timeline:} Between the fall of Drellin's Ferry and the Battle of Brindol, after the PCs score at least two successes against Red Hand scouts or marauders.",
+                    "{@b Light:} Shadowy (moonlight).",
+                    "{@b Creatures:} Five hobgoblin regulars and one ogre; then two greater barghests and four blackspawn raiders.",
+                    "To lure in the PCs, the Red Hand leaders have set out some bait—a gang of hobgoblins with a couple of prisoners. Nearby, stealthy assassins lurk in hiding, waiting for the PCs to take the bait.",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        "{@color {@i Nearing the end of your day's travel, you hear harsh shouts and crude laughter ahead through the trees. In a small clearing around a ruined farmhouse, a gang of hobgoblins and an ogre torment two men who have been tied up to trees. The victims hang listlessly from their bonds, their faces and bodies covered in blood.}|--rgb-name}"
+                      ]
+                    },
+                    "Determining whether or not the prisoners are still alive isn't easy from a distance. They seem unresponsive and could easily be unconscious; it takes a DC 20 Spot check to see that these unfortunate souls are already dead (don't forget to modify the check for range).",
+                    "The hobgoblins and the ogre are deliberately inattentive, pretending to be wholly absorbed in their sport. If any characters become suspicious of the scene, give them a Sense Motive check opposed by a Bluff check by the hobgoblins (modifier –1). If a PC sees through the ruse, he or she realizes that the scene is staged.",
+                    "Two blackspawn raiders and one greater barghest lurk in the forest near the farmhouse, while two more raiders and the other barghest are a short distance away on the other side of the road. If they see the player characters before the PCs approach the torture scene, the greater barghests use {@i invisibility sphere} to hide the ambush until the PCs are engaged with the fight near the farmhouse. Otherwise, they lie low and try to stay out of sight. The blackspawn raiders have a Hide modifier of +10 due to the benefit of improved cover ({@i PH} 152).",
+                    "If the barghests and raiders succeed in staying out of sight and ambushing the PCs, add this bit of read-aloud text when appropriate.",
+                    {
+                      "type": "entries",
+                      "entries": [
+                        "{@color {@i Suddenly, you hear a feral growl behind you. Sinister black shapes rush out of the shadows to attack—two great wolfl ike creatures with baleful red eyes, and four fearsome dragon-men gripping crooked falchions in their talons!}|--rgb-name}"
+                      ]
+                    },
+                    "{@b Combat:} The hobgoblins and ogre stand their ground and wait for the PCs to come to them. Once the characters have revealed their presence, the barghests spend 1 or 2 rounds buffing their allies, and then the barghests and blackspawn raiders burst out of hiding and strike, preferably at the rear of the PC party.",
+                    {
+                      "type": "item",
+                      "entries": [
+                        "{@b Greater Barghests} (2): hp 67 each ({@i MM} 23).",
+                        "{@b Blackspawn Raiders (4):} hp 60 each (see page 117).",
+                        "{@b Ogre}: hp 29 ({@i MM} 199).",
+                        "{@b Hobgoblin Regulars (5):} hp 13 each (see page 119)."
+                      ]
+                    },
+                    "{@b Tactics:} The ogre and the hobgoblins remain near the farmhouse, trying to lure the PCs in close. They get behind cover and use their bows (or, in the case of the ogre, javelins) instead of rushing off to meet PCs who attack. Hobgoblins forced into melee are not above fighting defensively in order to stay alive long enough for the barghests and blackspawn raiders to launch their surprise attack.",
+                    "The greater barghests use {@i mass bull's strength} to power up their raiders and themselves and attempt to use {@i charm monster} to take a tough PC fighter out of the battle.",
+                    "The blackspawn raiders are fanatic in the extreme and fight to the death. They begin the fight by using their breath weapons, and they breathe again as often as possible (once every {@dice 1d4} rounds). The blackspawn initially use their Power Attack (masterwork falchion +7/+2, 2d4+13/18–20 while under the effects of the barghests' {@i mass bull's strength}). If they have trouble scoring hits against the PCs, they stop using Power Attack, greatly improving their chance to hit at the cost of reduced damage (masterwork falchion +11/+6, {@dice 2d4+5}/18–20 while under the effect of the {@i mass bull's strength}). The barghests are less dedicated, and seek to withdraw if reduced to 15 hit points or fewer.",
+                    "The two prisoners bound to the trees are local farmers, both of whom died hours ago.",
+                    {
+                      "type": "insetReadaloud",
+                      "name": "Designers' Notes",
                       "page": 47,
                       "entries": [
-                        "There's a very real chance that, at some point in this adventure, one or more of the PCs could be captured by the Red Hand.",
-                        "{@b Timeline}: When a PC gets captured.",
-                        "If a PC is captured, he or she is immediately stripped of all belongings, put in manacles and leg irons (which reduce speed to 5 feet), and imprisoned in the closest area that can serve as an impromptu jail cell. Characters who are captured by Red Hand agents on the road are led or carried back to the nearest",
-                        "base of operations, which could be one of the abandoned towns left in the horde's wake. Captives are typically processed in the following manner over the course of several days.",
-                        "{@b Day 1}: The character is manacled and placed in a convenient holding cell. His or her gear is stored nearby in a large bag. Both gear and cell are guarded by creatures of a combined EL equal to the average level of all captured PCs. Typically, guards on this day consist of an appropriate number of hobgoblin veterans and/or ogres.",
-                        "{@b Day 2}: The highest-level horde member in the immediate area interrogates the PCs. If the Red Hand leader isn't satisfied with the character's answers, the prisoner is beaten and handled roughly; thereafter treat the PC as exhausted (–6 Str, –6 Dex, speed reduced by half) until at least 1 hour after he or she escapes captivity.",
-                        "{@b Day 3}: The prisoners are loaded onto wagons, then slowly transported to Vraath Keep, the ruins of Rhest, the Ghostlord's lair, or the Red Hand horde itself, whichever is closest and still controlled by the hobgoblins. This is the best chance captured PCs will get to escape (see below).",
-                        "{@b Day 4}: The prisoner is imprisoned in one of the following areas, depending on his or her new location.",
-                        {
-                          "type": "list",
-                          "items": [
-                            "{@i Vraath Keep}: Area 9 (war room). Wyrmlord Koth moves the map and other furnishings of this room into area 10 for the duration of the prisoner's stay.",
-                            "{@i Rhest}: Area E (interrogation room). Wyrmlord Saarvith has Nurklenak the torturer spend the next several hours cleaning and laying out his implements in full sight of the prisoner.",
-                            "{@i Ghostlord's Lair}: Area 11 (storeroom). Wyrmlord Ulwai personally takes charge of the prisoner, treating him or her with disarming kindness as an opening gambit to weaken his or her resistance.",
-                            "{@i Horde Encampment}: The prisoner is placed in a prison wagon with one barred window and an iron door. The door is kept locked (Open Lock DC 30) at all times. Later in the day, the PC is visited by the highest ranking nearby Wyrmlord, who interrogates him or her. If the character resists the interrogation, the Wyrmlord uses torture or mind-controlling magic as available."
-                          ]
-                        },
-                        {
-                          "type": "entries",
-                          "name": "Escape",
-                          "page": 47,
-                          "entries": [
-                            "If the PCs get captured, they should have at least one opportunity to escape imprisonment. This scenario details the most likely chance they'll get, although resourceful PCs could stage an escape at any point during their imprisonment.",
-                            "On day 3, captured characters are loaded onto a wagon pulled by skittish horses captured from a plundered steading. Their gear is loaded onto a second wagon that follows. Each wagon is driven by a single hobgoblin sergeant accompanied by two hobgoblin regulars. A single goblin worg rider named Lupe and her worg accompany the group. When the hobgoblins load the PCs into the wagons, the prisoners are manacled with their hands behind their backs, the manacles being firmly set into the wooden walls of the wagon. Each character's feet are shackled, making walking difficult. Spellcasters are also gagged. Prisoners sit against the walls of the wagon facing each other. The keys to the manacles are kept in the second wagon, where they hang on a bent nail tantalizingly in view of the PCs the entire time.",
-                            "At some point during the transport, the PCs' escorts stop to loot an abandoned farmhouse. Greed gets the better of all six hobgoblins, and they stop the wagons about 30 feet away from the house and hurry off to explore it. Soon the sound of hobgoblins shouting in glee accompanies the noise of a destructive session of looting. The goblin worg rider and her mount do not take part in the looting—rather, Lupe decides to let her worg feed on a dead cow slumped in a ditch about 30 feet up the road.",
-                            "A manacled PC can wriggle out of his manacles with a DC 30 Escape Artist check. Alternatively, he can break the manacles with a DC 26 Strength check. The manacles have hardness 10 and 10 hit points. The weak link is the wagon they're bolted to—the wood is old and splintering. A character can tear the manacles free from the surrounding wood with a DC 19 Strength check, although doing so gives the worg and its rider a DC 15 Listen check to hear the sound of splintering wood. A character who pulls the manacles free remains chained but can move about and leave the wagon. His speed in this case is 5 feet, and he takes a –6 penalty on all Dexterity-based skill checks.",
-                            "Once a character gets to the keys, he can unlock his manacles as a full-round action; a second full-round action is required to unlock the shackles on his feet. A freed character can unlock another character's manacles or shackles as a standard action. While all the PCs' gear is stored in various bags, crates, and chests in the second wagon, these containers are piled haphazardly in the wagon. It takes a DC 15 Search check to find a specific item.",
-                            "{@b Creatures}: The goblin, worg, and hobgoblins remain distracted for 10 minutes, or until they notice the PCs escaping. The monsters get Spot checks to see the PCs moving outside of the wagon only when their line of sight to a PC isn't blocked by one of the wagons or the house's walls.",
-                            "The horses that pull the wagons remain calm and silent as long as the PCs don't make any loud noises or sudden moves. It's possible to escape by panicking the horses and sending the wagon careening down the road, leaving the hobgoblins behind. The worg and its rider can catch up easily enough, but they can't stop the runaway horses until they're quite a distance from the farmhouse, perhaps giving PCs time to free themselves and prepare a defense.",
-                            {
-                              "type": "item",
-                              "entries": [
-                                "{@b Lupe, Goblin Worg Rider:} hp 27 (see page 119).",
-                                "{@b Worg:} hp 30 ({@i MM} 256).",
-                                "{@b Hobgoblin Sergeants (2):} hp 30 each (see page 119).",
-                                "{@b Hobgoblin Regulars (4):} hp 13 each (see page 119)."
-                              ]
-                            },
-                            "{@b Tactics}: If any of the enemies notice the PCs attempting to escape, they raise an alarm and move back to the wagons to attack the PCs. The characters are likely to be unarmed and unarmored. There are plenty of objects lying around that can be used as impromptu weapons, including the manacles the PCs wear. Characters not proficient with improvised weapons take a –4 penalty on attack rolls (see {@i PH} 113 for details on improvised weapons).",
-                            "The hobgoblin sergeants use whips to drive the horses but leave these whips in the front of the wagons when they go to explore the farmhouse. These two whips could be a great boon for PCs who know how to use them.",
-                            "The hobgoblins try to recapture the PCs alive, using nonlethal damage. Once a hobgoblin is slain, however, they abandon this tactic and use lethal force against the PCs. The goblin rider and worg attempt to flee if either is brought below 7 hit points, but the remaining hobgoblins fight to the death—failure at this stage is not an option for them."
-                          ]
-                        },
-                        {
-                          "type": "insetReadaloud",
-                          "name": "Designers' Notes",
-                          "page": 48,
-                          "entries": [
-                            "If the PCs get captured, you want them to escape so they can continue the adventure. Languishing helplessly in a hobgoblin dungeon being tortured until the Red Hand leaders get around to executing you isn't a very entertaining adventure at all. Don't make it too hard to get away. But all bets are off if the PCs get captured a second time; after one successful escape, the villains won't take any chances at all.",
-                            "—James and Rich"
-                          ]
-                        }
+                        "This encounter is intended to be very tough. We're trying to walk the line between an encounter that teaches your players some respect for the bad guys and a total party kill. Ideally, the encounter is tough enough that the characters flee the scene, but not so tough that they can't get away. If it shapes up to be too tough, you can have the villains withdraw once they've dropped or captured one or two characters, content with their evening's work.",
+                        "—James and Rich"
+                      ]
+                    },
+                    {
+                      "type": "inset",
+                      "name": "Marked For Death Developments",
+                      "page": 47,
+                      "entries": [
+                        "If the Red Hand ambushers are defeated easily, Wyrmlord Kharn waits a few days, then tries another ambush, this time employing two or three powerful monsters from the horde and different bait (perhaps some still-living captured Lion of Brindol or local person of note)."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Captured! (EL 7)",
+                  "page": 47,
+                  "entries": [
+                    "There's a very real chance that, at some point in this adventure, one or more of the PCs could be captured by the Red Hand.",
+                    "{@b Timeline}: When a PC gets captured.",
+                    "If a PC is captured, he or she is immediately stripped of all belongings, put in manacles and leg irons (which reduce speed to 5 feet), and imprisoned in the closest area that can serve as an impromptu jail cell. Characters who are captured by Red Hand agents on the road are led or carried back to the nearest",
+                    "base of operations, which could be one of the abandoned towns left in the horde's wake. Captives are typically processed in the following manner over the course of several days.",
+                    "{@b Day 1}: The character is manacled and placed in a convenient holding cell. His or her gear is stored nearby in a large bag. Both gear and cell are guarded by creatures of a combined EL equal to the average level of all captured PCs. Typically, guards on this day consist of an appropriate number of hobgoblin veterans and/or ogres.",
+                    "{@b Day 2}: The highest-level horde member in the immediate area interrogates the PCs. If the Red Hand leader isn't satisfied with the character's answers, the prisoner is beaten and handled roughly; thereafter treat the PC as exhausted (–6 Str, –6 Dex, speed reduced by half) until at least 1 hour after he or she escapes captivity.",
+                    "{@b Day 3}: The prisoners are loaded onto wagons, then slowly transported to Vraath Keep, the ruins of Rhest, the Ghostlord's lair, or the Red Hand horde itself, whichever is closest and still controlled by the hobgoblins. This is the best chance captured PCs will get to escape (see below).",
+                    "{@b Day 4}: The prisoner is imprisoned in one of the following areas, depending on his or her new location.",
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@i Vraath Keep}: Area 9 (war room). Wyrmlord Koth moves the map and other furnishings of this room into area 10 for the duration of the prisoner's stay.",
+                        "{@i Rhest}: Area E (interrogation room). Wyrmlord Saarvith has Nurklenak the torturer spend the next several hours cleaning and laying out his implements in full sight of the prisoner.",
+                        "{@i Ghostlord's Lair}: Area 11 (storeroom). Wyrmlord Ulwai personally takes charge of the prisoner, treating him or her with disarming kindness as an opening gambit to weaken his or her resistance.",
+                        "{@i Horde Encampment}: The prisoner is placed in a prison wagon with one barred window and an iron door. The door is kept locked (Open Lock DC 30) at all times. Later in the day, the PC is visited by the highest ranking nearby Wyrmlord, who interrogates him or her. If the character resists the interrogation, the Wyrmlord uses torture or mind-controlling magic as available."
                       ]
                     },
                     {
                       "type": "entries",
-                      "name": "Into the Horde (EL 15)",
+                      "name": "Escape",
+                      "page": 47,
+                      "entries": [
+                        "If the PCs get captured, they should have at least one opportunity to escape imprisonment. This scenario details the most likely chance they'll get, although resourceful PCs could stage an escape at any point during their imprisonment.",
+                        "On day 3, captured characters are loaded onto a wagon pulled by skittish horses captured from a plundered steading. Their gear is loaded onto a second wagon that follows. Each wagon is driven by a single hobgoblin sergeant accompanied by two hobgoblin regulars. A single goblin worg rider named Lupe and her worg accompany the group. When the hobgoblins load the PCs into the wagons, the prisoners are manacled with their hands behind their backs, the manacles being firmly set into the wooden walls of the wagon. Each character's feet are shackled, making walking difficult. Spellcasters are also gagged. Prisoners sit against the walls of the wagon facing each other. The keys to the manacles are kept in the second wagon, where they hang on a bent nail tantalizingly in view of the PCs the entire time.",
+                        "At some point during the transport, the PCs' escorts stop to loot an abandoned farmhouse. Greed gets the better of all six hobgoblins, and they stop the wagons about 30 feet away from the house and hurry off to explore it. Soon the sound of hobgoblins shouting in glee accompanies the noise of a destructive session of looting. The goblin worg rider and her mount do not take part in the looting—rather, Lupe decides to let her worg feed on a dead cow slumped in a ditch about 30 feet up the road.",
+                        "A manacled PC can wriggle out of his manacles with a DC 30 Escape Artist check. Alternatively, he can break the manacles with a DC 26 Strength check. The manacles have hardness 10 and 10 hit points. The weak link is the wagon they're bolted to—the wood is old and splintering. A character can tear the manacles free from the surrounding wood with a DC 19 Strength check, although doing so gives the worg and its rider a DC 15 Listen check to hear the sound of splintering wood. A character who pulls the manacles free remains chained but can move about and leave the wagon. His speed in this case is 5 feet, and he takes a –6 penalty on all Dexterity-based skill checks.",
+                        "Once a character gets to the keys, he can unlock his manacles as a full-round action; a second full-round action is required to unlock the shackles on his feet. A freed character can unlock another character's manacles or shackles as a standard action. While all the PCs' gear is stored in various bags, crates, and chests in the second wagon, these containers are piled haphazardly in the wagon. It takes a DC 15 Search check to find a specific item.",
+                        "{@b Creatures}: The goblin, worg, and hobgoblins remain distracted for 10 minutes, or until they notice the PCs escaping. The monsters get Spot checks to see the PCs moving outside of the wagon only when their line of sight to a PC isn't blocked by one of the wagons or the house's walls.",
+                        "The horses that pull the wagons remain calm and silent as long as the PCs don't make any loud noises or sudden moves. It's possible to escape by panicking the horses and sending the wagon careening down the road, leaving the hobgoblins behind. The worg and its rider can catch up easily enough, but they can't stop the runaway horses until they're quite a distance from the farmhouse, perhaps giving PCs time to free themselves and prepare a defense.",
+                        {
+                          "type": "item",
+                          "entries": [
+                            "{@b Lupe, Goblin Worg Rider:} hp 27 (see page 119).",
+                            "{@b Worg:} hp 30 ({@i MM} 256).",
+                            "{@b Hobgoblin Sergeants (2):} hp 30 each (see page 119).",
+                            "{@b Hobgoblin Regulars (4):} hp 13 each (see page 119)."
+                          ]
+                        },
+                        "{@b Tactics}: If any of the enemies notice the PCs attempting to escape, they raise an alarm and move back to the wagons to attack the PCs. The characters are likely to be unarmed and unarmored. There are plenty of objects lying around that can be used as impromptu weapons, including the manacles the PCs wear. Characters not proficient with improvised weapons take a –4 penalty on attack rolls (see {@i PH} 113 for details on improvised weapons).",
+                        "The hobgoblin sergeants use whips to drive the horses but leave these whips in the front of the wagons when they go to explore the farmhouse. These two whips could be a great boon for PCs who know how to use them.",
+                        "The hobgoblins try to recapture the PCs alive, using nonlethal damage. Once a hobgoblin is slain, however, they abandon this tactic and use lethal force against the PCs. The goblin rider and worg attempt to flee if either is brought below 7 hit points, but the remaining hobgoblins fight to the death—failure at this stage is not an option for them."
+                      ]
+                    },
+                    {
+                      "type": "insetReadaloud",
+                      "name": "Designers' Notes",
                       "page": 48,
                       "entries": [
-                        "Once the Red Hand horde has gathered its troops and begun its march, it pretty much stays at the same level of strength until it reaches Brindol. The horde loses a small number of troops in skirmishes along the way, but these troops are easily replaced as reinforcements are recruited from scouting parties and the like.",
-                        "One thing the PCs can do to significantly weaken the Red Hand horde during its march to Brindol is to defeat several of its leaders and commanders. In particular, they'll have a chance to defeat three Wyrmlords of the Red Hand and several of the horde's monstrous champions. With these powerful NPCs out of the picture, the Red Hand is forced to use lesser commanders in their place or to simply go without. Both options weaken the horde significantly.",
-                        "Although attacking or infiltrating the Red Hand horde seems to be a suicide mission, this fact won't necessarily stop PCs from taking direct action against the hobgoblin army before it reaches Brindol. While this tactic is likely to lead to the death or capture of some or all of the PCs, skillful and daring adventurers might actually pull it off.",
-                        "The Red Hand horde consists of the following units. (Creatures and individuals marked with an asterisk are not present if the PCs managed to remove them from play earlier in the adventure.)",
+                        "If the PCs get captured, you want them to escape so they can continue the adventure. Languishing helplessly in a hobgoblin dungeon being tortured until the Red Hand leaders get around to executing you isn't a very entertaining adventure at all. Don't make it too hard to get away. But all bets are off if the PCs get captured a second time; after one successful escape, the villains won't take any chances at all.",
+                        "—James and Rich"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Into the Horde (EL 15)",
+                  "page": 48,
+                  "entries": [
+                    "Once the Red Hand horde has gathered its troops and begun its march, it pretty much stays at the same level of strength until it reaches Brindol. The horde loses a small number of troops in skirmishes along the way, but these troops are easily replaced as reinforcements are recruited from scouting parties and the like.",
+                    "One thing the PCs can do to significantly weaken the Red Hand horde during its march to Brindol is to defeat several of its leaders and commanders. In particular, they'll have a chance to defeat three Wyrmlords of the Red Hand and several of the horde's monstrous champions. With these powerful NPCs out of the picture, the Red Hand is forced to use lesser commanders in their place or to simply go without. Both options weaken the horde significantly.",
+                    "Although attacking or infiltrating the Red Hand horde seems to be a suicide mission, this fact won't necessarily stop PCs from taking direct action against the hobgoblin army before it reaches Brindol. While this tactic is likely to lead to the death or capture of some or all of the PCs, skillful and daring adventurers might actually pull it off.",
+                    "The Red Hand horde consists of the following units. (Creatures and individuals marked with an asterisk are not present if the PCs managed to remove them from play earlier in the adventure.)",
+                    {
+                      "type": "list",
+                      "style": "list-hang",
+                      "columns": 2,
+                      "items": [
                         {
                           "type": "entries",
                           "name": "Warriors",
@@ -3654,7 +3863,7 @@
                                 "{@b Wyverns (8):} hp 59 each ({@i MM} 259)",
                                 "{@b Manticores (16):} hp 57 each ({@i MM} 179).",
                                 "{@b Kulkor Zhul Mindbenders (6):} hp 36 each (see page 120).",
-                                "{@b Kulkor Zhul War Adepts (15):} hp 28 each (see page 120). [Includes Ruven; see below.]"
+                                "{@b Kulkor Zhul War Adepts (15):} hp 28 each (see page 120).<br>[Includes Ruven; see below.]"
                               ]
                             }
                           ]
@@ -3683,7 +3892,7 @@
                             {
                               "type": "item",
                               "entries": [
-                                "{@b Wyrmlord Hravek Kharn (General Kharn):} hp 68 (see page 113). [Commander of the horde; reports directly to High Wyrmlord Azarr Kul.]",
+                                "{@b Wyrmlord Hravek Kharn (General Kharn):} hp 68 (see page 113).<br>[Commander of the horde; reports directly to High Wyrmlord Azarr Kul.]",
                                 "{@b Abithriax (Red Dragon):} hp 184 (see page 115).",
                                 "{@b Wyrmlord Ulwai Stormcaller:} hp 52 (see page 113).*",
                                 "{@b Varanthian (Half-fiend Behir):} hp 103 (see page 114)*.",
@@ -3692,41 +3901,41 @@
                                 "{@b Wyrmlord Koth:} hp 59 (see page 114).*",
                                 "{@b Ozyrrandion (Green Dragon):} hp 104 (see page 115).*",
                                 "{@b Skather:} hp 87 (see page 116).",
-                                "{@b Doom Hand Warpriests (7):} hp 67 each (see page 118). [Includes Pash-Kari; see below.]"
+                                "{@b Doom Hand Warpriests (7):} hp 67 each (see page 118).<br>[Includes Pash-Kari; see below.]"
                               ]
                             }
                           ]
-                        },
-                        "The Red Hand horde stops every day in mid-afternoon and builds a lightly fortified encampment. It begins breaking camp the next morning an hour before sunrise. When the horde is occupying a captured town, Wyrmlord Kharn and his entourage generally sleep in the town hall or a local mansion. In the field, the general sleeps in a large circular tent.",
-                        "Wyrmlord Kharn never sleeps alone; he is constantly surrounded by guards, all of whom are ready to leap to his defense. He typically posts four blackspawn raiders (which are among the most alert of his minions) at either side of the entrance to his tent. In addition, the red dragon Abithriax usually nests no more than 100 feet from wherever Kharn beds down for the night. Finally, the Blood Ghost berserkers serve as the Wyrmlord's honor guard; two dozen of these ferocious bugbears are only a couple of rounds from any fight that breaks out in or around the Wyrmlord's tent.",
-                        "Within his tent or captured home, Kharn generally spends his nights with two female hobgoblins he has taken a liking to—Pash-Kari (a Doom Hand warpriest) and Ruven (a Kulkor Zhul war adept); both are capable, charismatic, and devoted both to Kharn and the cause. Asleep, they have a –10 penalty on Listen checks.",
-                        {
-                          "type": "item",
-                          "entries": [
-                            "{@b Wyrmlord Hravek Kharn:} hp 68 (see page 113).",
-                            "{@b Pash-Kari, Doom Hand Warpriest:} hp 67 (see page 118).",
-                            "{@b Ruven, Kulkor Zhul War Adept:} hp 28 (see page 120).",
-                            "{@b Blackspawn Raiders (8):} hp 60 each (see page 117)."
-                          ]
-                        },
-                        "{@b Tactics}: In order for an assassination attempt on Wyrmlord Kharn to work, the PCs need to get to him first. You can resolve the success of their approach by having them make a number of Bluff, Hide, and Move Silently checks as needed to sneak by or trick any horde members they encounter.",
-                        "Once they reach Kharn, they'll need to strike quickly. As soon as he or any of his allies raise the alarm, the horde is quick to mobilize. Kharn doesn't stick around if he's caught off guard—he does what he can to escape, by drinking a {@i potion of fly} or a {@i potion of haste} or by casting spells such as {@i air walk, wind wall} (to slow down pursuit), or {@i obscuring mist}. Reinforcements are quick to arrive; twenty-four battle-ready Blood Ghost berserkers reach the spot 2 rounds after the alarm is raised, followed within {@dice 1d6} rounds by Abithriax and {@dice 1d8} manticores.",
-                        {
-                          "type": "item",
-                          "entries": [
-                            "{@b Abithriax:} hp 184 (see page 115).",
-                            "{@b Manticores (1d8):} hp 57 each ({@i MM} 179).",
-                            "{@b Blood Ghost Berserkers (24):} hp 55 each (see page 117)."
-                          ]
-                        },
-                        {
-                          "type": "inset",
-                          "name": "Into The Horde Developments",
-                          "page": 49,
-                          "entries": [
-                            "If the PCs manage to assassinate Wyrmlord Kharn, they won't stop the horde—another general rises to fill the vacancy, be it Ulwai Stormcaller or one of the other surviving Wyrmlords, Abithriax or one of the other surviving dragons, Pash-Kari or another one of the Doom Hand warpriests, Ruven or another of the Kulkor Zhul war adepts, or even Skather (who would thereupon be promoted to Wyrmlord in his own right)."
-                          ]
                         }
+                      ]
+                    },
+                    "The Red Hand horde stops every day in mid-afternoon and builds a lightly fortified encampment. It begins breaking camp the next morning an hour before sunrise. When the horde is occupying a captured town, Wyrmlord Kharn and his entourage generally sleep in the town hall or a local mansion. In the field, the general sleeps in a large circular tent.",
+                    "Wyrmlord Kharn never sleeps alone; he is constantly surrounded by guards, all of whom are ready to leap to his defense. He typically posts four blackspawn raiders (which are among the most alert of his minions) at either side of the entrance to his tent. In addition, the red dragon Abithriax usually nests no more than 100 feet from wherever Kharn beds down for the night. Finally, the Blood Ghost berserkers serve as the Wyrmlord's honor guard; two dozen of these ferocious bugbears are only a couple of rounds from any fight that breaks out in or around the Wyrmlord's tent.",
+                    "Within his tent or captured home, Kharn generally spends his nights with two female hobgoblins he has taken a liking to—Pash-Kari (a Doom Hand warpriest) and Ruven (a Kulkor Zhul war adept); both are capable, charismatic, and devoted both to Kharn and the cause. Asleep, they have a –10 penalty on Listen checks.",
+                    {
+                      "type": "item",
+                      "entries": [
+                        "{@b Wyrmlord Hravek Kharn:} hp 68 (see page 113).",
+                        "{@b Pash-Kari, Doom Hand Warpriest:} hp 67 (see page 118).",
+                        "{@b Ruven, Kulkor Zhul War Adept:} hp 28 (see page 120).",
+                        "{@b Blackspawn Raiders (8):} hp 60 each (see page 117)."
+                      ]
+                    },
+                    "{@b Tactics}: In order for an assassination attempt on Wyrmlord Kharn to work, the PCs need to get to him first. You can resolve the success of their approach by having them make a number of Bluff, Hide, and Move Silently checks as needed to sneak by or trick any horde members they encounter.",
+                    "Once they reach Kharn, they'll need to strike quickly. As soon as he or any of his allies raise the alarm, the horde is quick to mobilize. Kharn doesn't stick around if he's caught off guard—he does what he can to escape, by drinking a {@i potion of fly} or a {@i potion of haste} or by casting spells such as {@i air walk, wind wall} (to slow down pursuit), or {@i obscuring mist}. Reinforcements are quick to arrive; twenty-four battle-ready Blood Ghost berserkers reach the spot 2 rounds after the alarm is raised, followed within {@dice 1d6} rounds by Abithriax and {@dice 1d8} manticores.",
+                    {
+                      "type": "item",
+                      "entries": [
+                        "{@b Abithriax:} hp 184 (see page 115).",
+                        "{@b Manticores (1d8):} hp 57 each ({@i MM} 179).",
+                        "{@b Blood Ghost Berserkers (24):} hp 55 each (see page 117)."
+                      ]
+                    },
+                    {
+                      "type": "inset",
+                      "name": "Into The Horde Developments",
+                      "page": 49,
+                      "entries": [
+                        "If the PCs manage to assassinate Wyrmlord Kharn, they won't stop the horde—another general rises to fill the vacancy, be it Ulwai Stormcaller or one of the other surviving Wyrmlords, Abithriax or one of the other surviving dragons, Pash-Kari or another one of the Doom Hand warpriests, Ruven or another of the Kulkor Zhul war adepts, or even Skather (who would thereupon be promoted to Wyrmlord in his own right)."
                       ]
                     }
                   ]
@@ -3867,7 +4076,7 @@
                             ],
                             [
                               "57–62",
-                              "1 will-o’-wisp (MM 255)",
+                              "1 will-o'-wisp (MM 255)",
                               "6"
                             ],
                             [
@@ -3969,7 +4178,7 @@
                 },
                 {
                   "type": "entries",
-                  "name": "Spawn Of Tiamat (EL 7)",
+                  "name": "Spawn of Tiamat (EL 7)",
                   "page": 51,
                   "entries": [
                     "The PCs stumble into the nest of a greenspawn razorfiend, probably marking their first encounter with spawn of Tiamat.",
@@ -4076,6 +4285,40 @@
                     "{@b Sellyria Starsinger}: Speaker Sellyria is a calm, wise, and perceptive female elf. She has led the Tiri Kitor elves for nearly two hundred years and still remembers their flight from the Westdeep, when the Tiri Kitor went into a self-imposed exile to avert a civil war. Sellyria's husband died long ago, slain by a lizardfolk barbarian. She has two sons, both leaders of other nearby encampments. Although now frail, Sellyria commands deep respect from her people.",
                     "{@b Trellara Nightshadow}: Normally an energetic, bright-eyed beauty always ready to break into song at a moment's notice, High Singer Trellara takes the death of her brother quite hard. Lanikar was her only surviving family. With him gone, a part of her joy in life vanishes as well. Vowing to avenge her brother's death, she approaches the PCs with an offer to become a member of their group. (She would be an excellent prospect to become the cohort of a PC with the Leadership feat, especially if that character is looking for a cohort who can offer healing and combat support.)",
                     "{@b Illian Snowmantle}: Absent when the PCs arrive, Illian returns from ministering to a distant encampment just before dawn on the day after Lanikar's funeral ceremony. As Starsong Hill's only cleric, Illian has his hands full tending to the sick and wounded of the various wild elf camps. All the acolytes he trains are quickly sent to other encampments throughout the Blackfens, since their skills are needed in camps that are more prone to attacks from lizardfolk. The first time the PCs interact with Illian, his attitude toward them is indifferent; be sure to roleplay the interaction so you can have them make a Diplomacy check to determine his impressions of the group.",
+                    {
+                      "type": "list",
+                      "style": "list-hang",
+                      "columns": 3,
+                      "items": [
+                        {
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/028.webp"
+                          },
+                          "title": "Killiar Arrowswift, the most skilled hunter of the Tiri Kitor, expresses his willingness to hunt down the Red Hand intruders",
+                          "credit": "Eric Polak"
+                        },
+                        {
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/029.webp"
+                          },
+                          "title": "Trellara Nightshadow, grieveing for her murdered brother, vows vengeance against the Red Hand",
+                          "credit": "Eric Polak"
+                        },
+                        {
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/030.webp"
+                          },
+                          "title": "Sellyria Starsinger, leader of the Tiri Kitor, has much to tell the PCs of the Red Hand's nearby outpost",
+                          "credit": "Randy Gallegos"
+                        }
+                      ]
+                    },
                     {
                       "type": "insetReadaloud",
                       "name": "Designers' Notes",
@@ -4527,6 +4770,17 @@
                         "{@color {@i A one-story stone building once stood here, but now its flat roof has almost entirely collapsed. A section to the east remains intact, forming a narrow and mossy platform above the water. The remaining walls stand about a half-foot above the water level, creating an L-shaped enclosure. The entire area has been reinforced with a fence of logs and branches lashed together with ropes, extending the ruined walls of the building up by another ten feet. At the west end of the enclosure lies a large heap of mud and rotting plants. The only easy way inside seems to be a gate in the northeast corner, near a floating bridge that leads back to the boardwalk that surrounds the larger building.}|--rgb-name}"
                       ]
                     },
+                    "",
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/031.webp"
+                      },
+                      "title": "The Red Hand's secret weapon, this hatchery of dragonspawn could bring the horde devastating reinforcements for the attack on Brindol",
+                      "credit": "Howard Lyon"
+                    },
+                    "",
                     "This area is where the Red Hand has been keeping its greenspawn razorfiend eggs. The gate is lashed shut, but a DC 10 Use Rope check is enough to open it. Otherwise, a character can clamber up the 10-foot-high wooden fence that surrounds the area with a DC 10 Climb check, or slip through a gap between the posts with a DC 30 Escape Artist check.",
                     "The pool within is 10 feet deep and currently contains thirty razorfiend eggs. Each egg is roughly 1 foot in diameter and warm to the touch, with a leathery texture and tiny, sharp scales that cause small but painful cuts (1 point of damage) to anyone who handles one with bare hands. They are fixed in place along the inner walls of the pool by a sticky resin exuded by the razorfiend guardian. Finding all thirty of the eggs is a difficult task, especially if the PCs have no idea how many eggs are hidden in here, but once an egg is uncovered it takes only a standard action to destroy it.",
                     "There is currently only one razorfiend here, lurking underwater. Allow it to make Listen and Spot checks (at a –4 penalty if the PCs are abovewater) to notice the PCs if they enter this area. If the razorfiend notices them, it lunges into action; Its splashes and roars serve to alert the rest of the Red Hand troops if the bell tower's alarm hasn't already done so.",
@@ -4583,22 +4837,38 @@
                   "name": "3F. Saarvith's HQ (EL 7)",
                   "page": 62,
                   "entries": [
-                    "{@b Light}: None.",
-                    "{@b Creatures}: One goblin, one eagle.",
                     {
-                      "type": "entries",
-                      "entries": [
-                        "{@color {@i Three large animals—a leopard, a wild boar, and a crocodile—stand at the ready in the southern portion of this room... but on second inspection, they prove to be stuffed and mounted for display. The walls are decorated with a striking tapestry depicting a five-headed dragon in a pose of destructive rage. A free-standing perch for a falcon or eagle stands in the room's northwest corner. A cot heaped with fine furs lies to the west, next to a large table. Atop the table lies a dead batlike creature, its abdomen cleaned and stuffed with salt and wood chips, and its wings pinned to the table's surface with several thin pins. An iron chest sits on the floor beneath the table.}|--rgb-name}"
-                      ]
-                    },
-                    "Wyrmlord Saarvith isn't that fond of his current post here and would much rather be aiding Wyrmlord Hravek Kharn in leading the horde into the vale. He suspects that Nurklenak was stationed here to keep tabs on him, so Saarvith has been careful not to speak ill of his superiors.",
-                    "While he waits for the razorfiend eggs to mature, Saarvith spends his time catching, gutting, and stuffing local wildlife; he's about halfway done with the stirge pinned to his table. His only other pleasure is accompanying Regiarix on the occasional hunting trip through the swamp. Saarvith struck up a friendship with the black dragon years ago, and he knows that this friendship was the primary reason he, a lowly goblin, was promoted to Wyrmlord. He doesn't blame Regiarix for this fact, but still harbors some feelings of inferiority when the dragon's not around.",
-                    "Wyrmlord Saarvith is here working on his stuffed stirge if the PCs make it this far without raising the alarm. His animal companion, a cruelbeaked eagle, waits patiently on its perch nearby.",
-                    {
-                      "type": "item",
-                      "entries": [
-                        "{@b Wyrmlord Saarvith:} hp 49 (see page 113).",
-                        "{@b Eagle Animal Companion:} hp 20 (see page 114)."
+                      "type": "list",
+                      "style": "list-hang",
+                      "columns": 2,
+                      "items": [
+                        {
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/032.webp"
+                          },
+                          "title": "Wyrmlord Saarvith, goblin ranger, prepares to skewer another enemy of the Red Hand",
+                          "credit": "Wayne England"
+                        },
+                        "{@b Light}: None.",
+                        "{@b Creatures}: One goblin, one eagle.",
+                        {
+                          "type": "entries",
+                          "entries": [
+                            "{@color {@i Three large animals—a leopard, a wild boar, and a crocodile—stand at the ready in the southern portion of this room... but on second inspection, they prove to be stuffed and mounted for display. The walls are decorated with a striking tapestry depicting a five-headed dragon in a pose of destructive rage. A free-standing perch for a falcon or eagle stands in the room's northwest corner. A cot heaped with fine furs lies to the west, next to a large table. Atop the table lies a dead batlike creature, its abdomen cleaned and stuffed with salt and wood chips, and its wings pinned to the table's surface with several thin pins. An iron chest sits on the floor beneath the table.}|--rgb-name}"
+                          ]
+                        },
+                        "Wyrmlord Saarvith isn't that fond of his current post here and would much rather be aiding Wyrmlord Hravek Kharn in leading the horde into the vale. He suspects that Nurklenak was stationed here to keep tabs on him, so Saarvith has been careful not to speak ill of his superiors.",
+                        "While he waits for the razorfiend eggs to mature, Saarvith spends his time catching, gutting, and stuffing local wildlife; he's about halfway done with the stirge pinned to his table. His only other pleasure is accompanying Regiarix on the occasional hunting trip through the swamp. Saarvith struck up a friendship with the black dragon years ago, and he knows that this friendship was the primary reason he, a lowly goblin, was promoted to Wyrmlord. He doesn't blame Regiarix for this fact, but still harbors some feelings of inferiority when the dragon's not around.",
+                        "Wyrmlord Saarvith is here working on his stuffed stirge if the PCs make it this far without raising the alarm. His animal companion, a cruelbeaked eagle, waits patiently on its perch nearby.",
+                        {
+                          "type": "item",
+                          "entries": [
+                            "{@b Wyrmlord Saarvith:} hp 49 (see page 113).",
+                            "{@b Eagle Animal Companion:} hp 20 (see page 114)."
+                          ]
+                        }
                       ]
                     },
                     "{@b Tactics}: As long as he believes that the razorfiend and Nurklenak still live, Wyrmlord Saarvith brooks no thought of surrender. If he can, he retreats to area 3G to call on Regiarix for aid in combat. Otherwise, he sends his eagle in to attack arcane spellcasters while he focuses his attacks on any elves or humans in sight.",
@@ -4648,6 +4918,17 @@
                         "{@color {@i This large room might have once been a well-appointed library, but now its shelves lie in disarray along the east and west walls. No sign of any books are apparent. A large portion of the ceiling is missing, as is a corresponding portion of the floor, which opens into the dark waters of the lake below.}|--rgb-name}"
                       ]
                     },
+                    "",
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/033.webp"
+                      },
+                      "title": "Regiarix gives his acid bath treatment to a hapless intruder who got too close to the dragon's lair",
+                      "credit": "Howard Lyon"
+                    },
+                    "",
                     "The hole in the floor allows access to the flooded ground level of the Town Hall. The water is 30 feet deep. The ground floor's layout matches that of the second floor (areas 3D through 3G), except that a thick layer of silt covers the mosaic floors, and the doors have long since rotted away.",
                     "These lower chambers are the lair of the black dragon Regiarix. If the PCs manage to make it to this area without raising the alarm, there is a {@chance 35} chance that the dragon is resting in this room. Otherwise he's lurking somewhere in the waters below, unless the PCs timed their visit when he is away on a hunt with the Wyrmlord (see Observing Rhest on page 58).",
                     "Regiarix has laired in the ruins of Rhest for a number of years. He has little interest in serving Tiamat but has allied himself with the Red Hand for a personal reason—he burns with a need for revenge against none other than Lord Kerden Jarmaath of Brindol. Seventeen years ago, when young Jarmaath was a member of an adventuring band known as the Knights of the Vale, he and his companions encountered a very young Regiarix in the Marth Forest near Elsircross. Jarmaath landed a lucky blow that sent Regiarax fleeing for his life. The dragon returned several hours later to find that his treasure had been stolen by the adventurers, down to the last copper piece. Regiarix fled to the Blackfens to heal and plot his revenge. The dragon met Saarvith several years ago when the goblin ranger scouted out the city of Rhest as a potential outpost for the growing strength of the Kulkor Zhul. Saarvith promised to help Regiarax get his stolen treasure back someday, and the dragon has aided the goblin—and through him, the Red Hand—ever since.",
@@ -4679,38 +4960,60 @@
               "entries": [
                 "Part II concludes when the PCs defeat the Red Hand agents in Rhest. Yet there is much more the characters can do in the Blackfens to prepare for the inevitable clash with the horde than simply disrupt the razorfiend hatchery.",
                 {
-                  "type": "entries",
-                  "name": "The Ghostlord's Phylactery",
-                  "page": 65,
-                  "entries": [
-                    "The PCs should have now learned of the involvement of a lich known as the Ghostlord. Any PC who is a native of Elsir Vale knows the name as that of a local boogeyman, said to dwell in the inhospitable Thornwaste to the south. See page 67 for legends about the Ghostlord.",
-                    "With a little luck, the PCs should have also gained possession of the lich's stolen phylactery. The phylactery can be identified as such with an {@i identify} spell or a successful DC 25 Knowledge (arcana) or bardic knowledge check.",
-                    "There's a chance that the PCs simply don't find these clues. In this case, you can provide them the clues when a large group of Tiri Kitor elves searches the ruins of Rhest the day after the PCs rout the Red Hand from its flooded halls; the elves find the phylactery and present it to the PCs as a possible way to break the alliance between the lich and the horde."
-                  ]
-                },
-                {
-                  "type": "entries",
-                  "name": "The Elf Alliance",
-                  "page": 65,
-                  "entries": [
-                    "The Tiri Kitor have no love for the Kulkor Zhul hobgoblins, but neither are they eager to fight a war that looks as if it might pass them by. In short, the Tiri Kitor have no intention of aiding the humans of the vale in defending Brindol from the advancing horde.",
-                    "The player characters can change that. If they befriend the elves with their words and impress them with their deeds (specifically, driving off the Red Hand agents from Rhest), they have a good chance of establishing an alliance between the Tiri Kitor and the humans of Elsir Vale.",
-                    "Consult the following list of accomplishments and calculate the total number of \"alliance points\" the PCs have earned during this part of the adventure.",
+                  "type": "list",
+                  "style": "list-hang",
+                  "columns": 2,
+                  "items": [
                     {
-                      "type": "list",
-                      "items": [
-                        "{@b Slain Razorfiends}: Award the PCs 1 alliance point for each razorfiend they slew in this part of the adventure, to a maximum award of 3 points.",
-                        "{@b Impressed Elves}: For each of the four key elves of Starsong Hill made friendly through Diplomacy checks or PC actions, award 1 alliance point. For each elf made helpful, award 2 alliance points.",
-                        "{@b Memorable Performance}: If any of the PCs performed during Lanikar's funeral (see page 56), award 2 alliance points for a successful DC 20 check or 1 alliance point for a successful DC 10 check. Each character can earn these points once only.",
-                        "{@b Kindness}: If any of the PCs were unusually kind to the elves (such as giving gifts worth 100 gp or more, casting healing or restorative spells free of charge, or trying to console Trellara), give them an award of 2 alliance points.",
-                        "{@b Defeating the Red Hand}: If the PCs manage to drive the Red Hand agents out of Rhest, award them 2 alliance points.",
-                        "{@b Cruelty}: If any of the PCs were unusually cruel to any of the Tiri Kitor, reduce their alliance point total by 4."
+                      "type": "entries",
+                      "name": "The Ghostlord's Phylactery",
+                      "page": 65,
+                      "entries": [
+                        "The PCs should have now learned of the involvement of a lich known as the Ghostlord. Any PC who is a native of Elsir Vale knows the name as that of a local boogeyman, said to dwell in the inhospitable Thornwaste to the south. See page 67 for legends about the Ghostlord.",
+                        "With a little luck, the PCs should have also gained possession of the lich's stolen phylactery. The phylactery can be identified as such with an {@i identify} spell or a successful DC 25 Knowledge (arcana) or bardic knowledge check.",
+                        "There's a chance that the PCs simply don't find these clues. In this case, you can provide them the clues when a large group of Tiri Kitor elves searches the ruins of Rhest the day after the PCs rout the Red Hand from its flooded halls; the elves find the phylactery and present it to the PCs as a possible way to break the alliance between the lich and the horde.",
+                        {
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/034.webp"
+                          },
+                          "title": "Finding the Ghostlord's phylactery gives the PCs a weapon to disrupt a key Red Hand alliance",
+                          "credit": "Wayne England"
+                        }
                       ]
                     },
-                    "After you have tabulated the PCs' alliance points, consult whichever of the following paragraphs applies.",
-                    "{@b Alliance Points 8 or Lower:} While the elves might be thankful to the PCs for driving off the Red Hand, they haven't been convinced to join the cause, and they refuse to risk their lives defending Brindol when they might need every last elf to defend their own lands. Further attempts to get them to join the fight only cause their patience to wear thin.",
-                    "{@b Alliance Points 9 through 13:}  The elves agree to send a group of Tiri Kitor hunters to Brindol to aid in the town's defense. This force could mean the difference between victory or defeat in Part IV.",
-                    "{@b Alliance Points 14 or Higher:}  The elves are particularly impressed by the PCs. Not only do they pledge a group of hunters to Brindol's defense, but they favor the PCs with the loan of several of their beloved giant owls (one per PC) for the next few weeks. They ask that the PCs treat the owls with the same respect and kindness the PCs have extended to the Tiri Kitor, and warn them that if they do not, the owls will abandon them."
+                    {
+                      "type": "entries",
+                      "name": "The Elf Alliance",
+                      "page": 65,
+                      "entries": [
+                        "The Tiri Kitor have no love for the Kulkor Zhul hobgoblins, but neither are they eager to fight a war that looks as if it might pass them by. In short, the Tiri Kitor have no intention of aiding the humans of the vale in defending Brindol from the advancing horde.",
+                        "The player characters can change that. If they befriend the elves with their words and impress them with their deeds (specifically, driving off the Red Hand agents from Rhest), they have a good chance of establishing an alliance between the Tiri Kitor and the humans of Elsir Vale.",
+                        "Consult the following list of accomplishments and calculate the total number of \"alliance points\" the PCs have earned during this part of the adventure.",
+                        {
+                          "type": "list",
+                          "items": [
+                            "{@b Slain Razorfiends}: Award the PCs 1 alliance point for each razorfiend they slew in this part of the adventure, to a maximum award of 3 points.",
+                            "{@b Impressed Elves}: For each of the four key elves of Starsong Hill made friendly through Diplomacy checks or PC actions, award 1 alliance point. For each elf made helpful, award 2 alliance points.",
+                            "{@b Memorable Performance}: If any of the PCs performed during Lanikar's funeral (see page 56), award 2 alliance points for a successful DC 20 check or 1 alliance point for a successful DC 10 check. Each character can earn these points once only.",
+                            "{@b Kindness}: If any of the PCs were unusually kind to the elves (such as giving gifts worth 100 gp or more, casting healing or restorative spells free of charge, or trying to console Trellara), give them an award of 2 alliance points.",
+                            "{@b Defeating the Red Hand}: If the PCs manage to drive the Red Hand agents out of Rhest, award them 2 alliance points.",
+                            "{@b Cruelty}: If any of the PCs were unusually cruel to any of the Tiri Kitor, reduce their alliance point total by 4."
+                          ]
+                        },
+                        "After you have tabulated the PCs' alliance points, consult whichever of the following paragraphs applies.",
+                        {
+                          "type": "item",
+                          "name": "",
+                          "entries": [
+                            "{@b Alliance Points 8 or Lower:} While the elves might be thankful to the PCs for driving off the Red Hand, they haven't been convinced to join the cause, and they refuse to risk their lives defending Brindol when they might need every last elf to defend their own lands. Further attempts to get them to join the fight only cause their patience to wear thin.",
+                            "{@b Alliance Points 9 through 13:}  The elves agree to send a group of Tiri Kitor hunters to Brindol to aid in the town's defense. This force could mean the difference between victory or defeat in Part IV.",
+                            "{@b Alliance Points 14 or Higher:}  The elves are particularly impressed by the PCs. Not only do they pledge a group of hunters to Brindol's defense, but they favor the PCs with the loan of several of their beloved giant owls (one per PC) for the next few weeks. They ask that the PCs treat the owls with the same respect and kindness the PCs have extended to the Tiri Kitor, and warn them that if they do not, the owls will abandon them."
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ]
@@ -4722,6 +5025,16 @@
           "name": "Part Three: The Ghostlord's Lair",
           "page": 66,
           "entries": [
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/035.webp"
+              },
+              "title": "Within the Thornwaste, the Ghostlord's lair awaits its next unwary prey",
+              "credit": "Scott Roller"
+            },
+            "",
             "The PCs make an important discovery near the end of Part II—namely, that the Red Hand has recruited a potent undead ally to its cause. The Ghostlord is something of a local boogeyman, the central menace of a large number of bedtime stories and campfire tales. Most children outgrow these stories when they become adults, and the human populace of Elsir Vale regard the Ghostlord as little more than a mythological bump in the night.",
             "Unfortunately for the vale, the Ghostlord is quite real.",
             {
@@ -5034,6 +5347,15 @@
                             "Ghostlord's patience by intruding in the western reaches of his lair but doesn't take any chances. She has the monks return to their posts in area 6 while she and the clerics go back downstairs to prepare a defense as detailed there.",
                             "Ulwai Stormcaller does take one additional action as soon as she returns to area 12. Several of her abilities function better during storms, so she uses her {@i staff of stormclouds} (see page 126), expending 4 charges to cast {@i control weather}. She needs to make a DC 20 Use Magic Device check to activate the staff. Assuming she doesn't roll a natural 1 (which means she can't use the staff for the rest of the day) and succeeds on the check, Ulwai brings on a torrential rainstorm coupled with severe winds. Not only does she hope the storm encourages trespassers to leave the area, but the storm augments her magic if she's forced to leave the lair."
                           ]
+                        },
+                        {
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/036.webp"
+                          },
+                          "title": "Varanthian the behir attacks without mercy all those who would oppose the will of Tiamat",
+                          "credit": "Wayne England"
                         }
                       ]
                     },
@@ -5214,6 +5536,15 @@
                         "round against the nearest enemy. The clerics and monks fight to the death. Ulwai does not. If things look grim, she tries to escape, using {@i invisibility} or a {@i fog cloud} from her staff to aid her flight. Her goal is to reach area 7, {@i feather fall} down to area 1, and then find somewhere to hide so she can take 10 minutes to cast {@i phantom steed} from a scroll (if the PCs have left mounts nearby, she simply steals one). If she escapes, she makes her way back to the horde and becomes General Kharn's second in command, acting henceforth as the horde's herald. If her escape is compromised, she uses her staff to cast {@i call lightning} and uses her bow, lightning strikes, and thunderstrikes to put up the best fight possible.",
                         "{@b Treasure}: The portable statue of Tiamat isn't inherently evil—it's nothing more than a wooden statue. It weighs 350 pounds and is worth 500 gp because of its artistry.",
                         {
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/037.webp"
+                          },
+                          "title": "Wyrmlord Ulwai Stormcaller use her wits, her wiles, and her command of lightning to control and destroy her enemies",
+                          "credit": "Franz Vohwinkel"
+                        },
+                        {
                           "type": "insetReadaloud",
                           "name": "Designers' Notes",
                           "page": 75,
@@ -5298,7 +5629,16 @@
                             "{@b Lesser Bonedrinkers (6):} hp 59 each (see page 122)."
                           ]
                         },
-                        "{@b Tactics}: The bonedrinkers are fueled only by their hatred of the living; without the Ghostlord or evil clerics to command them, they wait patiently in this chamber for orders. The introduction of living victims into their lair prompts an immediate attack. The bonedrinkers don't fight with any coordinated tactics and aren't smart enough to realize that they could use the Pool of Rebirth to their advantage. Still, their ferocity makes them dangerous foes."
+                        "{@b Tactics}: The bonedrinkers are fueled only by their hatred of the living; without the Ghostlord or evil clerics to command them, they wait patiently in this chamber for orders. The introduction of living victims into their lair prompts an immediate attack. The bonedrinkers don't fight with any coordinated tactics and aren't smart enough to realize that they could use the Pool of Rebirth to their advantage. Still, their ferocity makes them dangerous foes.",
+                        {
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/001.webp"
+                          },
+                          "title": "When bonedrinkers attack, the living must suffer to feed their undying thirst",
+                          "credit": "Wayne England"
+                        }
                       ]
                     },
                     {
@@ -5366,7 +5706,16 @@
                             "{@b The Ghostlord:} hp 71 (see page 120)."
                           ]
                         },
-                        "{@b Ad Hoc XP Award:} If the PCs succeed in persuading the Ghostlord to abandon the cause of the Red Hand horde (by returning his phylactery to him), they earn XP as if they had defeated the lich in battle."
+                        "{@b Ad Hoc XP Award:} If the PCs succeed in persuading the Ghostlord to abandon the cause of the Red Hand horde (by returning his phylactery to him), they earn XP as if they had defeated the lich in battle.",
+                        {
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/002.webp"
+                          },
+                          "title": "The druid lich decides to deal with the intruders himself",
+                          "credit": "Eva Widedrmann"
+                        }
                       ]
                     },
                     {
@@ -5477,9 +5826,19 @@
         },
         {
           "type": "section",
-          "name": "Part Fourt: Enemy at the Gates",
+          "name": "Part Four: Enemy at the Gates",
           "page": 80,
           "entries": [
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/003.webp"
+              },
+              "title": "The Battle of Brindol pits a desperate defense against the full might of the Red Hand horde",
+              "credit": "Des Hanley"
+            },
+            "",
             "By the time the PCs have destroyed Skull Gorge Bridge, ruined the razorfiend hatchery in Rhest, and returned the Ghostlord's phylactery, the Red Hand should have very nearly reached the city of Brindol. Burning towns as they march along the Dawn Way and driving an increasingly large wave of refugees before them, the hobgoblins pause for a few days before launching their main attack on the walled city. Unlike the towns that have come before, Brindol has not only fortifications, but also a substantial standing army, ready and willing to defend the city.",
             "This part of the adventure presents the climactic confrontation between the Red Hand horde and the humans of Elsir Vale. By taking part in these events, the PCs can help turn back the horde. If they are successful here, and if they managed to stymie the horde at key points earlier in the adventure, they just might save the day!",
             {
@@ -5653,7 +6012,16 @@
                       "name": "13. Kaal Manor",
                       "page": 84,
                       "entries": [
-                        "This richly furnished mansion commands an impressive view of the vale to the east of Brindol. With its own stables, garden, and archery range, Kaal Manor might well be the greatest and most tasteful display of wealth in the city. And with good cause: Its primary inhabitant is Lady Verrasa Kaal, a shrewd and gifted merchant who owns more businesses and holds more outstanding markers than anyone else in Brindol (or, indeed, the vale). It seems that everyone in the city owes the Kaal family something, and for the most part Verrasa is content to let those debts hang over their heads. Being rich and powerful is easier if more people feel grateful that you haven't yet collected on their loans. It doesn't hurt Lady Kaal's ability to get what she wants that she has been Rillor Paln's not-so-secret lover for the past several years. The two are sometimes dubbed \"the Velvet Hand,\" and wags enjoy debating which is the more manipulative and subtle of the two."
+                        "This richly furnished mansion commands an impressive view of the vale to the east of Brindol. With its own stables, garden, and archery range, Kaal Manor might well be the greatest and most tasteful display of wealth in the city. And with good cause: Its primary inhabitant is Lady Verrasa Kaal, a shrewd and gifted merchant who owns more businesses and holds more outstanding markers than anyone else in Brindol (or, indeed, the vale). It seems that everyone in the city owes the Kaal family something, and for the most part Verrasa is content to let those debts hang over their heads. Being rich and powerful is easier if more people feel grateful that you haven't yet collected on their loans. It doesn't hurt Lady Kaal's ability to get what she wants that she has been Rillor Paln's not-so-secret lover for the past several years. The two are sometimes dubbed \"the Velvet Hand,\" and wags enjoy debating which is the more manipulative and subtle of the two.",
+                        {
+                          "type": "image",
+                          "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/004.webp"
+                          },
+                          "title": "Elegant Kaal Manor becomes a haven for refugees from the eastern vale",
+                          "credit": "Randy Gallegos"
+                        }
                       ]
                     },
                     {
@@ -5729,6 +6097,17 @@
                   "name": "Important People",
                   "page": 85,
                   "entries": [
+                    "",
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/005.webp"
+                      },
+                      "title": "Brindol's Defense Council meets to lay plans for the coming battle",
+                      "credit": "Eric Polak"
+                    },
+                    "",
                     "Most of Brindol's more than eight thousand citizens have been evacuated from the city by the time the PCs are likely to arrive. Of the fifteen hundred or so who remain, the most important are detailed in brief here.",
                     {
                       "type": "list",
@@ -5925,6 +6304,17 @@
                   "name": "Abithriax's Rampage (EL 10)",
                   "page": 90,
                   "entries": [
+                    "",
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/006.webp"
+                      },
+                      "title": "Abithriax's rampage sets Brindol aflame unless the heroes can stop him",
+                      "credit": "Lucio Parillo"
+                    },
+                    "",
                     "Although the PCs might have defeated their group of giants before they breach the city wall, the other defenders aren't so lucky. The second group of hill giants takes down an alarmingly large section of wall near the western gate. At the same time, a horrific blast of fire explodes near the southern gate—the red dragon Abithriax has joined the battle!",
                     "{@b Mission:} This event begins with a sudden, brilliant blast of fire from the southern section of Brindol as the red dragon Abithriax blasts one of the buildings there with his breath weapon. Almost at once, the PCs receive a panicked telepathic message from Lord Jarmaath, who confirms what the PCs might have already guessed—the red dragon has joined the battle. At the same time, the horde is pushing into the breach in the west wall. Lord Jarmaath orders the PCs to slay the dragon while his soldiers meet the bulk of the horde army at the breach in the walls to the west.",
                     "{@b Light:} Shadowy (moonlight and fire from burning buildings).",
@@ -5949,7 +6339,7 @@
                 },
                 {
                   "type": "entries",
-                  "name": "Streets Of Blood",
+                  "name": "Streets of Blood",
                   "page": 91,
                   "entries": [
                     "This event is the characters' chance to take on a large number of low-level hobgoblins, in a wave-after-wave assault on one of the main streets of town. The PCs must hold a barricade against all comers before reinforcements can arrive.",
@@ -6049,7 +6439,7 @@
                         },
                         {
                           "type": "inset",
-                          "name": "Streets Of Blood Development",
+                          "name": "Streets of Blood Development",
                           "page": 92,
                           "entries": [
                             "If the PCs are able to hold the line, the horde falls back to regroup just inside the fallen section of city wall, giving the defenders a chance to regroup as well. If the PCs fail, the horde takes up positions in the marketplace and now controls between a quarter and a third of Brindol. Either way, allow a lull of several minutes before you begin the next event."
@@ -6125,6 +6515,17 @@
                   "name": "Final Battle (EL 12+)",
                   "page": 94,
                   "entries": [
+                    "",
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/007.webp"
+                      },
+                      "title": "AWyrmlord Kharn's ﬁnal attack on Cathedral Square brings the Battle of Brindol to a bloody climax",
+                      "credit": "Lucio Parillo"
+                    },
+                    "",
                     "As the battle draws to a close, General Kharn leads a group of dangerous monsters and hobgoblins on a surgical strike against the Cathedral of Pelor. The PCs must prevent Kharn from destroying the cathedral and its priests.",
                     "{@b Mission:} As soon as Captain Ulverth finds the PCs, he gives them the news—Wyrmlord Kharn is nearby. He has gathered several of his most powerful remaining minions and is marching on the Cathedral of Pelor, intent on destroying it and removing critical clerical support from Brindol's defenders. Captain Ulverth and his unit have just returned from a harrowing battle to the north against Wyrmlord Kharn and some of these creatures near the marketplace (area 5). They were able to kill a few giants and the last of the manticores, but there are still quite a few creatures in Kharn's personal entourage. Captain Ulverth estimates that the Wyrmlord will attack the cathedral in less than 10 minutes; with his own soldiers badly wounded, he needs the PCs' aid.",
                     "{@b Light:} Bright (numerous everburning torches).",
@@ -6339,15 +6740,25 @@
         },
         {
           "type": "section",
-          "name": "Part Five: The Fane Of Tiamat",
+          "name": "Part Five: The Fane of Tiamat",
           "page": 97,
           "entries": [
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/008.webp"
+              },
+              "title": "Greater evil than any the heroes have yet faced awaits them within the Fane of Tiamat",
+              "credit": "Des Hanley"
+            },
+            "",
             "In Part IV, the PCs finally got the chance to face off against the Red Hand horde. They might have managed to turn back the hobgoblins, or they might have been forced to abandon Brindol in shame and defeat. In the former case, one step remains to ensure that the hobgoblin host does not return. In the latter, one last desperate chance exists to decapitate the horde and save Elsir Vale from complete domination—for the true leader of the Red Hand still lives.",
-            "This final part of {@i Red Hand of Doom} begins as Lord Jarmaath takes the PCs aside to give them some disturbing news. This meeting can take place in the council room of Brindol Keep amid a victory celebration, or it can take place on the road to Dennovar at the head of the last refugees to escape the burning city. In either case, Lord Jarmaath’s request is the same—he asks the PCs to travel to the Wyrmsmoke Mountains to confront and defeat High Wyrmlord Azarr Kul himself at the seat of his power in the Fane of Tiamat.",
-            "Based on intelligence gathered by his spies and from captured prisoners and recovered documents, and from the details of the horde supplied to him by the PCs, Lord Jarmaath has made a troubling discovery—namely, the strange and terrible dragonspawn that they faced as part of the horde army were just the advance scouts of an even greater infernal host of devils, fiends, and Tiamat’s spawn. Azarr Kul, the High Wyrmlord of the horde, was not present at Brindol for one simple yet terrible reason—he has remained in the Fane of Tiamat to complete a complex, month-long ritual to open a portal to Tiamat’s court to augment the horde with an infernal army. If he succeeds, the horde will become all but unstoppable.",
-            "Lord Jarmaath is unsure how long the PCs have to get to the Fane of Tiamat and stop this ritual, but it’s certainly time measured in days rather than weeks. He has secured 2 scrolls of {@i teleport} for the PCs (each scribed by Immerstal, a 9th-level caster), allowing the reader and up to three other Medium creatures to teleport up to 900 miles away. If none of the PCs can use the scrolls, assume Immerstal is still alive and that Lady Kaal convinces (blackmails) him into helping them. Given a day to rest and recover his spells, the surly wizard uses a combination of the scrolls and his own 5th-level spells to transport the PCs three at a time (himself and three others on the first trip, then back by himself, then three more on the second trip, and so forth), complaining bitterly all the while.",
-            "The PCs can decide where they wish to teleport. Drellin’s Ferry is a logical choice, although Vraath Keep is a little closer to their goal. Drellin’s Ferry counts as very familiar (Immerstal grew up there), but he’s never been to Vraath Keep.",
-            "Before the PCs go, Lord Jarmaath can donate some magic to their cause. He has gathered together the following supplies (most of it looted from dead hobgoblins): {@i 8 potions of cure moderate wounds}, {@i 3 potions of bull’s strength}, {@i 5 potions of invisibility}, 2 scrolls of {@i haste}, and a scroll of {@i fly}.",
+            "This final part of {@i Red Hand of Doom} begins as Lord Jarmaath takes the PCs aside to give them some disturbing news. This meeting can take place in the council room of Brindol Keep amid a victory celebration, or it can take place on the road to Dennovar at the head of the last refugees to escape the burning city. In either case, Lord Jarmaath's request is the same—he asks the PCs to travel to the Wyrmsmoke Mountains to confront and defeat High Wyrmlord Azarr Kul himself at the seat of his power in the Fane of Tiamat.",
+            "Based on intelligence gathered by his spies and from captured prisoners and recovered documents, and from the details of the horde supplied to him by the PCs, Lord Jarmaath has made a troubling discovery—namely, the strange and terrible dragonspawn that they faced as part of the horde army were just the advance scouts of an even greater infernal host of devils, fiends, and Tiamat's spawn. Azarr Kul, the High Wyrmlord of the horde, was not present at Brindol for one simple yet terrible reason—he has remained in the Fane of Tiamat to complete a complex, month-long ritual to open a portal to Tiamat's court to augment the horde with an infernal army. If he succeeds, the horde will become all but unstoppable.",
+            "Lord Jarmaath is unsure how long the PCs have to get to the Fane of Tiamat and stop this ritual, but it's certainly time measured in days rather than weeks. He has secured 2 scrolls of {@i teleport} for the PCs (each scribed by Immerstal, a 9th-level caster), allowing the reader and up to three other Medium creatures to teleport up to 900 miles away. If none of the PCs can use the scrolls, assume Immerstal is still alive and that Lady Kaal convinces (blackmails) him into helping them. Given a day to rest and recover his spells, the surly wizard uses a combination of the scrolls and his own 5th-level spells to transport the PCs three at a time (himself and three others on the first trip, then back by himself, then three more on the second trip, and so forth), complaining bitterly all the while.",
+            "The PCs can decide where they wish to teleport. Drellin's Ferry is a logical choice, although Vraath Keep is a little closer to their goal. Drellin's Ferry counts as very familiar (Immerstal grew up there), but he's never been to Vraath Keep.",
+            "Before the PCs go, Lord Jarmaath can donate some magic to their cause. He has gathered together the following supplies (most of it looted from dead hobgoblins): {@i 8 potions of cure moderate wounds}, {@i 3 potions of bull's strength}, {@i 5 potions of invisibility}, 2 scrolls of {@i haste}, and a scroll of {@i fly}.",
             {
               "type": "section",
               "name": "The Wyrmsmoke Mountains",
@@ -6389,7 +6800,7 @@
                       "name": "Random Encounters in the Wyrmsmoke Mountains",
                       "page": 98,
                       "entries": [
-                        "The PCs are certain to run afoul of at least a few of the Wyrmsmoke’s more dangerous denizens during their trek to the Fane of Tiamat. The chance of a random encounter here depends on the PCs’ activity.",
+                        "The PCs are certain to run afoul of at least a few of the Wyrmsmoke's more dangerous denizens during their trek to the Fane of Tiamat. The chance of a random encounter here depends on the PCs' activity.",
                         {
                           "type": "item",
                           "entries": [
@@ -6398,7 +6809,7 @@
                             "{@i Hiding:} {@chance 5} per hour."
                           ]
                         },
-                        "If an encounter is indicated, refer to the table below. We recommend that you don’t add more than two or three random encounters per day to the adventure, regardless of the encounter checks.",
+                        "If an encounter is indicated, refer to the table below. We recommend that you don't add more than two or three random encounters per day to the adventure, regardless of the encounter checks.",
                         {
                           "type": "table",
                           "colLabels": [
@@ -6529,7 +6940,7 @@
                 },
                 {
                   "type": "entries",
-                  "name": "1. The Mark Of Tiamat (EL 11)",
+                  "name": "1. The Mark of Tiamat (EL 11)",
                   "page": 99,
                   "entries": [
                     "{@b Light}: Varies with time of day.",
@@ -6571,6 +6982,16 @@
                   "name": "2. Dragons' Lair",
                   "page": 101,
                   "entries": [
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/009.webp"
+                      },
+                      "title": "Blue abishai love the nice crunching sound dying adventurers make. That, and the screams...",
+                      "credit": "Wayne England"
+                    },
+                    "",
                     "{@b Light}: Shadowy during the day, none at night.",
                     "{@b Creatures}: None.",
                     "This is where the five dragons and dragonkind allied with the Red Hand stay when visiting the Fane. Each of the alcoves in this large cavern serves as a temporary lair. The contents of each area are similar—a large dragon nest, piles of bones, and a modest hoard of treasure although the personalities of the dragons are evident by the way they keep their quarters.",
@@ -6657,6 +7078,17 @@
                   "name": "6. Torture Chamber (EL 9)",
                   "page": 102,
                   "entries": [
+                    "",
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/010.webp"
+                      },
+                      "title": "PCs who fail in their mission wind up on the torturer's table, prelude to an excruciating death",
+                      "credit": "Franz Vohwinkel"
+                    },
+                    "",
                     "{@b Light:} Bright (six everburning torches).",
                     "{@b Creatures:} One bone devil.",
                     {
@@ -6800,7 +7232,7 @@
                 },
                 {
                   "type": "entries",
-                  "name": "11. Great Temple Of Tiamat (EL 11)",
+                  "name": "11. Great Temple of Tiamat (EL 11)",
                   "page": 106,
                   "entries": [
                     "{@b Light}: Shadowy (candlelight).",
@@ -6827,7 +7259,7 @@
                 },
                 {
                   "type": "entries",
-                  "name": "12. Cavern Of The Guardian Spawn (EL 12)",
+                  "name": "12. Cavern of the Guardian Spawn (EL 12)",
                   "page": 106,
                   "entries": [
                     "{@b Light:} None.",
@@ -6884,6 +7316,17 @@
                   "name": "14. High Wyrmlord's Chambers (EL 10)",
                   "page": 107,
                   "entries": [
+                    "",
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/011.webp"
+                      },
+                      "title": "High Wyrmlord Azarr Kul and his erinyes seek to bring all of Elsir Vale under the rule of the Red Hand",
+                      "credit": "Howard Lyon"
+                    },
+                    "",
                     "{@b Light:} None.",
                     "{@b Creatures:} Two erinyes.",
                     {
@@ -7049,6 +7492,17 @@
                     "{@b Timeline:} This last event begins as soon as the PCs strike a mortal blow against Azarr Kul. As his body crumples to the floor, he cries out in rage at his failure... and his cries are heard.",
                     "{@b Light:} See area 17.",
                     "{@b Creature:} One aspect of Tiamat.",
+                    "",
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/EgilhardAeron/homebrew-img/refs/heads/main/img/WotCRedHandOfDoom/art/012.webp"
+                      },
+                      "title": "Tiamat decides to personally wreak her vengeance upon the heroes who have wrecked her schemes",
+                      "credit": "Francis Tsai"
+                    },
+                    "",
                     "As Azarr Kul dies, the swirling vortex of energy above thunders and rumbles with power. Suddenly, the energy is swept away... along with the roof itself, like an egg hatching outward. A searing hell-wind blasts through the inner sanctum, thick with the gut-churning reek of brimstone and burning flesh as a blasted landscape of twisted mountains and red lightning-plagued skies is revealed to the PCs. And towering before them is a colossal shape, a shape they should recognize. Tiamat has placed much on Azarr Kul's plans, and his failure has incited her wrath.",
                     "The chromatic dragon's massive blue head darts down with lightning speed on Azarr Kul's body, swallowing him with one effortless gulp. As this head pulls back into the writhing infernal sky, her other four leer down at the party, their jaws gape, and an unholy blast of divine retribution tears into the gap between the planes. With a deafening blast of wind, the portal closes and the room is momentarily plunged into darkness.",
                     "All PCs in the inner sanctum at this point must make a DC 20 Fortitude save or be deafened for {@dice 1d6} rounds. All devils, clerics, and other minions of Tiamat in the room are immediately slain and crumble into piles of wet corruption.",
